@@ -1,0 +1,32 @@
+//font family
+$font-family-primary: 'Roboto',Arial,sans-serif;
+$font-family-secondary: 'Radley', serif;
+
+//font size
+$font-size: 14px;
+
+//color
+$color-primary: #DA251c; 
+$color-sale: #f90;
+$color-button: #0857ea;
+$color-btn-hover: #0071c4; 
+$color-compare: #3071c4;
+$color-star: #ffb909;
+$color-text:#333;
+$color-text-primary: #0071c4;
+
+//font weight
+$font-weight-light: 300;
+$font-weigh-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-heavy: 800;
+$font-weight-black: 900;
+//screen device
+$small-mobile: "screen and (max-width: 375.98px)";
+$mobile: "screen and (max-width: 575.98px)";
+$tablet: "screen and (max-width: 767.98px)";
+$moblet: "screen and (max-width: 991.98px)";
+$desktop: "screen and (max-width: 1199.98px)";
+$large-desktop: "screen and (max-width: 1399.98px)";
