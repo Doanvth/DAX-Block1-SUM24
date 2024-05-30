@@ -1,0 +1,114 @@
+
+.background-image {
+    background-color: rgb(197, 242, 250);
+    height: 60px;
+}
+
+.box-header {
+    height: 82px;
+    background-color: #da251c;
+    position: relative;
+}
+
+div {
+    display: block;
+}
+
+.home-box {
+    line-height: 82px;
+}
+
+.list-icon {
+    font-size: 40px;
+    margin-right: 40px;
+    color: white;
+}
+
+.logo {
+    font-size: 40px;
+}
+
+.search-container {
+    margin-top: 16px;
+    position: relative;
+    align-items: center;
+}
+
+.search-container input {
+    padding: 5px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 450px;
+    padding-left: 40px;
+    padding-right: 30px;;
+}
+
+.search-container button {
+    position: absolute;
+    padding: 5px;
+    margin-top: 8px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+}
+
+.mic {
+    margin: 13px 5px 0 0;
+    font-size: 16px;
+    position: absolute;
+    right: 250px;
+    cursor: pointer;
+    color: gray;
+}
+
+.search-container .search-icon {
+    margin: 14px 5px 0 0;
+    font-size: 16px;
+    position: absolute;
+    left: 15px;
+    cursor: pointer;
+    color: gray;
+}
+
+.login-box span {
+    color: white;
+}
+
+.user-icon {
+    color: white;
+    margin-right: 4px;
+}
+
+.title-login-1 {
+    margin-top: 4px;
+    font-size: 16px;
+}
+.title-login-2 {
+    font-size: 12px;
+    bottom: 14px;
+}
+
+.cart span{
+    color: white;
+}
+.cart-icon{
+    color: white;
+}
+.guide span{
+    color: white;
+}
+.question-icon{
+    color: white;
+}
+.navbar{
+    margin-left: -160px;
+}
+.hotline span {
+    color: white;
+}
+.phone-icon{
+    color: white;
+}
