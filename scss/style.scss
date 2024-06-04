@@ -2,11 +2,11 @@
 @import "_show-category";
 @import "bep";
 @import "mixin";
-
 @import 'footer';
 @import 'slogan';
-
 @import 'viewHistory';
+@import "button";
+@import "aside-left";
 
 header{
 
@@ -384,4 +384,5 @@ div>.discount-cat-main{
     display: block;
     text-decoration: none;
 }
+
 

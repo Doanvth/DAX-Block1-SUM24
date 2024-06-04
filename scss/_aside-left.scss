@@ -1,0 +1,97 @@
+@import 'variable';
+
+html {
+    font-family: $font-family-primary;
+    font-size: 14px;
+}
+
+.img-icon {
+    @include setBoxSize(20px, auto);
+}
+
+.margin-categories-list {
+    margin: 1px;
+}
+
+.startBox {
+    @extend .margin-categories-list;
+    padding: 0.5rem;
+    background-color: $background-primary;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 16px;
+    font-weight: $font-weight-bold;
+}
+
+.endBox {
+    @extend .margin-categories-list;
+    padding: 0.5rem;
+    background-color: $background-primary;
+    border-radius: 0 0 5px 5px;
+
+    .viewMore {
+        text-decoration: none;
+        color: $color-button;
+        background-color: $background-primary;
+        border: none;
+        font-weight: $font-weight-semi-bold;
+    }
+
+    .btn-viewMore {
+        @extend .margin-categories-list;
+        padding: 10px;
+        border: 1px solid $color-button;
+    }
+}
+
+.aside-bottle {
+    font-size: 14.5px;
+
+    .list-categories {
+        @extend .margin-categories-list;
+        font-weight: $font-weight-regular;
+        border-radius: 5px;
+
+        .list-categories-item {
+            position: relative;
+            border: none;
+            cursor: pointer;
+
+            a {
+                color: #000;
+                text-decoration: none;
+            }
+
+            .category {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
+        .dropdown-menu {
+            position: absolute;
+            left: 100%;
+            border: none;
+            top: 0;
+            margin-top: 0;
+
+            .dropdown-item:hover {
+                color: $color-primary;
+            }
+
+            .dropdown-item:active {
+                background-color: $color-text !important;
+            }
+        }
+
+        .list-categories-item:hover {
+            .dropdown-menu {
+                display: block;
+                box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+            }
+
+            .category {
+                color: $color-primary;
+            }
+        }
+    }
+}
