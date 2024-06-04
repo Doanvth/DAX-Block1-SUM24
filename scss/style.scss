@@ -2,14 +2,12 @@
 @import "_show-category";
 @import "bep";
 @import "mixin";
-@import 'variable';
 
 @import 'aside-left';
 @import 'footer';
 @import 'slogan';
 @import 'viewHistory';
 @import "button";
-@import "aside-left";
 
 header{
 
@@ -389,3 +387,66 @@ div>.discount-cat-main{
 }
 
 
+@import '_variable';
+
+.list_logo_brand_head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    .item-hidden {
+        display: none;
+    }
+    .show-more-item {
+        width: auto;
+        background-color: $color-text-primary;
+        padding-top: 6px;
+        .click-show-more {
+            text-decoration: none;
+            color: white;
+            font-size: smaller;
+            text-align: center;
+            margin: auto;
+        }
+
+    }
+
+    .dont-show-more-item {
+        display: none;
+        width: auto;
+        background-color: $color-text-primary;
+        padding-top: 6px;
+        .click-dont-show-more {
+            text-decoration: none;
+            color: white;     
+            font-size: smaller;
+            margin: auto;
+            text-align: center;
+
+        }
+    }
+
+
+  
+
+    .shead-brand-item {
+        height: 37px;
+        width: auto;
+        list-style-type: none;
+        border: 1px solid rgb(209, 209, 209);
+        border-radius: 5px;
+        margin: 5px;
+        flex: 0 0 9%;
+        box-sizing: border-box;
+
+        .list_logo_brand_image {
+            height: 17px;
+            width: 80px;
+            text-align: center;
+            vertical-align: middle;
+            object-fit: scale-down;
+            padding: 0 8px;
+            margin: 6px 0 0 0;
+        }
+    }
+}
