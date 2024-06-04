@@ -1,0 +1,50 @@
+.show-category-main{
+    background-color: #ddd;
+    height: 200px;
+    padding: 0 !important;
+    padding-right: 3px !important;
+    .show-category{
+        margin-top: 20px;
+        background-color: white;
+        height: auto;
+        width: 956px;
+        display: inline-block;
+        position: relative;
+        padding: 10px;
+
+        .item-category{
+            width: 110px;
+            height: auto;
+            display: inline-block;
+            text-align: center;
+            vertical-align:top;
+            margin: 0 4px 15px 3px;
+        
+            .category-img{
+                margin: 0 4px 15px 3px;
+                height: 60px;
+                width: 60px;
+                margin: 0px 25px 5px 25px;
+                img{
+                    height: 60px;
+                    width: 60px;
+                }
+            }
+            .show-category-text{
+                font-family: $font-family-primary;
+                font-size: $font-size;
+                width: 110px;
+                height: auto;
+                margin: 0 auto;
+            }
+        }
+    }
+    a{
+        text-decoration: none;
+        color: #333;
+        cursor: pointer;
+    }
+    a:hover{
+        color: $color-primary;
+    }
+}
