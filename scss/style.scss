@@ -5,6 +5,7 @@
 @import 'footer';
 @import 'slogan';
 @import "bep";
+@import "show-category";
 
 @import 'viewHistory';
 
@@ -15,6 +16,7 @@ body{
     line-height: 1.4rem;
     background-color: gainsboro;
 }
+
 
 header{
 
@@ -364,4 +366,3 @@ div>.discount-cat-main{
     display: block;
     text-decoration: none;
 }
-
