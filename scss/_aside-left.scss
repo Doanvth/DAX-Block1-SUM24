@@ -26,6 +26,7 @@ html {
     @extend .margin-categories-list;
     padding: 0.5rem;
     background-color: $background-primary;
+    background-color: $color-white;
     border-radius: 0 0 5px 5px;
 
     .viewMore {
@@ -49,6 +50,7 @@ html {
     .list-categories {
         @extend .margin-categories-list;
         font-weight: $font-weight-regular;
+        font-weight: $font-weigh-regular;
         border-radius: 5px;
 
         .list-categories-item {
