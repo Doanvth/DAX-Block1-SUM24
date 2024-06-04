@@ -1,5 +1,12 @@
 @import "variable";
 @import "_show-category";
+@import "bep";
+@import "mixin";
+
+@import 'footer';
+@import 'slogan';
+
+@import 'viewHistory';
 
 header{
 
@@ -268,13 +275,7 @@ header{
 
 }
 
-@import 'mixin';
 
-
-@import 'footer';
-@import 'slogan';
-
-@import 'viewHistory';
 
 body{
     font-family: $font-family-primary;
@@ -285,4 +286,102 @@ body{
 }
 
 
-@import "bep";
+
+
+
+
+.container>.wrap {
+    padding: 20px;
+    border-radius: 5px;
+}
+.wrap>.center-body{
+    width: 100%;
+    height: auto;
+}
+.center-body>.center-body-right{
+    width: calc(100% - 260px);
+    display: inline-block;
+    float: right;
+}
+/*Danh mục nổi bật*/
+.center-body-right>.trend-catalog {
+    margin-top: 12px;
+    background: #fff;
+    padding-bottom: 5px;
+}
+.trend-catalog>.trend-catalog-title{
+    padding: 10px 10px 10px 40px;
+    position: relative;
+}
+.trend-catalog>.trend-catalog-title:before {
+    background: url(https://meta.vn/Data/image/2021/01/13/hot-category.png) no-repeat;
+    content: "";
+    background-size: 28px;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 8px;
+    left: 5px;
+}
+.trend-catalog-title>.h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.list-catalog-container > .list-catalog-main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    width: 100%;
+    padding: 0 7px;
+    overflow: hidden;
+    max-height: 453px;
+    padding: 0 7px;
+    margin: auto;
+}
+
+.list-catalog-main > .catalog-main-item {
+    position: relative;
+    width: calc(100% / 8);
+    height: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.catalog-main-item>div>.name-cat-main {
+    margin-top: 5px;
+    line-height: 18px;
+    padding: 0 5px;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+.list-catalog-main>.catalog-main-item:hover .name-cat-main {
+    color: #da251c;
+}
+div>.discount-cat-main{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background: #da251c;
+    padding: 0 3px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 11px;
+}
+.list-catalog-container>.view-more-page {
+    margin: 10px 0;
+}
+.list-catalog-container>.view-more-page a {
+    color: #333;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
