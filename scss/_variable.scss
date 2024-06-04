@@ -1,20 +1,23 @@
 //font family
-$font-family-primary: 'Roboto',Arial,sans-serif;
-$font-family-secondary: 'Radley', serif;
+$font-family-primary: "Roboto", Arial, sans-serif;
+$font-family-secondary: "Radley", serif;
 
 //font size
 $font-size: 14px;
+$font-size-10: 10px;
+$font-size-12: 12px;
 
 //color
-$color-primary: #DA251c; 
+$color-primary: #da251c;
 $color-sale: #f90;
 $color-button: #0857ea;
-$color-btn-hover: #0071c4; 
+$color-btn-hover: #0071c4;
 $color-compare: #3071c4;
 $color-star: #ffb909;
-$color-text:#333;
+$color-text: #333;
 $color-text-primary: #0071c4;
-$color-white: white;
+$color-white: #ffffff;
+$color-gray: #999999;
 
 //font weight
 $font-weight-light: 300;
@@ -32,3 +35,10 @@ $moblet: "screen and (max-width: 991.98px)";
 $desktop: "screen and (max-width: 1199.98px)";
 $large-desktop: "screen and (max-width: 1399.98px)";
 
+//background-color
+$background-gray: #f0f0f0;
+
+
+//width height
+$width-24: 24px;
+$height-24: 24px;
