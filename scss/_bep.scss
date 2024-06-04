@@ -1,0 +1,95 @@
+.bg-main {
+  background-color: $background-gray;
+
+  .card-custom {
+    border: 1px solid white;
+    height: 410px;
+    div {
+      div {
+        .so-sanh {
+          color: $color-btn-hover;
+        }
+      }
+    }
+
+    .text-star {
+      color: $color-gray;
+    }
+    
+    p,
+    a {
+      font-size: $font-size;
+      text-decoration: none;
+    }
+
+    p:nth-child(2) {
+      color: $color-text;
+    }
+
+    .card-title {
+      color: $color-gray;
+    }
+
+    p:nth-child(4) {
+      color: $color-primary;
+      font-weight: $font-weight-bold;
+    }
+
+    .btn-mua-ngay {
+      display: none;
+    }
+
+    .align-product {
+      top: 15px;
+      right: -20px;
+      background-color: $color-sale;
+      color: $color-white;
+      font-weight: $font-weight-semi-bold;
+      font-size: $font-size;
+      padding: 0px;
+    }
+
+    .gift-icon {
+      padding: 2px;
+      width: 27px;
+      height: 27px;
+      border: 2px solid $color-primary;
+      border-radius: 50%;
+    }
+
+    .text-gift-icon {
+      font-size: $font-size-10;
+      background-color: $color-primary;
+      padding: 2px;
+      border-radius: 2px;
+      font-weight: $font-weight-semi-bold;
+      color: $color-white;
+    }
+
+    .tra-gop {
+      text-align: center;
+      font-size: $font-size-12;
+      color: $color-white;
+      background-color: $color-sale;
+      padding: 3px;
+      border-radius: 2px;
+      font-weight: $font-weight-bold;
+      margin-bottom: 5px;
+      bottom: 0;
+      right: 8px;
+    }
+  }
+
+  .card-custom:hover {
+    border: 1px solid rgb(232, 231, 231);
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgb(221, 221, 221);
+
+    .card-title {
+      color: $color-primary;
+    }
+    .btn-mua-ngay {
+      display: block;
+    }
+  }
+}
