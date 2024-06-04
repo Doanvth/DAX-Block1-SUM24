@@ -43,3 +43,7 @@
         @content;
     }
 }
+@mixin setBoxSize($width, $height) {
+    width: $width;
+    height: $height;
+}
