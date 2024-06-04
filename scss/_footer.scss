@@ -1,0 +1,324 @@
+@import 'variable';
+
+@import 'mixin';
+
+.footer-main {
+    font-family: $font-family-primary;
+    font-size: $font-size;
+    background-color: #fff;
+    width: 1236px;
+    padding-bottom: 70px;
+    margin: 0 auto;
+}
+
+.wrap {
+    margin: auto;
+    width: 100%;
+    position: relative;
+
+    .border-bottom-pc-1 {
+        width: 100%;
+        border-top: 1px solid #ccc;
+        margin-top: 48px;
+    }
+
+    .border-bottom-pc-2 {
+        width: 100%;
+        border-top: 1px solid #ccc;
+        margin-top: 90px;
+
+    }
+
+    .phone-add,
+    .email-add,
+    .border-bottom-pc-1,
+    .border-bottom-pc-2 {
+        display: block;
+    }
+
+}
+
+.footer-content {
+    padding: 8px 10px 10px 10px;
+    border-top: none;
+    border-bottom: none;
+
+    &.support {
+        border-top: none;
+        width: 200px;
+        border-bottom: none;
+        margin-top: 10px;
+
+        .bar-title,
+        .body-supp,
+        .supp,
+        .supp.region,
+        .region-name,
+        .region-phone {
+            width: inherit;
+        }
+
+
+    }
+
+    &.connect {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-bottom: none;
+        border-top: none;
+
+        .body-connect {
+            text-align: center;
+
+            .box-social {
+                text-align: center;
+                margin: 10px 0;
+                display: inline-block;
+
+                &.app {
+                    position: absolute;
+                    left: -917px;
+                    top: 360px;
+                    width: 500px;
+                    text-align: left;
+                    margin-left: 10px;
+                }
+
+                .social-item {
+                    width: 100%;
+                    margin: 0 3px 5px 3px;
+                    display: inline-block;
+                    text-align: left;
+
+                    &.appstore,
+                    &.googleplay {
+                        width: 22%;
+                        vertical-align: middle;
+                    }
+
+
+                    a {
+                        display: inline-block;
+                        height: 32px;
+                    }
+                }
+            }
+
+        }
+
+        .language a {
+            color: #132571;
+        }
+    }
+
+    &.verified {
+        position: absolute;
+        right: -3px;
+        top: 425px;
+
+        .body-verified {
+            text-align: center;
+
+            .verified-item {
+                display: inline-block;
+                width: 120px;
+                margin-right: 3px;
+
+
+                &.tinhnhiem {
+                    img {
+                        height: 5px;
+                        vertical-align: 5px;
+                    }
+                }
+
+                &.comodo {
+                    vertical-align: 5px;
+                }
+
+                img {
+                    width: 100%;
+                    max-width: 100%;
+                    height: auto;
+                    object-fit: scale-down;
+                }
+            }
+        }
+    }
+
+    &.payment {
+        display: block;
+        position: absolute;
+        right: 0px;
+        border-bottom: none;
+        top: 365px;
+
+        .bar-payment {
+            font-size: 18px;
+            font-weight: $font-weigh-regular;
+            display: inline-block;
+        }
+
+        .body-payment {
+            text-align: center;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+
+    &.info {
+        border-bottom: none;
+        border-top: 1px solid #ccc;
+        margin-top: 140px;
+
+        .brand-company {
+            position: absolute;
+            left: 10px;
+            top: 438px;
+
+            .name-company {
+                font-weight: $font-weigh-regular;
+                font-size: 20px;
+            }
+
+            .name-slogan {
+                margin-bottom: 5px;
+            }
+
+            .name-dkdn {
+                display: block;
+            }
+        }
+
+        .address-company {
+            position: absolute;
+            top: 518px;
+            left: 11px;
+            width: calc(100% - 17px);
+            background: #fff;
+            margin: 10px 0;
+            line-height: 22px;
+
+            .add-footer {
+                display: inline-block;
+                min-width: 300px;
+            }
+
+            .phone-add {
+                display: inline-block;
+            }
+
+        }
+
+        .info-another {
+            border-top: 1px solid #f1f1f19e;
+            border-bottom: none;
+            padding: 5px 0;
+
+            &.support-cust {
+                border-top: none;
+                position: absolute;
+                top: 0;
+                left: 220px;
+            }
+
+            &.account-manager {
+                position: absolute;
+                top: 0;
+                left: 550px;
+            }
+
+            &.about-web {
+                position: absolute;
+                top: 0;
+                right: 345px;
+            }
+
+            .title-info {
+                font-weight: $font-weight-medium;
+                position: relative;
+                font-size: 16px;
+            }
+
+            ul {
+                list-style: none;
+            }
+
+            .list-info-another {
+                max-height: 0;
+                overflow: hidden;
+                min-height: 320px;
+                padding: 0;
+                transition: all .3s ease;
+
+                .info-another-item {
+                    margin: 8px 0;
+                }
+            }
+
+        }
+    }
+}
+
+.supp {
+    width: 20%;
+    display: unset;
+    line-height: 26px;
+
+    &.region {
+        width: 38%;
+
+        .region-name {
+            font-weight: $font-weight-bold;
+            margin-top: 10px;
+
+            .fa-phone-square {
+                color: $color-primary;
+                margin-right: 5px;
+            }
+        }
+
+        .region-phone {
+            color: #2f80ed;
+            font-weight: $font-weight-bold;
+
+            a {
+                color: inherit;
+                font-weight: inherit;
+            }
+
+            .title-supp-pc {
+                color: $color-text;
+                margin-right: 5px;
+                display: inline-block;
+
+
+            }
+        }
+    }
+}
+
+
+
+.bar-title {
+    font-weight: $font-weight-bold;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: $color-text;
+    cursor: pointer;
+}
+
+.name-social {
+    font-size: $font-size;
+    display: inline-block;
+}
+
+.title-app-name {
+    font-size: 18px;
+    display: inline-block;
+    margin-right: 20px;
+}

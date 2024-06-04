@@ -1,0 +1,46 @@
+@import 'variable';
+
+.slogan-main {
+    display: block;
+    padding-bottom: 5px;
+    width: 1236px;
+    margin: 0 auto;
+
+    .slogan-top {
+        text-align: center;
+        font-size: 20px;
+        clear: both;
+    }
+
+    .slogan-body {
+        background-color: #fff;
+        padding: 15px 0 10px;
+    }
+
+}
+
+.slogan-content {
+    width: 100%;
+    text-align: center;
+
+    .slogan-item {
+        display: inline-block;
+        width: 32%;
+
+        .icon-slogan img {
+            height: 48px;
+            width: auto;
+        }
+
+        .service-name {
+            font-size: 18px;
+            align-items: center;
+            margin-left: 5px;
+        }
+    }
+
+    a {
+        color: $color-text;
+    }
+
+}
