@@ -1,0 +1,137 @@
+{
+    "bep": [
+        {
+            "id": 1,
+            "ten": "Bếp từ đơn Sunhouse SHD6157",
+            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-300.jpg",
+            "gia": 850000,
+            "giamGia": 690000,
+            "danhGia": 262,
+            "thuongHieu": [
+                {
+                    "id": 1,
+                    "ten": "Sunhouse"
+                },
+                {
+                    "id": 2,
+                    "ten": "Bếp từ đon Sunhose"
+                }
+            ],
+            "trangThai": "Còn hàng",
+            "thongSo": [
+                {
+                    "id": 1,
+                    "loaiBep": "Bếp từ đơn",
+                    "loaiNoi": [
+                        {
+                            "id": 1,
+                            "ten": "Chảo có đế từ"
+                        },
+                        {
+                            "id": 2,
+                            "ten": "Nồi có đế từ"
+                        }
+                    ],
+                    "cheDoNau": "7 chế độ",
+                    "mamTu": "Đồng",
+                    "chatLieuMatBep": "Ceramic",
+                    "nguonDienAp": "220V/50Hz",
+                    "bangDieuKhien": "Cơ",
+                    "henGio": "Cơ",
+                    "khoaTreEm": "Không",
+                    "tuNgatKhiQuaNhiet": "Có",
+                    "soLuongBep": 1,
+                    "congSuat": "1.800W",
+                    "phuKien": "Nồi lẩu inox",
+                    "kichThuoc": "39.5cm x 31cm x 16.5cm",
+                    "trongLuong": "3,22kg",
+                    "sanXuatTai": "Trung Quốc",
+                    "xuatSuThuongHieu": "Việt Nam",
+                    "baoHanh": "12 tháng"
+                }
+            ],
+            "thongTin": [
+                {
+                    "id": 1,
+                    "tieuDe": "Sunhouse SHD6157 thiết kế mẫu mã sang trọng",
+                    "noiDung": "Sunhouse SHD6157 thiết kế gồm 1 vùng nấu với kiểu dáng hình chữ nhật bo tròn góc cạnh mềm mại. Mặt bếp màu đen, bằng phẳng dễ lau chùi vệ sinh. Chân bếp có bọc cao su chống trơn trượt, đảm bảo an toàn trong quá trình nấu nướng. ",
+                    "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-g.jpg",
+                    "tenHinh": "Bếp từ đơn Sunhouse SHD6157",
+                    "noiDung2": null,
+                    "hinh2": null,
+                    "tenHinh2": null
+                },
+                {
+                    "id": 2,
+                    "tieuDe": "Mặt kính chịu lực, chịu nhiệt tốt",
+                    "noiDung": "Bề mặt bếp từ đơn được làm từ kính ceramic cường lực, chống trầy xước, có khả năng chịu được nhiệt độ lên đến 760 độ C hạn chế nứt vỡ, cho độ bền cao. ",
+                    "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-6.jpg",
+                    "tenHinh": "Bếp từ có mặt kính siêu bền",
+                    "noiDung2": null,
+                    "hinh2": null,
+                    "tenHinh2": null
+                },
+                {
+                    "id": 3,
+                    "tieuDe": "Bảng điều khiển nút nhấn",
+                    "noiDung": "Bếp từ Sunhouse sử dụng bảng điều khiển dạng nút cơ nổi thao tác bấm đơn giản, chính xác, độ nhạy cao giúp bạn lựa chọn chế độ nấu và chỉnh nhiệt độ nhanh chóng. Bảng điều khiển bằng ngôn ngữ tiếng Việt hiểu, có màn hình LED để quan sát mức công suất của bếp rất tiện lợi. ",
+                    "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-5.jpg",
+                    "tenHinh": "Bảng điều khiển dễ sử dụng",
+                    "noiDung2": null,
+                    "hinh2": null,
+                    "tenHinh2": null
+                },
+                {
+                    "id": 4,
+                    "tieuDe": "Công suất lớn nấu ăn nhanh",
+                    "noiDung": "Bếp từ vận hành với công suất 1800W cùng công nghệ làm nóng bằng từ trường giúp truyền nhiệt nhanh, rút ngắn thời gian nấu nướng. ",
+                    "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-4.jpg",
+                    "tenHinh": "Bếp từ truyền nhiệt nhanh",
+                    "noiDung2": "Bếp từ chỉ làm nóng vùng nấu mà không bị phát nhiệt ra cả bề mặt bếp, giúp hạn chế tỏa nhiệt ra môi trường xung quanh, vừa góp phần tiết kiệm điện năng, vừa đảm bảo an toàn khi sử dụng.",
+                    "hinh2": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-3.jpg",
+                    "tenHinh2": "Bếp từ tiết kiệm điện"
+                },
+                {
+                    "id": 5,
+                    "tieuDe": "7 chế độ nấu cài đặt sẵn",
+                    "noiDung": "Bếp từ được cài đặt sẵn 7 chế độ gồm: Nấu lẩu, giữ ấm, súp, hầm, hấp, xào, chiên. Tùy theo món ăn mà bạn có thể tùy chọn chế độ và điều chỉnh công suất cũng như hẹn giờ nấu phù hợp. ",
+                    "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-2.jpg",
+                    "tenHinh": "Bếp từ tiện lợi với 7 chế độ nấu cài đặt sẵn",
+                    "noiDung2": null,
+                    "hinh2": null,
+                    "tenHinh2": null
+                },
+                {
+                    "id": 6,
+                    "tieuDe": "Chức năng hẹn giờ tắt tự động",
+                    "noiDung": "Bếp từ SHD6157 có chức năng hẹn giờ giúp bạn lựa chọn thời gian nấu nướng phù hợp với từng món ăn (từ 0 - 3 giờ) giúp bạn không phải canh chừng bếp, có thêm thời gian để dọn đẹp các công việc khác hoặc nghỉ ngơi. ",
+                    "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-1.jpg",
+                    "tenHinh": "Bếp từ có hẹn giờ",
+                    "noiDung2": null,
+                    "hinh2": null,
+                    "tenHinh2": null
+                },
+                {
+                    "id": 7,
+                    "tieuDe": "Dễ dàng theo dõi điện năng tiêu thụ",
+                    "noiDung": "Để thực hiện chức năng này bạn hãy nhấn phím 'Điện năng' lần 1, bạn sẽ thấy mức tiêu hao năng lượng trên màn hình LED. Sau 5 giây thì màn hình sẽ tự động trở lại ban đầu.",
+                    "hinh": null,
+                    "tenHinh": null,
+                    "noiDung2": null,
+                    "hinh2": null,
+                    "tenHinh2": null
+                },
+                {
+                    "id": 8,
+                    "tieuDe": "Tự ngắt điện khi quá tải nhiệt",
+                    "noiDung": "Bếp từ được trang bị tính năng bảo vệ khi dòng điện bị quá tải. Khi nồi quá nóng, bếp sẽ tự động tắt, còi báo. Bạn chỉ cần chờ vài phút để bếp nguội sau đó bật bếp lên và sử dụng bình thường.",
+                    "hinh": null,
+                    "tenHinh": null,
+                    "noiDung2": null,
+                    "hinh2": null,
+                    "tenHinh2": null
+                }
+            ]
+        }
+    ]
+}
