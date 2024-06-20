@@ -30,6 +30,14 @@ app.config(function ($routeProvider) {
       templateUrl: "detailLovisong.html",
       controller: "detailLovisongController"
     })
+    .when("/bottle", {
+      templateUrl: "bottle.html",
+      controller: "bottleCtrl"
+    })
+    .when("/bottle", {
+      templateUrl: "bottle.html",
+      controller: "bottleCtrl"
+    })
 });
 let URL_API = "http://localhost:3000/"
 
@@ -399,3 +407,14 @@ app.controller('detailLovisongController', function ($scope, $http, $routeParams
   });
 
 });
+
+app.controller("bottleCtrl", function ($scope, $http) {
+  $scope.getBottleData = function () {
+    $http.get(URL_API + "bottle").then(function (success) {
+      $scope.bottles = success.data;
+    }, function (error) {
+      console.log("Error: ", error);
+    }
+    )
+  }
+})
