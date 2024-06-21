@@ -13,7 +13,7 @@
     <script src="./js/EventShowLogo.js"></script>
 </head>
 
-<body>
+<body ng-controller="stoveController">
     <header>
         <div class="background-image text-center">
             <img src="image/Banner-1-6-1236x60.png" alt="" class="top-banner mx-auto" />
@@ -159,121 +159,30 @@
             </div>
         </div>
         <div class="row pt-2">
-            <div class="col-lg-2 p-0 ">
+            <div class="col-lg-2 p-0">
                 <div class="aside-bottle">
                     <div class="startBox title text-uppercase text-center">
                         CÁC LOẠI BẾP
                     </div>
-                    <ul class="list-group list-categories">
+                    <ul class="list-group list-categories" ng-repeat="cate in stove.stovecategories">
                         <li class="list-group-item list-categories-item">
                             <a class="category dropdown" href="#">
                                 <div>
-                                    <img src="https://meta.vn/icons/cats/413.png" alt="" class="img-icon">
-                                    Bếp từ
+                                    <img src="{{cate.image}}" alt="" class="img-icon">
+                                    {{cate.name}}
                                 </div>
                                 <div class="float-end">
                                     <i class="fa-solid fa-angle-right"></i>
                                 </div>
                             </a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">
-                                    Bếp từ đơn
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    Bếp từ dương
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    Bếp từ âm
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    Bếp từ công nghiệp
-                                </a>
+                                <div ng-repeat="sub in cate.subcategories">
+                                    <a class="dropdown-item" href="#">
+                                        {{sub.name}}
+                                    </a>
+                                </div>
                             </div>
                         </li>
-                        <li class="list-group-item list-categories-item">
-                            <a class="category dropdown" href="#">
-                                <div>
-                                    <img src="https://meta.vn/icons/cats/648.png" alt="" class="img-icon">
-                                    Bếp hồng ngoại
-                                </div>
-                                <div class="float-end">
-                                    <i class="fa-solid fa-angle-right"></i>
-                                </div>
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">
-                                    Bếp hồng ngoại đơn
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    Bếp hồng ngoại đôi
-                                </a>
-                            </div>
-                        </li>
-                        <li class="list-group-item list-categories-item">
-                            <a class="category dropdown" href="#">
-                                <div>
-                                    <img src="https://meta.vn/icons/cats/451.png" alt="" class="img-icon">
-                                    Bếp ga
-                                </div>
-                                <div class="float-end">
-                                    <i class="fa-solid fa-angle-right"></i>
-                                </div>
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">
-                                    Bếp ga dương
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    Bếp ga âm,
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    Bếp ga mini, Bếp ga du lịch
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    Bếp ga hồng ngoại
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    Bếp ga công nghiệp, bếp khè
-                                </a>
-                            </div>
-                        </li>
-                        <li class="list-group-item list-categories-item">
-                            <a href="#" class="category">
-                                <div>
-                                    <img src="https://meta.vn/icons/cats/775.png" alt="" class="img-icon">
-                                    Bếp hỗn hợp
-                                </div>
-                            </a>
-                        </li>
-
-                        <div class="collapse collapse-horizontal" id="collapseWidthExample">
-                            <li class="list-group-item list-categories-item">
-                                <a href="#" class="category">
-                                    <div>
-                                        <img src="https://meta.vn/icons/cats/3478.png" alt="" class="img-icon">
-                                        Máy làm sữa hạt
-                                    </div>
-                                </a>
-                            </li>
-
-                            <li class="list-group-item list-categories-item">
-                                <a href="#" class="category">
-                                    <div>
-                                        <img src="https://meta.vn/icons/cats/3089.png" alt="" class="img-icon">
-                                        Nồi lẩu, Bếp lẩu
-                                    </div>
-                                </a>
-                            </li>
-
-                            <li class="list-group-item list-categories-item">
-                                <a href="#" class="category">
-                                    <div>
-                                        <img src="https://meta.vn/icons/cats/440.png" alt="" class="img-icon">
-                                        Lò nướng, Bếp nướng
-                                    </div>
-                                </a>
-                            </li>
-                        </div>
                     </ul>
                 </div>
                 <div class="aside-bottle mt-4">
@@ -289,104 +198,24 @@
                             </span>
                         </div>
 
-                        <li class="list-group-item list-categories-item pb-0 ">
+                        <li class="list-group-item list-categories-item pb-0 "
+                            ng-repeat="item in stove.brands | limitTo:10">
                             <a href="#" class="text-dark">
                                 <p class="mb-1">
                                     <input type="checkbox" class="">
-                                    Sunhouse
-                                    <span class="text-black-50">(45)</span>
+                                    {{item.name}}
+                                    <span class="text-black-50">({{item.count}})</span>
                                 </p>
                             </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    Sanaky
-                                    <span class="text-black-50">(9)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    Goldsun
-                                    <span class="text-black-50">(13)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    Electrolux
-                                    <span class="text-black-50">(15)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    Sakura<span class="text-black-50">(23)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    Galen
-                                    <span class="text-black-50">(45)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    Tiros
-                                    <span class="text-black-50">(3)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    Fandi
-                                    <span class="text-black-50">(19)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    Nagakawa
-                                    <span class="text-black-50">(25)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    Midea
-                                    <span class="text-black-50">(14)</span>
-                                </p>
-                            </a>
+
                         </li>
-                        <div class="collapse collapse-horizontal bg-white" id="collapseWidthExample">
+                        <div class="collapse collapse-horizontal bg-white" id="collapseWidthExample"
+                            ng-repeat="item in stove.brands | limitTo: 10 : 10">
                             <a href="#" class="text-dark text-decoration-none">
                                 <p class="mb-1 ms-3">
                                     <input type="checkbox" class="">
-                                    Bamboo
-                                    <span class="text-black-50">(25)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark text-decoration-none">
-                                <p class="mb-1 ms-3">
-                                    <input type="checkbox" class="">
-                                    Cornell
-                                    <span class="text-black-50">(13)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark text-decoration-none">
-                                <p class="mb-1 ms-3">
-                                    <input type="checkbox" class="">
-                                    Kocher
-                                    <span class="text-black-50">(4)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark text-decoration-none">
-                                <p class="mb-1 ms-3">
-                                    <input type="checkbox" class="">
-                                    Glem
-                                    <span class="text-black-50">(34)</span>
+                                    {{item.name}}
+                                    <span class="text-black-50">({{item.count}})</span>
                                 </p>
                             </a>
                         </div>
@@ -410,105 +239,23 @@
                     </div>
 
                     <ul class="list-group list-categories">
-                        <li class="list-group-item list-categories-item pb-0">
+                        <li class="list-group-item list-categories-item pb-0"
+                            ng-repeat="item in stove.brands | limitTo: 10">
                             <a href="#" class="text-dark">
                                 <p class="mb-1">
                                     <input type="checkbox" class="">
-                                    200K - 500K
-                                    <span class="text-black-50">(45)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    500K - 1 triệu
-                                    <span class="text-black-50">(9)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    1 triệu - 1,5 triệu
-                                    <span class="text-black-50">(13)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    1,5 triệu - 2 triệu
-                                    <span class="text-black-50">(15)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    2 triệu - 3 triệu
-                                    <span class="text-black-50">(23)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    3 triệu - 5 triệu
-                                    <span class="text-black-50">(45)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    5 triệu - 8 triệu
-                                    <span class="text-black-50">(3)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    8 triệu - 10 triệu
-                                    <span class="text-black-50">(19)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    10 triệu - 15 triệu
-                                    <span class="text-black-50">(25)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    15 triệu - 20 triệu
-                                    <span class="text-black-50">(14)</span>
+                                    {{item.price}}
+                                    <span class="text-black-50">({{item.count}})</span>
                                 </p>
                             </a>
                         </li>
-                        <div class="collapse collapse-horizontal bg-white" id="collapseWidthExample1">
+                        <div class="collapse collapse-horizontal bg-white" id="collapseWidthExample1"
+                            ng-repeat="item in stove.brands | limitTo: 10">
                             <a href="#" class="text-dark text-decoration-none">
                                 <p class="mb-1 ms-3">
                                     <input type="checkbox" class="">
-                                    20 triệu - 25 triệu
-                                    <span class="text-black-50">(25)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark text-decoration-none">
-                                <p class="mb-1 ms-3">
-                                    <input type="checkbox" class="">
-                                    25 triệu - 30 triệu
-                                    <span class="text-black-50">(13)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark text-decoration-none">
-                                <p class="mb-1 ms-3">
-                                    <input type="checkbox" class="">
-                                    35 triệu - 40 triệu
-                                    <span class="text-black-50">(4)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark text-decoration-none">
-                                <p class="mb-1 ms-3">
-                                    <input type="checkbox" class="">
-                                    45 triệu - 50 triệu
-                                    <span class="text-black-50">(34)</span>
+                                    {{item.price}}
+                                    <span class="text-black-50">({{item.count}})</span>
                                 </p>
                             </a>
                         </div>
@@ -526,7 +273,6 @@
                     </div>
 
                 </div>
-
                 <div class="aside-bottle mt-4">
                     <div class="startBox title text-uppercase text-center">
                         SỐ LƯỢNG BẾP
@@ -619,84 +365,23 @@
                         NƠI SẢN XUẤT
                     </div>
                     <ul class="list-group list-categories">
-                        <li class="list-group-item list-categories-item pb-0">
+                        <li class="list-group-item list-categories-item pb-0"
+                            ng-repeat="item in stove.brands | limitTo: 10">
                             <a href="#" class="text-dark">
                                 <p class="mb-1">
                                     <input type="checkbox" class="">
-                                    EU
-                                    <span class="text-black-50">(45)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    Châu Âu
-                                    <span class="text-black-50">(9)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    Ba Lan
-                                    <span class="text-black-50">(13)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    Bồ Đào Nha
-                                    <span class="text-black-50">(15)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    Đài Loan
-                                    <span class="text-black-50">(23)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    Đức
-                                    <span class="text-black-50">(45)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    Hàn Quốc
-                                    <span class="text-black-50">(3)</span>
+                                    {{item.supplier}}
+                                    <span class="text-black-50">({{item.count}})</span>
                                 </p>
                             </a>
                         </li>
-                        <div class="collapse collapse-horizontal bg-white" id="collapseWidthExample2">
+                        <div class="collapse collapse-horizontal bg-white" id="collapseWidthExample2"
+                            ng-repeat="item in stove.brands | limitTo: 10 : 10">
                             <a href="#" class="text-dark text-decoration-none">
-                                <p class="mb-1 ms-3">
+                                <p class="mb-1">
                                     <input type="checkbox" class="">
-                                    Italia
-                                    <span class="text-black-50">(25)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark text-decoration-none">
-                                <p class="mb-1 ms-3">
-                                    <input type="checkbox" class="">
-                                    Malaysia
-                                    <span class="text-black-50">(13)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark text-decoration-none">
-                                <p class="mb-1 ms-3">
-                                    <input type="checkbox" class="">
-                                    Nhật Bản
-                                    <span class="text-black-50">(4)</span>
-                                </p>
-                            </a>
-                            <a href="#" class="text-dark text-decoration-none">
-                                <p class="mb-1 ms-3">
-                                    <input type="checkbox" class="">
-                                    Pháp
-                                    <span class="text-black-50">(34)</span>
+                                    {{item.supplier}}
+                                    <span class="text-black-50">({{item.count}})</span>
                                 </p>
                             </a>
                         </div>
@@ -718,137 +403,9 @@
                 <div class="row bg-white ms-3 me-1">
                     <div class="col-md-11">
                         <ul class="list_logo_brand_head p-0">
-                            <li class="shead-brand-item ">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh FujiHome"
-                                    data-title="FujiHome" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/06/09/FujiHome-logo-35.png" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=263" title="Cây nước nóng lạnh Sunhouse"
-                                    data-title="Sunhouse" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/18/logo-sunhouse-nho.png" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh Toshiba"
-                                    data-title="Toshiba" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2014/10/06/toshiba_n.jpg"
-                                        alt="Toshiba" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh Nagakawa"
-                                    data-title="Nagakawa" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2022/08/20/logo-nagakawa-nho.png"
-                                        alt="Nagakawa" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh FujiE"
-                                    data-title="FujiE" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/15/fujie-logo-35.png"
-                                        alt="FujiE" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh Hòa Phát"
-                                    data-title="Hòa Phát" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/19/logo-hoa-phat-nho.png"
-                                        alt="Hòa Phát" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh Syntex"
-                                    data-title="Syntex" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/25/logo-syntex-nho.png" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh Kova"
-                                    data-title="Kova" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Kova-Logo-35.png"
-                                        alt="Kova" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh Kangaroo"
-                                    data-title="Kangaroo" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-kangaroo-nho.png"
-                                        alt="Kangaroo" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh Electrolux"
-                                    data-title="Electrolux" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/25/logo-electrolux-nho.png"
-                                        alt="Kangaroo" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item ">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh FujiHome"
-                                    data-title="FujiHome" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/06/09/FujiHome-logo-35.png"
-                                        alt="FujiHome" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=263" title="Cây nước nóng lạnh Sunhouse"
-                                    data-title="Sunhouse" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/18/logo-sunhouse-nho.png"
-                                        alt="Sunhouse" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh Toshiba"
-                                    data-title="Toshiba" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2014/10/06/toshiba_n.jpg"
-                                        alt="Toshiba" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh Nagakawa"
-                                    data-title="Nagakawa" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2022/08/20/logo-nagakawa-nho.png"
-                                        alt="Nagakawa" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh FujiE"
-                                    data-title="FujiE" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/15/fujie-logo-35.png"
-                                        alt="FujiE" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh Hòa Phát"
-                                    data-title="Hòa Phát" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/19/logo-hoa-phat-nho.png"
-                                        alt="Hòa Phát" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh Syntex"
-                                    data-title="Syntex" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/25/logo-syntex-nho.png"
-                                        alt="Syntex" />
+                            <li class="shead-brand-item" ng-repeat="item in stove.brands | limitTo : 17">
+                                <a href="#">
+                                    <img class="list_logo_brand_image" src="{{item.image}}" />
                                 </a>
                             </li>
                             <li class="shead-brand-item show-more-item">
@@ -857,100 +414,11 @@
                                 </a>
                             </li>
 
-                            <li class="shead-brand-item item-hidden">
+                            <li class="shead-brand-item item-hidden"
+                                ng-repeat="item in stove.brands | limitTo : 4 : 17">
                                 <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh Kangaroo"
                                     data-title="Kangaroo" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-kangaroo-nho.png"
-                                        alt="Kangaroo" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item item-hidden">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh Electrolux"
-                                    data-title="Kangaroo" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/25/logo-electrolux-nho.png"
-                                        alt="Kangaroo" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item item-hidden">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh FujiHome"
-                                    data-title="FujiHome" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/06/09/FujiHome-logo-35.png"
-                                        alt="FujiHome" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item item-hidden">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=263" title="Cây nước nóng lạnh Sunhouse"
-                                    data-title="Sunhouse" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/18/logo-sunhouse-nho.png"
-                                        alt="Sunhouse" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item item-hidden">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh Toshiba"
-                                    data-title="Toshiba" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2014/10/06/toshiba_n.jpg"
-                                        alt="Toshiba" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item item-hidden">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh Nagakawa"
-                                    data-title="Nagakawa" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2022/08/20/logo-nagakawa-nho.png"
-                                        alt="Nagakawa" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item item-hidden">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh FujiE"
-                                    data-title="FujiE" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/15/fujie-logo-35.png"
-                                        alt="FujiHome" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item item-hidden">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh Hòa Phát"
-                                    data-title="Hòa Phát" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/19/logo-hoa-phat-nho.png"
-                                        alt="Hòa Phát" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item item-hidden">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh Syntex"
-                                    data-title="Syntex" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/25/logo-syntex-nho.png"
-                                        alt="Syntex" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item item-hidden">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh Kova"
-                                    data-title="Kova" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/06/09/FujiHome-logo-35.png"
-                                        alt="Kova" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item item-hidden">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh Kangaroo"
-                                    data-title="Kangaroo" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-kangaroo-nho.png"
-                                        alt="Kangaroo" />
-                                </a>
-                            </li>
-                            <li class="shead-brand-item item-hidden">
-                                <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh Electrolux"
-                                    data-title="Kangaroo" data-bid="2730" data-redirect="0">
-                                    <img class="list_logo_brand_image"
-                                        src="https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/25/logo-electrolux-nho.png"
-                                        alt="Kangaroo" />
+                                    <img class="list_logo_brand_image" src="{{item.image}}" alt="Kangaroo" />
                                 </a>
                             </li>
                             <li class="shead-brand-item dont-show-more-item">
@@ -958,7 +426,6 @@
                                     <p> Thu gọn</p>
                                 </a>
                             </li>
-
                         </ul>
                     </div>
                     <div class="col-md-1">
@@ -990,16 +457,15 @@
                         </li>
                     </ul>
                 </div>
-                <div class="row ms-3 me-1 bg-white">
-                    <div class="col-md-3 mt-2 mb-2">
+                <div class="row ms-3 me-1 bg-white" ng-repeat="pro in stove.stovecategories">
+                    <div class="col-md-3 mt-2 mb-2" ng-repeat="item in pro.products">
                         <div class="bep-custom w-100 bg-white">
                             <a href="">
-                                <div class="position-relative">
-                                    <img src="https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2023/11/28/bep-hong-ngoai-co-sunhouse-shd6011-a.jpg"
-                                        class="card-img-top pt-2" alt="...">
+                                <div class="position-relative box-img">
+                                    <img src="{{item.hinh}}" class="card-img-top pt-2" alt="...">
                                     <span
                                         class="position-absolute top-product align-product translate-middle pt-1 pb-1 pe-2 ps-2 badge rounded-5">
-                                        -29%
+                                        {{item.phanTramGiamGia}}
                                     </span>
                                     <p class="tra-gop position-absolute mb-0">Trả góp</p>
                                 </div>
@@ -1020,222 +486,18 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <p class="card-title bep-cart-title">Bếp hồng ngoại cơ Sunhouse SHD6011</p>
+                                    <p class="card-title bep-cart-title">{{item.ten}}</p>
                                     <p class="card-text bep-custom-card-text m-0 mt-5">
                                         <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
                                         <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
                                         <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
                                         <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
                                         <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        (41)
+                                        ({{item.danhGia}})
                                     </p>
                                     <div class="row">
-                                        <p class="col-lg-6 bep-price">599.000 đ</p>
-                                        <p class="col-lg-6 bep-sale">599.000 đ</p>
-                                    </div>
-
-                                </a>
-                                <a href="#" class="btn-mua-ngay btn btn-primary mt-4 rounded-1 w-100">MUA
-                                    NGAY
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-3 mt-2 mb-2">
-                        <div class="bep-custom w-100 bg-white">
-                            <a href="">
-                                <div class="position-relative">
-                                    <img src="https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2023/11/28/bep-hong-ngoai-co-sunhouse-shd6011-a.jpg"
-                                        class="card-img-top pt-2" alt="...">
-                                    <span
-                                        class="position-absolute top-product align-product translate-middle pt-1 pb-1 pe-2 ps-2 badge rounded-5">
-                                        -29%
-                                    </span>
-                                    <p class="tra-gop position-absolute mb-0">Trả góp</p>
-                                </div>
-                            </a>
-                            <div class="ps-2 pe-2 lh-1">
-                                <a href="" class="text-decoration-none">
-                                    <div class="row">
-                                        <div class="col-md-7">
-                                            <img class="gift-icon img-fluid" src="image/bep/gift.png" alt="">
-                                            <span class="text-gift-icon">
-                                                TẶNG QUÀ
-                                            </span>
-                                        </div>
-                                        <div class="col-md-5 float-end">
-                                            <p class="float-end so-sanh">
-                                                <i class="bi bi-plus-circle"></i>
-                                                So sánh
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <p class="card-title bep-cart-title">Bếp hồng ngoại cơ Sunhouse SHD6011</p>
-                                    <p class="card-text bep-custom-card-text m-0 mt-5">
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        (41)
-                                    </p>
-                                    <div class="row">
-                                        <p class="col-lg-6 bep-price">599.000 đ</p>
-                                        <p class="col-lg-6 bep-sale">599.000 đ</p>
-                                    </div>
-
-                                </a>
-                                <a href="#" class="btn-mua-ngay btn btn-primary mt-4 rounded-1 w-100">MUA
-                                    NGAY
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-3 mt-2 mb-2">
-                        <div class="bep-custom w-100 bg-white">
-                            <a href="">
-                                <div class="position-relative">
-                                    <img src="https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2023/11/28/bep-hong-ngoai-co-sunhouse-shd6011-a.jpg"
-                                        class="card-img-top pt-2" alt="...">
-                                    <span
-                                        class="position-absolute top-product align-product translate-middle pt-1 pb-1 pe-2 ps-2 badge rounded-5">
-                                        -29%
-                                    </span>
-                                    <p class="tra-gop position-absolute mb-0">Trả góp</p>
-                                </div>
-                            </a>
-                            <div class="ps-2 pe-2 lh-1">
-                                <a href="" class="text-decoration-none">
-                                    <div class="row">
-                                        <div class="col-md-7">
-                                            <img class="gift-icon img-fluid" src="image/bep/gift.png" alt="">
-                                            <span class="text-gift-icon">
-                                                TẶNG QUÀ
-                                            </span>
-                                        </div>
-                                        <div class="col-md-5 float-end">
-                                            <p class="float-end so-sanh">
-                                                <i class="bi bi-plus-circle"></i>
-                                                So sánh
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <p class="card-title bep-cart-title">Bếp hồng ngoại cơ Sunhouse SHD6011</p>
-                                    <p class="card-text bep-custom-card-text m-0 mt-5">
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        (41)
-                                    </p>
-                                    <div class="row">
-                                        <p class="col-lg-6 bep-price">599.000 đ</p>
-                                        <p class="col-lg-6 bep-sale">599.000 đ</p>
-                                    </div>
-
-                                </a>
-                                <a href="#" class="btn-mua-ngay btn btn-primary mt-4 rounded-1 w-100">MUA
-                                    NGAY
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-3 mt-2 mb-2">
-                        <div class="bep-custom w-100 bg-white">
-                            <a href="">
-                                <div class="position-relative">
-                                    <img src="https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2023/11/28/bep-hong-ngoai-co-sunhouse-shd6011-a.jpg"
-                                        class="card-img-top pt-2" alt="...">
-                                    <span
-                                        class="position-absolute top-product align-product translate-middle pt-1 pb-1 pe-2 ps-2 badge rounded-5">
-                                        -29%
-                                    </span>
-                                    <p class="tra-gop position-absolute mb-0">Trả góp</p>
-                                </div>
-                            </a>
-                            <div class="ps-2 pe-2 lh-1">
-                                <a href="" class="text-decoration-none">
-                                    <div class="row">
-                                        <div class="col-md-7">
-                                            <img class="gift-icon img-fluid" src="image/bep/gift.png" alt="">
-                                            <span class="text-gift-icon">
-                                                TẶNG QUÀ
-                                            </span>
-                                        </div>
-                                        <div class="col-md-5 float-end">
-                                            <p class="float-end so-sanh">
-                                                <i class="bi bi-plus-circle"></i>
-                                                So sánh
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <p class="card-title bep-cart-title">Bếp hồng ngoại cơ Sunhouse SHD6011</p>
-                                    <p class="card-text bep-custom-card-text m-0 mt-5">
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        (41)
-                                    </p>
-                                    <div class="row">
-                                        <p class="col-lg-6 bep-price">599.000 đ</p>
-                                        <p class="col-lg-6 bep-sale">599.000 đ</p>
-                                    </div>
-
-                                </a>
-                                <a href="#" class="btn-mua-ngay btn btn-primary mt-4 rounded-1 w-100">MUA
-                                    NGAY
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-3 mt-2 mb-2">
-                        <div class="bep-custom w-100 bg-white">
-                            <a href="">
-                                <div class="position-relative">
-                                    <img src="https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2023/11/28/bep-hong-ngoai-co-sunhouse-shd6011-a.jpg"
-                                        class="card-img-top pt-2" alt="...">
-                                    <span
-                                        class="position-absolute top-product align-product translate-middle pt-1 pb-1 pe-2 ps-2 badge rounded-5">
-                                        -29%
-                                    </span>
-                                    <p class="tra-gop position-absolute mb-0">Trả góp</p>
-                                </div>
-                            </a>
-                            <div class="ps-2 pe-2 lh-1">
-                                <a href="" class="text-decoration-none">
-                                    <div class="row">
-                                        <div class="col-md-7">
-                                            <img class="gift-icon img-fluid" src="image/bep/gift.png" alt="">
-                                            <span class="text-gift-icon">
-                                                TẶNG QUÀ
-                                            </span>
-                                        </div>
-                                        <div class="col-md-5 float-end">
-                                            <p class="float-end so-sanh">
-                                                <i class="bi bi-plus-circle"></i>
-                                                So sánh
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <p class="card-title bep-cart-title">Bếp hồng ngoại cơ Sunhouse SHD6011</p>
-                                    <p class="card-text bep-custom-card-text m-0 mt-5">
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        (41)
-                                    </p>
-                                    <div class="row">
-                                        <p class="col-lg-6 bep-price">599.000 đ</p>
-                                        <p class="col-lg-6 bep-sale">599.000 đ</p>
+                                        <p class="col-lg-6 bep-price">{{item.giamGia|number:0}} đ</p>
+                                        <p class="col-lg-6 bep-sale">{{item.gia|number:0}} đ</p>
                                     </div>
 
                                 </a>
