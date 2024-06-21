@@ -1,4 +1,276 @@
 {
+    "categories": [
+        {
+            "id": 1,
+            "name": "QUẠT, MÁY LÀM MÁT",
+            "subcategories": [
+                {
+                    "id": 1,
+                    "name": "Quạt điều hòa",
+                    "icon": "1091",
+                    "image": "https://meta.vn/icons/cateico/c1091-150x150.jpg",
+                    "products": []
+                },
+                {
+                    "id": 2,
+                    "name": "Máy lạnh di động, Máy lạnh mini",
+                    "icon": "3210",
+                    "image": "https://meta.vn/icons/cateico/c3210-150x150.jpg",
+                    "products": []
+                },
+                {
+                    "id": 3,
+                    "name": "Quạt cây, Quạt đứng",
+                    "icon": "449",
+                    "image": "https://meta.vn/icons/cateico/c449-150x150.jpg",
+                    "products": []
+                },
+                {
+                    "id": 4,
+                    "name": "Quạt công nghiệp",
+                    "icon": "3086",
+                    "image": "https://meta.vn/icons/cateico/c3086-150x150.jpg",
+                    "products": []
+                },
+                {
+                    "id": 5,
+                    "name": "Quạt treo tường",
+                    "icon": "870",
+                    "image": "https://meta.vn/icons/cateico/c870-150x150.jpg",
+                    "products": []
+                },
+                {
+                    "id": 6,
+                    "name": "Quạt trần",
+                    "icon": "1090",
+                    "image": "https://meta.vn/icons/cateico/c1090-150x150.jpg",
+                    "products": []
+                },
+                {
+                    "id": 7,
+                    "name": "Quạt tháp, Quạt không cánh",
+                    "icon": "3364",
+                    "image": "https://meta.vn/icons/cateico/c3364-150x150.jpg",
+                    "products": []
+                },
+                {
+                    "id": 8,
+                    "name": "Máy làm mát công nghiệp",
+                    "icon": "2812",
+                    "image": "https://meta.vn/icons/cateico/c2812-150x150.jpg",
+                    "products": []
+                },
+                {
+                    "id": 9,
+                    "name": "Quạt phun sương",
+                    "icon": "676",
+                    "image": "https://meta.vn/icons/cateico/c676-150x150.jpg",
+                    "products": []
+                },
+                {
+                    "id": 10,
+                    "name": "Quạt tích điện",
+                    "icon": "450",
+                    "image": "https://meta.vn/icons/cateico/c450-150x150.jpg",
+                    "products": []
+                },
+                {
+                    "id": 11,
+                    "name": "Quạt đảo trần",
+                    "icon": "3330",
+                    "image": "https://meta.vn/icons/cateico/c3330-150x150.jpg",
+                    "products": []
+                },
+                {
+                    "id": 12,
+                    "name": "Quạt thông gió, Quạt hút gió",
+                    "icon": "2849",
+                    "image": "https://meta.vn/icons/cateico/c2849-150x150.jpg",
+                    "products": []
+                },
+                {
+                    "id": 13,
+                    "name": "Quạt bàn",
+                    "icon": "871",
+                    "image": "https://meta.vn/icons/cateico/c871-150x150.jpg",
+                    "products": []
+                },
+                {
+                    "id": 14,
+                    "name": "Quạt chắn gió, Quạt cắt gió",
+                    "icon": "3367",
+                    "image": "https://meta.vn/icons/cateico/c3367-150x150.jpg",
+                    "products": []
+                },
+                {
+                    "id": 15,
+                    "name": "Quạt hộp",
+                    "icon": "3360",
+                    "image": "https://meta.vn/icons/cateico/c3360-150x150.jpg",
+                    "products": []
+                },
+                {
+                    "id": 16,
+                    "name": "Quạt năng lượng mặt trời",
+                    "icon": "3620",
+                    "image": "https://meta.vn/icons/cateico/c3620-150x150.jpg",
+                    "products": []
+                }
+            ]
+        }
+    ],
+    "brands":[
+        {
+            "id": 1,
+            "name": "QUẠT, MÁY LÀM MÁT",
+            "subbrands": [
+                {
+                    "id": 1,
+                    "name": "Panasonic",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Panasonic-Logo-500.png",
+                    "products": []
+                },
+                {
+                    "id": 2,
+                    "name": "Senko",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/18/logo-senko-nho.png",
+                    "products": []
+                },
+                {
+                    "id": 3,
+                    "name": "Vinawind",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2022/02/23/logo-vinawind-nho.png",
+                    "products": []
+                },
+                {
+                    "id": 4,
+                    "name": "Điện cơ 91",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2022/02/23/logo-dien-co-91-nho.png",
+                    "products": []
+                },
+                {
+                    "id": 5,
+                    "name": "Toshiba",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2014/10/06/toshiba_n.jpg",
+                    "products": []
+                },
+                {
+                    "id": 6,
+                    "name": "Mitsubishi Electric",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/07/13/mitsubishi-electric-nho.png",
+                    "products": []
+                },
+                {
+                    "id": 7,
+                    "name": "Tiross",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Tiross-Logo-35.png",
+                    "products": []
+                },
+                {
+                    "id": 8,
+                    "name": "Comfee",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/10/comfee-logo-nho.png",
+                    "products": []
+                },
+                {
+                    "id": 9,
+                    "name": "Panworld",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2018/01/09/Logo-Panworld-35.png",
+                    "products": []
+                },
+                {
+                    "id": 10,
+                    "name": "Hatari",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2017/02/22/logo-hatari-nho.png",
+                    "products": []
+                },
+                {
+                    "id": 11,
+                    "name": "Midea",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-midea-nho.png",
+                    "products": []
+                },
+                {
+                    "id": 12,
+                    "name": "Chinghai",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/25/logo-chinghai-nho.png",
+                    "products": []
+                },
+                {
+                    "id": 13,
+                    "name": "Kangaroo",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-kangaroo-nho.png",
+                    "products": []
+                },
+                {
+                    "id": 14,
+                    "name": "TCL",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/25/logo-tcl-nho.png",
+                    "products": []
+                },
+                {
+                    "id": 15,
+                    "name": "Điện Quang",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/05/17/logo-dien-quang-nho.png",
+                    "products": []
+                },
+                {
+                    "id": 16,
+                    "name": "Sanaky",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-sanaky-nho.png",
+                    "products": []
+                },
+                {
+                    "id": 17,
+                    "name": "Alaska",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2018/11/24/logo-alaska-anhnho.png",
+                    "products": []
+                },
+                {
+                    "id": 18,
+                    "name": "Philips",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Philips-Logo-35.png",
+                    "products": []
+                },
+                {
+                    "id": 19,
+                    "name": "Sharp",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/08/Sharp-Logo-500.png",
+                    "products": []
+                },
+                {
+                    "id": 20,
+                    "name": "Sunhouse",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/18/logo-sunhouse-nho.png",
+                    "products": []
+                },
+                {
+                    "id": 21,
+                    "name": "Hitachi",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2019/12/11/hitachi-35.png",
+                    "products": []
+                },
+                {
+                    "id": 22,
+                    "name": "Haiki",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2018/08/03/logo-HAIKI-35.png",
+                    "products": []
+                },
+                {
+                    "id": 23,
+                    "name": "My Phong",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/25/my-phong-logo-35.png",
+                    "products": []
+                },
+                {
+                    "id": 24,
+                    "name": "Daikiosan",
+                    "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2020/03/09/Daikiosan-logo-35.png",
+                    "products": []
+                }
+            ]
+        }
+    ],
     "bep": [
         {
             "id": 1,
@@ -125,6 +397,690 @@
                     "id": 8,
                     "tieuDe": "Tự ngắt điện khi quá tải nhiệt",
                     "noiDung": "Bếp từ được trang bị tính năng bảo vệ khi dòng điện bị quá tải. Khi nồi quá nóng, bếp sẽ tự động tắt, còi báo. Bạn chỉ cần chờ vài phút để bếp nguội sau đó bật bếp lên và sử dụng bình thường.",
+                    "hinh": null,
+                    "tenHinh": null,
+                    "noiDung2": null,
+                    "hinh2": null,
+                    "tenHinh2": null
+                }
+            ]
+        }
+    ],
+    "quat": [
+        {
+            "id": 1,
+            "ten": "Máy làm mát không khí Sunhouse SHD7744",
+            "anhHienThi": "https://st.meta.vn/Data/image/2024/04/09/may-lam-mat-khong-khi-sunhouse-shd7744-1.jpg",
+            "gia": {
+                "giaGoc": "2.900.000 đ",
+                "giaSale": "2.090.000 đ",
+                "phantramgiam": 27
+            },
+            "thuonghieu": "Sunhouse",
+            "kieuquat": "Máy làm mát không khí",
+            "soluong": 15,
+            "danhgia": {
+                "sao": 4.5,
+                "nhanxet": 415
+            },
+            "thongSo": [
+                {
+                    "congsuat": "125W",
+                    "dongco": "Dây đồng",
+                    "loimoto": null,
+                    "saicanh": null,
+                    "dieukhientuxa": "Không",
+                    "hengio": "Không",
+                    "socanhquat": null,
+                    "tocdogio": "3 tốc độ",
+                    "nguondienap": "220V/50Hz",
+                    "trongluongsanpham": "11kg",
+                    "kichthuoc": "Cao x rộng x sâu (98.5cm x 49.5cm x 33cm)",
+                    "xuatxuthuonghieu": "Việt Nam",
+                    "sanxuattai": "Việt Nam",
+                    "baohanh": "24 tháng"
+                }
+            ],
+            "mausac": [
+                {
+                    "id": 1,
+                    "tenmau": "Trắng",
+                    "linkAnhSptheoMau": null
+                }
+            ],
+            "thongTinSP": [
+                {
+                    "id": 1,
+                    "tieuDeLon": null,
+                    "tieuDeNho": null,
+                    "noiDung": null,
+                    "hinh": "https://st.meta.vn/Data/image/2024/04/09/may-lam-mat-khong-khi-sunhouse-shd7744-1.jpg",
+                    "tenHinh": "Cấu tạo máy làm mát Sunhouse SHD7744",
+                    "noiDung2": null,
+                    "hinh2": null,
+                    "tenHinh2": null,
+                    "noiDung3": null,
+                    "hinh3": null,
+                    "tenHinh3": null
+                },
+                {
+                    "id": 2,
+                    "tieuDeLon": "Ưu điểm nổi bật của máy làm mát không khí Sunhouse SHD7744",
+                    "tieuDeNho": "Dùng cho diện tích 40m2",
+                    "noiDung": "Sunhouse SHD7744 sử dụng mô tơ quấn bằng đồng nguyên chất siêu bền, hoạt động ổn định. Thân máy được làm từ nhựa PP khó nứt vỡ với màu sắc trang nhã cùng lưu lượng gió lớn sẽ làm mát rất tốt ở không gian lên tới 40m2 như cửa hàng, quán cà phê, phòng khách gia đình.",
+                    "hinh": "https://st.meta.vn/Data/image/2024/04/09/may-lam-mat-khong-khi-sunhouse-shd7744-3.jpg",
+                    "tenHinh": "Máy làm mát không khí Sunhouse SHD7744",
+                    "noiDung2": "Máy làm mát được trang bị 4 bánh xe lớn rất dễ di chuyển giữa các không gian khác nhau.",
+                    "hinh2": null,
+                    "tenHinh2": null,
+                    "noiDung3": null,
+                    "hinh3": null,
+                    "tenHinh3": null
+                },
+                {
+                    "id": 3,
+                    "tieuDeLon": null,
+                    "tieuDeNho": "Núm vặn cơ dễ dùng",
+                    "noiDung": "Máy làm mát Sunhouse sử dụng bảng điều dạng núm xoay dễ hiểu và rất dễ sử dụng với tất cả mọi người.",
+                    "hinh": "https://st.meta.vn/Data/image/2024/04/03/may-lam-mat-khong-khi-sunhouse-shd7744-nd.jpg",
+                    "tenHinh": "Máy làm mát không khí Sunhouse SHD7744 điều khiển dạng núm vặn",
+                    "noiDung2": null,
+                    "hinh2": null,
+                    "tenHinh2": null,
+                    "noiDung3": null,
+                    "hinh3": null,
+                    "tenHinh3": null
+                },
+                {
+                    "id": 4,
+                    "tieuDeLon": null,
+                    "tieuDeNho": "Làm mát bằng hơi nước",
+                    "noiDung": "SHD7744 làm mát bằng nước, hoạt động dựa trên nguyên lý bốc hơi nước tự nhiên giúp làm mát tối ưu cho không gian mở. Luồng không khí thổi ra sẽ được lọc sạch qua 2 lớp: Lưới lọc bụi bên ngoài và tấm làm mát phía trong. Lưới lọc bụi sẽ giữ lại các bụi lớn và tấm làm mát khi đang ướt nước sẽ giữ lại các hạt bụi cỡ nhỏ hơn.",
+                    "hinh": "https://st.meta.vn/Data/image/2024/04/03/may-lam-mat-khong-khi-sunhouse-shd7744-nd1.jpg",
+                    "tenHinh": "Luồng khí thổi lọc qua 2 lớp",
+                    "noiDung2": null,
+                    "hinh2": null,
+                    "tenHinh2": null,
+                    "noiDung3": null,
+                    "hinh3": null,
+                    "tenHinh3": null
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "ten": "Quạt phun sương công nghiệp Mitsuta DB-26CF03",
+            "anhHienThi": "https://st.meta.vn/Data/image/2022/08/02/quat-phun-suong-cong-nghiep-mitsuta-db-26cf03-a.jpg",
+            "gia": {
+                "giaGoc": "3.900.000 đ",
+                "giaSale": "3.190.000 đ",
+                "phantramgiam": 18
+            },
+            "thuonghieu": "Mitsuta",
+            "kieuquat": "Quạt phun sương công nghiệp",
+            "soluong": 8,
+            "danhgia": {
+                "sao": 4.5,
+                "nhanxet": 31
+            },
+            "thongSo": [
+                {
+                    "congsuat": "260W",
+                    "dongco": null,
+                    "loimoto": null,
+                    "saicanh": "65cm",
+                    "dieukhientuxa": null,
+                    "hengio": null,
+                    "socanhquat": "3 cánh",
+                    "tocdogio": "3 tốc độ",
+                    "nguondienap": "110V-240V/50Hz-60Hz",
+                    "trongluongsanpham": "22kg",
+                    "kichthuoc": null,
+                    "xuatxuthuonghieu": "Việt Nam",
+                    "sanxuattai": "Trung Quốc",
+                    "baohanh": "Bơm (6 tháng), Động cơ (12 tháng)"
+                }
+            ],
+            "mausac": [
+                {
+                    "id": 1,
+                    "tenmau": "Đen",
+                    "linkAnhSptheoMau": null
+                }
+            ],
+            "thongTinSP": [
+                {
+                    "id": 1,
+                    "tieuDeLon": null,
+                    "tieuDeNho": "Quạt phun sương công nghiệp Mitsuta DB-26CF03 cho hiệu quả làm mát tối ưu",
+                    "noiDung": "Quạt phun sương công nghiệp Mitsuta DB-26CF03 đạt chất lượng ISO 9001-2000 cho độ bền cao. Mitsuta DB-26CF03 tích hợp 2 tính năng: Quạt gió và phun sương. Người dùng có thể sử dụng được kết hợp hoặc riêng từng chức năng của quạt nên mang lại tiện ích hơn trong khi sử dụng. Quạt phun sương DB-26CF03 sử dụng được cho khu vực có diện tích dưới 40m2, đường kính cánh quạt 65cm, chiều cao quạt 1,8m.",
+                    "hinh": "https://st.meta.vn/Data/image/2017/04/12/quat-phun-suong-Mitsuta-DB-26CF03.jpg",
+                    "tenHinh": "Quạt phun sương công nghiệp Mitsuta DB-26CF03 có bánh xe di chuyển",
+                    "noiDung2": "Quạt phun sương Mitsuta có lưu lượng gió 145 m3/min, công suất 260W, thiết kế 3 cánh quạt sải dài giúp làm mát không gian rộng lớn nhanh chóng. Trang bị chức năng phun sương giúp tạo luồng hơi nước mạnh mẽ, làm mát tối ưu.",
+                    "hinh2": "https://st.meta.vn/Data/image/2023/11/30/quat-phun-suong-cong-nghiep-mitsuta-db-26cf03.jpg",
+                    "tenHinh2": "Quạt phun sương công nghiệp Mitsuta DB-26CF03",
+                    "noiDung3": "Phía dưới đế quạt cây phun sương có trang bị 4 bánh xe nên di chuyển quạt nhanh chóng. Nan lồng quạt đan khít, chắc chắn giúp bảo vệ người dùng, tránh các nguy hiểm không đáng có xảy ra trong quá trình sử dụng.",
+                    "noiDung4": null,
+                    "hinh3": null,
+                    "tenHinh3": null
+                },
+                {
+                    "id": 2,
+                    "tieuDeLon": null,
+                    "tieuDeNho": "Mẹo sử dụng quạt phun sương an toàn",
+                    "noiDung": "Không dùng quạt phun sương trong phòng quá kín hay trong phòng đặt để nhiều thiết bị điện tử. Sử dụng chế độ phun sương khi thực sự cần thiết, tránh lạm dụng gây chênh lệch độ ẩm lớn với không khí bên ngoài dễ gây bệnh. Vệ sinh bình chứa nước và tổng thể quạt để quạt hoạt động bền bỉ và an toàn hơn.",
+                    "hinh": "https://st.meta.vn/Data/image/2017/04/12/quat-phun-suong-Mitsuta-DB-26CF03-cong-nghiep.jpg",
+                    "tenHinh": "Quạt phun sương công nghiệp Mitsuta DB-26CF03 thiết kế nhiều khe tản nhiệt phía sau động cơ",
+                    "noiDung2": null,
+                    "hinh2": null,
+                    "tenHinh2": null,
+                    "noiDung3": null,
+                    "hinh3": null,
+                    "tenHinh3": null
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "ten": "Quạt đảo trần Mitsubishi CY16-C16 (GA/GT/GV)",
+            "anhHienThi": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2021/06/18/quat-dao-tran-mitsubishi-cy16-gt-gv-300.jpg",
+            "gia": {
+                "giaGoc": "1.650.000 đ",
+                "giaSale": "1.450.000 đ",
+                "phantramgiam": 12
+            },
+            "thuonghieu": "Mitsubishi Electric",
+            "kieuquat": "Quạt đảo trần",
+            "soluong": 10,
+            "danhgia": {
+                "sao": 5.0,
+                "nhanxet": 21
+            },
+            "thongSo": [
+                {
+                    "congsuat": "48W",
+                    "dongco": null,
+                    "loimoto": null,
+                    "saicanh": "40cm",
+                    "dieukhientuxa": null,
+                    "hengio": null,
+                    "socanhquat": "3 cánh",
+                    "tocdogio": "3 tốc độ",
+                    "nguondienap": "220V",
+                    "trongluongsanpham": "4.6kg",
+                    "kichthuoc": null,
+                    "xuatxuthuonghieu": "Nhật Bản",
+                    "sanxuattai": "Thái Lan",
+                    "baohanh": "12 tháng"
+                }
+            ],
+            "mausac": [
+                {
+                    "id": 1,
+                    "tenmau": "Trắng",
+                    "linkAnhSptheoMau": null
+                }
+            ],
+            "thongTinSP": [
+                {
+                    "id": 1,
+                    "tieuDeLon": null,
+                    "tieuDeNho": "Quạt đảo trần Mitsubishi CY16-C16 (GA/GT/GV) xoay chiều 360 độ, tiết kiệm điện năng",
+                    "noiDung": "Quạt đảo trần CY16-C16 (GA/GT/GV) được sản xuất trên dây chuyền hiện đại của hãng Mitsubishi, được hãng ưu ái sản xuất bằng nhiều nguyên vật liệu cao cấp như vật liệu cách điện, vách ngăn nhiệt, chất liệu chống cháy... để đảm bảo độ an toàn và độ bền cao nhất cho người tiêu dùng.",
+                    "hinh": "https://st.meta.vn/Data/image/2021/06/18/quat-dao-tran-mitsubishi-cy16-gt-gv-1.jpg",
+                    "tenHinh": "Quạt đảo trần Mitsubishi CY16-C16 (GA/GT/GV) dạng hộp số",
+                    "noiDung2": "Quạt đảo trần Mitsubishi CY16-C16 (GA/GT/GV) có 3 cánh với đường kính 40cm, có thể xoay chiều 360 độ giúp làm mát toàn diện không gian phòng. Bên cạnh đó, quạt chạy rất êm ái với tiếng ồn nhẹ nhàng chỉ 52dB, đảm bảo đưa cả gia đình bạn chìm vào giấc ngủ thư thái nhất.",
+                    "hinh2": "https://st.meta.vn/Data/image/2021/06/18/quat-dao-tran-mitsubishi-cy16-gt-gv-2.jpg",
+                    "tenHinh2": "Quạt đảo trần Mitsubishi giúp làm mát không gian rộng"
+                },
+                {
+                    "id": 2,
+                    "tieuDeLon": null,
+                    "tieuDeNho": null,
+                    "noiDung": "Quạt đảo trần Mitsubishi CY16-C16 (GA/GT/GV) có 3 cánh với đường kính 40cm, có thể xoay chiều 360 độ giúp làm mát toàn diện không gian phòng. Bên cạnh đó, quạt chạy rất êm ái với tiếng ồn nhẹ nhàng chỉ 52dB, đảm bảo đưa cả gia đình bạn chìm vào giấc ngủ thư thái nhất. Sự cao cấp và an toàn của chiếc quạt Mitsubishi này đến từ 2 cầu chì có khả năng tự động ngắt khi có sự cố về điện cùng mô tơ vỏ kín đem lại giá trị sử dụng bền vững. Cục mô tơ nhỏ gọn tăng sự hiện đại cho quạt gắn trần cũng như tiết kiệm không gian khi lắp đặt trên trần nhà. Chính vì thế mà sản phẩm quạt đảo trần này được coi là giải pháp hoàn hảo cho mọi không gian, kể cả những không gian chật hẹp.",
+                    "hinh": "https://st.meta.vn/Data/image/2021/06/18/quat-dao-tran-mitsubishi-cy16-gt-gv-3.jpg",
+                    "tenHinh": "Kích thước quạt Mitsubishi CY16-C16 (GA/GT/GV)",
+                    "noiDung2": null,
+                    "hinh2": "https://st.meta.vn/Data/image/2021/06/18/quat-dao-tran-mitsubishi-cy16-gt-gv-4.jpg",
+                    "tenHinh2": "Quạt đảo trần Mitsubishi CY16-C16 (GA/GT/GV) làm mát 3 tốc độ",
+                    "noiDung3": null,
+                    "hinh3": "https://st.meta.vn/Data/image/2021/06/18/quat-dao-tran-mitsubishi-cy16-gt-gv-8.jpg",
+                    "tenHinh3": "Mitsubishi CY16-C16 (GA/GT/GV) có lồng quạt chắc chắn"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "ten": "Quạt treo tường Senko TC1620 (65W, 7 cánh)",
+            "anhHienThi": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2020/02/18/quat-treo-tuong-senko-tc1620-65w-nho.jpg",
+            "gia": {
+                "giaGoc": "550.000 đ",
+                "giaSale": "420.000 đ",
+                "phantramgiam": 24
+            },
+            "thuonghieu": "Senko",
+            "kieuquat": "Quạt treo tường",
+            "soluong": null,
+            "danhgia": {
+                "sao": 4.5,
+                "nhanxet": 21
+            },
+            "thongSo": [
+                {
+                    "congsuat": "65W",
+                    "dongco": null,
+                    "loimoto": null,
+                    "saicanh": "7 cánh",
+                    "dieukhientuxa": null,
+                    "hengio": null,
+                    "socanhquat": "7 cánh",
+                    "tocdogio": null,
+                    "nguondienap": "220V",
+                    "trongluongsanpham": null,
+                    "kichthuoc": null,
+                    "xuatxuthuonghieu": null,
+                    "sanxuattai": null,
+                    "baohanh": null
+                }
+            ],
+            "mausac": [
+                {
+                    "id": 1,
+                    "tenmau": null,
+                    "linkAnhSptheoMau": null
+                }
+            ],
+            "thongTinSP": [
+                {
+                    "id": 1,
+                    "tieuDeLon": null,
+                    "tieuDeNho": null,
+                    "noiDung": null,
+                    "hinh": null,
+                    "tenHinh": null,
+                    "noiDung2": null,
+                    "hinh2": null,
+                    "tenHinh2": null
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "ten": "Điều hòa di động thông minh FujiHome PAC09",
+            "anhHienThi": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2022/06/20/may-dieu-hoa-di-dong-thong-minh-fujihome-pac09-300.jpg",
+            "gia": {
+                "giaGoc": "6.800.000 đ",
+                "giaSale": "5.250.000 đ",
+                "phantramgiam": 23
+            },
+            "thuonghieu": "FujiHome",
+            "kieuquat": "Điều hòa di động",
+            "soluong": null,
+            "danhgia": {
+                "sao": 4.5,
+                "nhanxet": 29
+            },
+            "thongSo": [
+                {
+                    "congsuat": null,
+                    "dongco": null,
+                    "loimoto": null,
+                    "saicanh": null,
+                    "dieukhientuxa": null,
+                    "hengio": null,
+                    "socanhquat": null,
+                    "tocdogio": null,
+                    "nguondienap": null,
+                    "trongluongsanpham": null,
+                    "kichthuoc": null,
+                    "xuatxuthuonghieu": null,
+                    "sanxuattai": null,
+                    "baohanh": null
+                }
+            ],
+            "mausac": [
+                {
+                    "id": 1,
+                    "tenmau": null,
+                    "linkAnhSptheoMau": null
+                }
+            ],
+            "thongTinSP": [
+                {
+                    "id": 1,
+                    "tieuDeLon": null,
+                    "tieuDeNho": null,
+                    "noiDung": null,
+                    "hinh": null,
+                    "tenHinh": null,
+                    "noiDung2": null,
+                    "hinh2": null,
+                    "tenHinh2": null
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "ten": "Quạt tháp hơi nước Tiross TS9177",
+            "anhHienThi": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2023/06/05/quat-thap-hoi-nuoc-tiross-ts9177-a.jpg",
+            "gia": {
+                "giaGoc": "3.590.000 đ",
+                "giaSale": "3.050.000 đ",
+                "phantramgiam": 15
+            },
+            "thuonghieu": "Tiross",
+            "kieuquat": "Quạt tháp hơi nước",
+            "soluong": null,
+            "danhgia": {
+                "sao": 4.5,
+                "nhanxet": 17
+            },
+            "thongSo": [
+                {
+                    "congsuat": null,
+                    "dongco": null,
+                    "loimoto": null,
+                    "saicanh": null,
+                    "dieukhientuxa": null,
+                    "hengio": null,
+                    "socanhquat": null,
+                    "tocdogio": null,
+                    "nguondienap": null,
+                    "trongluongsanpham": null,
+                    "kichthuoc": null,
+                    "xuatxuthuonghieu": null,
+                    "sanxuattai": null,
+                    "baohanh": null
+                }
+            ],
+            "mausac": [
+                {
+                    "id": 1,
+                    "tenmau": null,
+                    "linkAnhSptheoMau": null
+                }
+            ],
+            "thongTinSP": [
+                {
+                    "id": 1,
+                    "tieuDeLon": null,
+                    "tieuDeNho": null,
+                    "noiDung": null,
+                    "hinh": null,
+                    "tenHinh": null,
+                    "noiDung2": null,
+                    "hinh2": null,
+                    "tenHinh2": null
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "ten": "Quạt treo tường Senko TC1880 (sải cánh 43cm, 65W)",
+            "anhHienThi": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2021/06/24/quat-treo-tuong-senko-tc1880-sai-canh-43cm-65w-10.jpg",
+            "gia": {
+                "giaGoc": "599.000 đ",
+                "giaSale": "470.000 đ",
+                "phantramgiam": 22
+            },
+            "thuonghieu": "Senko",
+            "kieuquat": "Quạt treo tường",
+            "soluong": null,
+            "danhgia": {
+                "sao": 4.5,
+                "nhanxet": 13
+            },
+            "thongSo": [
+                {
+                    "congsuat": "65W",
+                    "dongco": null,
+                    "loimoto": null,
+                    "saicanh": "43cm",
+                    "dieukhientuxa": null,
+                    "hengio": null,
+                    "socanhquat": null,
+                    "tocdogio": null,
+                    "nguondienap": "220V",
+                    "trongluongsanpham": null,
+                    "kichthuoc": null,
+                    "xuatxuthuonghieu": null,
+                    "sanxuattai": null,
+                    "baohanh": null
+                }
+            ],
+            "mausac": [
+                {
+                    "id": 1,
+                    "tenmau": null,
+                    "linkAnhSptheoMau": null
+                }
+            ],
+            "thongTinSP": [
+                {
+                    "id": 1,
+                    "tieuDeLon": null,
+                    "tieuDeNho": null,
+                    "noiDung": null,
+                    "hinh": null,
+                    "tenHinh": null,
+                    "noiDung2": null,
+                    "hinh2": null,
+                    "tenHinh2": null
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "ten": "Quạt đảo trần Hatari Thái Lan HT-C18R1 (có điều khiển)",
+            "anhHienThi": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2020/05/13/quat-dao-tran-hatari-thai-lan-ht-c18r1.jpg",
+            "gia": {
+                "giaGoc": "1.800.000 đ",
+                "giaSale": "1.610.000 đ",
+                "phantramgiam": 11
+            },
+            "thuonghieu": "Hatari",
+            "kieuquat": "Quạt đảo trần",
+            "soluong": null,
+            "danhgia": {
+                "sao": 4.0,
+                "nhanxet": 10
+            },
+            "thongSo": [
+                {
+                    "congsuat": null,
+                    "dongco": null,
+                    "loimoto": null,
+                    "saicanh": null,
+                    "dieukhientuxa": null,
+                    "hengio": null,
+                    "socanhquat": null,
+                    "tocdogio": null,
+                    "nguondienap": null,
+                    "trongluongsanpham": null,
+                    "kichthuoc": null,
+                    "xuatxuthuonghieu": null,
+                    "sanxuattai": null,
+                    "baohanh": null
+                }
+            ],
+            "mausac": [
+                {
+                    "id": 1,
+                    "tenmau": null,
+                    "linkAnhSptheoMau": null
+                }
+            ],
+            "thongTinSP": [
+                {
+                    "id": 1,
+                    "tieuDeLon": null,
+                    "tieuDeNho": null,
+                    "noiDung": null,
+                    "hinh": null,
+                    "tenHinh": null,
+                    "noiDung2": null,
+                    "hinh2": null,
+                    "tenHinh2": null
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "ten": "Máy làm mát không khí Hòa Phát HPCF1-033I",
+            "anhHienThi": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2023/06/28/may-lam-mat-khong-khi-hoa-phat-hpcf1-033i.jpg",
+            "gia": {
+                "giaGoc": "4.284.000 đ",
+                "giaSale": "2.590.000 đ",
+                "phantramgiam": 40
+            },
+            "thuonghieu": "Hòa Phát",
+            "kieuquat": "Máy làm mát không khí",
+            "soluong": null,
+            "danhgia": {
+                "sao": 4.5,
+                "nhanxet": 14
+            },
+            "thongSo": [
+                {
+                    "congsuat": null,
+                    "dongco": null,
+                    "loimoto": null,
+                    "saicanh": null,
+                    "dieukhientuxa": null,
+                    "hengio": null,
+                    "socanhquat": null,
+                    "tocdogio": null,
+                    "nguondienap": null,
+                    "trongluongsanpham": null,
+                    "kichthuoc": null,
+                    "xuatxuthuonghieu": null,
+                    "sanxuattai": null,
+                    "baohanh": null
+                }
+            ],
+            "mausac": [
+                {
+                    "id": 1,
+                    "tenmau": null,
+                    "linkAnhSptheoMau": null
+                }
+            ],
+            "thongTinSP": [
+                {
+                    "id": 1,
+                    "tieuDeLon": null,
+                    "tieuDeNho": null,
+                    "noiDung": null,
+                    "hinh": null,
+                    "tenHinh": null,
+                    "noiDung2": null,
+                    "hinh2": null,
+                    "tenHinh2": null
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "ten": "Quạt tháp Tiross TS9181",
+            "anhHienThi": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2020/03/10/quat-thap-tiross-ts9181.jpg",
+            "gia": {
+                "giaGoc": "2.500.000 đ",
+                "giaSale": "2.390.000 đ",
+                "phantramgiam": 4
+            },
+            "thuonghieu": "Tiross",
+            "kieuquat": "Quạt tháp",
+            "soluong": null,
+            "danhgia": {
+                "sao": 4.5,
+                "nhanxet": 41
+            },
+            "thongSo": [
+                {
+                    "congsuat": null,
+                    "dongco": null,
+                    "loimoto": null,
+                    "saicanh": null,
+                    "dieukhientuxa": null,
+                    "hengio": null,
+                    "socanhquat": null,
+                    "tocdogio": null,
+                    "nguondienap": null,
+                    "trongluongsanpham": null,
+                    "kichthuoc": null,
+                    "xuatxuthuonghieu": null,
+                    "sanxuattai": null,
+                    "baohanh": null
+                }
+            ],
+            "mausac": [
+                {
+                    "id": 1,
+                    "tenmau": null,
+                    "linkAnhSptheoMau": null
+                }
+            ],
+            "thongTinSP": [
+                {
+                    "id": 1,
+                    "tieuDeLon": null,
+                    "tieuDeNho": null,
+                    "noiDung": null,
+                    "hinh": null,
+                    "tenHinh": null,
+                    "noiDung2": null,
+                    "hinh2": null,
+                    "tenHinh2": null
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "ten": "Quạt sàn rút lỗ Hatari IS18M1",
+            "anhHienThi": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2020/11/25/quat-san-rut-lo-hatari-is18m1.jpg",
+            "gia": {
+                "giaGoc": "1.900.000 đ",
+                "giaSale": "1.510.000 đ",
+                "phantramgiam": 21
+            },
+            "thuonghieu": "Hatari",
+            "kieuquat": "Quạt sàn",
+            "soluong": null,
+            "danhgia": {
+                "sao": 4.5,
+                "nhanxet": 25
+            },
+            "thongSo": [
+                {
+                    "congsuat": null,
+                    "dongco": null,
+                    "loimoto": null,
+                    "saicanh": null,
+                    "dieukhientuxa": null,
+                    "hengio": null,
+                    "socanhquat": null,
+                    "tocdogio": null,
+                    "nguondienap": null,
+                    "trongluongsanpham": null,
+                    "kichthuoc": null,
+                    "xuatxuthuonghieu": null,
+                    "sanxuattai": null,
+                    "baohanh": null
+                }
+            ],
+            "mausac": [
+                {
+                    "id": 1,
+                    "tenmau": null,
+                    "linkAnhSptheoMau": null
+                }
+            ],
+            "thongTinSP": [
+                {
+                    "id": 1,
+                    "tieuDeLon": null,
+                    "tieuDeNho": null,
+                    "noiDung": null,
                     "hinh": null,
                     "tenHinh": null,
                     "noiDung2": null,

@@ -1,0 +1,184 @@
+.bg-main {
+  background-color: $background-gray;
+}
+
+.quat-custom {
+  border: 1px solid rgb(255, 255, 255);
+  height: 465px;
+
+  div {
+    div {
+      .so-sanh {
+        color: $color-btn-hover;
+      }
+    }
+  }
+
+  .text-star {
+    color: $color-gray;
+  }
+
+  .quat-cart-title {
+    font-size: $font-size;
+    text-decoration: none;
+    color: $color-text;
+  }
+
+  .quat-custom-card-text {
+    color: $color-gray;
+  }
+
+  .quat-price {
+    color: $color-primary;
+    text-decoration: none;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-16;
+  }
+
+  .quat-sale {
+    color: $color-gray;
+    text-decoration: line-through;
+  }
+
+  .btn-mua-ngay {
+    display: none;
+  }
+
+  .align-product {
+    top: 15px;
+    right: -20px;
+    background-color: $color-sale;
+    color: $color-white;
+    font-weight: $font-weight-semi-bold;
+    font-size: $font-size;
+    padding: 0px;
+  }
+
+  .gift-icon {
+    padding: 2px;
+    width: 27px;
+    height: 27px;
+    border: 2px solid $color-primary;
+    background-color: $color-white;
+    border-radius: 50%;
+  }
+
+  .text-gift-icon {
+    font-size: $font-size-10;
+    background-color: $color-primary;
+    padding: 2px;
+    border-radius: 2px;
+    font-weight: $font-weight-semi-bold;
+    color: $color-white;
+  }
+
+  .tra-gop {
+    text-align: center;
+    font-size: $font-size-12;
+    color: $color-white;
+    background-color: $color-sale;
+    padding: 3px;
+    border-radius: 2px;
+    font-weight: $font-weight-bold;
+    margin-bottom: 5px;
+    bottom: 0;
+    right: 8px;
+  }
+}
+
+.quat-custom:hover {
+  border: 1px solid rgb(232, 231, 231);
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgb(221, 221, 221);
+
+  .card-title {
+    color: $color-primary;
+  }
+
+  .btn-mua-ngay {
+    display: block;
+  }
+}
+
+.custom-text-bot-header {
+  a {
+    text-decoration: none;
+    font-size: $font-size;
+    color: black;
+  }
+}
+
+.custom-catelist {
+  img {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+  }
+}
+
+.custom-listbrand {
+  list-style: none;
+}
+
+.hover-list-brand {
+  .meta-goi-y {
+    color: $color-text-primary;
+  }
+
+}
+
+.hover-list-brand:hover {
+  background-color: $color-btn-hover;
+  border: 1px solid $color-btn-hover;
+
+  a {
+    color: $color-white;
+  }
+}
+
+.gift-icon-img {
+  width: 20px;
+}
+
+
+
+.inner-show-cat-new {
+  margin-top: 20px;
+  background-color: white;
+  height: auto;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+
+  .show-cat-item {
+    width: 123px;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 4px 15px 3px;
+
+    .show-cat-icon {
+      margin: 0 4px 15px 3px;
+      height: 60px;
+      width: 60px;
+      margin: 0px 25px 5px 25px;
+
+      img {
+        height: 60px;
+        width: 60px;
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+  }
+
+  a:hover {
+    color: $color-primary;
+  }
+}
