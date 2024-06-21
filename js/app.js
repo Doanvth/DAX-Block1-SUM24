@@ -2,11 +2,11 @@ var app = angular.module("myApp", ["ngRoute"]);
 
 app.config(function ($routeProvider) {
     $routeProvider
-      .when("/", {
+    .when("/", {
       templateUrl: "trangchu.html",
       controller: "homeController",
-      })
-        .when("/quat", {
+    })
+    .when("/quat", {
       templateUrl: "quat.html",
       controller: "quatController"
     })
@@ -37,7 +37,12 @@ app.config(function ($routeProvider) {
         .when("/bottle/:id", {
             templateUrl: "bottle-detail.html",
             controller: "bottleCtrl",
-        });
+        })
+    .when("/stove", {
+      templateUrl: "bep.html",
+      controller: "stoveController",
+    });
+
 });
 let URL_API = "http://localhost:3000/"
 
@@ -461,4 +466,26 @@ app.controller("bottleCtrl", function ($scope, $http, $routeParams) {
             return false;
         }
     };
+});
+
+app.controller("stoveController", function ($scope, $http) {
+  $http.get(URL_API + "stove").then(
+    function (response) {
+      console.log(response.data);
+      $scope.stove = response.data;
+    },
+    function (response) {
+      console.log("Error connect db");
+    }
+  );
+
+  $http.get(URL_API + "brandsStove").then(
+    function (response) {
+      $scope.brands = response.data;
+      console.log(response.data);
+    },
+    function (response) {
+      console.log("Error connect db");
+    }
+  );
 });
