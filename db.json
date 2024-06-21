@@ -1,7 +1,7 @@
 {
     "categories": [
         {
-            "id": 1,
+            "id": 11,
             "name": "QUẠT, MÁY LÀM MÁT",
             "subcategories": [
                 {
@@ -86,7 +86,17 @@
                     "name": "Quạt thông gió, Quạt hút gió",
                     "icon": "2849",
                     "image": "https://meta.vn/icons/cateico/c2849-150x150.jpg",
-                    "products": []
+                    "products": [],
+                    "dropdownlist": [
+                        {
+                            "id": 1,
+                            "name": "Quạt thông gió nhà vệ sinh"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Quạt thông gió công nghiệp"
+                        }
+                    ]
                 },
                 {
                     "id": 13,
@@ -119,154 +129,178 @@
             ]
         }
     ],
-    "brands":[
+    "brands": [
         {
-            "id": 1,
-            "name": "QUẠT, MÁY LÀM MÁT",
+            "id": 11,
+            "name": "Quạt, Máy làm mát",
             "subbrands": [
                 {
                     "id": 1,
                     "name": "Panasonic",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Panasonic-Logo-500.png",
-                    "products": []
+                    "products": [],
+                    "count": 29
                 },
                 {
                     "id": 2,
                     "name": "Senko",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/18/logo-senko-nho.png",
-                    "products": []
+                    "products": [],
+                    "count": 19
                 },
                 {
                     "id": 3,
                     "name": "Vinawind",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2022/02/23/logo-vinawind-nho.png",
-                    "products": []
+                    "products": [],
+                    "count": 15
                 },
                 {
                     "id": 4,
                     "name": "Điện cơ 91",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2022/02/23/logo-dien-co-91-nho.png",
-                    "products": []
+                    "products": [],
+                    "count": 24
                 },
                 {
                     "id": 5,
                     "name": "Toshiba",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2014/10/06/toshiba_n.jpg",
-                    "products": []
+                    "products": [],
+                    "count": 33
                 },
                 {
                     "id": 6,
                     "name": "Mitsubishi Electric",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/07/13/mitsubishi-electric-nho.png",
-                    "products": []
+                    "products": [],
+                    "count": 18
                 },
                 {
                     "id": 7,
                     "name": "Tiross",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Tiross-Logo-35.png",
-                    "products": []
+                    "products": [],
+                    "count": 36
                 },
                 {
                     "id": 8,
                     "name": "Comfee",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/10/comfee-logo-nho.png",
-                    "products": []
+                    "products": [],
+                    "count": 22
                 },
                 {
                     "id": 9,
                     "name": "Panworld",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2018/01/09/Logo-Panworld-35.png",
-                    "products": []
+                    "products": [],
+                    "count": 27
                 },
                 {
                     "id": 10,
                     "name": "Hatari",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2017/02/22/logo-hatari-nho.png",
-                    "products": []
+                    "products": [],
+                    "count": 14
                 },
                 {
                     "id": 11,
                     "name": "Midea",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-midea-nho.png",
-                    "products": []
+                    "products": [],
+                    "count": 28
                 },
                 {
                     "id": 12,
                     "name": "Chinghai",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/25/logo-chinghai-nho.png",
-                    "products": []
+                    "products": [],
+                    "count": 32
                 },
                 {
                     "id": 13,
                     "name": "Kangaroo",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-kangaroo-nho.png",
-                    "products": []
+                    "products": [],
+                    "count": 26
                 },
                 {
                     "id": 14,
                     "name": "TCL",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/25/logo-tcl-nho.png",
-                    "products": []
+                    "products": [],
+                    "count": 21
                 },
                 {
                     "id": 15,
                     "name": "Điện Quang",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/05/17/logo-dien-quang-nho.png",
-                    "products": []
+                    "products": [],
+                    "count": 13
                 },
                 {
                     "id": 16,
                     "name": "Sanaky",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-sanaky-nho.png",
-                    "products": []
+                    "products": [],
+                    "count": 35
                 },
                 {
                     "id": 17,
                     "name": "Alaska",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2018/11/24/logo-alaska-anhnho.png",
-                    "products": []
+                    "products": [],
+                    "count": 23
                 },
                 {
                     "id": 18,
                     "name": "Philips",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Philips-Logo-35.png",
-                    "products": []
+                    "products": [],
+                    "count": 20
                 },
                 {
                     "id": 19,
                     "name": "Sharp",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/08/Sharp-Logo-500.png",
-                    "products": []
+                    "products": [],
+                    "count": 30
                 },
                 {
                     "id": 20,
                     "name": "Sunhouse",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/18/logo-sunhouse-nho.png",
-                    "products": []
+                    "products": [],
+                    "count": 34
                 },
                 {
                     "id": 21,
                     "name": "Hitachi",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2019/12/11/hitachi-35.png",
-                    "products": []
+                    "products": [],
+                    "count": 12
                 },
                 {
                     "id": 22,
                     "name": "Haiki",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2018/08/03/logo-HAIKI-35.png",
-                    "products": []
+                    "products": [],
+                    "count": 38
                 },
                 {
                     "id": 23,
                     "name": "My Phong",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/25/my-phong-logo-35.png",
-                    "products": []
+                    "products": [],
+                    "count": 25
                 },
                 {
                     "id": 24,
                     "name": "Daikiosan",
                     "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2020/03/09/Daikiosan-logo-35.png",
-                    "products": []
+                    "products": [],
+                    "count": 16
                 }
             ]
         }
@@ -410,7 +444,7 @@
         {
             "id": 1,
             "ten": "Máy làm mát không khí Sunhouse SHD7744",
-            "anhHienThi": "https://st.meta.vn/Data/image/2024/04/09/may-lam-mat-khong-khi-sunhouse-shd7744-1.jpg",
+            "anhHienThi": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2024/04/09/may-lam-mat-khong-khi-sunhouse-shd7744-a.jpg",
             "gia": {
                 "giaGoc": "2.900.000 đ",
                 "giaSale": "2.090.000 đ",
@@ -510,7 +544,7 @@
         {
             "id": 2,
             "ten": "Quạt phun sương công nghiệp Mitsuta DB-26CF03",
-            "anhHienThi": "https://st.meta.vn/Data/image/2022/08/02/quat-phun-suong-cong-nghiep-mitsuta-db-26cf03-a.jpg",
+            "anhHienThi": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2019/05/15/quat-phun-suong-cong-nghiep-mitsuta-db-26cf03.jpg",
             "gia": {
                 "giaGoc": "3.900.000 đ",
                 "giaSale": "3.190.000 đ",
@@ -660,7 +694,7 @@
             },
             "thuonghieu": "Senko",
             "kieuquat": "Quạt treo tường",
-            "soluong": null,
+            "soluong": 10,
             "danhgia": {
                 "sao": 4.5,
                 "nhanxet": 21
@@ -715,7 +749,7 @@
             },
             "thuonghieu": "FujiHome",
             "kieuquat": "Điều hòa di động",
-            "soluong": null,
+            "soluong": 10,
             "danhgia": {
                 "sao": 4.5,
                 "nhanxet": 29
@@ -770,7 +804,7 @@
             },
             "thuonghieu": "Tiross",
             "kieuquat": "Quạt tháp hơi nước",
-            "soluong": null,
+            "soluong": 10,
             "danhgia": {
                 "sao": 4.5,
                 "nhanxet": 17
@@ -825,7 +859,7 @@
             },
             "thuonghieu": "Senko",
             "kieuquat": "Quạt treo tường",
-            "soluong": null,
+            "soluong": 10,
             "danhgia": {
                 "sao": 4.5,
                 "nhanxet": 13
@@ -880,7 +914,7 @@
             },
             "thuonghieu": "Hatari",
             "kieuquat": "Quạt đảo trần",
-            "soluong": null,
+            "soluong": 10,
             "danhgia": {
                 "sao": 4.0,
                 "nhanxet": 10
@@ -935,7 +969,7 @@
             },
             "thuonghieu": "Hòa Phát",
             "kieuquat": "Máy làm mát không khí",
-            "soluong": null,
+            "soluong": 10,
             "danhgia": {
                 "sao": 4.5,
                 "nhanxet": 14
@@ -990,7 +1024,7 @@
             },
             "thuonghieu": "Tiross",
             "kieuquat": "Quạt tháp",
-            "soluong": null,
+            "soluong": 10,
             "danhgia": {
                 "sao": 4.5,
                 "nhanxet": 41
@@ -1045,7 +1079,7 @@
             },
             "thuonghieu": "Hatari",
             "kieuquat": "Quạt sàn",
-            "soluong": null,
+            "soluong": 10,
             "danhgia": {
                 "sao": 4.5,
                 "nhanxet": 25

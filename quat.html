@@ -162,13 +162,13 @@
                                     <i class="fa-solid fa-angle-right"></i>
                                 </div>
                             </a>
-                            <div class="dropdown-menu" ng-if="subcategory.id == '12'">
-                                <a class="dropdown-item" href="#">
-                                    Quạt thông gió nhà vệ sinh
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    Quạt thông gió công nghiệp
-                                </a>
+                            <div class="dropdown-menu" ng-if="subcategory.id == '12'" >
+                                <div ng-repeat="item in subcategory.dropdownlist">
+                                    <a class="dropdown-item" href="#">
+                                        {{item.name}}
+                                    </a>
+                                </div>
+                                
                             </div>
                         </li>
                     </ul>
@@ -553,7 +553,7 @@
                 <div class="col-md-11">
                     <ul class="list_logo_brand_head p-0" ng-repeat="brand in brands" ng-if="brand.id == 11">
                         <li class="shead-brand-item" ng-repeat="subbrand in brand.subbrands | limitTo:17">
-                            <a href="#" title="{{subbrand.name}}">
+                            <a href="#" title="{{brand.name}} {{subbrand.name}}">
                                 <img class="list_logo_brand_image" src="{{subbrand.image}}" alt="{{subbrand.name}}" />
                             </a>
                         </li>
