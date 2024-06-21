@@ -133,5 +133,467 @@
                 }
             ]
         }
+    ],
+    "danhmucnoi": [
+        {
+            "id": 1,
+            "name": "Nồi áp suất",
+            "image": "387.png",
+            "potType": [
+                {
+                    "name": "Nồi áp xuất cơ",
+                    "image": "1100.png",
+                    "products": [
+                        {
+                            "image": "https://st.meta.vn/Data/image/2022/03/16/noi-ap-suat-inox-ih-poongnyun-hnvpc-06ih-3-2l-1.jpg",
+                            "name": "Nồi áp suất inox IH PoongNyun HNVPC-06(IH)",
+                            "brand": "PoongNyun | Nồi áp suất cơ PoongNyun",
+                            "price": 2800000,
+                            "status": "Còn hàng",
+                            "material": "Inox 304",
+                            "typeOfStoveUsed": "Bếp điện, Bếp ga, Bếp hồng ngoại, Bếp từ",
+                            "useOnInductionCooker": "Có",
+                            "capacity": "3,2 lít",
+                            "diameter": "20cm",
+                            "productWeight": "2,8kg",
+                            "size": "330mm x 224mm x 188mm",
+                            "brandOrigin": "Hàn Quốc",
+                            "madeIn": "Hàn Quốc",
+                            "guarantee": "12 tháng"
+                        },
+                        {
+                            "image": "https://st.meta.vn/Data/image/2022/07/16/noi-ap-suat-inox-ih-poongnyun-hnvpc-10-ih-5-3-lit-g1.jpg",
+                            "name": "Nồi áp suất inox IH PoongNyun HNVPC-06(IH)",
+                            "brand": "PoongNyun | Nồi áp suất cơ PoongNyun",
+                            "price": 3450000,
+                            "status": "Còn hàng",
+                            "material": "Inox",
+                            "typeOfStoveUsed": "Bếp điện, Bếp ga, Bếp hồng ngoại, Bếp từ",
+                            "useOnInductionCooker": "Có",
+                            "capacity": "5,3 lít",
+                            "diameter": "Đáy (24cm)",
+                            "packagingSize": "353mm x 273mm x 239mm",
+                            "productWeight": "3,5kg",
+                            "size": "376mm x 260mm x 214mm",
+                            "brandOrigin": "Hàn Quốc",
+                            "madeIn": "Hàn Quốc",
+                            "guarantee": "12 tháng"
+                        },
+                        {
+                            "image": "https://st.meta.vn/Data/image/2020/01/08/noi-ap-suat-inox-tianxi-bm-cs22-22cm-5-lit.jpg",
+                            "name": "Nồi áp suất inox Tianxi BM-CS22 (22cm) - 5 lít",
+                            "brand": "Tianxi | Nồi áp suất cơ Tianxi",
+                            "price": 980000,
+                            "status": "Còn hàng",
+                            "material": "Inox 304",
+                            "typeOfStoveUsed": "Bếp điện, Bếp ga, Bếp hồng ngoại, Bếp từ",
+                            "useOnInductionCooker": "Có",
+                            "capacity": "5 lít",
+                            "diameter": "22cm",
+                            "packingWeight": "3kg",
+                            "productWeight": "2,6kg",
+                            "brandOrigin": "Trung Quốc",
+                            "madeIn": "Trung Quốc   ",
+                            "guarantee": "12 tháng"
+                        },
+                        {
+                            "image": "https://st.meta.vn/Data/image/2021/06/25/noi-ap-suat-co-day-tu-nagakawa-nag1472-7l-1.jpg",
+                            "name": "Nồi áp suất cơ đáy từ Nagakawa NAG1472 (7L)",
+                            "brand": "Nagakawa | Nồi áp suất cơ Nagakawa",
+                            "price": 2685000,
+                            "status": "Còn hàng",
+                            "material": "Inox 304",
+                            "typeOfStoveUsed": "Bếp ga, Bếp hồng ngoại, Bếp từ",
+                            "useOnInductionCooker": "Có",
+                            "capacity": "7 lít",
+                            "diameter": "22cm",
+                            "packingWeight": "3,5kg",
+                            "packagingSize": "335mm x 260mm x 245mm",
+                            "size": "Chiều cao (24,5cm)",
+                            "productWeight": "3kg",
+                            "brandOrigin": "Việt Nam",
+                            "madeIn": "Trung Quốc",
+                            "guarantee": "12 tháng"
+                        },
+                        {
+                            "image": "https://st.meta.vn/Data/image/2020/01/08/noi-ap-suat-inox-tianxi-bm-cs24-24cm-7-lit.jpg",
+                            "name": "Nồi áp suất inox Tianxi BM-CS22 (22cm) - 5 lít",
+                            "brand": "Tianxi | Nồi áp suất cơ Tianxi",
+                            "price": 980000,
+                            "status": "Còn hàng",
+                            "material": "Inox 304",
+                            "typeOfStoveUsed": "Bếp từ, Bếp ga, Bếp hồng ngoại",
+                            "useOnInductionCooker": "Có",
+                            "capacity": "5 lít",
+                            "diameter": "22cm",
+                            "packingWeight": "3kg",
+                            "packagingSize": "40cm x 23cm x 27cm",
+                            "productWeight": "2,6kg",
+                            "brandOrigin": "Trung Quốc",
+                            "madeIn": "Trung Quốc"
+                        },
+                        {
+                            "image": "https://st.meta.vn/Data/image/2020/01/08/noi-ap-suat-inox-tianxi-bm-cs24-24cm-7-lit.jpg",
+                            "name": "Nồi áp suất inox Tianxi BM-CS24 (24cm) - 7 lít",
+                            "brand": "Tianxi | Nồi áp suất cơ Tianxi",
+                            "price": 1123000,
+                            "status": "Còn hàng",
+                            "material": "Inox",
+                            "typeOfStoveUsed": "Bếp ga, Bếp hồng ngoại, Bếp từ",
+                            "useOnInductionCooker": "Có",
+                            "capacity": "7 lít",
+                            "diameter": "24cm",
+                            "packingWeight": "3,5kg",
+                            "packagingSize": "40cm x 23cm x 27cm",
+                            "productWeight": "3,7kg",
+                            "brandOrigin": "Trung Quốc",
+                            "madeIn": "Trung Quốc"
+                        },
+                        {
+                            "image": "https://st.meta.vn/Data/image/2021/06/25/noi-ap-suat-co-day-tu-nagakawa-nag1472-7l-1.jpg",
+                            "name": "Nồi áp suất từ vân đá hoa cương Tianxi TCT-22 (6 lít)",
+                            "brand": "Tianxi | Nồi áp suất cơ Tianxi",
+                            "price": 1065000,
+                            "status": "Còn hàng",
+                            "material": "Hợp kim nhôm",
+                            "typeOfStoveUsed": "Bếp ga, Bếp hồng ngoại, Bếp từ",
+                            "useOnInductionCooker": "Có",
+                            "capacity": "6 lít",
+                            "diameter": "22cm",
+                            "color": "grey",
+                            "packingWeight": "2,6kg",
+                            "size": "Chiều cao (24,5cm)",
+                            "productWeight": "2,2kg",
+                            "brandOrigin": "Trung Quốc",
+                            "madeIn": "Trung Quốc",
+                            "guarantee": "12 tháng"
+                        },
+                        {
+                            "image": "https://st.meta.vn/Data/image/2023/11/23/noi-ap-suat-inox-kalpen-p2-g.jpg",
+                            "name": "Nồi áp suất inox Kalpen P2 - 6 lít",
+                            "brand": "Kalpen | Nồi áp suất cơ Kalpen",
+                            "price": 1750000,
+                            "status": "Còn hàng",
+                            "material": "Inox 304",
+                            "typeOfStoveUsed": "Bếp ga, Bếp hồng ngoại, Bếp từ",
+                            "useOnInductionCooker": "Có",
+                            "capacity": "6 lít",
+                            "diameter": "22cm",
+                            "brandOrigin": "Việt Nam",
+                            "madeIn": "Trung Quốc",
+                            "guarantee": "5 năm"
+                        },
+                        {
+                            "image": "https://st.meta.vn/Data/image/2019/06/19/noi-ap-suat-tu-van-da-hoa-cuong-tianxi-tct-24.jpg",
+                            "name": "Nồi áp suất từ vân đá hoa cương Tianxi TCT-24 (8 lít)",
+                            "brand": "Tianxi | Nồi áp suất cơ Tianxi",
+                            "price": 1200000,
+                            "status": "Còn hàng",
+                            "material": "Hợp kim nhôm",
+                            "typeOfStoveUsed": "Bếp ga, Bếp hồng ngoại, Bếp từ",
+                            "useOnInductionCooker": "Có",
+                            "capacity": "8 lít",
+                            "diameter": "24cm",
+                            "brandOrigin": "Trung Quốc",
+                            "madeIn": "Trung Quốc",
+                            "guarantee": "12 tháng"
+                        },
+                        {
+                            "image": "https://st.meta.vn/Data/image/2023/05/14/noi-ap-suat-nhom-day-tu-hare-hr-pa2405-g.jpg",
+                            "name": "Nồi áp suất nhôm đáy từ Hare HR-PA2405 (24cm)",
+                            "brand": "Hare | Nồi áp suất cơ Hare",
+                            "price": 1122000,
+                            "status": "Còn hàng",
+                            "material": "Nhôm",
+                            "typeOfStoveUsed": "Bếp ga, Bếp hồng ngoại, Bếp từ",
+                            "useOnInductionCooker": "Có",
+                            "capacity": "7 lít",
+                            "diameter": "24cm",
+                            "brandOrigin": "Trung Quốc",
+                            "madeIn": "Trung Quốc",
+                            "guarantee": "12 tháng"
+                        },
+                        {
+                            "image": "https://st.meta.vn/Data/image/2022/03/16/noi-ap-suat-inox-ih-poongnyun-vtspc-10-5-5-lit.jpg",
+                            "name": "Nồi áp suất inox IH PoongNyun VTSPC-10 - 5.5 lít",
+                            "brand": "PoongNyun | Nồi áp suất cơ PoongNyun",
+                            "price": 4840000,
+                            "status": "Còn hàng",
+                            "material": "Inox",
+                            "typeOfStoveUsed": "Bếp ga, Bếp hồng ngoại, Bếp từ",
+                            "useOnInductionCooker": "Có",
+                            "diameter": "24cm",
+                            "packagingSize": "347mm x 287mm x 280mm",
+                            "size": "Dài x Rộng x Cao (362mm x 251mm x 249mm)",
+                            "brandOrigin": "Hàn Quốc",
+                            "madeIn": "Hàn Quốc",
+                            "guarantee": "12 tháng"
+                        },
+                        {
+                            "image": "https://st.meta.vn/Data/image/2022/07/16/noi-ap-suat-inox-3-lop-poongnyun-phspc-25-13-lit-g1.jpg",
+                            "name": "Nồi áp suất Inox 3 lớp PoongNyun PHSPC-25 - 13 lít",
+                            "brand": "PoongNyun | Nồi áp suất cơ PoongNyun",
+                            "price": 5749000,
+                            "status": "Còn hàng",
+                            "material": "Thép không gỉ SUS304",
+                            "typeOfStoveUsed": "Bếp ga, Bếp hồng ngoại",
+                            "useOnInductionCooker": "Không",
+                            "diameter": "Đáy (30cm)",
+                            "size": "459mm x 323mm x 300mm",
+                            "capacity": "13 lít",
+                            "packagingSize": "375mm x 364mm x 317mm",
+                            "brandOrigin": "Hàn Quốc",
+                            "madeIn": "Hàn Quốc",
+                            "guarantee": "12 tháng"
+                        },
+                        {
+                            "image": "https://st.meta.vn/Data/image/2023/05/13/noi-ap-suat-nhom-day-tu-hare-hr-pa2406-g.jpg",
+                            "name": "Nồi áp suất nhôm đáy từ Hare HR-PA2406 (24cm)",
+                            "brand": "Hare | Nồi áp suất cơ Hare",
+                            "price": 1190000,
+                            "status": "Còn hàng",
+                            "material": "Nhôm",
+                            "typeOfStoveUsed": "Bếp ga, Bếp hồng ngoại, Bếp từ",
+                            "useOnInductionCooker": "Có",
+                            "diameter": "24cm",
+                            "capacity": "7 lít",
+                            "brandOrigin": "Trung Quốc",
+                            "madeIn": "Trung Quốc",
+                            "guarantee": "12 tháng"
+                        },
+                        {
+                            "image": "https://st.meta.vn/Data/Image/2020/02/03/noi-ap-suat-tianxi-tco-18s-18cm-3-lit-a.jpg",
+                            "name": "Nồi áp suất Tianxi TCO 18S (18cm - 3 lít)",
+                            "brand": "Tianxi | Nồi áp suất cơ Tianxi",
+                            "price": 750000,
+                            "status": "Còn hàng",
+                            "material": "Hợp kim nhôm",
+                            "typeOfStoveUsed": "Bếp ga, Bếp hồng ngoại",
+                            "useOnInductionCooker": "Không",
+                            "diameter": "18cm",
+                            "capacity": "3 lít",
+                            "brandOrigin": "Trung Quốc",
+                            "madeIn": "Trung Quốc",
+                            "guarantee": "12 tháng"
+                        }
+                    ]
+                },
+                {
+                    "name": "Nồi áp xuất điện",
+                    "image": "1101.png"
+                },
+                {
+                    "name": "Nồi áp xuất công nghiệp",
+                    "image": "1102.png"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Nồi - Bộ nồi",
+            "image": "424.png",
+            "potType": [
+                {
+                    "name": "Bộ nồi",
+                    "image": "1112.png"
+                },
+                {
+                    "name": "Nồi inox & hợp kim",
+                    "image": "1113.png"
+                },
+                {
+                    "name": "Nồi quấy bột",
+                    "image": "1110.png"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Nồi - Nồi hấp điện",
+            "image": "1104.png",
+            "potType":[
+                {
+                    "name": "Bộ nồi",
+                    "image": "1112.png"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Nồi nấu cháo chậm",
+            "image": "1106.png",
+            "potType":[
+                {
+                    "name": "Bộ nồi",
+                    "image": "1112.png"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Nồi đa năng",
+            "image": "1105.png",
+            "potType":[
+                {
+                    "name": "Bộ nồi",
+                    "image": "1112.png"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Nồi ủ",
+            "image": "3789.png",
+            "potType":[
+                {
+                    "name": "Bộ nồi",
+                    "image": "1112.png"
+                }
+            ]
+        }
+    ],
+    "brandNoi": [
+        {
+            "id": 1,
+            "name": "Tianxi"
+        },
+        {
+            "id": 2,
+            "name": "Nagakawa"
+        },
+        {
+            "id": 3,
+            "name": "Elmich"
+        },
+        {
+            "id": 4,
+            "name": "Sunhouse"
+        },
+        {
+            "id": 5,
+            "name": "Bear"
+        },
+        {
+            "id": 6,
+            "name": "PoongNyun"
+        },
+        {
+            "id": 7,
+            "name": "Philips"
+        },
+        {
+            "id": 8,
+            "name": "Instant"
+        },
+        {
+            "id": 9,
+            "name": "Kaiyo"
+        },
+        {
+            "id": 10,
+            "name": "BBcooker"
+        },
+        {
+            "id": 11,
+            "name": "Bennix"
+        },
+        {
+            "id": 12,
+            "name": "Kangaroo"
+        },
+        {
+            "id": 13,
+            "name": "Bluestone"
+        },
+        {
+            "id": 14,
+            "name": "UNIE"
+        },
+        {
+            "id": 15,
+            "name": "Tefal"
+        },
+        {
+            "id": 16,
+            "name": "Kalpen"
+        },
+        {
+            "id": 17,
+            "name": "La Gourment"
+        },
+        {
+            "id": 18,
+            "name": "GoldSun"
+        },
+        {
+            "id": 19,
+            "name": "Dasin"
+        },
+        {
+            "id": 20,
+            "name": "Kieler"
+        }
+    ],
+    "madeInNoi": [
+        {
+            "id": 1,
+            "name": "EU"
+        },
+        {
+            "id": 2,
+            "name": "Châu Âu"
+        },
+        {
+            "id": 3,
+            "name": "Cộng hòa Séc"
+        },
+        {
+            "id": 4,
+            "name": "Đài Loan"
+        },
+        {
+            "id": 5,
+            "name": "Đức"
+        },
+        {
+            "id": 6,
+            "name": "Hàn Quốc"
+        },
+        {
+            "id": 7,
+            "name": "Hồng Kông"
+        },
+        {
+            "id": 8,
+            "name": "Italy"
+        },
+        {
+            "id": 9,
+            "name": "Malaysia"
+        },
+        {
+            "id": 10,
+            "name": "Pháp"
+        },
+        {
+            "id": 11,
+            "name": "Thái Lan"
+        },
+        {
+            "id": 12,
+            "name": "Thổ Nhĩ Kỳ"
+        },
+        {
+            "id": 13,
+            "name": "Trung Quốc"
+        },
+        {
+            "id": 14,
+            "name": "Việt Nam"
+        },
+        {
+            "id": 15,
+            "name": "Chính hãng"
+        }
     ]
 }

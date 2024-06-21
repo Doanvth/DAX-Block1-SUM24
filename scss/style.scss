@@ -427,3 +427,9 @@ div>.discount-cat-main{
         }
     }
 }
+.box-img img { width: 100%; height: 100%; object-fit:cover }
+.overlow-text{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
