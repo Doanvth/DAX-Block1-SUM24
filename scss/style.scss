@@ -10,7 +10,9 @@
 @import 'viewHistory';
 @import '_details';
 
-body{
+
+@import "detail-quat";
+body {
     font-family: $font-family-primary;
     font-size: $font-size;
     color: $color-text;
@@ -18,7 +20,8 @@ body{
 }
 
 
-header{
+
+header {
 
     background-color: $color-primary;
 
@@ -27,14 +30,14 @@ header{
         height: 60px;
     }
 
-    .box-header{
+    .box-header {
         height: 82px;
         background-color: $color-primary;
         position: relative;
 
-        .container-header{
-            .row-header{
-                .home-box{
+        .container-header {
+            .row-header {
+                .home-box {
                     margin: 0px;
                     padding: 0px;
                     line-height: 82px;
@@ -47,12 +50,12 @@ header{
                         margin-right: 30px;
                         color: white;
                     }
-                    
+
                     .logo {
                         font-size: 40px;
                     }
 
-                    ul{
+                    ul {
                         margin: 0;
                         padding: 0;
                         background-color: gray;
@@ -66,23 +69,23 @@ header{
                         width: 1320px;
                         z-index: 1;
                         height: 82px;
-                        
-                            li{
-                                float: left;
-                                position: relative;
-                                width: 322px;
 
-                                a{
-                                    text-decoration: none;
-                                    color: black;
-                                }
+                        li {
+                            float: left;
+                            position: relative;
+                            width: 322px;
+
+                            a {
+                                text-decoration: none;
+                                color: black;
                             }
-                            
-                        
+                        }
+
+
                     }
                 }
-                
-                .home-box:hover ul{
+
+                .home-box:hover ul {
                     align-items: center;
                     width: 1320px;
                     background-color: white;
@@ -95,13 +98,13 @@ header{
                     margin: 0;
                     height: 82px;
 
-                    img{
+                    img {
                         position: relative;
                         width: 40px;
                         top: -10px;
                     }
 
-                    p{
+                    p {
                         top: -55px;
                         position: relative;
                         height: 0px;
@@ -110,20 +113,20 @@ header{
                     }
                 }
 
-                .home-box li:hover a{
+                .home-box li:hover a {
                     color: $color-primary;
                 }
 
-                .search-box{
+                .search-box {
 
-                    .search-container{
+                    .search-container {
                         margin-top: 16px;
                         margin-left: 50px;
                         position: relative;
-                        
-                        form{
 
-                            input{
+                        form {
+
+                            input {
                                 border-radius: 2px 0px 0px 2px;
                                 margin-top: 8px;
                                 font-size: 15px;
@@ -133,7 +136,7 @@ header{
                                 padding-left: 40px;
                                 padding-right: 30px;
                             }
-    
+
                             button {
                                 border-radius: 0px 2px 2px 0px;
                                 position: absolute;
@@ -145,7 +148,7 @@ header{
                                 width: 80px;
                                 cursor: pointer;
                             }
-    
+
                             .mic-icon {
                                 margin: 13px 5px 0 0;
                                 font-size: 16px;
@@ -154,7 +157,7 @@ header{
                                 cursor: pointer;
                                 color: gray;
                             }
-    
+
                             .search-icon {
                                 margin: 14px 5px 0 0;
                                 font-size: 16px;
@@ -163,18 +166,18 @@ header{
                                 cursor: pointer;
                                 color: gray;
                             }
-                            
+
                         }
-                        
+
                     }
 
                 }
-                
-                .tool-box{
 
-                    .login-box{
+                .tool-box {
 
-                        .dropdown{
+                    .login-box {
+
+                        .dropdown {
                             display: flex;
                             flex-direction: column;
                             box-shadow: 0 5px 10px 0 #eee;
@@ -187,13 +190,13 @@ header{
                             visibility: hidden;
                             z-index: 1;
 
-                            li{
+                            li {
                                 padding-top: 5px;
                                 padding-bottom: 5px;
-                                width: 100%;                              
+                                width: 100%;
                             }
 
-                            li:hover{
+                            li:hover {
                                 color: $color-primary;
                                 background-color: #eee;
                                 cursor: pointer;
@@ -201,7 +204,7 @@ header{
                         }
                     }
 
-                    .login-box:hover .dropdown{
+                    .login-box:hover .dropdown {
                         display: flex;
                         flex-direction: column;
                         box-shadow: 0 5px 10px 0 #eee;
@@ -213,20 +216,20 @@ header{
                         position: relative;
                         visibility: visible;
 
-                        li{
+                        li {
                             padding-top: 5px;
                             padding-bottom: 5px;
-                            width: 100%;                              
+                            width: 100%;
                         }
 
-                        li:hover{
+                        li:hover {
                             color: $color-primary;
                             background-color: #eee;
                             cursor: pointer;
                         }
                     }
 
-                    span{
+                    span {
                         color: $color-white;
                     }
 
@@ -234,7 +237,7 @@ header{
                         color: $color-white;
                         margin-right: 4px;
                     }
-                    
+
                     .title-login-1 {
                         margin-top: 4px;
                         font-size: 16px;
@@ -244,26 +247,26 @@ header{
                         font-size: 12px;
                         bottom: 14px;
                     }
-                    
+
                     .cart {
-                        span{
+                        span {
                             color: $color-white;
                         }
                     }
 
-                    .cart-icon{
+                    .cart-icon {
                         color: $color-white;
                     }
 
-                    .guide span{
+                    .guide span {
                         color: $color-white;
                     }
 
-                    .question-icon{
+                    .question-icon {
                         color: $color-white;
                     }
 
-                    .navbar-custom{
+                    .navbar-custom {
                         float: right;
                     }
 
@@ -271,16 +274,16 @@ header{
                         color: $color-white;
                     }
 
-                    .phone-icon{
+                    .phone-icon {
                         color: $color-white;
                     }
-                    
+
                 }
 
             }
-            
+
         }
-        
+
     }
 
 }
@@ -291,10 +294,12 @@ header{
     background: #fff;
     padding-bottom: 5px;
 }
-.trend-catalog>.trend-catalog-title{
+
+.trend-catalog>.trend-catalog-title {
     padding: 10px 10px 10px 40px;
     position: relative;
 }
+
 .trend-catalog>.trend-catalog-title:before {
     background: url(https://meta.vn/Data/image/2021/01/13/hot-category.png) no-repeat;
     content: "";
@@ -305,12 +310,13 @@ header{
     top: 8px;
     left: 5px;
 }
-.trend-catalog-title>.h2{
+
+.trend-catalog-title>.h2 {
     font-size: 18px;
     font-weight: bold;
 }
 
-.list-catalog-container > .list-catalog-main {
+.list-catalog-container>.list-catalog-main {
     display: flex;
     flex-wrap: wrap;
     margin-top: 0;
@@ -322,7 +328,7 @@ header{
     margin: auto;
 }
 
-.list-catalog-main > .catalog-main-item {
+.list-catalog-main>.catalog-main-item {
     position: relative;
     width: calc(100% / 8);
     height: 150px;
@@ -336,6 +342,7 @@ header{
     cursor: pointer;
     box-sizing: border-box;
 }
+
 .catalog-main-item>div>.name-cat-main {
     margin-top: 5px;
     line-height: 18px;
@@ -344,10 +351,12 @@ header{
     color: #333;
     cursor: pointer;
 }
+
 .list-catalog-main>.catalog-main-item:hover .name-cat-main {
     color: #da251c;
 }
-div>.discount-cat-main{
+
+div>.discount-cat-main {
     position: absolute;
     right: 5px;
     top: 5px;
@@ -357,9 +366,11 @@ div>.discount-cat-main{
     color: #fff;
     font-size: 11px;
 }
+
 .list-catalog-container>.view-more-page {
     margin: 10px 0;
 }
+
 .list-catalog-container>.view-more-page a {
     color: #333;
     text-align: center;
@@ -375,10 +386,12 @@ div>.discount-cat-main{
     .item-hidden {
         display: none;
     }
+
     .show-more-item {
         width: auto;
         background-color: $color-text-primary;
         padding-top: 6px;
+
         .click-show-more {
             text-decoration: none;
             color: white;
@@ -394,9 +407,10 @@ div>.discount-cat-main{
         width: auto;
         background-color: $color-text-primary;
         padding-top: 6px;
+
         .click-dont-show-more {
             text-decoration: none;
-            color: white;     
+            color: white;
             font-size: smaller;
             margin: auto;
             text-align: center;
@@ -405,7 +419,7 @@ div>.discount-cat-main{
     }
 
 
-  
+
 
     .shead-brand-item {
         height: 37px;

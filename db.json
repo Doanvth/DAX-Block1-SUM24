@@ -445,6 +445,28 @@
             "id": 1,
             "ten": "Máy làm mát không khí Sunhouse SHD7744",
             "anhHienThi": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2024/04/09/may-lam-mat-khong-khi-sunhouse-shd7744-a.jpg",
+            "listAnh": [
+                {
+                    "id": 1,
+                    "hinh": "https://st.meta.vn/Data/image/2024/01/04/may-lam-mat-khong-khi-sunhouse-shd7734-1.jpg",
+                    "tenHinh": "Máy làm mát không khí Sunhouse SHD7734 (30 lít)"
+                },
+                {
+                    "id": 2,
+                    "hinh": "https://st.meta.vn/Data/Image/2024/01/04/may-lam-mat-khong-khi-sunhouse-shd7734-2.jpg",
+                    "tenHinh": "Máy làm mát không khí Sunhouse SHD7734 (30 lít)"
+                },
+                {
+                    "id": 3,
+                    "hinh": "https://st.meta.vn/Data/Image/2024/01/04/may-lam-mat-khong-khi-sunhouse-shd7734-3.jpg",
+                    "tenHinh": "Máy làm mát không khí Sunhouse SHD7734 (30 lít)"
+                },
+                {
+                    "id": 4,
+                    "hinh": "https://st.meta.vn/Data/Image/2024/01/04/may-lam-mat-khong-khi-sunhouse-shd7734-5.jpg",
+                    "tenHinh": "Máy làm mát không khí Sunhouse SHD7734 (30 lít)"
+                }
+            ],
             "gia": {
                 "giaGoc": "2.900.000 đ",
                 "giaSale": "2.090.000 đ",
@@ -459,20 +481,48 @@
             },
             "thongSo": [
                 {
-                    "congsuat": "125W",
-                    "dongco": "Dây đồng",
-                    "loimoto": null,
-                    "saicanh": null,
-                    "dieukhientuxa": "Không",
-                    "hengio": "Không",
-                    "socanhquat": null,
-                    "tocdogio": "3 tốc độ",
-                    "nguondienap": "220V/50Hz",
-                    "trongluongsanpham": "11kg",
-                    "kichthuoc": "Cao x rộng x sâu (98.5cm x 49.5cm x 33cm)",
-                    "xuatxuthuonghieu": "Việt Nam",
-                    "sanxuattai": "Việt Nam",
-                    "baohanh": "24 tháng"
+                    "name": "Công suất",
+                    "value": "125W"
+                },
+                {
+                    "name": "Động cơ",
+                    "value": "Dây đồng"
+                },
+                {
+                    "name": "Điều khiển từ xa",
+                    "value": "Không"
+                },
+                {
+                    "name": "Hẹn giờ",
+                    "value": "Không"
+                },
+                {
+                    "name": "Tốc độ gió",
+                    "value": "3 tốc độ"
+                },
+                {
+                    "name": "Nguồn điện áp",
+                    "value": "220V/50Hz"
+                },
+                {
+                    "name": "Trọng lượng sản phẩm",
+                    "value": "11kg"
+                },
+                {
+                    "name": "Kích thước",
+                    "value": "Cao x rộng x sâu (98.5cm x 49.5cm x 33cm)"
+                },
+                {
+                    "name": "Xuất xứ thương hiệu",
+                    "value": "Việt Nam"
+                },
+                {
+                    "name": "Sản xuất tại",
+                    "value": "Việt Nam"
+                },
+                {
+                    "name": "Bảo hành",
+                    "value": "24 tháng"
                 }
             ],
             "mausac": [
@@ -545,6 +595,28 @@
             "id": 2,
             "ten": "Quạt phun sương công nghiệp Mitsuta DB-26CF03",
             "anhHienThi": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2019/05/15/quat-phun-suong-cong-nghiep-mitsuta-db-26cf03.jpg",
+            "listAnh": [
+                {
+                    "id": 1,
+                    "hinh": "https://st.meta.vn/Data/image/2022/08/02/quat-phun-suong-cong-nghiep-mitsuta-db-26cf03-a.jpg",
+                    "tenHinh": "Quạt phun sương công nghiệp Mitsuta DB-26CF03"
+                },
+                {
+                    "id": 2,
+                    "hinh": "https://st.meta.vn/Data/image/2022/08/02/quat-phun-suong-cong-nghiep-mitsuta-db-26cf03-1.jpg",
+                    "tenHinh": "Quạt phun sương công nghiệp Mitsuta DB-26CF03"
+                },
+                {
+                    "id": 3,
+                    "hinh": "https://st.meta.vn/Data/Image/2023/11/30/quat-phun-suong-cong-nghiep-mitsuta-db-26cf03.jpg",
+                    "tenHinh": "Quạt phun sương công nghiệp Mitsuta DB-26CF03"
+                },
+                {
+                    "id": 4,
+                    "hinh": "https://st.meta.vn/Data/Image/2023/11/30/quat-phun-suong-cong-nghiep-mitsuta-db-26cf03-1.jpg",
+                    "tenHinh": "Quạt phun sương công nghiệp Mitsuta DB-26CF03"
+                }
+            ],
             "gia": {
                 "giaGoc": "3.900.000 đ",
                 "giaSale": "3.190.000 đ",
@@ -559,20 +631,40 @@
             },
             "thongSo": [
                 {
-                    "congsuat": "260W",
-                    "dongco": null,
-                    "loimoto": null,
-                    "saicanh": "65cm",
-                    "dieukhientuxa": null,
-                    "hengio": null,
-                    "socanhquat": "3 cánh",
-                    "tocdogio": "3 tốc độ",
-                    "nguondienap": "110V-240V/50Hz-60Hz",
-                    "trongluongsanpham": "22kg",
-                    "kichthuoc": null,
-                    "xuatxuthuonghieu": "Việt Nam",
-                    "sanxuattai": "Trung Quốc",
-                    "baohanh": "Bơm (6 tháng), Động cơ (12 tháng)"
+                    "name": "Công suất",
+                    "value": "260W"
+                },
+                {
+                    "name": "Sải cánh",
+                    "value": "65cm"
+                },
+                {
+                    "name": "Số cánh quạt",
+                    "value": "3 cánh"
+                },
+                {
+                    "name": "Tốc độ gió",
+                    "value": "3 tốc độ"
+                },
+                {
+                    "name": "Nguồn điện áp",
+                    "value": "110V-240V/50Hz-60Hz"
+                },
+                {
+                    "name": "Trọng lượng sản phẩm",
+                    "value": "22kg"
+                },
+                {
+                    "name": "Xuất xứ thương hiệu",
+                    "value": "Việt Nam"
+                },
+                {
+                    "name": "Sản xuất tại",
+                    "value": "Trung Quốc"
+                },
+                {
+                    "name": "Bảo hành",
+                    "value": "Bơm (6 tháng), Động cơ (12 tháng)"
                 }
             ],
             "mausac": [
@@ -632,20 +724,40 @@
             },
             "thongSo": [
                 {
-                    "congsuat": "48W",
-                    "dongco": null,
-                    "loimoto": null,
-                    "saicanh": "40cm",
-                    "dieukhientuxa": null,
-                    "hengio": null,
-                    "socanhquat": "3 cánh",
-                    "tocdogio": "3 tốc độ",
-                    "nguondienap": "220V",
-                    "trongluongsanpham": "4.6kg",
-                    "kichthuoc": null,
-                    "xuatxuthuonghieu": "Nhật Bản",
-                    "sanxuattai": "Thái Lan",
-                    "baohanh": "12 tháng"
+                    "name": "Công suất",
+                    "value": "48W"
+                },
+                {
+                    "name": "Sải cánh",
+                    "value": "40cm"
+                },
+                {
+                    "name": "Số cánh quạt",
+                    "value": "3 cánh"
+                },
+                {
+                    "name": "Tốc độ gió",
+                    "value": "3 tốc độ"
+                },
+                {
+                    "name": "Nguồn điện áp",
+                    "value": "220V"
+                },
+                {
+                    "name": "Trọng lượng sản phẩm",
+                    "value": "4.6kg"
+                },
+                {
+                    "name": "Xuất xứ thương hiệu",
+                    "value": "Nhật Bản"
+                },
+                {
+                    "name": "Sản xuất tại",
+                    "value": "Thái Lan"
+                },
+                {
+                    "name": "Bảo hành",
+                    "value": "12 tháng"
                 }
             ],
             "mausac": [
@@ -742,6 +854,7 @@
             "id": 5,
             "ten": "Điều hòa di động thông minh FujiHome PAC09",
             "anhHienThi": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2022/06/20/may-dieu-hoa-di-dong-thong-minh-fujihome-pac09-300.jpg",
+            "anhHienThi2": "https://st.meta.vn/Data/image/2022/05/10/quat-dung-senko-co-dieu-khien-tu-xa-dr1608.jpg",
             "gia": {
                 "giaGoc": "6.800.000 đ",
                 "giaSale": "5.250.000 đ",

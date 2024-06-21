@@ -9,7 +9,10 @@ app.config(function ($routeProvider) {
     .when("/quat", {
       templateUrl: "quat.html",
       controller: "quatController"
-
+    })
+    .when("/detailQuat/:id", {
+      templateUrl: "detailquat.html",
+      controller: "detailQuatController"
     })
 });
 
@@ -84,6 +87,22 @@ app.controller('quatController', function ($scope, $http) {
   });
 });
 
+app.controller('detailQuatController', function ($scope, $http, $routeParams) {
+  $http.get(URL_API + "quat/" + $routeParams.id).then(function (response) {
+    $scope.quat = response.data;
+    if (response.data.listAnh && response.data.listAnh.length > 0) {
+      $scope.firstImage = response.data.listAnh[0];
+    }
+
+    $scope.thongTinSP = response.data.thongTinSP;
+    $scope.thongTinSPthunhatvathuhai = $scope.thongTinSP.slice(0, 2);
+
+    $scope.thongTinSPconlai = $scope.thongTinSP.slice(2);
+    }, function (error) {
+    console.error('Error occurred:', error);
+  });
+});
+
 app.directive('showMoreItem', function () {
   return {
     restrict: 'C',
@@ -115,6 +134,31 @@ app.directive('dontShowMoreItem', function () {
         angular.element(element).css('display', 'none');
         var showMoreButton = document.querySelector('.show-more-item');
         angular.element(showMoreButton).css('display', 'flex');
+      });
+    }
+  };
+});
+
+app.directive('quantityControl', function () {
+  return {
+    restrict: 'A',
+    link: function (scope, element, attrs) {
+      var btnMinus = element[0].querySelector('#btnMinus');
+      var btnPlus = element[0].querySelector('#btnPlus');
+      var txtQty = element[0].querySelector('#txtQty');
+
+      btnMinus.addEventListener('click', function () {
+        var currentValue = parseInt(txtQty.value);
+        if (!isNaN(currentValue) && currentValue > 1) {
+          txtQty.value = currentValue - 1;
+        }
+      });
+
+      btnPlus.addEventListener('click', function () {
+        var currentValue = parseInt(txtQty.value);
+        if (!isNaN(currentValue)) {
+          txtQty.value = currentValue + 1;
+        }
       });
     }
   };
