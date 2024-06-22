@@ -1,0 +1,81 @@
+/* Hide the default checkbox */
+$color-checkbox: #2196f3;
+.custom-checkbox input[type="checkbox"] {
+  display: none;
+}
+.custom-checkbox {
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.custom-checkbox input[type="checkbox"]+.linkToCheckBox::before {
+  content: '';
+  display: inline-block;
+  width: 1.1rem;
+  height: 1.1rem;
+  border: 1px solid $color-checkbox;
+  border-radius: 3px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.custom-checkbox input[type="checkbox"]:checked+.linkToCheckBox::before {
+  background-color: $color-checkbox;
+  border: 1px solid $color-checkbox;
+}
+
+.custom-checkbox input[type="checkbox"]:checked+.linkToCheckBox::before {
+  content: '\2714';
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkToCheckBox {
+  display: flex;
+  align-items: center;
+
+  .numberOfProducts {
+    color: $color-gray;
+    margin-left: 5px;
+    color: gray;
+    font-size: 14px;
+  }
+}
+
+.custom-textInput {
+  width: 95%;
+  position: relative;
+
+  input[type="text"] {
+    width: 90%;
+    border: 1px solid $color-background-primary;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  input[type="text"]:focus {
+    outline: none;
+    border-color: initial; /* hoặc bất kỳ màu nào bạn muốn */
+    box-shadow: none;
+  }
+  .textInput {
+    padding: 5px;
+  }
+  .search-icon {
+    color: $color-white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 16px;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    background-color: $color-star;
+  }
+}
