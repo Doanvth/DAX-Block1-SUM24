@@ -164,7 +164,7 @@
                     <div class="startBox title text-uppercase text-center">
                         CÁC LOẠI BẾP
                     </div>
-                    <ul class="list-group list-categories" ng-repeat="cate in stove.stovecategories">
+                    <ul class="list-group list-categories" ng-repeat="cate in stove">
                         <li class="list-group-item list-categories-item">
                             <a class="category dropdown" href="#">
                                 <div>
@@ -198,8 +198,7 @@
                             </span>
                         </div>
 
-                        <li class="list-group-item list-categories-item pb-0 "
-                            ng-repeat="item in stove.brands | limitTo:10">
+                        <li class="list-group-item list-categories-item pb-0 " ng-repeat="item in brands | limitTo:10">
                             <a href="#" class="text-dark">
                                 <p class="mb-1">
                                     <input type="checkbox" class="">
@@ -239,8 +238,7 @@
                     </div>
 
                     <ul class="list-group list-categories">
-                        <li class="list-group-item list-categories-item pb-0"
-                            ng-repeat="item in stove.brands | limitTo: 10">
+                        <li class="list-group-item list-categories-item pb-0" ng-repeat="item in brands | limitTo: 10">
                             <a href="#" class="text-dark">
                                 <p class="mb-1">
                                     <input type="checkbox" class="">
@@ -365,8 +363,7 @@
                         NƠI SẢN XUẤT
                     </div>
                     <ul class="list-group list-categories">
-                        <li class="list-group-item list-categories-item pb-0"
-                            ng-repeat="item in stove.brands | limitTo: 10">
+                        <li class="list-group-item list-categories-item pb-0" ng-repeat="item in brands | limitTo: 10">
                             <a href="#" class="text-dark">
                                 <p class="mb-1">
                                     <input type="checkbox" class="">
@@ -376,7 +373,7 @@
                             </a>
                         </li>
                         <div class="collapse collapse-horizontal bg-white" id="collapseWidthExample2"
-                            ng-repeat="item in stove.brands | limitTo: 10 : 10">
+                            ng-repeat="item in brands | limitTo: 10 : 10">
                             <a href="#" class="text-dark text-decoration-none">
                                 <p class="mb-1">
                                     <input type="checkbox" class="">
@@ -403,7 +400,7 @@
                 <div class="row bg-white ms-3 me-1">
                     <div class="col-md-11">
                         <ul class="list_logo_brand_head p-0">
-                            <li class="shead-brand-item" ng-repeat="item in stove.brands | limitTo : 17">
+                            <li class="shead-brand-item" ng-repeat="item in brands | limitTo : 17">
                                 <a href="#">
                                     <img class="list_logo_brand_image" src="{{item.image}}" />
                                 </a>
@@ -414,8 +411,7 @@
                                 </a>
                             </li>
 
-                            <li class="shead-brand-item item-hidden"
-                                ng-repeat="item in stove.brands | limitTo : 4 : 17">
+                            <li class="shead-brand-item item-hidden" ng-repeat="item in brands | limitTo : 4 : 17">
                                 <a href="/cay-nuoc-nong-lanh-c565?brands=2730" title="Cây nước nóng lạnh Kangaroo"
                                     data-title="Kangaroo" data-bid="2730" data-redirect="0">
                                     <img class="list_logo_brand_image" src="{{item.image}}" alt="Kangaroo" />
@@ -457,58 +453,61 @@
                         </li>
                     </ul>
                 </div>
-                <div class="row ms-3 me-1 bg-white" ng-repeat="pro in stove.stovecategories">
-                    <div class="col-md-3 mt-2 mb-2" ng-repeat="item in pro.products">
-                        <div class="bep-custom w-100 bg-white">
-                            <a href="">
-                                <div class="position-relative box-img">
-                                    <img src="{{item.hinh}}" class="card-img-top pt-2" alt="...">
-                                    <span
-                                        class="position-absolute top-product align-product translate-middle pt-1 pb-1 pe-2 ps-2 badge rounded-5">
-                                        {{item.phanTramGiamGia}}
-                                    </span>
-                                    <p class="tra-gop position-absolute mb-0">Trả góp</p>
+                <div ng-repeat="stove in stove">
+                    <div class="row ms-3 me-1 bg-white"  ng-repeat="pro in stove.subcategories">
+                        <div class="col-md-3 mt-2 mb-2" ng-repeat="item in pro.products">
+                            <div class="bep-custom w-100 bg-white">
+                                <a href="#!/detailstove/{{item.id}}">
+                                    <div class="position-relative box-img">
+                                        <img src="{{item.hinh}}" class="card-img-top pt-2" alt="...">
+                                        <span
+                                            class="position-absolute top-product align-product translate-middle pt-1 pb-1 pe-2 ps-2 badge rounded-5">
+                                            {{item.phanTramGiamGia}}
+                                        </span>
+                                        <p class="tra-gop position-absolute mb-0">Trả góp</p>
+                                    </div>
+                                </a>
+                                <div class="ps-2 pe-2 lh-1">
+                                    <a href="" class="text-decoration-none">
+                                        <div class="row">
+                                            <div class="col-md-7">
+                                                <img class="gift-icon img-fluid" src="image/bep/gift.png" alt="">
+                                                <span class="text-gift-icon">
+                                                    TẶNG QUÀ
+                                                </span>
+                                            </div>
+                                            <div class="col-md-5 float-end">
+                                                <p class="float-end so-sanh">
+                                                    <i class="bi bi-plus-circle"></i>
+                                                    So sánh
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="card-title bep-cart-title">{{item.ten}}</p>
+                                        <p class="card-text bep-custom-card-text m-0 mt-5">
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                                            ({{item.danhGia}})
+                                        </p>
+                                        <div class="row">
+                                            <p class="col-lg-6 bep-price">{{item.giamGia|number:0}} đ</p>
+                                            <p class="col-lg-6 bep-sale">{{item.gia|number:0}} đ</p>
+                                        </div>
+
+                                    </a>
+                                    <a href="#" class="btn-mua-ngay btn btn-primary mt-4 rounded-1 w-100">MUA
+                                        NGAY
+                                    </a>
                                 </div>
-                            </a>
-                            <div class="ps-2 pe-2 lh-1">
-                                <a href="" class="text-decoration-none">
-                                    <div class="row">
-                                        <div class="col-md-7">
-                                            <img class="gift-icon img-fluid" src="image/bep/gift.png" alt="">
-                                            <span class="text-gift-icon">
-                                                TẶNG QUÀ
-                                            </span>
-                                        </div>
-                                        <div class="col-md-5 float-end">
-                                            <p class="float-end so-sanh">
-                                                <i class="bi bi-plus-circle"></i>
-                                                So sánh
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <p class="card-title bep-cart-title">{{item.ten}}</p>
-                                    <p class="card-text bep-custom-card-text m-0 mt-5">
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                                        ({{item.danhGia}})
-                                    </p>
-                                    <div class="row">
-                                        <p class="col-lg-6 bep-price">{{item.giamGia|number:0}} đ</p>
-                                        <p class="col-lg-6 bep-sale">{{item.gia|number:0}} đ</p>
-                                    </div>
-
-                                </a>
-                                <a href="#" class="btn-mua-ngay btn btn-primary mt-4 rounded-1 w-100">MUA
-                                    NGAY
-                                </a>
                             </div>
-                        </div>
 
+                        </div>
                     </div>
                 </div>
+
                 <div class="row ms-3 me-1 mt-3 bg-white">
                     <div class="product-viewed custom-text-bot-header" data-max="12">
                         <div class="title-bar-hl">

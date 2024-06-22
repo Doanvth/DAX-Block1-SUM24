@@ -1,517 +1,510 @@
 {
-    "stove": {
-        "stovecategories": [
-            {
-                "id": 1,
-                "name": "Bếp từ",
-                "image": "https://meta.vn/icons/cats/413.png",
-                "subcategories": [
-                    {
-                        "id": 1,
-                        "name": "Bếp từ đơn"
-                    },
-                    {
-                        "id": 2,
-                        "name": "Bếp từ dương"
-                    },
-                    {
-                        "id": 3,
-                        "name": "Bếp từ âm"
-                    },
-                    {
-                        "id": 4,
-                        "name": "Bếp từ công nghiệp"
-                    }
-                ],
-                "products": [
-                    {
-                        "id": 1,
-                        "ten": "Bếp từ đơn Sunhouse SHD6157",
-                        "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-300.jpg",
-                        "gia": 850000,
-                        "giamGia": 690000,
-                        "danhGia": 262,
-                        "phanTramGiamGia": "-29%",
-                        "thuongHieu": [
-                            {
-                                "id": 1,
-                                "ten": "Sunhouse"
-                            },
-                            {
-                                "id": 2,
-                                "ten": "Bếp từ đơn Sunhose"
-                            }
-                        ],
-                        "trangThai": "Còn hàng",
-                        "thongSo": [
-                            {
-                                "id": 1,
-                                "loaiBep": "Bếp từ đơn",
-                                "loaiNoi": [
-                                    {
-                                        "id": 1,
-                                        "ten": "Chảo có đế từ"
-                                    },
-                                    {
-                                        "id": 2,
-                                        "ten": "Nồi có đế từ"
-                                    }
-                                ],
-                                "cheDoNau": "7 chế độ",
-                                "mamTu": "Đồng",
-                                "chatLieuMatBep": "Ceramic",
-                                "nguonDienAp": "220V/50Hz",
-                                "bangDieuKhien": "Cơ",
-                                "henGio": "Cơ",
-                                "khoaTreEm": "Không",
-                                "tuNgatKhiQuaNhiet": "Có",
-                                "soLuongBep": 1,
-                                "congSuat": "1.800W",
-                                "phuKien": "Nồi lẩu inox",
-                                "kichThuoc": "39.5cm x 31cm x 16.5cm",
-                                "trongLuong": "3,22kg",
-                                "sanXuatTai": "Trung Quốc",
-                                "xuatSuThuongHieu": "Việt Nam",
-                                "baoHanh": "12 tháng"
-                            }
-                        ],
-                        "thongTin": [
-                            {
-                                "id": 1,
-                                "tieuDe": "Sunhouse SHD6157 thiết kế mẫu mã sang trọng",
-                                "noiDung": "Sunhouse SHD6157 thiết kế gồm 1 vùng nấu với kiểu dáng hình chữ nhật bo tròn góc cạnh mềm mại. Mặt bếp màu đen, bằng phẳng dễ lau chùi vệ sinh. Chân bếp có bọc cao su chống trơn trượt, đảm bảo an toàn trong quá trình nấu nướng. ",
-                                "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-g.jpg",
-                                "tenHinh": "Bếp từ đơn Sunhouse SHD6157",
-                                "noiDung2": null,
-                                "hinh2": null,
-                                "tenHinh2": null
-                            },
-                            {
-                                "id": 2,
-                                "tieuDe": "Mặt kính chịu lực, chịu nhiệt tốt",
-                                "noiDung": "Bề mặt bếp từ đơn được làm từ kính ceramic cường lực, chống trầy xước, có khả năng chịu được nhiệt độ lên đến 760 độ C hạn chế nứt vỡ, cho độ bền cao. ",
-                                "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-6.jpg",
-                                "tenHinh": "Bếp từ có mặt kính siêu bền",
-                                "noiDung2": null,
-                                "hinh2": null,
-                                "tenHinh2": null
-                            },
-                            {
-                                "id": 3,
-                                "tieuDe": "Bảng điều khiển nút nhấn",
-                                "noiDung": "Bếp từ Sunhouse sử dụng bảng điều khiển dạng nút cơ nổi thao tác bấm đơn giản, chính xác, độ nhạy cao giúp bạn lựa chọn chế độ nấu và chỉnh nhiệt độ nhanh chóng. Bảng điều khiển bằng ngôn ngữ tiếng Việt hiểu, có màn hình LED để quan sát mức công suất của bếp rất tiện lợi. ",
-                                "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-5.jpg",
-                                "tenHinh": "Bảng điều khiển dễ sử dụng",
-                                "noiDung2": null,
-                                "hinh2": null,
-                                "tenHinh2": null
-                            },
-                            {
-                                "id": 4,
-                                "tieuDe": "Công suất lớn nấu ăn nhanh",
-                                "noiDung": "Bếp từ vận hành với công suất 1800W cùng công nghệ làm nóng bằng từ trường giúp truyền nhiệt nhanh, rút ngắn thời gian nấu nướng. ",
-                                "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-4.jpg",
-                                "tenHinh": "Bếp từ truyền nhiệt nhanh",
-                                "noiDung2": "Bếp từ chỉ làm nóng vùng nấu mà không bị phát nhiệt ra cả bề mặt bếp, giúp hạn chế tỏa nhiệt ra môi trường xung quanh, vừa góp phần tiết kiệm điện năng, vừa đảm bảo an toàn khi sử dụng.",
-                                "hinh2": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-3.jpg",
-                                "tenHinh2": "Bếp từ tiết kiệm điện"
-                            },
-                            {
-                                "id": 5,
-                                "tieuDe": "7 chế độ nấu cài đặt sẵn",
-                                "noiDung": "Bếp từ được cài đặt sẵn 7 chế độ gồm: Nấu lẩu, giữ ấm, súp, hầm, hấp, xào, chiên. Tùy theo món ăn mà bạn có thể tùy chọn chế độ và điều chỉnh công suất cũng như hẹn giờ nấu phù hợp. ",
-                                "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-2.jpg",
-                                "tenHinh": "Bếp từ tiện lợi với 7 chế độ nấu cài đặt sẵn",
-                                "noiDung2": null,
-                                "hinh2": null,
-                                "tenHinh2": null
-                            },
-                            {
-                                "id": 6,
-                                "tieuDe": "Chức năng hẹn giờ tắt tự động",
-                                "noiDung": "Bếp từ SHD6157 có chức năng hẹn giờ giúp bạn lựa chọn thời gian nấu nướng phù hợp với từng món ăn (từ 0 - 3 giờ) giúp bạn không phải canh chừng bếp, có thêm thời gian để dọn đẹp các công việc khác hoặc nghỉ ngơi. ",
-                                "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-1.jpg",
-                                "tenHinh": "Bếp từ có hẹn giờ",
-                                "noiDung2": null,
-                                "hinh2": null,
-                                "tenHinh2": null
-                            },
-                            {
-                                "id": 7,
-                                "tieuDe": "Dễ dàng theo dõi điện năng tiêu thụ",
-                                "noiDung": "Để thực hiện chức năng này bạn hãy nhấn phím 'Điện năng' lần 1, bạn sẽ thấy mức tiêu hao năng lượng trên màn hình LED. Sau 5 giây thì màn hình sẽ tự động trở lại ban đầu.",
-                                "hinh": null,
-                                "tenHinh": null,
-                                "noiDung2": null,
-                                "hinh2": null,
-                                "tenHinh2": null
-                            },
-                            {
-                                "id": 8,
-                                "tieuDe": "Tự ngắt điện khi quá tải nhiệt",
-                                "noiDung": "Bếp từ được trang bị tính năng bảo vệ khi dòng điện bị quá tải. Khi nồi quá nóng, bếp sẽ tự động tắt, còi báo. Bạn chỉ cần chờ vài phút để bếp nguội sau đó bật bếp lên và sử dụng bình thường.",
-                                "hinh": null,
-                                "tenHinh": null,
-                                "noiDung2": null,
-                                "hinh2": null,
-                                "tenHinh2": null
-                            }
-                        ]
-                    },
-                    {
-                        "id": 2,
-                        "ten": "Bếp từ đơn Sunhouse SHD6803",
-                        "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2021/12/19/bep-tu-don-sunhouse-shd6803-3.jpg",
-                        "gia": 990000,
-                        "giamGia": 850000,
-                        "danhGia": 29,
-                        "phanTramGiamGia": "-14%",
-                        "thuongHieu": null,
-                        "trangThai": "Còn hàng",
-                        "thongSo": null,
-                        "thongTin": null
-                    },
-                    {
-                        "id": 3,
-                        "ten": "Bếp gas dương hồng ngoại Sunhouse SHB004MT",
-                        "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2021/05/24/bep-gas-duong-hong-ngoai-sunhouse-shb004mt-nho.jpg",
-                        "gia": 890000,
-                        "giamGia": 650000,
-                        "danhGia": 13,
-                        "phanTramGiamGia": "-27%",
-                        "thuongHieu": null,
-                        "trangThai": "Còn hàng",
-                        "thongSo": null,
-                        "thongTin": null
-                    },
-                    {
-                        "id": 4,
-                        "ten": "Bếp điện từ đa năng Nagakawa NAG0716",
-                        "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2022/10/24/bep-dien-tu-nagakawa-nag0716-300.jpg",
-                        "gia": 3179000,
-                        "giamGia": 2490000,
-                        "danhGia": 3,
-                        "phanTramGiamGia": "-22%",
-                        "thuongHieu": null,
-                        "trangThai": "Còn hàng",
-                        "thongSo": null,
-                        "thongTin": null
-                    },
-                    {
-                        "id": 5,
-                        "ten": "Bếp hồng ngoại cảm ứng Sunhouse SHD6015",
-                        "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2022/08/24/sunhouse-shd6015-a.jpg",
-                        "gia": 1090000,
-                        "giamGia": 859000,
-                        "danhGia": 3,
-                        "phanTramGiamGia": "-21%",
-                        "thuongHieu": null,
-                        "trangThai": "Còn hàng",
-                        "thongSo": null,
-                        "thongTin": null
-                    },
-                    {
-                        "id": 6,
-                        "ten": "Bếp đôi điện từ Nagakawa NK2C05MB",
-                        "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2022/02/24/bep-doi-dien-tu-nagakawa-nk2c05mb-300.jpg",
-                        "gia": 12950000,
-                        "giamGia": 11999000,
-                        "danhGia": 8,
-                        "phanTramGiamGia": "-951K",
-                        "thuongHieu": null,
-                        "trangThai": "Còn hàng",
-                        "thongSo": null,
-                        "thongTin": null
-                    },
-                    {
-                        "id": 7,
-                        "ten": "Bếp điện từ đa năng Nagakawa NAG0717",
-                        "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2022/10/24/bep-dien-tu-nagakawa-nag0717-300.jpg",
-                        "gia": 2490000,
-                        "giamGia": 2590000,
-                        "danhGia": 8,
-                        "phanTramGiamGia": "-100K",
-                        "thuongHieu": null,
-                        "trangThai": "Còn hàng",
-                        "thongSo": null,
-                        "thongTin": null
-                    },
-                    {
-                        "id": 8,
-                        "ten": "Bếp gas du lịch Maxsun MS3500",
-                        "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2019/07/10/bep-gas-du-lich-maxsun-ms3500-300.jpg",
-                        "gia": 350000,
-                        "giamGia": 302000,
-                        "danhGia": 10,
-                        "phanTramGiamGia": "-14%",
-                        "thuongHieu": null,
-                        "trangThai": "Còn hàng",
-                        "thongSo": null,
-                        "thongTin": null
-                    },
-                    {
-                        "id": 9,
-                        "ten": "Bếp điện từ đơn Toshiba IC-20R1SV",
-                        "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2023/10/22/bep-dien-tu-don-toshiba-ic-20r1sv-300.jpg",
-                        "gia": 1450000,
-                        "giamGia": 1290000,
-                        "danhGia": 5,
-                        "phanTramGiamGia": "-11%",
-                        "thuongHieu": null,
-                        "trangThai": "Còn hàng",
-                        "thongSo": null,
-                        "thongTin": null
-                    },
-                    {
-                        "id": 10,
-                        "ten": "Bếp gas bán công nghiệp Rinnai RTL-35KS",
-                        "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2020/04/09/bep-gas-cong-nghiep-rinnai-rtl-35ks-300.jpg",
-                        "gia": 3500000,
-                        "giamGia": 3230000,
-                        "danhGia": 5,
-                        "phanTramGiamGia": "-270K",
-                        "thuongHieu": null,
-                        "trangThai": "Còn hàng",
-                        "thongSo": null,
-                        "thongTin": null
-                    },
-                    {
-                        "id": 11,
-                        "ten": "Bếp ga Sunhouse SHB204MT",
-                        "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2019/11/05/bep-ga-sunhouse-shb204mt-300.jpg",
-                        "gia": 630000,
-                        "giamGia": 820000,
-                        "danhGia": 5,
-                        "phanTramGiamGia": "-23%",
-                        "thuongHieu": null,
-                        "trangThai": "Còn hàng",
-                        "thongSo": null,
-                        "thongTin": null
-                    },
-                    {
-                        "id": 12,
-                        "ten": "Bếp từ đôi Electrolux EHI7280BB",
-                        "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2023/12/15/bep-tu-doi-electrolux-ehi7280bb-a.jpg",
-                        "gia": 11883000,
-                        "giamGia": 6990000,
-                        "danhGia": 5,
-                        "phanTramGiamGia": "-41%",
-                        "thuongHieu": null,
-                        "trangThai": "Còn hàng",
-                        "thongSo": null,
-                        "thongTin": null
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "name": "Bếp hồng ngoại",
-                "image": "https://meta.vn/icons/cats/648.png",
-                "subcategories": [
-                    {
-                        "id": 1,
-                        "name": "Bếp hồng ngoại đơn"
-                    },
-                    {
-                        "id": 2,
-                        "name": "Bếp hồng ngoại đôi"
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "name": "Bếp ga",
-                "image": "https://meta.vn/icons/cats/451.png",
-                "subcategories": [
-                    {
-                        "id": 1,
-                        "name": "Bếp ga dương"
-                    },
-                    {
-                        "id": 2,
-                        "name": "Bếp ga âm"
-                    },
-                    {
-                        "id": 1,
-                        "name": "Bếp ga mini, Bếp ga du lịch"
-                    },
-                    {
-                        "id": 2,
-                        "name": "Bếp ga hồng ngoại"
-                    },
-                    {
-                        "id": 1,
-                        "name": "Bếp ga công nghiệp, bếp khè"
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "name": "Bếp hỗn hợp",
-                "image": "https://meta.vn/icons/cats/775.png"
-            }
-        ],
-        "brands": [
-            {
-                "id": 1,
-                "name": "Sunhouse",
-                "count": 45,
-                "supplier": "EU",
-                "price": "200K - 500K",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/18/logo-sunhouse-nho.png"
-            },
-            {
-                "id": 2,
-                "name": "Goldsun",
-                "count": 15,
-                "supplier": "Châu Âu",
-                "price": "500K - 1 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/24/logo-goldsun-nho.png"
-            },
-            {
-                "id": 3,
-                "name": "Tiross",
-                "count": 5,
-                "supplier": "Hàn Quốc",
-                "price": "1 triệu - 1,5 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Tiross-Logo-35.png"
-            },
-            {
-                "id": 4,
-                "name": "Electrolux",
-                "count": 13,
-                "supplier": "Nhật Bản",
-                "price": "1,5 triệu - 2 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/25/logo-electrolux-nho.png"
-            },
-            {
-                "id": 5,
-                "name": "Nagakawa",
-                "count": 13,
-                "supplier": "Mỹ",
-                "price": "2,5 triệu - 3 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2022/08/20/logo-nagakawa-nho.png"
-            },
-            {
-                "id": 6,
-                "name": "Creen",
-                "count": 3,
-                "supplier": "Đài Loan",
-                "price": "3 triệu - 3,5 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/07/08/logo-creen-nho.png"
-            },
-            {
-                "id": 7,
-                "name": "Hafele",
-                "count": 23,
-                "supplier": "Trung Quốc",
-                "price": "3,5 triệu - 4 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2018/03/8/hafele-logo-35.png"
-            },
-            {
-                "id": 8,
-                "name": "Elmich",
-                "count": 8,
-                "supplier": "Anh",
-                "price": "4 triệu - 4,5 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Elmich-Logo-35.png"
-            },
-            {
-                "id": 9,
-                "name": "Sunhouse",
-                "count": 45,
-                "supplier": "Đức",
-                "price": "4,5 triệu - 5 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-midea-nho.png"
-            },
-            {
-                "id": 10,
-                "name": "Midea",
-                "count": 9,
-                "supplier": "Pháp",
-                "price": "5 triệu - 8 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2020/09/30/logo-dreamer-nho.png"
-            },
-            {
-                "id": 11,
-                "name": "Panasonic",
-                "count": 34,
-                "supplier": "Malaysia",
-                "price": "8 triệu - 10 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Panasonic-Logo-500.png"
-            },
-            {
-                "id": 12,
-                "name": "Kalite",
-                "count": 26,
-                "supplier": "Thái Lan",
-                "price": "10 triệu - 12 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2020/06/15/kalite-logo-35.png"
-            },
-            {
-                "id": 13,
-                "name": "Funiki",
-                "count": 12,
-                "supplier": "Thổ Nhĩ Kỳ",
-                "price": "12 triệu - 14 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-funiki-to.png"
-            },
-            {
-                "id": 14,
-                "name": "Sato",
-                "count": 6,
-                "supplier": "Việt Nam",
-                "price": "14 triệu - 16 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2019/08/12/sato-logo-35.png"
-            },
-            {
-                "id": 15,
-                "name": "WMF",
-                "count": 7,
-                "supplier": "Italya",
-                "price": "16 triệu - 20 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/04/05/logo-wmf-nho.png"
-            },
-            {
-                "id": 16,
-                "name": "Fandi",
-                "count": 9,
-                "supplier": "Nga",
-                "price": "20 triệu - 22 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2024/05/30/fandi-logo-35.png"
-            },
-            {
-                "id": 17,
-                "name": "Galen",
-                "count": 1,
-                "supplier": "Romania",
-                "price": "22 triệu - 24 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2022/10/27/logo-galen-nho.png"
-            },
-            {
-                "id": 18,
-                "name": "Saiko",
-                "count": 4,
-                "supplier": "Ba Lan",
-                "price": "24 triệu - 26 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/19/saiko-logo-nho.png"
-            },
-            {
-                "id": 19,
-                "name": "Rapido",
-                "count": 3,
-                "supplier": "Triều Tiên",
-                "price": "26 triệu - 28 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/10/26/rapido-logonho.jpg"
-            },
-            {
-                "id": 20,
-                "name": "Sanaky",
-                "count": 23,
-                "supplier": "Ấn Độ",
-                "price": "28 triệu - 30 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-sanaky-nho.png"
-            }
-        ]
-    }
+    "stove": [
+        {
+            "id": 1,
+            "name": "Bếp từ",
+            "image": "https://meta.vn/icons/cats/413.png",
+            "subcategories": [
+                {
+                    "id": 1,
+                    "name": "Bếp từ đơn",
+                    "products": [
+                        {
+                            "id": 1,
+                            "ten": "Bếp từ đơn Sunhouse SHD6157",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-300.jpg",
+                            "hinh2": "https://st.meta.vn/Data/image/2023/11/28/bep-hong-ngoai-co-sunhouse-shd6011-1.jpg",
+                            "hinh3": "https://st.meta.vn/Data/image/2023/11/28/bep-hong-ngoai-co-sunhouse-shd6011-2.jpg",
+                            "gia": 850000,
+                            "giamGia": 690000,
+                            "danhGia": 262,
+                            "phanTramGiamGia": "-29%",
+                            "thuongHieu": "Sunhouse",
+                            "trangThai": "Còn hàng",
+                            "thongSo": [
+                                {
+                                    "id": 1,
+                                    "loaiBep": "Bếp từ đơn",
+                                    "loaiNoi": "Chảo có đế từ, Nồi có đế từ",
+                                    "cheDoNau": "7 chế độ",
+                                    "mamTu": "Đồng",
+                                    "chatLieuMatBep": "Ceramic",
+                                    "nguonDienAp": "220V/50Hz",
+                                    "bangDieuKhien": "Cơ",
+                                    "henGio": "Cơ",
+                                    "khoaTreEm": "Không",
+                                    "tuNgatKhiQuaNhiet": "Có",
+                                    "congSuat": "1.800W",
+                                    "phuKien": "Nồi lẩu inox",
+                                    "kichThuoc": "39.5cm x 31cm x 16.5cm",
+                                    "sanXuatTai": "Trung Quốc",
+                                    "xuatSuThuongHieu": "Việt Nam",
+                                    "baoHanh": "12 tháng"
+                                }
+                            ],
+                            "thongTin": [
+                                {
+                                    "id": 1,
+                                    "tieuDe": "Sunhouse SHD6157 thiết kế mẫu mã sang trọng",
+                                    "noiDung": "Sunhouse SHD6157 thiết kế gồm 1 vùng nấu với kiểu dáng hình chữ nhật bo tròn góc cạnh mềm mại. Mặt bếp màu đen, bằng phẳng dễ lau chùi vệ sinh. Chân bếp có bọc cao su chống trơn trượt, đảm bảo an toàn trong quá trình nấu nướng. ",
+                                    "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-g.jpg",
+                                    "tenHinh": "Bếp từ đơn Sunhouse SHD6157",
+                                    "noiDung2": null,
+                                    "hinh2": null,
+                                    "tenHinh2": null
+                                },
+                                {
+                                    "id": 2,
+                                    "tieuDe": "Mặt kính chịu lực, chịu nhiệt tốt",
+                                    "noiDung": "Bề mặt bếp từ đơn được làm từ kính ceramic cường lực, chống trầy xước, có khả năng chịu được nhiệt độ lên đến 760 độ C hạn chế nứt vỡ, cho độ bền cao. ",
+                                    "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-6.jpg",
+                                    "tenHinh": "Bếp từ có mặt kính siêu bền",
+                                    "noiDung2": null,
+                                    "hinh2": null,
+                                    "tenHinh2": null
+                                },
+                                {
+                                    "id": 3,
+                                    "tieuDe": "Bảng điều khiển nút nhấn",
+                                    "noiDung": "Bếp từ Sunhouse sử dụng bảng điều khiển dạng nút cơ nổi thao tác bấm đơn giản, chính xác, độ nhạy cao giúp bạn lựa chọn chế độ nấu và chỉnh nhiệt độ nhanh chóng. Bảng điều khiển bằng ngôn ngữ tiếng Việt hiểu, có màn hình LED để quan sát mức công suất của bếp rất tiện lợi. ",
+                                    "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-5.jpg",
+                                    "tenHinh": "Bảng điều khiển dễ sử dụng",
+                                    "noiDung2": null,
+                                    "hinh2": null,
+                                    "tenHinh2": null
+                                },
+                                {
+                                    "id": 4,
+                                    "tieuDe": "Công suất lớn nấu ăn nhanh",
+                                    "noiDung": "Bếp từ vận hành với công suất 1800W cùng công nghệ làm nóng bằng từ trường giúp truyền nhiệt nhanh, rút ngắn thời gian nấu nướng. ",
+                                    "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-4.jpg",
+                                    "tenHinh": "Bếp từ truyền nhiệt nhanh",
+                                    "noiDung2": "Bếp từ chỉ làm nóng vùng nấu mà không bị phát nhiệt ra cả bề mặt bếp, giúp hạn chế tỏa nhiệt ra môi trường xung quanh, vừa góp phần tiết kiệm điện năng, vừa đảm bảo an toàn khi sử dụng.",
+                                    "hinh2": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-3.jpg",
+                                    "tenHinh2": "Bếp từ tiết kiệm điện"
+                                },
+                                {
+                                    "id": 5,
+                                    "tieuDe": "7 chế độ nấu cài đặt sẵn",
+                                    "noiDung": "Bếp từ được cài đặt sẵn 7 chế độ gồm: Nấu lẩu, giữ ấm, súp, hầm, hấp, xào, chiên. Tùy theo món ăn mà bạn có thể tùy chọn chế độ và điều chỉnh công suất cũng như hẹn giờ nấu phù hợp. ",
+                                    "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-2.jpg",
+                                    "tenHinh": "Bếp từ tiện lợi với 7 chế độ nấu cài đặt sẵn",
+                                    "noiDung2": null,
+                                    "hinh2": null,
+                                    "tenHinh2": null
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "ten": "Bếp từ đơn Sunhouse SHD6803",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2021/12/19/bep-tu-don-sunhouse-shd6803-3.jpg",
+                            "hinh2": "https://st.meta.vn/Data/image/2021/12/19/bep-tu-don-sunhouse-shd6803-1.jpg",
+                            "hinh3": "https://st.meta.vn/Data/Image/2021/12/19/bep-tu-don-sunhouse-shd6803-8.jpg",
+                            "gia": 990000,
+                            "giamGia": 850000,
+                            "danhGia": 29,
+                            "phanTramGiamGia": "-14%",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": [
+                                {
+                                    "id": 1,
+                                    "loaiBep": "Bếp từ đơn",
+                                    "loaiNoi": "Chảo có đế từ, Nồi có đế từ",
+                                    "cheDoNau": "7 chế độ",
+                                    "mamTu": "Đồng",
+                                    "chatLieuMatBep": "Kính Ceramic - Schott Ceran",
+                                    "nguonDienAp": "220V - 240V / 50Hz",
+                                    "bangDieuKhien": "Cảm ứng",
+                                    "henGio": "Có",
+                                    "khoaTreEm": "Có",
+                                    "tuNgatKhiQuaNhiet": "Có",
+                                    "congSuat": "1.800W",
+                                    "phuKien": "Nồi lẩu inox",
+                                    "kichThuoc": "39.5cm x 31cm x 16.5cm",
+                                    "sanXuatTai": "Trung Quốc",
+                                    "xuatSuThuongHieu": "Việt Nam",
+                                    "baoHanh": "12 tháng"
+                                }
+                            ],
+                            "thongTin": [
+                                {
+                                    "id": 1,
+                                    "tieuDe": "Thiết kế nhỏ gọn, thanh lịch",
+                                    "noiDung": "SHD6803 là dòng bếp từ đơn nên có thiết kế khá nhỏ gọn thuận tiện cho việc di chuyển và sử dụng. Thân bếp mỏng, trọng lượng nhẹ giúp người dùng có thể đặt bếp trên bàn bếp, bàn ăn để ăn lẩu,...",
+                                    "hinh": "https://st.meta.vn/Data/image/2021/12/19/bep-tu-don-sunhouse-shd6803-2.jpg",
+                                    "tenHinh": null,
+                                    "noiDung2": null,
+                                    "hinh2": null,
+                                    "tenHinh2": null
+                                },
+                                {
+                                    "id": 2,
+                                    "tieuDe": "Chất liệu bền vững",
+                                    "noiDung": "Bếp từ đơn Sunhouse SHD6803 có màu đen tối giản với mặt kính làm bằng kính ceramic cường lực. Ưu điểm chất liệu dày dặn, chống trầy xước, chống nứt vỡ, chịu nhiệt tốt. ",
+                                    "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-6.jpg",
+                                    "tenHinh": null,
+                                    "noiDung2": "Khả năng chống sốc nhiệt giúp bếp chịu được nhiệt độ 760 độ C (điều kiện phòng thí nghiệm), nhờ đó bạn có thể gia nhiệt linh hoạt khi nấu ăn. Nổi bật trên nền đen là bảng điều khiển và vùng nấu được ký hiệu bằng màu vàng ánh cho bạn thao tác và đặt nồi đúng vị trí nhiệt.Bảng điều khiển dạng cảm ứng siêu nhạy dễ dàng thao tác thông qua các vị trí có ký hiệu bằng hình ảnh và chữ. Bên cạnh đó, bếp còn trang bị màn hình LED hiển thị mức công suất quá trình nấu cho bạn chủ động theo dõi. ",
+                                    "hinh2": "https://st.meta.vn/Data/image/2021/12/19/bep-tu-don-sunhouse-shd6803-7.jpg",
+                                    "tenHinh2": null
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "ten": "Bếp gas dương hồng ngoại Sunhouse SHB004MT",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2021/05/24/bep-gas-duong-hong-ngoai-sunhouse-shb004mt-nho.jpg",
+                            "gia": 890000,
+                            "giamGia": 650000,
+                            "danhGia": 13,
+                            "phanTramGiamGia": "-27%",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": null,
+                            "thongTin": null
+                        },
+                        {
+                            "id": 4,
+                            "ten": "Bếp điện từ đa năng Nagakawa NAG0716",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2022/10/24/bep-dien-tu-nagakawa-nag0716-300.jpg",
+                            "gia": 3179000,
+                            "giamGia": 2490000,
+                            "danhGia": 3,
+                            "phanTramGiamGia": "-22%",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": null,
+                            "thongTin": null
+                        },
+                        {
+                            "id": 5,
+                            "ten": "Bếp hồng ngoại cảm ứng Sunhouse SHD6015",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2022/08/24/sunhouse-shd6015-a.jpg",
+                            "gia": 1090000,
+                            "giamGia": 859000,
+                            "danhGia": 3,
+                            "phanTramGiamGia": "-21%",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": null,
+                            "thongTin": null
+                        },
+                        {
+                            "id": 6,
+                            "ten": "Bếp đôi điện từ Nagakawa NK2C05MB",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2022/02/24/bep-doi-dien-tu-nagakawa-nk2c05mb-300.jpg",
+                            "gia": 12950000,
+                            "giamGia": 11999000,
+                            "danhGia": 8,
+                            "phanTramGiamGia": "-951K",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": null,
+                            "thongTin": null
+                        },
+                        {
+                            "id": 7,
+                            "ten": "Bếp điện từ đa năng Nagakawa NAG0717",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2022/10/24/bep-dien-tu-nagakawa-nag0717-300.jpg",
+                            "gia": 2490000,
+                            "giamGia": 2590000,
+                            "danhGia": 8,
+                            "phanTramGiamGia": "-100K",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": null,
+                            "thongTin": null
+                        },
+                        {
+                            "id": 8,
+                            "ten": "Bếp gas du lịch Maxsun MS3500",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2019/07/10/bep-gas-du-lich-maxsun-ms3500-300.jpg",
+                            "gia": 350000,
+                            "giamGia": 302000,
+                            "danhGia": 10,
+                            "phanTramGiamGia": "-14%",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": null,
+                            "thongTin": null
+                        },
+                        {
+                            "id": 9,
+                            "ten": "Bếp điện từ đơn Toshiba IC-20R1SV",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2023/10/22/bep-dien-tu-don-toshiba-ic-20r1sv-300.jpg",
+                            "gia": 1450000,
+                            "giamGia": 1290000,
+                            "danhGia": 5,
+                            "phanTramGiamGia": "-11%",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": null,
+                            "thongTin": null
+                        },
+                        {
+                            "id": 10,
+                            "ten": "Bếp gas bán công nghiệp Rinnai RTL-35KS",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2020/04/09/bep-gas-cong-nghiep-rinnai-rtl-35ks-300.jpg",
+                            "gia": 3500000,
+                            "giamGia": 3230000,
+                            "danhGia": 5,
+                            "phanTramGiamGia": "-270K",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": null,
+                            "thongTin": null
+                        },
+                        {
+                            "id": 11,
+                            "ten": "Bếp ga Sunhouse SHB204MT",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2019/11/05/bep-ga-sunhouse-shb204mt-300.jpg",
+                            "gia": 630000,
+                            "giamGia": 820000,
+                            "danhGia": 5,
+                            "phanTramGiamGia": "-23%",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": null,
+                            "thongTin": null
+                        },
+                        {
+                            "id": 12,
+                            "ten": "Bếp từ đôi Electrolux EHI7280BB",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2023/12/15/bep-tu-doi-electrolux-ehi7280bb-a.jpg",
+                            "gia": 11883000,
+                            "giamGia": 6990000,
+                            "danhGia": 5,
+                            "phanTramGiamGia": "-41%",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": null,
+                            "thongTin": null
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Bếp từ dương"
+                },
+                {
+                    "id": 3,
+                    "name": "Bếp từ âm"
+                },
+                {
+                    "id": 4,
+                    "name": "Bếp từ công nghiệp"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Bếp hồng ngoại",
+            "image": "https://meta.vn/icons/cats/648.png",
+            "subcategories": [
+                {
+                    "id": 1,
+                    "name": "Bếp hồng ngoại đơn"
+                },
+                {
+                    "id": 2,
+                    "name": "Bếp hồng ngoại đôi"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Bếp ga",
+            "image": "https://meta.vn/icons/cats/451.png",
+            "subcategories": [
+                {
+                    "id": 1,
+                    "name": "Bếp ga dương"
+                },
+                {
+                    "id": 2,
+                    "name": "Bếp ga âm"
+                },
+                {
+                    "id": 1,
+                    "name": "Bếp ga mini, Bếp ga du lịch"
+                },
+                {
+                    "id": 2,
+                    "name": "Bếp ga hồng ngoại"
+                },
+                {
+                    "id": 1,
+                    "name": "Bếp ga công nghiệp, bếp khè"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Bếp hỗn hợp",
+            "image": "https://meta.vn/icons/cats/775.png"
+        }
+    ],
+    "brands": [
+        {
+            "id": 1,
+            "name": "Sunhouse",
+            "count": 45,
+            "supplier": "EU",
+            "price": "200K - 500K",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/18/logo-sunhouse-nho.png"
+        },
+        {
+            "id": 2,
+            "name": "Goldsun",
+            "count": 15,
+            "supplier": "Châu Âu",
+            "price": "500K - 1 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/24/logo-goldsun-nho.png"
+        },
+        {
+            "id": 3,
+            "name": "Tiross",
+            "count": 5,
+            "supplier": "Hàn Quốc",
+            "price": "1 triệu - 1,5 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Tiross-Logo-35.png"
+        },
+        {
+            "id": 4,
+            "name": "Electrolux",
+            "count": 13,
+            "supplier": "Nhật Bản",
+            "price": "1,5 triệu - 2 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/25/logo-electrolux-nho.png"
+        },
+        {
+            "id": 5,
+            "name": "Nagakawa",
+            "count": 13,
+            "supplier": "Mỹ",
+            "price": "2,5 triệu - 3 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2022/08/20/logo-nagakawa-nho.png"
+        },
+        {
+            "id": 6,
+            "name": "Creen",
+            "count": 3,
+            "supplier": "Đài Loan",
+            "price": "3 triệu - 3,5 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/07/08/logo-creen-nho.png"
+        },
+        {
+            "id": 7,
+            "name": "Hafele",
+            "count": 23,
+            "supplier": "Trung Quốc",
+            "price": "3,5 triệu - 4 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2018/03/8/hafele-logo-35.png"
+        },
+        {
+            "id": 8,
+            "name": "Elmich",
+            "count": 8,
+            "supplier": "Anh",
+            "price": "4 triệu - 4,5 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Elmich-Logo-35.png"
+        },
+        {
+            "id": 9,
+            "name": "Sunhouse",
+            "count": 45,
+            "supplier": "Đức",
+            "price": "4,5 triệu - 5 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-midea-nho.png"
+        },
+        {
+            "id": 10,
+            "name": "Midea",
+            "count": 9,
+            "supplier": "Pháp",
+            "price": "5 triệu - 8 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2020/09/30/logo-dreamer-nho.png"
+        },
+        {
+            "id": 11,
+            "name": "Panasonic",
+            "count": 34,
+            "supplier": "Malaysia",
+            "price": "8 triệu - 10 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Panasonic-Logo-500.png"
+        },
+        {
+            "id": 12,
+            "name": "Kalite",
+            "count": 26,
+            "supplier": "Thái Lan",
+            "price": "10 triệu - 12 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2020/06/15/kalite-logo-35.png"
+        },
+        {
+            "id": 13,
+            "name": "Funiki",
+            "count": 12,
+            "supplier": "Thổ Nhĩ Kỳ",
+            "price": "12 triệu - 14 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-funiki-to.png"
+        },
+        {
+            "id": 14,
+            "name": "Sato",
+            "count": 6,
+            "supplier": "Việt Nam",
+            "price": "14 triệu - 16 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2019/08/12/sato-logo-35.png"
+        },
+        {
+            "id": 15,
+            "name": "WMF",
+            "count": 7,
+            "supplier": "Italya",
+            "price": "16 triệu - 20 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/04/05/logo-wmf-nho.png"
+        },
+        {
+            "id": 16,
+            "name": "Fandi",
+            "count": 9,
+            "supplier": "Nga",
+            "price": "20 triệu - 22 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2024/05/30/fandi-logo-35.png"
+        },
+        {
+            "id": 17,
+            "name": "Galen",
+            "count": 1,
+            "supplier": "Romania",
+            "price": "22 triệu - 24 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2022/10/27/logo-galen-nho.png"
+        },
+        {
+            "id": 18,
+            "name": "Saiko",
+            "count": 4,
+            "supplier": "Ba Lan",
+            "price": "24 triệu - 26 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/19/saiko-logo-nho.png"
+        },
+        {
+            "id": 19,
+            "name": "Rapido",
+            "count": 3,
+            "supplier": "Triều Tiên",
+            "price": "26 triệu - 28 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/10/26/rapido-logonho.jpg"
+        },
+        {
+            "id": 20,
+            "name": "Sanaky",
+            "count": 23,
+            "supplier": "Ấn Độ",
+            "price": "28 triệu - 30 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-sanaky-nho.png"
+        }
+    ]
 }
