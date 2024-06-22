@@ -39,7 +39,18 @@ html {
         border: 1px solid $color-button;
     }
 }
-
+.aside-brands, .aside-budgets, .aside-capacity, .aside-madein{
+    @extend .aside-bottle;
+    .list-brands, .list-budgets, .list-capacity, .list-madein {
+        @extend .list-categories;
+        .list-brand-item, .list-budget-item, .list-capacity-item, .list-madein-item {
+            border-radius: 0;
+            border: none;
+            background-color: $color-white;
+            padding: 5px;
+        }
+    }
+}
 .aside-bottle {
     font-size: 14.5px;
 

@@ -127,7 +127,7 @@
         </div>
     </div>
 </header>
-<div class="container bottles" ng-controller="bottleCtrl">
+<div class="container bottles">
     <div class="row pt-1 custom-text-bot-header">
         <div class="col-lg-2">
             <nav aria-label="breadcrumb">
@@ -159,10 +159,9 @@
         <div class="col-lg-2 p-0 ">
             <div class="aside-bottle">
                 <div class="startBox title text-uppercase text-center">
-                    CÁC LOẠI BÌNH GIỮ NHIỆT
+                    CÁC loại đồ gia dụng
                 </div>
                 <ul class="list-group list-categories">
-
                     <li class="list-group-item list-categories-item" ng-repeat="category in bottleCategories">
                         <a class="category dropdown" href="#">
                             <div>
@@ -189,127 +188,128 @@
                         </div>
                     </li>
 
-                    <div class="collapse" id="collapseAside-bottle">
-                        <li class="list-group-item list-categories-item">
-                            <a href="#" class="category">
-                                <div>
-                                    <img src="https://meta.vn/icons/cats/3478.png" alt="" class="img-icon">
-                                    Máy làm sữa hạt
-                                </div>
-                            </a>
-                        </li>
-                    </div>
                 </ul>
                 <div class="endBox text-center">
-                    <button class="viewMore" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseAside-bottle" aria-expanded="false"
-                        aria-controls="collapseAside-bottle">
+                    <button class="viewMore" type="button">
                         <div class="">
-                            Xem thêm
-                            <i class="fa-solid fa-chevron-down"></i>
+                            <div ng-show="!showCategoriesHidden" ng-click="showCategoriesHidden = true">
+                                Xem thêm
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                            <div ng-show="showCategoriesHidden" ng-click="showCategoriesHidden = false">
+                                Rút gọn
+                                <i class="fa-solid fa-chevron-up"></i>
+                            </div>
                         </div>
+
                     </button>
                 </div>
             </div>
-            <div class="aside-bottle aside-brands mt-4">
-                <div class="startBox title text-uppercase text-center">
-                    THƯƠNG HIỆU
+            <div class="aside-brands mt-3">
+                <div class="startBox title text-uppercase text-center ">
+                    thương hiệu
                 </div>
-
-                <ul class="list-group list-categories">
-                    <div class="input-group p-3 rounded-1 bg-white">
-                        <input type="text" class="form-control" aria-describedby="basic-addon2">
-                        <span class="input-group-text bg-warning" id="basic-addon2">
-                            <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
-                        </span>
+                
+                <ul class="list-group list-brands">
+                    <div class="list-group-item list-brand-item d-flex justify-content-center">
+                        <label class="custom-textInput">
+                                <input type="text" class="textInput">
+                                <a href="" class="search-icon">
+                                    <i class="fa-solid fa-magnifying-glass fa-sm"></i>
+                                </a>
+                        </label>
                     </div>
-
-                    <li class="list-group-item list-categories-item pb-0 "
-                        ng-repeat="brand in bottleBrands | filter: {expand: false}">
-                        <a href="#" class="text-dark">
-                            <p class="mb-1">
-                                <input type="checkbox" class="">
+                    <li class="list-group-item list-brand-item" ng-repeat="brand in bottleBrands | filter: {expand: false}">
+                        <label class="custom-checkbox">
+                            <input type="checkbox" class="me-1">
+                            <span class="linkToCheckBox">
                                 {{brand.name}}
-                                <span class="text-black-50">(45)</span>
-                            </p>
-                        </a>
+                                <span class="numberOfProducts">
+                                    (9)
+                                </span>
+                            </span>
+                        </label>
                     </li>
-                    <div class="collapse bg-white p-0" id="collapseBrands">
-                        <li class="list-group-item list-categories-item pb-0 "
-                            ng-repeat="brand in bottleBrands | filter: {expand: true}">
-                            <a href="#" class="text-dark text-decoration-none">
-                                <p class="mb-1">
-                                    <input type="checkbox" class="">
-                                    {{brand.name}}
-                                    <span class="text-black-50">(25)</span>
-                                </p>
-                            </a>
-                        </li>
-
-                    </div>
+                    <li class="list-group-item list-brand-item" ng-repeat="brand in bottleBrands | filter: {expand: true}" ng-show="showAsideBrandHidden">
+                        <label class="custom-checkbox">
+                            <input type="checkbox" class="me-1">
+                            <span class="linkToCheckBox">
+                                {{brand.name}}
+                                <span class="numberOfProducts">
+                                    (9)
+                                </span>
+                            </span>
+                        </label>
+                    </li>
                 </ul>
-                <div class="endBox text-center">
-                    <button class="viewMore" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBrands"
-                        aria-expanded="false" aria-controls="collapseBrands">
-                        <div class="">
+                <div class="endBox text-center ">
+                    <button class="viewMore" type="button">
+                        <div class="" ng-click="showAsideBrandHidden = true" ng-show="!showAsideBrandHidden">
                             Xem thêm
                             <i class="fa-solid fa-chevron-down"></i>
                         </div>
+                        <div class="" ng-click="showAsideBrandHidden = false" ng-show="showAsideBrandHidden">
+                            Rút gọn
+                            <i class="fa-solid fa-chevron-up"></i>
+                        </div>
                     </button>
                 </div>
-
             </div>
-            <div class="aside-bottle aside-budgets mt-4">
-                <div class="startBox title text-uppercase text-center">
-                    KHOẢNG GIÁ (VNĐ)
+            <div class="aside-budgets mt-3">
+                <div class="startBox title text-uppercase text-center ">
+                    khoảng giá (VNĐ)
                 </div>
-
-                <ul class="list-group list-categories">
-                    <li class="list-group-item list-categories-item pb-0">
-                        <a href="#" class="text-dark" ng-repeat="budget in bottleBudgets">
-                            <p class="mb-1">
-                                <input type="checkbox" class="">
+                <ul class="list-group list-budgets">
+                    <li class="list-group-item list-budget-item" ng-repeat="budget in bottleBudgets">
+                        <label class="custom-checkbox">
+                            <input type="checkbox" class="me-1">
+                            <span class="linkToCheckBox">
                                 {{budget.budget}}
-                                <span class="text-black-50">(45)</span>
-                            </p>
-                        </a>
-
+                                <span class="numberOfProducts">
+                                    (9)
+                                </span>
+                            </span>
+                        </label>
                     </li>
-
+                    
                 </ul>
-
 
             </div>
-            <div class="aside-bottle aside-capacity mt-4">
-                <div class="startBox title text-uppercase text-center">
-                    dung tích
+            <div class="aside-capacity mt-3">
+                <div class="startBox title text-uppercase text-center ">
+                    Dung tích
                 </div>
-
-                <ul class="list-group list-categories">
-                    <li class="list-group-item list-categories-item pb-0" ng-repeat="capacity in bottleCapacities">
-                        <a href="#" class="text-dark">
-                            <p class="mb-0">
-                                <input type="checkbox" class="">
+                <ul class="list-group list-capacity">
+                    <li class="list-group-item list-capacity-item" ng-repeat="capacity in bottleCapacities">
+                        <label class="custom-checkbox">
+                            <input type="checkbox" class="me-1">
+                            <span class="linkToCheckBox">
                                 {{capacity.capacity_aside}}
-                                <span class="text-black-50">(45)</span>
-                            </p>
-                        </a>
+                                <span class="numberOfProducts">
+                                    (9)
+                                </span>
+                            </span>
+                        </label>
                     </li>
-
+                    
                 </ul>
-                <div class="startBox title text-uppercase text-center mt-4">
-                    NƠI SẢN XUẤT
-                </div>
-                <ul class="list-group list-categories">
-                    <li class="list-group-item list-categories-item pb-0" ng-repeat="madeat in bottleMadeAt">
-                        <a href="#" class="text-dark">
-                            <p class="mb-1">
-                                <input type="checkbox" class="">
-                                {{madeat}}
-                                <span class="text-black-50">(45)</span>
-                            </p>
-                        </a>
 
+            </div>
+            <div class="aside-madein mt-3">
+                <div class="startBox title text-uppercase text-center ">
+                    Sản xuất tại
+                </div>
+                <ul class="list-group list-madein">
+                    <li class="list-group-item list-madein-item" ng-repeat="madeat in bottleMadeAt">
+                        <label class="custom-checkbox">
+                            <input type="checkbox" class="me-1">
+                            <span class="linkToCheckBox">
+                                {{madeat}}
+                                <span class="numberOfProducts">
+                                    (9)
+                                </span>
+                            </span>
+                        </label>
                     </li>
                 </ul>
 
@@ -339,21 +339,18 @@
                         </li>
 
                         <li class="shead-brand-item" ng-repeat="brand in bottleBrands | filter: {expand: true}"
-                            ng-show="showHiddenItem">
+                            ng-show="showBrandsHidden">
                             <a href="" title="{{brand.name}}" data-title="{{brand.name}}" data-bid="2730">
                                 <img class="list_logo_brand_image" src="{{brand.icon}}" alt="{{brand.name}}"
                                     ng-show="brand.icon" />
                                 <p class="text-center text-dark " ng-show="brand.title">{{brand.title}}</p>
                             </a>
                         </li>
-                        <li class="shead-brand-item showMoreBtn d-flex justify-content-center"
-                            ng-show="!showHiddenItem">
-                            <a class="text-light" ng-click="showMoreItem(true)">
+                        <li class="shead-brand-item showMoreBtn d-flex justify-content-center">
+                            <a class="text-light" ng-click="showBrandsHidden=true" ng-show="!showBrandsHidden">
                                 <p> Xem thêm</p>
                             </a>
-                        </li>
-                        <li class="shead-brand-item showMoreBtn d-flex justify-content-center" ng-show="showHiddenItem">
-                            <a class="text-light" ng-click="showMoreItem(false)">
+                            <a class="text-light" ng-click="showBrandsHidden=false" ng-show="showBrandsHidden">
                                 <p>Thu gọn</p>
                             </a>
                         </li>
@@ -405,7 +402,7 @@
                             </div>
                         </a>
                         <div class="ps-2 pe-2 lh-1">
-                            <a href="" class="text-decoration-none">
+                            <a href="#!bottle/{{bottle.id}}" class="text-decoration-none">
                                 <div class="row">
                                     <div class="col-md-5 float-end">
                                         <p class="float-end so-sanh">
@@ -415,7 +412,7 @@
                                     </div>
                                 </div>
                                 <p class="card-title bep-cart-title">{{bottle.name + " " +
-                                    bottle.id}}</p>
+                                    bottle.id + " " + bottle.specifications.capacity}}</p>
                                 <p class="card-text bep-custom-card-text m-0 mt-5">
                                     <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
                                     <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
@@ -538,8 +535,9 @@
                                         rel="nofollow sponsored">{{category.name}}</a>
                                 </div>
                             </li>
-                            <li class="catalog-main-item be-hidden collapse" title="Máy cắt các loại"
-                                ng-repeat="category in bottleHotCategories | filter: {expand: false}">
+                            <li class="catalog-main-item collapse" title="Máy cắt các loại"
+                                ng-repeat="category in bottleHotCategories | filter: {expand: false}"
+                                ng-show="showHotCategoriesHidden">
                                 <div>
                                     <div class="discount-cat-main"><span>{{category.discount}}</span></div>
                                     <div class="icon-cat-main-thumb"><span><img class="lazy-img lazy-loaded" width="70"
@@ -549,9 +547,18 @@
                                 </div>
                             </li>
                         </ul>
-                        <div class="trend-category view-more-page"><a data-page="1" data-bs-toggle="collapse"
-                                data-max="5" href=".be-hidden">Xem thêm chuyên
-                                mục <i class="fa fa-chevron-down"></i></a></div>
+                        <div class="trend-category view-more-page">
+                            <a href="">
+                                <div ng-click="showHotCategoriesHidden = true" ng-show="!showHotCategoriesHidden">
+                                    Xem thêm chuyên mục
+                                    <i class="fa fa-chevron-down"></i>
+                                </div>
+                                <div ng-click="showHotCategoriesHidden = false" ng-show="showHotCategoriesHidden">
+                                    Rút gọn chuyên mục
+                                    <i class="fa fa-chevron-up"></i>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
