@@ -1,3 +1,56 @@
 .description {
   background-color: $color-white;
 }
+
+.bottles {
+  .showMoreBtn {
+    width: auto;
+    background-color: $color-text-primary;
+    padding-top: 6px;
+  }
+
+  ;
+
+  .showMoreBtn a {
+    text-decoration: none;
+  }
+
+  .capacity {
+    margin-bottom: 1px;
+
+    .btn-capacity:hover {
+      background-color: $color-btn-hover;
+      color: $color-white;
+    }
+
+    .btn-capacity {
+      border: 1px solid $color-button;
+      color: $color-button;
+    }
+  }
+
+  .list-categories-item {
+    .dropdown-menu {
+      .dropdown-item {
+        position: relative; 
+        &:hover {
+          border-radius: 5px;
+          .sub-menu {
+            display: block; 
+            background-color: $color-white;
+          }
+        }
+  
+        .sub-menu {
+          top: 0; 
+          left: 100%; 
+          display: none;
+          border-radius: 5px;
+          position: absolute;
+          z-index: 2;
+          box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+  }
+}
