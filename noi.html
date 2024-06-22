@@ -803,7 +803,7 @@
                                 <div class="col-md-3 mt-2 mb-2" ng-repeat="p in n.products">
                                     <div class="bep-custom w-100 bg-white" >
                                         <div class="box-image">
-                                          <a href="">
+                                          <a href="#!/detailNoi/{{p.id}}">
                                             <div class="position-relative">
                                               <img src="{{p.image}}" class="card-img-top pt-2" height="245px" alt="...">
                                               <span class="position-absolute top-product align-product translate-middle pt-1 pb-1 pe-2 ps-2 badge rounded-5">
@@ -836,7 +836,7 @@
                                             </p>
                                             <div class="row">
                                               <p class="col-lg-6 bep-price">{{p.price | number:0}} đ</p>
-                                              <p class="col-lg-6 bep-sale">{{10000000 | number:0}} đ</p>
+                                              <p class="col-lg-6 bep-sale">{{(p.price / 0.41) | number:0}} đ</p>
                                             </div>
                                           </a>
                                           <a href="#" class="btn-mua-ngay btn btn-primary mt-4 rounded-1 w-100">MUA NGAY</a>

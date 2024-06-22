@@ -4,11 +4,15 @@ app.config(function ($routeProvider) {
   $routeProvider
     .when("/", {
       templateUrl: "trangchu.html",
-      controller: "homeController"
+      // controller: "homeController"
     })
     .when("/noi", {
       templateUrl: "noi.html",
       controller: "noiController"
+    })
+    .when("/detailNoi/:id",{
+      templateUrl: "detailNoi.html",
+      controller: "detailNoiController"
     })
 });
 
@@ -81,4 +85,38 @@ app.controller('noiController', function($scope, NoiService, BrandService, madeI
   madeInNoiService.getMadeInNoi().then(function(response){
     $scope.madeIn = response.data;
   });
+});
+
+app.controller('detailNoiController', function($scope, $http, $routeParams, $location) {
+  $http({
+    method: "GET",
+    url: URL_API + "danhmucnoi"
+}).then(function(response) {
+    var danhMucNoi = response.data;
+
+    if (Array.isArray(danhMucNoi)) {
+        danhMucNoi.forEach(function(danhmuc) {
+            var potType = danhmuc.potType;
+            if (Array.isArray(potType)) {
+                potType.forEach(function(type) {
+                    var products = type.products;
+                    if (Array.isArray(products)) {
+                        products.forEach(function(product) {
+                            if (product.id == $routeParams.id) {
+                                $scope.product = product;
+                                console.log($scope.product);
+                            }
+                        });
+                    }
+                });
+            }
+        });
+    } else {
+        console.log("Dữ liệu danh mục nồi không hợp lệ.");
+    }
+
+}).catch(function(error) {
+    console.log("Lỗi khi tải danh mục nồi:", error);
+});
+
 });
