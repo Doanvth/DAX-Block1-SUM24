@@ -41,6 +41,10 @@ app.config(function ($routeProvider) {
     .when("/stove", {
       templateUrl: "bep.html",
       controller: "stoveController",
+    })
+    .when("/detailstove/:id", {
+      templateUrl: "detail_stove.html",
+      controller: "detailStoveController",
     });
 
 });
@@ -489,3 +493,41 @@ app.controller("stoveController", function ($scope, $http) {
     }
   );
 });
+
+app.controller(
+  "detailStoveController",
+  function ($scope, $http, $routeParams, $location) {
+    $http.get(URL_API + "stove/").then(
+      function (response) {
+        var cate = response.data;
+
+        if (Array.isArray(cate)) {
+          cate.forEach(function (sub) {
+            var sub = sub.subcategories;
+            console.log(sub);
+            if (Array.isArray(sub)) {
+              sub.forEach(function (products) {
+                var products = products.products;
+                console.log(products);
+                if (Array.isArray(products)) {
+                  products.forEach(function (product) {
+                    if (product.id == $routeParams.id) {
+                      $scope.product = product;
+                      console.log($scope.product);
+                    }
+                  });
+                }
+              });
+            }
+          });
+        } else {
+          console.log("Dữ liệu danh mục nồi không hợp lệ.");
+        }
+      },
+      function (response) {
+        console.log("Error connect db");
+      }
+    );
+  }
+);
+
