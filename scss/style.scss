@@ -448,3 +448,14 @@ div>.discount-cat-main {
     overflow: hidden;
     text-overflow: ellipsis; 
 }
+.price{
+    font-size: 24px;
+    font-weight: 700;
+    color: #da251c;
+    display: inline-block;
+    line-height: 28px;
+}
+.original-price{
+    text-decoration: line-through;
+    margin-left: 10px;
+}
