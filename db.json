@@ -133,5 +133,1415 @@
                 }
             ]
         }
-    ]
+    ],
+    "bottles": {
+        "brands": [
+            {
+                "name": "Sunhouse",
+                "icon": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/18/logo-sunhouse-nho.png",
+                "expand": false
+            },
+            {
+                "name": "Elmich",
+                "icon": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Elmich-Logo-35.png",
+                "expand": false
+            },
+            {
+                "name": "Zojirushi",
+                "icon": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/05/Zojirushi-logo-35.png",
+                "expand": false
+            },
+            {
+                "name": "Tiger",
+                "icon": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/01/22/tiger-logo1.jpg",
+                "expand": false
+            },
+            {
+                "name": "UNIE",
+                "icon": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2020/06/09/unie-logo-35.png",
+                "expand": false
+            },
+            {
+                "name": "Thermos",
+                "icon": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/29/logo-thermos-nho.png",
+                "expand": false
+            },
+            {
+                "name": "Carlmann",
+                "icon": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/15/Carlmann-logo-35.png",
+                "expand": false
+            },
+            {
+                "name": "La Fontes",
+                "icon": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2019/10/16/la-fonte-to.jpg",
+                "expand": false
+            },
+            {
+                "name": "Kahchan",
+                "icon": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/12/kahchan-logo-35.png",
+                "expand": false
+            },
+            {
+                "name": "La Gourmet",
+                "title": "La Gourmet",
+                "expand": false
+            },
+            {
+                "name": "Apollo HQ",
+                "icon": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2020/06/23/apolo-hq-35.jpg",
+                "expand": false
+            },
+            {
+                "name": "Philips Avent",
+                "icon": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/17/logo-philip-avent-nho.png",
+                "expand": false
+            },
+            {
+                "name": "Lock & Lock",
+                "title": "Lock & Lock",
+                "expand": false
+            },
+            {
+                "name": "Smart Cook",
+                "icon": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/18/logo-smartcook-nho.png",
+                "expand": true
+            },
+            {
+                "name": "Philips",
+                "icon": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Philips-Logo-35.png",
+                "expand": true
+            },
+            {
+                "name": "Aquasana",
+                "icon": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/25/logo-aquasana-nho.png",
+                "expand": true
+            }
+        ],
+        "capacities": [
+            {
+                "capacity": "500ml",
+                "capacity_aside": "≤ 1 lít"
+            },
+            {
+                "capacity": "750ml",
+                "capacity_aside": "946ml"
+            },
+            {
+                "capacity": "1.5 lít",
+                "capacity_aside": "trên 1 lít - 2 lít"
+            },
+            {
+                "capacity": "Phích nước",
+                "capacity_aside": "trên 2 lít - 3 lít"
+            },
+            {
+                "capacity_aside": "≥ 3 lít"
+            }
+        ],
+        "made_at": [
+            "Việt Nam",
+            "Hàn Quốc",
+            "Malaysia",
+            "Mỹ",
+            "Nhật Bản",
+            "Singapore",
+            "Thái Lan",
+            "Trung Quốc"
+        ],
+        "budgets": [
+            {
+                "budget": "Dưới 100k",
+                "currency": [100000]
+            },
+            {
+                "budget": "100k - 200k",
+                "currency": [100000, 200000]
+            },
+            {
+                "budget": "200k - 500k",
+                "currency": [200000, 500000]
+            },
+            {
+                "budget": "500k - 1 triệu",
+                "currency": [500000, 1000000]
+            },
+            {
+                "budget": "1 triệu - 1,5 triệu",
+                "currency": [1000000, 1500000]
+            },
+            {
+                "budget": "1,5 triệu - 2 triệu",
+                "currency": [1500000, 2000000]
+            }
+        ],
+        "products": [
+            {
+                "id": "SJ-TG08-XA",
+                "expand": false,
+                "name": "Bình giữ nhiệt Zojirushi",
+                "brand": "Zojirushi",
+                "price": {
+                    "origin": 790000,
+                    "sale": 697000
+                },
+                "rating": 5,
+                "discount": "-12%",
+                "image": {
+                    "icon": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2021/10/29/binh-giu-nhiet-zojirushi-sj-tg08-xa-800ml-300.jpg",
+                    "img": [
+                        "https://st.meta.vn/Data/image/2021/10/29/binh-giu-nhiet-zojirushi-sj-tg08-xa-800ml-1.jpg",
+                        "https://st.meta.vn/Data/image/2021/10/29/binh-giu-nhiet-zojirushi-sj-tg08-xa-800ml-2.jpg",
+                        "https://st.meta.vn/Data/image/2021/10/29/binh-giu-nhiet-zojirushi-sj-tg08-xa-800ml-3.jpg",
+                        "https://st.meta.vn/Data/image/2021/10/29/binh-giu-nhiet-zojirushi-sj-tg08-xa-800ml-4.jpg"
+                    ]
+                },
+                "specifications": {
+                    "capacity": "800ml",
+                    "material": "Thép không gỉ",
+                    "size": "Rộng x Sâu x Cao (10,5cm x 9cm x 23cm)",
+                    "mass": "925g",
+                    "made_in": "Nhật Bản",
+                    "made_at": "Thái Lan"
+                },
+                "information": [
+                    {
+                        "title": "Đặc điểm nổi bật",
+                        "content_ul": [
+                            "Thân bình bằng thép không gỉ dày dặn, giữ lạnh được tới 6 giờ và giữ nóng được tới 24 giờ.",
+                            "Dung tích 800ml chứa được nhiều thức uống mỗi lân.",
+                            "Có dây đeo tiện dụng khi mang theo đi ra ngoài.",
+                            "Nắp bình kín khít, chống rò rỉ tốt."
+                        ]
+                    },
+                    {
+                        "title": "Đánh giá bình giữ nhiệt Zojirushi 800ml SJ-TG08-XA",
+                        "content": [
+                            "Bình giữ nhiệt Zojirushi 800ml SJ-TG08-XA hiện đang là một trong những mẫu bình giữ nhiệt bán chạy nhất hiện nay. Không chỉ sở hữu thiết kế đẹp mắt, tiện dụng, SJ-TG08-XA còn có khả năng giữ nhiệt cực tốt với thời gian giữ nóng tối đa 24 giờ, giữ lạnh 6 giờ. Dung tích của bình giữ nhiệt này là 800ml nên bạn có thể thoải mái đựng thức uống. "
+                        ]
+                    },
+                    {
+                        "title": "Thân bình bằng inox, dày dặn, chắc chắn, có lớp chân không giữ nhiệt cực tốt",
+                        "content": [
+                            "Thân bình SJ-TG08-XA được làm từ thép không gỉ dày dặn, có trọng lượng 925g, cứng cáp, hạn chế móp méo do va chạm. Bình giữ nhiệt Zojirushi SJ-TG08-XA cách nhiệt bởi môi trường chân không giúp giữ lạnh hay giữ nóng đồ uống rất lâu. Theo công bố của nhà sản xuất, khả năng giữ nhiệt của bình như sau:"
+                        ],
+                        "content_ul": [
+                            "Bình có khả năng giữ nhiệt ở mức 76 độ C trong vòng 6 giờ và 50 độ C trong vòng 24 giờ (đánh giá khi nước ở nhiệt độ bắt đầu 95 độ C và trong nhiệt độ phòng 20 độ C).",
+                            "Khả năng giữ lạnh nước ở mức 8 độ C trong vòng 6 giờ (đánh giá khi nước ở nhiệt độ bắt đầu là 4 độ C với nhiệt độ phòng 20 độ C)."
+                        ]
+                    },
+                    {
+                        "title": "Nắp bình kín khít, miệng bình rộng rãi, giữ nhiệt và chống rò rỉ tốt",
+                        "content": [
+                            "Nắp bình giữ nhiệt Zojirushi này được đậy kín khít nên hạn chế hiện tượng thất thoát nhiệt ra môi trường bên ngoài và chống rò rỉ tối đa. Miệng bình còn có nút nhấn rót nước vô cùng tiện lợi, giúp bạn lấy nước dễ dàng. Kích thước miệng bình khá rộng rãi, có thể cho vừa đá viên để tăng hiệu quả làm lạnh cho nước uống."
+                        ]
+                    },
+                    {
+                        "title": "Thiết kế nhỏ gọn, có dây đeo tiện lợi",
+                        "content": [
+                            "Bình giữ nhiệt Zojirushi SJ-TG08-XA được thiết kế khá nhỏ gọn với kích thước rộng - sâu - cao tương ứng là 10,5cm x 9cm x 23cm. Ngoài ra, bình cũng được trang bị thêm dây đeo tiện dụng, phù hợp cho người chơi thể thao, đi du lịch, đi học, đi làm... dễ dàng mang theo. ",
+                            "Giá bình giữ nhiệt Zojirushi SJ-TG08-XA (800ml) đang được bán là 697.000 đồng, rất hợp lý so với những giá trị sản phẩm mang lại. Vì thế, bạn đừng ngần ngại mà hãy nhanh tay sở hữu cho mình chiếc bình giữ nhiệt chất lượng cao này nhé!",
+                            "Lưu ý: Hình ảnh sản phẩm chỉ có tính chất minh họa, chi tiết sản phẩm, màu sắc có thể thay đổi tùy theo sản phẩm thực tế."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "SL-TG10-AA",
+                "expand": false,
+
+
+                "name": "Bình giữ nhiệt Zojirushi",
+                "brand": "Zojirushi",
+                "rating": 5,
+                "discount": "-15%",
+
+                "price": {
+                    "origin": 950000,
+                    "sale": 807000
+                },
+                "image": {
+                    "icon": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-300.jpg",
+                    "img": [
+                        "https://st.meta.vn/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-g1.jpg",
+                        "https://st.meta.vn/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-t5.jpg",
+                        "https://st.meta.vn/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-t3.jpg",
+                        "https://st.meta.vn/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-t2.jpg",
+                        "https://st.meta.vn/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-t10.jpg",
+                        "https://st.meta.vn/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-t10.jpg",
+                        "https://st.meta.vn/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-t1.jpg",
+                        "https://st.meta.vn/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-t7.jpg"
+                    ]
+                },
+                "specifications": {
+                    "capacity": "1 lít",
+                    "material": "Thép không gỉ cách nhiệt chân không",
+                    "color": "Xanh dương",
+                    "cold_celcius": "Đánh giá khi nước ở nhiệt độ bắt đầu là 4°C ở nhiệ (8 độ C)",
+                    "hot_celcius": "Đánh giá khi nước ở nhiệt độ bắt đầu 95°C ở nhiệt (79 độ C)",
+                    "size": "10,5cm x 9cm x 26,5cm",
+                    "made_in": "Nhật Bản",
+                    "made_at": "Thái Lan",
+                    "guarantee": "12 tháng"
+                },
+                "information": [
+                    {
+                        "title": "Bình giữ nhiệt Zojirushi SL-TG10-AA giúp giữ nhiệt nước nóng/lạnh hoàn hảo",
+                        "content": [
+                            "Bình giữ nhiệt Zojirushi SL-TG10-AA là loại bình giữ nhiệt dung tích 1.000ml được thiết kế kiểu dáng gọn gàng, đi kèm dây đeo nên dễ dàng mang theo khi đi chơi, đi làm, đi học hay đi picnic..."
+                        ],
+                        "img-description": "Bình giữ nhiệt Zojirushi mang theo khi đi picnic dễ dàng"
+                    },
+                    {
+                        "content": [
+                            "Bình giữ nhiệt Zojirushi SL-TG10-AA có thiết kế nhỏ gọn với màu xanh dương thanh lịch, mang đến phong cách khỏe khoắn, năng động cho người dùng. "
+                        ],
+                        "img-description": "Hình ảnh bình giữ nhiệt Zojirushi SL-TG10-AA"
+                    },
+                    {
+                        "content": [
+                            "Vỏ ngoài làm bằng inox cách nhiệt chân không giúp giữ nóng/lạnh dài lâu. Chất liệu inox không hoen gỉ, chống nứt vỡ và hạn chế biến dạng do va đập trong quá trình sử dụng."
+                        ],
+                        "img-description": "Bình làm từ chất liệu inox an toàn cho sức khỏe"
+                    },
+                    {
+                        "content": [
+                            "Lớp phủ không dính bên trong làm dễ làm sạch. Bên cạnh đó, bình vô cùng an toàn cho người sử dụng vì chất liệu không phản ứng hóa học gây độc hại đến sức khỏe."
+                        ],
+                        "img-description": "Ruột tráng men không dính"
+                    },
+                    {
+                        "content": [
+                            "Bình giữ nhiệt không chỉ dùng để giữ lạnh đồ uống như nước sôi, sinh tố, nước ép mà người dùng còn có thể giữ nóng cháo, nước canh, nước súp... "
+                        ],
+                        "img-description": "Bình lý tưởng để bảo quản lạnh nước uống"
+                    },
+                    {
+                        "content": [
+                            "Nắp đậy dễ tháo rời để vệ sinh khi bị bám bẩn. "
+                        ],
+                        "img-description": "Bình giữ nhiệt dễ dàng tháo rời."
+                    },
+                    {
+                        "content": [
+                            "Với khả năng giữ nhiệt lên đến 24 tiếng, Zojirushi SL-TG10-AA sẽ đảm bảo cho nhu cầu giải khát của bạn luôn được đáp ứng mọi lúc, mọi nơi. Nắp đậy có ren vặn vô cùng kín hơi, đóng rất khít, không làm rò rỉ nước ra ngoài. Miệng bình rộng cho đá viên vào dễ dàng. "
+                        ],
+                        "img-description": "Miệng bình cho vừa đá viên"
+                    },
+                    {
+                        "content": [
+                            "Khi giữ lạnh, bình cũng không bị ngưng ẩm bề mặt. Đây là một điểm cộng giúp cho bình lưỡng tính có tuổi thọ cao hơn.",
+                            "Nắp rời, thuận tiện biến thành cốc rót uống nước khi cần thiết. Nút chạm bật đơn giản, uống tiện lợi và nhanh chóng"
+                        ],
+                        "img-description": "Nắp đậy bằng nhựa dùng làm ca uống nước"
+                    },
+                    {
+                        "img-description": "Miệng bình thiết kế chắc chắn tránh rò rỉ nước"
+                    },
+                    {
+                        "img-description": "Nắp đậy có gioăng cao su kín khít "
+                    },
+                    {
+                        "img-description": "Bình thiết kế kiểu dáng đẹp mắt"
+                    },
+                    {
+                        "img-description": "Vị trí lắp quai đeo"
+                    },
+                    {
+                        "content": [
+                            "Lưu ý: Hình ảnh sản phẩm chỉ có tính chất minh họa, chi tiết sản phẩm, màu sắc có thể thay đổi tùy theo sản phẩm thực tế."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "SF-CC15",
+                "expand": false,
+
+
+                "name": "Bình giữ nhiệt lưỡng tính Zojirushi",
+                "brand": "Zojirushi",
+                "rating": 5,
+                "discount": "-27%",
+                "price": {
+                    "origin": 1350000,
+                    "sale": 990000
+                },
+                "image": {
+                    "icon": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2021/12/21/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-1-5-lit-500.jpg",
+                    "img": [
+                        "https://st.meta.vn/Data/image/2021/12/21/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-1-5-lit.jpg",
+                        "https://st.meta.vn/Data/image/2021/12/21/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-1-5-lit-nd1.jpg",
+                        "https://st.meta.vn/Data/image/2021/12/21/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-1-5-lit-s.jpg",
+                        "https://st.meta.vn/Data/image/2019/02/28/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-s1.jpg",
+                        "https://st.meta.vn/Data/image/2021/12/21/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-1-5-lit-s4.jpg",
+                        "https://st.meta.vn/Data/image/2021/12/21/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-1-5-lit-s5.jpg",
+                        "https://st.meta.vn/Data/image/2021/12/21/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-1-5-lit-s6.jpg",
+                        "https://st.meta.vn/Data/image/2021/12/21/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-1-5-lit-s8.jpg",
+                        "https://st.meta.vn/Data/image/2021/12/21/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-1-5-lit-s9.jpg"
+                    ]
+                },
+                "specifications": {
+                    "capacity": "1.5 lít",
+                    "material": "Mặt ngoài (Inox), Mặt trong (Thép không gỉ)",
+                    "color": "Inox",
+                    "cold_celcius": "6 giờ (7 độ C)",
+                    "hot_celcius": "24 giờ (60 độ C), 6 giờ (80 độ C)",
+                    "size": "13cm x 11.5cm x 26.5cm",
+                    "mass": "900g",
+                    "made_in": "Nhật Bản",
+                    "made_at": "Thái Lan",
+                    "guarantee": "12 tháng"
+                },
+                "information": [
+                    {
+                        "title": "Giữ nóng đồ uống nóng lạnh hiệu quả với bình giữ nhiệt lưỡng tính Zojirushi",
+                        "content": [
+                            "Zojirushi SF-CC15 được ứng dụng công nghệ hiện đại của Nhật Bản cho khả năng giữ nhiệt tốt, có thể giữ nóng ở nhiệt độ 80oC trong 6 giờ và 60oC trong 24 giờ, giữ lạnh ở nhiệt độ 7oC trong 6 giờ."
+                        ],
+                        "img-description": "Zojirushi SF-CC15 thiết kế kiểu dáng sang trọng"
+                    },
+                    {
+                        "title": "Giữ nóng đồ uống nóng lạnh hiệu quả với bình giữ nhiệt lưỡng tính Zojirushi",
+                        "content": [
+                            "Zojirushi SF-CC15 được ứng dụng công nghệ hiện đại của Nhật Bản cho khả năng giữ nhiệt tốt, có thể giữ nóng ở nhiệt độ 80oC trong 6 giờ và 60oC trong 24 giờ, giữ lạnh ở nhiệt độ 7oC trong 6 giờ."
+                        ],
+                        "img-description": "Zojirushi SF-CC15 thiết kế kiểu dáng sang trọng"
+                    },
+                    {
+                        "content": [
+                            "Bình giữ nhiệt Zojirushi SF-CC15 là loại bình giữ nhiệt có dung tích 1.5 lít, thân bình được làm bằng chất liệu thép không gỉ với độ bền chắc cao, chống ăn mòn và không bị oxy hóa, cho giá trị sử dụng lâu dài theo thời gian. Chất liệu này cũng không chứa các hóa chất độc hại, đảm bảo an toàn tuyệt đối cho sức khỏe người dùng."
+                        ],
+                        "img-description": "Nắp bình dùng để làm cốc uống nước"
+                    },
+                    {
+                        "content": [
+                            "Bình giữ nhiệt Zojirushi SF-CC15 là loại bình giữ nhiệt có dung tích 1.5 lít, thân bình được làm bằng chất liệu thép không gỉ với độ bền chắc cao, chống ăn mòn và không bị oxy hóa, cho giá trị sử dụng lâu dài theo thời gian. Chất liệu này cũng không chứa các hóa chất độc hại, đảm bảo an toàn tuyệt đối cho sức khỏe người dùng."
+                        ],
+                        "img-description": "Nắp bình dùng để làm cốc uống nước"
+                    },
+                    {
+                        "content": [
+                            "Với công nghệ cách nhiệt chân không, bình giữ nhiệt giúp giữ nóng hoặc giữ lạnh đồ uống và thực phẩm dạng lỏng như cháo, súp, canh... một cách hiệu quả, tiện lợi để bạn có thể mang theo đi học, đi làm hay đi dã ngoại.",
+                            "Ruột bình có phủ lớp chống dính, giúp bạn thuận tiện hơn trong việc vệ sinh và chùi rửa sản phẩm sau mỗi lần sử dụng."
+                        ],
+                        "img-description": "Lòng bình bên trong"
+                    },
+                    {
+                        "title": "Đặc điểm nổi bật của bình giữ nhiệt Zojirushi SF-CC15",
+                        "content-ul": [
+                            "Bình giữ nhiệt Zojirushi SF-CC15 thiết kế bình nhỏ gọn, hợp thời trang, chiếc bình tiện dụng cho bạn mang theo mọi lúc mọi nơi.",
+                            "Nắp đậy kín, không hở tránh tình trạng chất lỏng bị rò rỉ ra ngoài.",
+                            "Nút bật mở dễ sử dụng.",
+                            "Miệng rót rộng vừa bỏ đá cục, đáp ứng nhu cầu giữ lạnh tối đa của bạn.",
+                            "Bình được trang bị dây đeo, giúp bạn dễ dàng di chuyển bình.",
+                            "Thân bình trang bị tay cầm, thuận lợi trong việc cầm nắm khi rót nước."
+                        ],
+                        "img-description": "Bình có quai xách"
+                    },
+                    {
+                        "img-description": "Quai xách thiết kế chống nóng"
+                    },
+                    {
+                        "img-description": "Miệng bình bằng nhựa chịu nhiệt"
+                    },
+                    {
+                        "img-description": "Kiểu dáng bình nhỏ gọn"
+                    },
+                    {
+                        "img-description": "Các bộ phận ở nắp dễ tháo rời"
+                    },
+                    {
+                        "img-description": "Bình làm từ thép không gỉ"
+                    },
+                    {
+                        "img-description": "Vỏ ngoài của nắp bằng thép không gỉ"
+                    },
+                    {
+                        "img-description": "Nút tròn màu đỏ dùng để nhấn rót nước"
+                    },
+                    {
+                        "img-description": "Bình có dây đeo"
+                    },
+                    {
+                        "content": [
+                            "Lưu ý: Hình ảnh sản phẩm chỉ có tính chất minh họa, chi tiết sản phẩm, màu sắc có thể thay đổi tùy theo sản phẩm thực tế."
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "SF-CC13",
+                "expand": false,
+
+
+                "name": "Bình lưỡng tính Zojirushi",
+                "brand": "Zojirushi",
+                "rating": 5,
+                "discount": "-15%",
+                "price": {
+                    "origin": 950000,
+                    "sale": 810000
+                },
+                "image": {
+                    "icon": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2021/01/18/binh-luong-tinh-zojirushi-sf-cc13-1.jpg"
+                }
+                
+            },
+            {
+                "id": "SJ-TG08-AA",
+                "expand": false,
+
+
+                "name": "Bình giữ nhiệt Zojirushi",
+                "brand": "Zojirushi",
+                "rating": 5,
+                "discount": "-26%",
+                "price": {
+                    "origin": 950000,
+                    "sale": 810000
+                },
+                "image": {
+                    "icon": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2019/05/11/binh-giu-nhiet-zojirushi-sj-tg08-aa-800ml-1.jpg"
+                }
+            },
+            {
+                "id": "SM-NAE48SA",
+                "expand": false,
+
+
+                "name": "Bình giữ nhiệt Zojirushi",
+                "brand": "Zojirushi",
+                "rating": 5,
+                "discount": "-24%",
+                "price": {
+                    "origin": 950000,
+                    "sale": 720000
+                },
+                "image": {
+                    "icon": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2021/02/18/binh-giu-nhiet-zojirushi-sm-nae48sa-0-48-lit-300.jpg"
+                }
+            },
+            {
+                "id": "SM-TA48",
+                "expand": false,
+
+
+                "name": "Bình giữ nhiệt Zojirushi",
+                "brand": "Zojirushi",
+                "rating": 5,
+                "discount": "-14%",
+                "price": {
+                    "origin": 950000,
+                    "sale": 820000
+                },
+                "image": {
+                    "icon": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2021/02/18/binh-giu-nhiet-zojirushi-sm-ta48-0-48-lit-n.jpg"
+                }
+            },
+            {
+                "id": "SM-TA48",
+                "expand": false,
+
+
+                "name": "Bình giữ nhiệt Zojirushi",
+                "brand": "Zojirushi",
+                "rating": 5,
+                "discount": "-11%",
+                "price": {
+                    "origin": 1140000,
+                    "sale": 1020000
+                },
+                "image": {
+                    "icon": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2022/09/22/zojirushi-smjte46ad-dung-tich-046-2.jpg"
+                }
+            },
+            {
+                "id": "SM-UA48",
+                "expand": false,
+
+
+                "name": "Bình giữ nhiệt Zojirushi",
+                "brand": "Zojirushi",
+                "rating": 5,
+                "discount": "-12%",
+                "price": {
+                    "origin": 1000000,
+                    "sale": 880000
+                },
+                "image": {
+                    "icon": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2022/09/23/binh-giu-nhiet-zojirushi-sm-ua48-300.jpg"
+                }
+            },
+            {
+                "id": "SV-GR50",
+                "expand": false,
+
+
+                "name": "Bình giữ nhiệt Zojirushi",
+                "brand": "Zojirushi",
+                "rating": 10,
+                "discount": "-19%",
+                "price": {
+                    "origin": 730000,
+                    "sale": 590000
+                },
+                "image": {
+                    "icon": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2020/02/29/binh-giu-nhiet-zojirushi-sv-gr50-a.jpg"
+                }
+            },
+            {
+                "id": "SF-CC18",
+                "expand": false,
+
+                "name": "Bình giữ nhiệt Zojirushi",
+                "brand": "Zojirushi",
+                "rating": 12,
+                "discount": "-13%",
+                "price": {
+                    "origin": 1210000,
+                    "sale": 1050000
+                },
+                "image": {
+                    "icon": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2019/10/24/zojirushi-sf-cc20-2-lit-a.jpg"
+                }
+            },
+            {
+                "id": "AFFB-19-SF",
+                "expand": false,
+
+                "name": "Bình giữ nhiệt Zojirushi",
+                "brand": "Zojirushi",
+                "rating": 12,
+                "discount": "-18%",
+                "price": {
+                    "origin": 1490000,
+                    "sale": 1210000
+                },
+                "image": {
+                    "icon": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2023/06/03/phich-giu-nhiet-zojirushi-affb-19-sf-300.jpg"
+                }
+            },
+            {
+                "id": "SM-AGE50-PC",
+                "expand": true,
+                "name": "Bình giữ nhiệt Zojirushi",
+                "brand": "Zojirushi",
+                "rating": 15,
+                "discount": "-25%",
+                "price": {
+                    "origin": 850000,
+                    "sale": 639000
+                },
+                "image": {
+                    "icon": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2021/02/18/binh-giu-nhiet-zojirushi-sm-age50-pc-0-5-l-mau-hong-3.jpg"
+                }
+            },
+            {
+                "id": "SM-AGE50-TD",
+                "expand": true,
+                "name": "Bình giữ nhiệt Zojirushi",
+                "brand": "Zojirushi",
+                "rating": 19,
+                "discount": "-27%",
+                "price": {
+                    "origin": 850000,
+                    "sale": 620000
+                },
+                "image": {
+                    "icon": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2021/02/18/binh-giu-nhiet-zojirushi-sm-age50-td-0-5-lit-300.jpg"
+                }
+            },
+            {
+                "id": "SM-TA60",
+                "expand": true,
+                "name": "Bình giữ nhiệt Zojirushi",
+                "brand": "Zojirushi",
+                "rating": 8,
+                "discount": "-29%",
+                "price": {
+                    "origin": 1200000,
+                    "sale": 850000
+                },
+                "image": {
+                    "icon": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2020/11/11/binh-luong-tinh-zojirushi-sm-ta60-300.jpg"
+                }
+            },
+            {
+                "id": "SM-SR60E",
+                "expand": true,
+                "name": "Bình giữ nhiệt Zojirushi",
+                "brand": "Zojirushi",
+                "rating": 2,
+                "discount": "-6%",
+                "price": {
+                    "origin": 950000,
+                    "sale": 889000
+                },
+                "image": {
+                    "icon": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2022/09/22/binh-giu-nhiet-zojirushi-sm-sr60e-300.jpg"
+                }
+            }
+
+        ],
+        "hot_categories": [
+            {
+                "name": "Điều hòa",
+                "icon": "https://meta.vn/icons/cateico/c1018-210x210.jpg",
+                "discount": "-42%",
+                "expand": false
+            },
+            {
+                "name": " Tivi",
+                "icon": "https://meta.vn/icons/cateico/c3256-210x210.jpg",
+                "discount": "-44%",
+                "expand": false
+            },
+            {
+                "name": "Quạt, Máy làm mát",
+                "icon": "https://meta.vn/icons/cateico/c448-210x210.jpg",
+                "discount": "-44%",
+                "expand": false
+            },
+            {
+                "name": "Tủ lạnh",
+                "icon": "https://meta.vn/icons/cateico/c1015-210x210.jpg",
+                "discount": "-44%",
+                "expand": false
+            },
+            {
+                "name": "Xe lăn",
+                "icon": "https://meta.vn/icons/cateico/c714-210x210.jpg",
+                "discount": "-41%",
+
+                "expand": false
+            },
+            {
+                "name": "Thiết bị nâng hạ",
+                "icon": "https://meta.vn/icons/cateico/c3513-210x210.jpg",
+                "discount": "-44%",
+
+                "expand": false
+            },
+            {
+                "name": "Nồi cơm điện",
+                "icon": "https://meta.vn/icons/cateico/c387-210x210.jpg",
+                "discount": "-44%",
+
+                "expand": false
+            },
+            {
+                "name": "Máy xay đa năng",
+                "icon": "https://meta.vn/icons/cateico/c443-210x210.jpg",
+                "discount": "-44%",
+
+                "expand": false
+            },
+            {
+                "name": "Máy khoan",
+                "icon": "https://meta.vn/icons/cateico/c681-210x210.jpg",
+                "discount": "-44%",
+
+                "expand": false
+            },
+            {
+                "name": "Máy rửa xe",
+                "icon": "https://meta.vn/icons/cateico/c817-210x210.jpg",
+                "discount": "-44%",
+
+                "expand": false
+            },
+            {
+                "name": "Máy chiếu",
+                "icon": "https://meta.vn/icons/cateico/c535-210x210.jpg",
+                "discount": "-42%",
+
+                "expand": false
+            },
+            {
+                "name": "Máy bơm nước",
+                "icon": "https://meta.vn/icons/cateico/c854-210x210.jpg",
+                "discount": "-44%",
+
+                "expand": false
+            },
+            {
+                "name": "Máy đo độ ẩm",
+                "icon": "https://meta.vn/icons/cateico/c869-210x210.jpg",
+                "discount": "-44%",
+
+                "expand": false
+            },
+            {
+                "name": "Tenis",
+                "icon": "https://meta.vn/icons/cateico/c496-210x210.jpg",
+                "discount": "-44%",
+
+                "expand": false
+            },
+            {
+                "name": "Dụng cụ nhà bếp",
+                "icon": "https://meta.vn/icons/cateico/c3603-210x210.jpg",
+                "discount": "-44%",
+
+                "expand": false
+            },
+            {
+                "name": "Máy giặt",
+                "icon": "https://meta.vn/icons/cateico/c1017-210x210.jpg",
+                "discount": "-44%",
+
+                "expand": false
+            },
+            {
+                "name": "Thang nhôm",
+                "icon": "https://meta.vn/icons/cateico/c821-210x210.jpg",
+                "discount": "-44%",
+
+                "expand": true
+            },
+            {
+                "name": "Máy vệ sinh công nghiệp",
+                "icon": "https://meta.vn/icons/cateico/c3586-210x210.jpg",
+                "discount": "-42%",
+
+                "expand": true
+            },
+            {
+                "name": "Máy sấy hoa quả",
+                "icon": "https://meta.vn/icons/cateico/c1160-210x210.jpg",
+                "discount": "-37%",
+
+                "expand": true
+            },
+            {
+                "name": "Máy pha cafe",
+                "icon": "https://meta.vn/icons/cateico/c581-210x210.jpg",
+                "discount": "-44%",
+
+                "expand": true
+            },
+            {
+                "name": "Máy cắt các loại",
+                "icon": "https://meta.vn/icons/cateico/c814-210x210.jpg",
+                "discount": "-40%",
+
+                "expand": true
+            },
+            {
+                "name": "Các loại nồi",
+                "icon": "https://meta.vn/icons/cateico/c1099-210x210.jpg",
+                "discount": "-44%",
+
+                "expand": true
+            },
+            {
+                "name": "Bình nóng lạnh",
+                "icon": "https://meta.vn/icons/cateico/c757-210x210.jpg",
+                "discount": "-44%",
+
+                "expand": true
+            },
+            {
+                "name": "Phục hồi chức năng",
+                "icon": "https://meta.vn/icons/cateico/c878-210x210.jpg",
+                "discount": "-40%",
+
+                "expand": true
+            },
+            {
+                "name": "Nồi chiên không dầu",
+                "icon": "https://meta.vn/icons/cateico/c1103-210x210.jpg",
+                "discount": "-44%",
+
+                "expand": true
+            },
+            {
+                "name": "Máy hút ẩm",
+                "icon": "https://meta.vn/icons/cateico/c622-210x210.jpg",
+                "discount": "-41%",
+
+                "expand": true
+            },
+            {
+                "name": "Bóng rổ & trụ bóng rổ",
+                "icon": "https://meta.vn/icons/cateico/c283-210x210.jpg",
+                "discount": "-42%",
+
+                "expand": true
+            },
+            {
+                "name": "Máy trợ thính",
+                "icon": "https://meta.vn/icons/cateico/c312-210x210.jpg",
+                "discount": "-30%",
+
+                "expand": true
+            },
+            {
+                "name": "Máy mài",
+                "icon": "https://meta.vn/icons/cateico/c807-210x210.jpg",
+                "discount": "-44%",
+
+                "expand": true
+            },
+            {
+                "name": "Máy rửa siêu âm",
+                "icon": "https://meta.vn/icons/cateico/c352-210x210.jpg",
+                "discount": "-35%",
+
+                "expand": true
+            },
+            {
+                "name": "Cây nước nóng lạnh",
+                "icon": "https://meta.vn/icons/cateico/c565-210x210.jpg",
+                "discount": "-44%",
+
+                "expand": true
+            },
+            {
+                "name": "Máy hàn điện tử",
+                "icon": "https://meta.vn/icons/cateico/c973-210x210.jpg",
+                "discount": "-44%",
+
+                "expand": true
+            }
+        ],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Quạt, Máy làm mát",
+                "icon": "https://meta.vn/icons/cats/448.png",
+                "subcategoriesList": [
+                    {
+                        "subcategory_name": "Quạt điều hòa"
+                    },
+                    {
+                        "subcategory_name": "Máy lạnh di động, Máy lạnh mini"
+                    },
+                    {
+                        "subcategory_name": "Quạt cây, Quạt đứng"
+                    },
+                    {
+                        "subcategory_name": "Quạt công nghiệp"
+                    },
+                    {
+                        "subcategory_name": "Quạt treo tường"
+                    },
+                    {
+                        "subcategory_name": "Quạt trần"
+                    },
+                    {
+                        "subcategory_name": "Máy làm mát công nghiệp"
+                    },
+                    {
+                        "subcategory_name": "Quạt tháp, Quạt không cánh"
+                    },
+                    {
+                        "subcategory_name": "Quạt phun sương"
+                    },
+                    {
+                        "subcategory_name": "Quạt tích điện"
+                    },
+                    {
+                        "subcategory_name": "Quạt đảo trần"
+                    },
+                    {
+                        "id": 12,
+                        "subcategory_name": "Quạt thông gió, Quạt hút gió",
+                        "subcategoriesSmall": [
+                            {
+                                "subcategory_name": "Quạt thông gió nhà vệ sinh"
+                            },
+                            {
+                                "subcategory_name": "Quạt thông gió công nghiệp"
+                            }
+                        ]
+                    },
+                    {
+                        "subcategory_name": "Quạt bàn"
+                    },
+                    {
+                        "subcategory_name": "Quạt chắn gió, Quạt cắt gió"
+                    },
+                    {
+                        "subcategory_name": "Quạt hộp"
+                    },
+                    {
+                        "subcategory_name": "Quạt năng lượng mặt trời"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+
+                "name": "Nồi cơm điện",
+                "icon": "https://meta.vn/icons/cats/387.png",
+
+                "subcategoriesList": [
+                    {
+                        "subcategory_name": "Nồi cơm điện tử"
+                    },
+                    {
+                        "subcategory_name": "Nồi cơm điện cao tần"
+                    },
+                    {
+                        "subcategory_name": "Nồi cơm điện mini"
+                    },
+                    {
+                        "subcategory_name": "Nồi cơm điện công nghiệp"
+                    },
+                    {
+                        "subcategory_name": "Nồi cơm điện nắp liền"
+                    },
+                    {
+                        "subcategory_name": "Nồi cơm điện nắp rời"
+                    },
+                    {
+                        "subcategory_name": "Nồi cơm tách đường"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Máy xay đa năng",
+                "icon": "https://meta.vn/icons/cats/443.png",
+
+                "subcategoriesList": [
+                    {
+                        "subcategory_name": "Máy ép trái cây"
+                    },
+                    {
+                        "subcategory_name": "Máy xay sinh tố"
+                    },
+                    {
+                        "subcategory_name": "Máy xay sinh tố công nghiệp"
+                    },
+                    {
+                        "subcategory_name": "Máy đánh trứng, Máy trộn bột"
+                    },
+                    {
+                        "subcategory_name": "Máy ép chậm"
+                    },
+                    {
+                        "subcategory_name": "Máy xay thịt"
+                    },
+                    {
+                        "subcategory_name": "Máy vắt cam"
+                    },
+                    {
+                        "subcategory_name": "Máy xay cầm tay"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+
+                "name": "Máy pha cà phê",
+                "icon": "https://meta.vn/icons/cats/581.png",
+
+                "subcategoriesList": [
+                    {
+                        "subcategory_name": "Máy pha cà phê tự động"
+                    },
+                    {
+                        "subcategory_name": "Máy pha cà phê bán tự động"
+                    },
+                    {
+                        "subcategory_name": "Máy pha cà phê chuyên nghiệp"
+                    },
+                    {
+                        "subcategory_name": "Máy pha cà phê viên nén"
+                    },
+                    {
+                        "subcategory_name": "Ấm pha cà phê"
+                    },
+                    {
+                        "subcategory_name": "Máy lọc cà phê"
+                    },
+                    {
+                        "subcategory_name": "Phụ kiện máy pha cà phê"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Cây nước nóng lạnh",
+                "icon": "https://meta.vn/icons/cats/565.png"
+            },
+            {
+                "id": 6,
+                "name": "Các loại nồi",
+                "icon": "https://meta.vn/icons/cats/1099.png",
+
+                "subcategoriesList": [
+                    {
+                        "id": 1,
+                        "subcategory_name": "Nồi áp suất",
+                        "subcategoriesSmall": [
+                            {
+                                "subcategory_name": "Nồi áp suất cơ"
+                            },
+                            {
+                                "subcategory_name": "Nồi áp suất điện"
+                            },
+                            {
+                                "subcategory_name": "Nồi áp suất công nghiệp"
+                            }
+                        ]
+                    },
+                    {
+                        "id":2,
+                        "subcategory_name": "Nồi - Bộ nồi",
+                        "subcategoriesSmall": [
+                            {
+                                "subcategory_name": "Bộ nồi"
+                            },
+                            {
+                                "subcategory_name": "Nồi inox và hợp kim"
+                            },
+                            {
+                                "subcategory_name": "Nồi quấy bột"
+                            }
+                        ]
+                    },
+                    {
+                        "subcategory_name": "Nồi hấp - Nồi hấp điện"
+                    },
+                    {
+                        "subcategory_name": "Nồi nấu cháo chậm"
+                    },
+                    {
+                        "subcategory_name": "Nồi đa năng"
+                    },
+                    {
+                        "subcategory_name": "Nồi ủ"
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "Các loại bếp",
+                "icon": "https://meta.vn/icons/cats/1089.png",
+                "subcategoriesList": [
+                    {
+                        "id": 1,
+                        "subcategory_name": "Bếp từ",
+                        "subcategoriesSmall": [
+                            {
+                                "subcategory_name": "Bếp từ đơn"
+                            },
+                            {
+                                "subcategory_name": "Bếp từ âm"
+                            },
+                            {
+                                "subcategory_name": "Bếp từ dương"
+                            },
+                            {
+                                "subcategory_name": "Bếp từ công nghiệp"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "subcategory_name": "Bếp hồng ngoại",
+                        "subcategoriesSmall": [
+                            {
+                                "subcategory_name": "Bếp hồng ngoại đơn"
+                            },
+                            {
+                                "subcategory_name": "Bếp hồng ngoại đôi"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "subcategory_name": "Bếp ga",
+                        "subcategoriesSmall": [
+                            {
+                                "subcategory_name": "Bếp ga dương"
+                            },
+                            {
+                                "subcategory_name": "Bếp ga đôi"
+                            },
+                            {
+                                "subcategory_name": "Bếp ga mini, bếp ga du lịch"
+                            },
+                            {
+                                "subcategory_name": "Bếp ga hồng ngoại"
+                            },
+                            {
+                                "subcategory_name": "Bếp ga công nghiệp, bếp khè"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "Máy hút bụi",
+                "icon": "https://meta.vn/icons/cats/386.png",
+                "subcategoriesList": [
+                    {
+                        "subcategory_name": "Máy hút bụi cầm tay"
+                        
+                    },
+                    {
+                        "subcategory_name": "Máy hút bụi gia đình"
+                        
+                    },
+                    {
+                        "subcategory_name": "Robot hút bụi"
+                    },
+                    {
+                        "subcategory_name": "Robot lau kính"
+                    },
+                    {
+                        "subcategory_name": "Phu kiện máy hút bụi"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "name": "Máy lọc nước",
+                "icon": "https://meta.vn/icons/cats/422.png",
+                "subcategoriesList": [
+                    {
+                        "subcategory_name": "Máy lọc nước RO"
+                    },
+                    {
+                        "subcategory_name": "Máy lọc nước ion kiềm, Máy lọc nước điện giải"
+                    },
+                    {
+                        "subcategory_name": "Máy lọc nước nóng lạnh"
+                    },
+                    {
+                        "subcategory_name": "Máy lọc nước không dùng điện"
+                    },
+                    {
+                        "subcategory_name": "Máy lọc nước Nano"
+                    },
+                    {
+                        "subcategory_name": "Bình lọc nước"
+                    },
+                    {
+                        "id" : 7,
+                        "subcategory_name": "Lõi lọc nước",
+                        "subcategoriesSmall": [
+                            {
+                                "subcategory_name": "Lõi lọc RO"
+                            },
+                            {
+                                "subcategory_name": "Lõi lọc Nano"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "subcategory_name": "Phụ kiện máy lọc nước"
+                    },
+                    {
+                        "subcategory_name": "Máy lọc nước tại vòi"
+                    },
+                    {
+                        "subcategory_name": "Máy lọc nước mặn"
+                    },
+                    {
+                        "subcategory_name": "Bộ lọc nước đầu nguồn"
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "name": "Lò vi sóng",
+                "icon": "https://meta.vn/icons/cats/420.png"
+            },
+            {
+                "id": 10,
+                "name": "Đồ dùng nha bếp",
+                "icon": "https://meta.vn/icons/cats/383.png",
+                "subcategoriesList": [
+                    {
+                        "id": 1,
+                        "subcategory_name": "Chảo các loại",
+                        "subcategoriesSmall": [
+                            {
+                                "subcategory_name": "Chảo bếp từ"
+                            },
+                            {
+                                "subcategory_name": "Chảo chống dính"
+                            },
+                            {
+                                "subcategory_name": "Chảo nướng, Vỉ nướng"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "subcategory_name": "Ấm siêu tốc"
+                    },
+                    {
+                        "id": 3,
+                        "subcategory_name": "Máy hút mùi, Máy hút khói",
+                        "subcategoriesSmall": [
+                            {
+                                "subcategory_name": "Máy hút mùi kinh điển"
+                            },
+                            {
+                                "subcategory_name": "Máy hút mùi kính cong"
+                            },
+                            {
+                                "subcategory_name": "Máy hút mùi độc lập"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "subcategory_name": "Ấm đun nước"
+                    },
+                    {
+                        "subcategory_name": "Thùng đựng gạo"
+                    },
+                    {
+                        "subcategory_name": "Cối xay tiêu, Máy xay tiêu"
+                    },
+                    
+                    {
+                        "subcategory_name": "Dao - Thớt"
+                    },
+                    {
+                        "subcategory_name": "Hộp và túi đựng thực phẩm"
+                    },
+                    {
+                        "subcategory_name": "Dụng cụ khác"
+                    }
+                    
+                ]
+            },
+            {
+                "id": 11,
+                "name": "Lò nướng, Bếp nướng",
+                "icon": "https://meta.vn/icons/cats/440.png",
+                "subcategoriesList": [
+                    {
+                        "subcategory_name": "Lò nướng"
+                    },
+                    
+                    {
+                        "subcategory_name": "Lò nướng thủy tinh"
+                    },
+                    {
+                        "subcategory_name": "Bếp nướng điện, vỉ nướng điện"
+                    }
+                ]
+            },
+            {
+                "id": 12,
+                "name": "Nồi chiên không dầu",
+                "icon": "https://meta.vn/icons/cats/1103.png"
+                
+            },
+            {
+                "id": 13,
+                "name": "Máy sấy hoa quả",
+                "icon": "https://meta.vn/icons/cats/1160.png"
+            },
+            {
+                "id": 14,
+                "name": "Bàn là, bàn ủi",
+                "icon": "https://meta.vn/icons/cats/452.png",
+                "subcategoriesList": [
+                    {
+                        "subcategory_name": "Bàn là khô, bàn là nhiệt"
+                    },
+                    {
+                        "id": 2,
+                        "subcategory_name": "Lò nướng thủy tinh",
+                        "subcategoriesSmall": [
+                            {
+                                "subcategory_name": "Bàn là hơi nước đứng"
+                            },
+                            {
+                                "subcategory_name": "Bàn là hơi nước cầm tay"
+                            },
+                            {
+                                "subcategory_name": "Bàn ủi hơi nước công nghiệp"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 15,
+                "name": "Bình thủy điện",
+                "icon": "https://meta.vn/icons/cats/415.png"
+            },
+            {
+                "id": 16,
+                "name": "Máy làm sữa hạt",
+                "icon": "https://meta.vn/icons/cats/3478.png"
+            },
+            {
+                "id": 17,
+                "name": "Nồi lẩu, bếp lẩu",
+                "icon": "https://meta.vn/icons/cats/3089.png",
+                "subcategoriesList": [
+                    {
+                        "subcategory_name": "Nồi lẩu điện"
+                    },
+                    {
+                        "subcategory_name": "Bếp lẩu nướng"
+                    },
+                    {
+                        "subcategory_name": "Nồi lẩu mini"
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "name": "Máy làm kem",
+                "icon": "https://meta.vn/icons/cats/523.png",
+                "subcategoriesList": [
+                    {
+                        "subcategory_name": "Máy làm kem gia đình"
+                    },
+                    {
+                        "subcategory_name": "Máy làm kem công nghiệp"
+                    }
+                ]
+            },
+            {
+                "id": 19,
+                "name": "Đồ sưởi",
+                "icon": "https://meta.vn/icons/cats/437.png",
+                "subcategoriesList": [
+                    {
+                        "subcategory_name": "Máy sưởi dầu"
+                    },
+                    {
+                        "subcategory_name": "Chăn điện, Đệm điện"
+                    },
+                    {
+                        "subcategory_name": "Quạt sưởi"
+                    }, 
+                    {
+                        "subcategory_name": "Đèn sưởi"
+                    },
+                    {
+                        "subcategory_name": "Đèn sưởi nhà tắm"
+                    },
+                    {
+                        "subcategory_name": "Máy sưởi gốm"
+                    },
+                    {
+                        "subcategory_name": "Túi chườm nóng"
+                    }
+                ]
+            },
+            {
+                "id": 20,
+                "name": "Hộp cơm giữ nhiệt",
+                "icon": "https://meta.vn/icons/cats/385.png"
+            }
+            
+        ]
+    }
 }
