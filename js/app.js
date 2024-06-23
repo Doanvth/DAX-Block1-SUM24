@@ -22,7 +22,7 @@ app.controller('quatController', function ($scope, $http) {
   $http.get(URL_API + "categories").then(function (response) {
     $scope.categories = response.data;
     $scope.productsByCategory = {};
-
+    $scope.Product = {}
     // Hàm đệ quy để duyệt qua các danh mục và sản phẩm
     function processCategories(categories, parentId) {
       categories.forEach(function (category) {
@@ -36,15 +36,36 @@ app.controller('quatController', function ($scope, $http) {
           });
         }
 
+
         // Nếu có danh mục con, gọi đệ quy
         if (category.subcategories) {
           processCategories(category.subcategories, category.id);
         }
+
+        console.log($scope.subcategory);
+
       });
     }
 
     // Gọi hàm đệ quy với danh sách danh mục
     processCategories($scope.categories, null);
+
+    // Function to flatten categories and products
+    function flattenCategories(categories) {
+      var products = [];
+      categories.forEach(function (category) {
+        if (category.products) {
+          products = products.concat(category.products);
+        }
+        if (category.subcategories) {
+          products = products.concat(flattenCategories(category.subcategories));
+        }
+        
+      });
+      return products;
+    }
+    $scope.Product = flattenCategories($scope.categories)
+
 
   }, function (error) {
     console.error('Error occurred:', error);
@@ -79,27 +100,53 @@ app.controller('quatController', function ($scope, $http) {
   }, function (error) {
     console.error('Error occurred:', error);
   });
-  $http.get(URL_API + "quat").then(function (response) {
-    $scope.quats = response.data;
-    $scope.totalQuats = $scope.quats.length;
-  }, function (error) {
-    console.error('Error occurred:', error);
-  });
+  // $http.get(URL_API + "quat").then(function (response) {
+  //   $scope.quats = response.data;
+  //   $scope.totalQuats = $scope.quats.length;
+  // }, function (error) {
+  //   console.error('Error occurred:', error);
+  // });
 });
 
 app.controller('detailQuatController', function ($scope, $http, $routeParams) {
-  $http.get(URL_API + "quat/" + $routeParams.id).then(function (response) {
-    $scope.quat = response.data;
-    if (response.data.listAnh && response.data.listAnh.length > 0) {
-      $scope.firstImage = response.data.listAnh[0];
+  $http.get(URL_API + "categories").then(function (response) {
+    var categories = response.data;
+
+    if (Array.isArray(categories)) {
+      categories.forEach(function (category) {
+        var subcategories = category.subcategories;
+        if (Array.isArray(subcategories)) {
+          subcategories.forEach(function (subcategory) {
+            var products = subcategory.products;
+            if (Array.isArray(products)) {
+              products.forEach(function (product) {
+                if (product.id == $routeParams.id) {
+                  $scope.quat = product;
+
+                  if (product.listAnh && product.listAnh.length > 0) {
+                    $scope.firstImage = product.listAnh[0];
+                  }
+
+                  $scope.thongTinSP = product.thongTinSP;
+                  $scope.thongTinSPthunhatvathuhai = $scope.thongTinSP.slice(0, 2);
+
+                  $scope.thongTinSPconlai = $scope.thongTinSP.slice(2);
+                  
+                  console.log($scope.quat.thongTinSP);
+                }
+              });
+            }
+          });
+        }
+      });
+    } else {
+      console.log("Dữ liệu danh mục quạt không hợp lệ.");
     }
+    $scope.isCollapsed = true; 
 
-    $scope.thongTinSP = response.data.thongTinSP;
-    $scope.thongTinSPthunhatvathuhai = $scope.thongTinSP.slice(0, 2);
-
-    $scope.thongTinSPconlai = $scope.thongTinSP.slice(2);
-    }, function (error) {
-    console.error('Error occurred:', error);
+    $scope.toggleCollapse = function () {
+      $scope.isCollapsed = !$scope.isCollapsed; 
+    };
   });
 });
 

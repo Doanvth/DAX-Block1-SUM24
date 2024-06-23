@@ -417,37 +417,46 @@
 
                 </table>
             </div>
-            <h4>Thông tin sản phẩm</h4>
-            <div class="bg-white">
-                <div class="m-2 p-1" ng-repeat="item in thongTinSPthunhatvathuhai track by $index">
+            <h4 ng-if="quat.thongTinSP != null">Thông tin sản phẩm</h4>
+            <div class="bg-white" >
+                <div class="m-2 p-2" ng-if="quat.thongTinSP.length == 0">
+                    <h2 class="fw-bold" style="font-size: 18px;">
+                        Đang cập nhật thêm....
+                    </h2>
+                </div>
+
+                <div class="m-2 p-2" ng-repeat="item in thongTinSPthunhatvathuhai track by $index" ng-if="quat.thongTinSP != null">
                     <h2 class="fw-bold" style="font-size: 18px;">
                         {{item.tieuDeLon || item.tieuDeNho}}
                     </h2>
                     <p>{{item.noiDung}}</p>
                     <p class="text-center">
-                        <img title="{{item.tenHinh}}" src="{{item.hinh}}" alt="{{item.tenHinh}}" width="490" height="520">
+                        <img title="{{item.tenHinh}}" src="{{item.hinh}}" alt="{{item.tenHinh}}" width="490"
+                            height="520">
                     </p>
                     <p class="text-center">{{item.tenHinh}}</p>
                     <p>{{item.noiDung2}}</p>
                 </div>
-            
+
                 <!-- Collapse button for detailed features -->
-                <div class="d-flex justify-content-center" ng-if="thongTinSPconlai.length > 0">
+                <div class="d-flex justify-content-center mb-3 p-2" ng-if="thongTinSPconlai.length > 0 && isCollapsed" ng-if="quat.thongTinSP != null">
                     <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseFeatures" aria-expanded="false" aria-controls="collapseFeatures">
+                        data-bs-target="#collapseFeatures" aria-expanded="false" aria-controls="collapseFeatures"
+                        ng-click="toggleCollapse()">
                         Xem toàn bộ nội dung
                     </button>
                 </div>
-            
+
                 <!-- Detailed features collapsed section -->
-                <div class="collapse mt-3" id="collapseFeatures">
+                <div class="collapse mt-3 p-3" id="collapseFeatures" ng-class="{ 'show': !isCollapsed }" ng-if="quat.thongTinSP != null">
                     <div ng-repeat="item in thongTinSP.slice(2)">
                         <h2 class="fw-bold" style="font-size: 18px;">
                             {{item.tieuDeLon || item.tieuDeNho}}
                         </h2>
                         <p>{{item.noiDung}}</p>
                         <p class="text-center">
-                            <img title="{{item.tenHinh}}" src="{{item.hinh}}" alt="{{item.tenHinh}}" width="600" height="400">
+                            <img title="{{item.tenHinh}}" src="{{item.hinh}}" alt="{{item.tenHinh}}" width="600"
+                                height="400">
                         </p>
                         <p class="text-center">{{item.tenHinh}}</p>
                         <p>{{item.noiDung2}}</p>

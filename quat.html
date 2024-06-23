@@ -609,7 +609,7 @@
                 </ul>
             </div>
             <div class="row ms-3 me-1 bg-white">
-                <div class="col-md-3 mt-2 mb-2" ng-repeat="item in quats">
+                <div class="col-md-3 mt-2 mb-2" ng-repeat="item in Product | orderBy : 'id'">
                     <div class="quat-custom w-100 bg-white">
                         <a href="#!/detailQuat/{{item.id}}" title="Chi tiết {{item.ten}}">
                             <div class="position-relative">
@@ -1004,7 +1004,7 @@
                             </li>
                         </ul>
                         <div class="trend-category view-more-page"><a data-page="1" data-bs-toggle="collapse"
-                                data-max="5" href="#">Xem thêm chuyên
+                                data-max="5" href=".be-hidden">Xem thêm chuyên
                                 mục <i class="fa fa-chevron-down"></i></a></div>
                     </div>
                 </div>
