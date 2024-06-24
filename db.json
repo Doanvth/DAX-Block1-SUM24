@@ -1889,6 +1889,7 @@
                             "capacity": "7 lít",
                             "diameter": "24cm",
                             "packingWeight": "3,5kg",
+                            "size": "459mm x 323mm x 300mm",
                             "packagingSize": "40cm x 23cm x 27cm",
                             "productWeight": "3,7kg",
                             "brandOrigin": "Trung Quốc",
@@ -1909,6 +1910,7 @@
                             "color": "grey",
                             "packingWeight": "2,6kg",
                             "size": "Chiều cao (24,5cm)",
+                            "packagingSize": "375mm x 364mm x 317mm",
                             "productWeight": "2,2kg",
                             "brandOrigin": "Trung Quốc",
                             "madeIn": "Trung Quốc",
@@ -1958,6 +1960,8 @@
                             "useOnInductionCooker": "Có",
                             "capacity": "7 lít",
                             "diameter": "24cm",
+                            "size": "459mm x 323mm x 300mm",
+                            "packagingSize": "375mm x 364mm x 317mm",
                             "brandOrigin": "Trung Quốc",
                             "madeIn": "Trung Quốc",
                             "guarantee": "12 tháng"
@@ -2008,6 +2012,8 @@
                             "typeOfStoveUsed": "Bếp ga, Bếp hồng ngoại, Bếp từ",
                             "useOnInductionCooker": "Có",
                             "diameter": "24cm",
+                            "size": "459mm x 323mm x 300mm",
+                            "packagingSize": "375mm x 364mm x 317mm",
                             "capacity": "7 lít",
                             "brandOrigin": "Trung Quốc",
                             "madeIn": "Trung Quốc",
@@ -2024,6 +2030,8 @@
                             "typeOfStoveUsed": "Bếp ga, Bếp hồng ngoại",
                             "useOnInductionCooker": "Không",
                             "diameter": "18cm",
+                            "size": "459mm x 323mm x 300mm",
+                            "packagingSize": "375mm x 364mm x 317mm",
                             "capacity": "3 lít",
                             "brandOrigin": "Trung Quốc",
                             "madeIn": "Trung Quốc",
@@ -4996,7 +5004,7 @@
                             "status": "Còn hàng",
                             "parameters": [
                                 {
-                                    "id": 1,
+                                    
                                     "Kiểu bình": "Cây nước nóng lạnh bình âm",
                                     "Công nghệ làm lạnh": "Điện tử",
                                     "Nhiệt độ lạnh": "15 - 25 độ C",
@@ -5059,7 +5067,7 @@
                             "status": "Còn hàng",
                             "parameters": [
                                 {
-                                    "id": 1,
+                                    
                                     "Kiểu bình": "Cây nước nóng lạnh úp bình",
                                     "Công nghệ làm lạnh": "Điện tử",
                                     "Dung tích bình nước lạnh": "1 lit",
