@@ -4363,512 +4363,1924 @@
             }
         ]
     },
-        "stove": [
-            {
-                "id": 1,
-                "name": "Bếp từ",
-                "image": "https://meta.vn/icons/cats/413.png",
-                "subcategories": [
-                    {
-                        "id": 1,
-                        "name": "Bếp từ đơn",
-                        "products": [
-                            {
-                                "id": 1,
-                                "ten": "Bếp từ đơn Sunhouse SHD6157",
-                                "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-300.jpg",
-                                "hinh2": "https://st.meta.vn/Data/image/2023/11/28/bep-hong-ngoai-co-sunhouse-shd6011-1.jpg",
-                                "hinh3": "https://st.meta.vn/Data/image/2023/11/28/bep-hong-ngoai-co-sunhouse-shd6011-2.jpg",
-                                "gia": 850000,
-                                "giamGia": 690000,
-                                "danhGia": 262,
-                                "phanTramGiamGia": "-29%",
-                                "thuongHieu": "Sunhouse",
-                                "trangThai": "Còn hàng",
-                                "thongSo": [
-                                    {
-                                        "id": 1,
-                                        "loaiBep": "Bếp từ đơn",
-                                        "loaiNoi": "Chảo có đế từ, Nồi có đế từ",
-                                        "cheDoNau": "7 chế độ",
-                                        "mamTu": "Đồng",
-                                        "chatLieuMatBep": "Ceramic",
-                                        "nguonDienAp": "220V/50Hz",
-                                        "bangDieuKhien": "Cơ",
-                                        "henGio": "Cơ",
-                                        "khoaTreEm": "Không",
-                                        "tuNgatKhiQuaNhiet": "Có",
-                                        "congSuat": "1.800W",
-                                        "phuKien": "Nồi lẩu inox",
-                                        "kichThuoc": "39.5cm x 31cm x 16.5cm",
-                                        "sanXuatTai": "Trung Quốc",
-                                        "xuatSuThuongHieu": "Việt Nam",
-                                        "baoHanh": "12 tháng"
-                                    }
-                                ],
-                                "thongTin": [
-                                    {
-                                        "id": 1,
-                                        "tieuDe": "Sunhouse SHD6157 thiết kế mẫu mã sang trọng",
-                                        "noiDung": "Sunhouse SHD6157 thiết kế gồm 1 vùng nấu với kiểu dáng hình chữ nhật bo tròn góc cạnh mềm mại. Mặt bếp màu đen, bằng phẳng dễ lau chùi vệ sinh. Chân bếp có bọc cao su chống trơn trượt, đảm bảo an toàn trong quá trình nấu nướng. ",
-                                        "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-g.jpg",
-                                        "tenHinh": "Bếp từ đơn Sunhouse SHD6157",
-                                        "noiDung2": null,
-                                        "hinh2": null,
-                                        "tenHinh2": null
-                                    },
-                                    {
-                                        "id": 2,
-                                        "tieuDe": "Mặt kính chịu lực, chịu nhiệt tốt",
-                                        "noiDung": "Bề mặt bếp từ đơn được làm từ kính ceramic cường lực, chống trầy xước, có khả năng chịu được nhiệt độ lên đến 760 độ C hạn chế nứt vỡ, cho độ bền cao. ",
-                                        "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-6.jpg",
-                                        "tenHinh": "Bếp từ có mặt kính siêu bền",
-                                        "noiDung2": null,
-                                        "hinh2": null,
-                                        "tenHinh2": null
-                                    },
-                                    {
-                                        "id": 3,
-                                        "tieuDe": "Bảng điều khiển nút nhấn",
-                                        "noiDung": "Bếp từ Sunhouse sử dụng bảng điều khiển dạng nút cơ nổi thao tác bấm đơn giản, chính xác, độ nhạy cao giúp bạn lựa chọn chế độ nấu và chỉnh nhiệt độ nhanh chóng. Bảng điều khiển bằng ngôn ngữ tiếng Việt hiểu, có màn hình LED để quan sát mức công suất của bếp rất tiện lợi. ",
-                                        "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-5.jpg",
-                                        "tenHinh": "Bảng điều khiển dễ sử dụng",
-                                        "noiDung2": null,
-                                        "hinh2": null,
-                                        "tenHinh2": null
-                                    },
-                                    {
-                                        "id": 4,
-                                        "tieuDe": "Công suất lớn nấu ăn nhanh",
-                                        "noiDung": "Bếp từ vận hành với công suất 1800W cùng công nghệ làm nóng bằng từ trường giúp truyền nhiệt nhanh, rút ngắn thời gian nấu nướng. ",
-                                        "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-4.jpg",
-                                        "tenHinh": "Bếp từ truyền nhiệt nhanh",
-                                        "noiDung2": "Bếp từ chỉ làm nóng vùng nấu mà không bị phát nhiệt ra cả bề mặt bếp, giúp hạn chế tỏa nhiệt ra môi trường xung quanh, vừa góp phần tiết kiệm điện năng, vừa đảm bảo an toàn khi sử dụng.",
-                                        "hinh2": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-3.jpg",
-                                        "tenHinh2": "Bếp từ tiết kiệm điện"
-                                    },
-                                    {
-                                        "id": 5,
-                                        "tieuDe": "7 chế độ nấu cài đặt sẵn",
-                                        "noiDung": "Bếp từ được cài đặt sẵn 7 chế độ gồm: Nấu lẩu, giữ ấm, súp, hầm, hấp, xào, chiên. Tùy theo món ăn mà bạn có thể tùy chọn chế độ và điều chỉnh công suất cũng như hẹn giờ nấu phù hợp. ",
-                                        "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-2.jpg",
-                                        "tenHinh": "Bếp từ tiện lợi với 7 chế độ nấu cài đặt sẵn",
-                                        "noiDung2": null,
-                                        "hinh2": null,
-                                        "tenHinh2": null
-                                    }
-                                ]
-                            },
-                            {
-                                "id": 2,
-                                "ten": "Bếp từ đơn Sunhouse SHD6803",
-                                "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2021/12/19/bep-tu-don-sunhouse-shd6803-3.jpg",
-                                "hinh2": "https://st.meta.vn/Data/image/2021/12/19/bep-tu-don-sunhouse-shd6803-1.jpg",
-                                "hinh3": "https://st.meta.vn/Data/Image/2021/12/19/bep-tu-don-sunhouse-shd6803-8.jpg",
-                                "gia": 990000,
-                                "giamGia": 850000,
-                                "danhGia": 29,
-                                "phanTramGiamGia": "-14%",
-                                "thuongHieu": null,
-                                "trangThai": "Còn hàng",
-                                "thongSo": [
-                                    {
-                                        "id": 1,
-                                        "loaiBep": "Bếp từ đơn",
-                                        "loaiNoi": "Chảo có đế từ, Nồi có đế từ",
-                                        "cheDoNau": "7 chế độ",
-                                        "mamTu": "Đồng",
-                                        "chatLieuMatBep": "Kính Ceramic - Schott Ceran",
-                                        "nguonDienAp": "220V - 240V / 50Hz",
-                                        "bangDieuKhien": "Cảm ứng",
-                                        "henGio": "Có",
-                                        "khoaTreEm": "Có",
-                                        "tuNgatKhiQuaNhiet": "Có",
-                                        "congSuat": "1.800W",
-                                        "phuKien": "Nồi lẩu inox",
-                                        "kichThuoc": "39.5cm x 31cm x 16.5cm",
-                                        "sanXuatTai": "Trung Quốc",
-                                        "xuatSuThuongHieu": "Việt Nam",
-                                        "baoHanh": "12 tháng"
-                                    }
-                                ],
-                                "thongTin": [
-                                    {
-                                        "id": 1,
-                                        "tieuDe": "Thiết kế nhỏ gọn, thanh lịch",
-                                        "noiDung": "SHD6803 là dòng bếp từ đơn nên có thiết kế khá nhỏ gọn thuận tiện cho việc di chuyển và sử dụng. Thân bếp mỏng, trọng lượng nhẹ giúp người dùng có thể đặt bếp trên bàn bếp, bàn ăn để ăn lẩu,...",
-                                        "hinh": "https://st.meta.vn/Data/image/2021/12/19/bep-tu-don-sunhouse-shd6803-2.jpg",
-                                        "tenHinh": null,
-                                        "noiDung2": null,
-                                        "hinh2": null,
-                                        "tenHinh2": null
-                                    },
-                                    {
-                                        "id": 2,
-                                        "tieuDe": "Chất liệu bền vững",
-                                        "noiDung": "Bếp từ đơn Sunhouse SHD6803 có màu đen tối giản với mặt kính làm bằng kính ceramic cường lực. Ưu điểm chất liệu dày dặn, chống trầy xước, chống nứt vỡ, chịu nhiệt tốt. ",
-                                        "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-6.jpg",
-                                        "tenHinh": null,
-                                        "noiDung2": "Khả năng chống sốc nhiệt giúp bếp chịu được nhiệt độ 760 độ C (điều kiện phòng thí nghiệm), nhờ đó bạn có thể gia nhiệt linh hoạt khi nấu ăn. Nổi bật trên nền đen là bảng điều khiển và vùng nấu được ký hiệu bằng màu vàng ánh cho bạn thao tác và đặt nồi đúng vị trí nhiệt.Bảng điều khiển dạng cảm ứng siêu nhạy dễ dàng thao tác thông qua các vị trí có ký hiệu bằng hình ảnh và chữ. Bên cạnh đó, bếp còn trang bị màn hình LED hiển thị mức công suất quá trình nấu cho bạn chủ động theo dõi. ",
-                                        "hinh2": "https://st.meta.vn/Data/image/2021/12/19/bep-tu-don-sunhouse-shd6803-7.jpg",
-                                        "tenHinh2": null
-                                    }
-                                ]
-                            },
-                            {
-                                "id": 3,
-                                "ten": "Bếp gas dương hồng ngoại Sunhouse SHB004MT",
-                                "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2021/05/24/bep-gas-duong-hong-ngoai-sunhouse-shb004mt-nho.jpg",
-                                "gia": 890000,
-                                "giamGia": 650000,
-                                "danhGia": 13,
-                                "phanTramGiamGia": "-27%",
-                                "thuongHieu": null,
-                                "trangThai": "Còn hàng",
-                                "thongSo": null,
-                                "thongTin": null
-                            },
-                            {
-                                "id": 4,
-                                "ten": "Bếp điện từ đa năng Nagakawa NAG0716",
-                                "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2022/10/24/bep-dien-tu-nagakawa-nag0716-300.jpg",
-                                "gia": 3179000,
-                                "giamGia": 2490000,
-                                "danhGia": 3,
-                                "phanTramGiamGia": "-22%",
-                                "thuongHieu": null,
-                                "trangThai": "Còn hàng",
-                                "thongSo": null,
-                                "thongTin": null
-                            },
-                            {
-                                "id": 5,
-                                "ten": "Bếp hồng ngoại cảm ứng Sunhouse SHD6015",
-                                "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2022/08/24/sunhouse-shd6015-a.jpg",
-                                "gia": 1090000,
-                                "giamGia": 859000,
-                                "danhGia": 3,
-                                "phanTramGiamGia": "-21%",
-                                "thuongHieu": null,
-                                "trangThai": "Còn hàng",
-                                "thongSo": null,
-                                "thongTin": null
-                            },
-                            {
-                                "id": 6,
-                                "ten": "Bếp đôi điện từ Nagakawa NK2C05MB",
-                                "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2022/02/24/bep-doi-dien-tu-nagakawa-nk2c05mb-300.jpg",
-                                "gia": 12950000,
-                                "giamGia": 11999000,
-                                "danhGia": 8,
-                                "phanTramGiamGia": "-951K",
-                                "thuongHieu": null,
-                                "trangThai": "Còn hàng",
-                                "thongSo": null,
-                                "thongTin": null
-                            },
-                            {
-                                "id": 7,
-                                "ten": "Bếp điện từ đa năng Nagakawa NAG0717",
-                                "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2022/10/24/bep-dien-tu-nagakawa-nag0717-300.jpg",
-                                "gia": 2490000,
-                                "giamGia": 2590000,
-                                "danhGia": 8,
-                                "phanTramGiamGia": "-100K",
-                                "thuongHieu": null,
-                                "trangThai": "Còn hàng",
-                                "thongSo": null,
-                                "thongTin": null
-                            },
-                            {
-                                "id": 8,
-                                "ten": "Bếp gas du lịch Maxsun MS3500",
-                                "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2019/07/10/bep-gas-du-lich-maxsun-ms3500-300.jpg",
-                                "gia": 350000,
-                                "giamGia": 302000,
-                                "danhGia": 10,
-                                "phanTramGiamGia": "-14%",
-                                "thuongHieu": null,
-                                "trangThai": "Còn hàng",
-                                "thongSo": null,
-                                "thongTin": null
-                            },
-                            {
-                                "id": 9,
-                                "ten": "Bếp điện từ đơn Toshiba IC-20R1SV",
-                                "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2023/10/22/bep-dien-tu-don-toshiba-ic-20r1sv-300.jpg",
-                                "gia": 1450000,
-                                "giamGia": 1290000,
-                                "danhGia": 5,
-                                "phanTramGiamGia": "-11%",
-                                "thuongHieu": null,
-                                "trangThai": "Còn hàng",
-                                "thongSo": null,
-                                "thongTin": null
-                            },
-                            {
-                                "id": 10,
-                                "ten": "Bếp gas bán công nghiệp Rinnai RTL-35KS",
-                                "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2020/04/09/bep-gas-cong-nghiep-rinnai-rtl-35ks-300.jpg",
-                                "gia": 3500000,
-                                "giamGia": 3230000,
-                                "danhGia": 5,
-                                "phanTramGiamGia": "-270K",
-                                "thuongHieu": null,
-                                "trangThai": "Còn hàng",
-                                "thongSo": null,
-                                "thongTin": null
-                            },
-                            {
-                                "id": 11,
-                                "ten": "Bếp ga Sunhouse SHB204MT",
-                                "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2019/11/05/bep-ga-sunhouse-shb204mt-300.jpg",
-                                "gia": 630000,
-                                "giamGia": 820000,
-                                "danhGia": 5,
-                                "phanTramGiamGia": "-23%",
-                                "thuongHieu": null,
-                                "trangThai": "Còn hàng",
-                                "thongSo": null,
-                                "thongTin": null
-                            },
-                            {
-                                "id": 12,
-                                "ten": "Bếp từ đôi Electrolux EHI7280BB",
-                                "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2023/12/15/bep-tu-doi-electrolux-ehi7280bb-a.jpg",
-                                "gia": 11883000,
-                                "giamGia": 6990000,
-                                "danhGia": 5,
-                                "phanTramGiamGia": "-41%",
-                                "thuongHieu": null,
-                                "trangThai": "Còn hàng",
-                                "thongSo": null,
-                                "thongTin": null
-                            }
-                        ]
-                    },
-                    {
-                        "id": 2,
-                        "name": "Bếp từ dương"
-                    },
-                    {
-                        "id": 3,
-                        "name": "Bếp từ âm"
-                    },
-                    {
-                        "id": 4,
-                        "name": "Bếp từ công nghiệp"
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "name": "Bếp hồng ngoại",
-                "image": "https://meta.vn/icons/cats/648.png",
-                "subcategories": [
-                    {
-                        "id": 1,
-                        "name": "Bếp hồng ngoại đơn"
-                    },
-                    {
-                        "id": 2,
-                        "name": "Bếp hồng ngoại đôi"
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "name": "Bếp ga",
-                "image": "https://meta.vn/icons/cats/451.png",
-                "subcategories": [
-                    {
-                        "id": 1,
-                        "name": "Bếp ga dương"
-                    },
-                    {
-                        "id": 2,
-                        "name": "Bếp ga âm"
-                    },
-                    {
-                        "id": 1,
-                        "name": "Bếp ga mini, Bếp ga du lịch"
-                    },
-                    {
-                        "id": 2,
-                        "name": "Bếp ga hồng ngoại"
-                    },
-                    {
-                        "id": 1,
-                        "name": "Bếp ga công nghiệp, bếp khè"
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "name": "Bếp hỗn hợp",
-                "image": "https://meta.vn/icons/cats/775.png"
-            }
-        ],
-        "brandsStove": [
-            {
-                "id": 1,
-                "name": "Sunhouse",
-                "count": 45,
-                "supplier": "EU",
-                "price": "200K - 500K",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/18/logo-sunhouse-nho.png"
-            },
-            {
-                "id": 2,
-                "name": "Goldsun",
-                "count": 15,
-                "supplier": "Châu Âu",
-                "price": "500K - 1 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/24/logo-goldsun-nho.png"
-            },
-            {
-                "id": 3,
-                "name": "Tiross",
-                "count": 5,
-                "supplier": "Hàn Quốc",
-                "price": "1 triệu - 1,5 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Tiross-Logo-35.png"
-            },
-            {
-                "id": 4,
-                "name": "Electrolux",
-                "count": 13,
-                "supplier": "Nhật Bản",
-                "price": "1,5 triệu - 2 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/25/logo-electrolux-nho.png"
-            },
-            {
-                "id": 5,
-                "name": "Nagakawa",
-                "count": 13,
-                "supplier": "Mỹ",
-                "price": "2,5 triệu - 3 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2022/08/20/logo-nagakawa-nho.png"
-            },
-            {
-                "id": 6,
-                "name": "Creen",
-                "count": 3,
-                "supplier": "Đài Loan",
-                "price": "3 triệu - 3,5 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/07/08/logo-creen-nho.png"
-            },
-            {
-                "id": 7,
-                "name": "Hafele",
-                "count": 23,
-                "supplier": "Trung Quốc",
-                "price": "3,5 triệu - 4 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2018/03/8/hafele-logo-35.png"
-            },
-            {
-                "id": 8,
-                "name": "Elmich",
-                "count": 8,
-                "supplier": "Anh",
-                "price": "4 triệu - 4,5 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Elmich-Logo-35.png"
-            },
-            {
-                "id": 9,
-                "name": "Sunhouse",
-                "count": 45,
-                "supplier": "Đức",
-                "price": "4,5 triệu - 5 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-midea-nho.png"
-            },
-            {
-                "id": 10,
-                "name": "Midea",
-                "count": 9,
-                "supplier": "Pháp",
-                "price": "5 triệu - 8 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2020/09/30/logo-dreamer-nho.png"
-            },
-            {
-                "id": 11,
-                "name": "Panasonic",
-                "count": 34,
-                "supplier": "Malaysia",
-                "price": "8 triệu - 10 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Panasonic-Logo-500.png"
-            },
-            {
-                "id": 12,
-                "name": "Kalite",
-                "count": 26,
-                "supplier": "Thái Lan",
-                "price": "10 triệu - 12 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2020/06/15/kalite-logo-35.png"
-            },
-            {
-                "id": 13,
-                "name": "Funiki",
-                "count": 12,
-                "supplier": "Thổ Nhĩ Kỳ",
-                "price": "12 triệu - 14 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-funiki-to.png"
-            },
-            {
-                "id": 14,
-                "name": "Sato",
-                "count": 6,
-                "supplier": "Việt Nam",
-                "price": "14 triệu - 16 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2019/08/12/sato-logo-35.png"
-            },
-            {
-                "id": 15,
-                "name": "WMF",
-                "count": 7,
-                "supplier": "Italya",
-                "price": "16 triệu - 20 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/04/05/logo-wmf-nho.png"
-            },
-            {
-                "id": 16,
-                "name": "Fandi",
-                "count": 9,
-                "supplier": "Nga",
-                "price": "20 triệu - 22 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2024/05/30/fandi-logo-35.png"
-            },
-            {
-                "id": 17,
-                "name": "Galen",
-                "count": 1,
-                "supplier": "Romania",
-                "price": "22 triệu - 24 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2022/10/27/logo-galen-nho.png"
-            },
-            {
-                "id": 18,
-                "name": "Saiko",
-                "count": 4,
-                "supplier": "Ba Lan",
-                "price": "24 triệu - 26 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/19/saiko-logo-nho.png"
-            },
-            {
-                "id": 19,
-                "name": "Rapido",
-                "count": 3,
-                "supplier": "Triều Tiên",
-                "price": "26 triệu - 28 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/10/26/rapido-logonho.jpg"
-            },
-            {
-                "id": 20,
-                "name": "Sanaky",
-                "count": 23,
-                "supplier": "Ấn Độ",
-                "price": "28 triệu - 30 triệu",
-                "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-sanaky-nho.png"
-            }
-        ]
+    "stove": [
+        {
+            "id": 1,
+            "name": "Bếp từ",
+            "image": "https://meta.vn/icons/cats/413.png",
+            "subcategories": [
+                {
+                    "id": 1,
+                    "name": "Bếp từ đơn",
+                    "products": [
+                        {
+                            "id": 1,
+                            "ten": "Bếp từ đơn Sunhouse SHD6157",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-300.jpg",
+                            "hinh2": "https://st.meta.vn/Data/image/2023/11/28/bep-hong-ngoai-co-sunhouse-shd6011-1.jpg",
+                            "hinh3": "https://st.meta.vn/Data/image/2023/11/28/bep-hong-ngoai-co-sunhouse-shd6011-2.jpg",
+                            "gia": 850000,
+                            "giamGia": 690000,
+                            "danhGia": 262,
+                            "phanTramGiamGia": "-29%",
+                            "thuongHieu": "Sunhouse",
+                            "trangThai": "Còn hàng",
+                            "thongSo": [
+                                {
+                                    "id": 1,
+                                    "loaiBep": "Bếp từ đơn",
+                                    "loaiNoi": "Chảo có đế từ, Nồi có đế từ",
+                                    "cheDoNau": "7 chế độ",
+                                    "mamTu": "Đồng",
+                                    "chatLieuMatBep": "Ceramic",
+                                    "nguonDienAp": "220V/50Hz",
+                                    "bangDieuKhien": "Cơ",
+                                    "henGio": "Cơ",
+                                    "khoaTreEm": "Không",
+                                    "tuNgatKhiQuaNhiet": "Có",
+                                    "congSuat": "1.800W",
+                                    "phuKien": "Nồi lẩu inox",
+                                    "kichThuoc": "39.5cm x 31cm x 16.5cm",
+                                    "sanXuatTai": "Trung Quốc",
+                                    "xuatSuThuongHieu": "Việt Nam",
+                                    "baoHanh": "12 tháng"
+                                }
+                            ],
+                            "thongTin": [
+                                {
+                                    "id": 1,
+                                    "tieuDe": "Sunhouse SHD6157 thiết kế mẫu mã sang trọng",
+                                    "noiDung": "Sunhouse SHD6157 thiết kế gồm 1 vùng nấu với kiểu dáng hình chữ nhật bo tròn góc cạnh mềm mại. Mặt bếp màu đen, bằng phẳng dễ lau chùi vệ sinh. Chân bếp có bọc cao su chống trơn trượt, đảm bảo an toàn trong quá trình nấu nướng. ",
+                                    "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-g.jpg",
+                                    "tenHinh": "Bếp từ đơn Sunhouse SHD6157",
+                                    "noiDung2": null,
+                                    "hinh2": null,
+                                    "tenHinh2": null
+                                },
+                                {
+                                    "id": 2,
+                                    "tieuDe": "Mặt kính chịu lực, chịu nhiệt tốt",
+                                    "noiDung": "Bề mặt bếp từ đơn được làm từ kính ceramic cường lực, chống trầy xước, có khả năng chịu được nhiệt độ lên đến 760 độ C hạn chế nứt vỡ, cho độ bền cao. ",
+                                    "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-6.jpg",
+                                    "tenHinh": "Bếp từ có mặt kính siêu bền",
+                                    "noiDung2": null,
+                                    "hinh2": null,
+                                    "tenHinh2": null
+                                },
+                                {
+                                    "id": 3,
+                                    "tieuDe": "Bảng điều khiển nút nhấn",
+                                    "noiDung": "Bếp từ Sunhouse sử dụng bảng điều khiển dạng nút cơ nổi thao tác bấm đơn giản, chính xác, độ nhạy cao giúp bạn lựa chọn chế độ nấu và chỉnh nhiệt độ nhanh chóng. Bảng điều khiển bằng ngôn ngữ tiếng Việt hiểu, có màn hình LED để quan sát mức công suất của bếp rất tiện lợi. ",
+                                    "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-5.jpg",
+                                    "tenHinh": "Bảng điều khiển dễ sử dụng",
+                                    "noiDung2": null,
+                                    "hinh2": null,
+                                    "tenHinh2": null
+                                },
+                                {
+                                    "id": 4,
+                                    "tieuDe": "Công suất lớn nấu ăn nhanh",
+                                    "noiDung": "Bếp từ vận hành với công suất 1800W cùng công nghệ làm nóng bằng từ trường giúp truyền nhiệt nhanh, rút ngắn thời gian nấu nướng. ",
+                                    "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-4.jpg",
+                                    "tenHinh": "Bếp từ truyền nhiệt nhanh",
+                                    "noiDung2": "Bếp từ chỉ làm nóng vùng nấu mà không bị phát nhiệt ra cả bề mặt bếp, giúp hạn chế tỏa nhiệt ra môi trường xung quanh, vừa góp phần tiết kiệm điện năng, vừa đảm bảo an toàn khi sử dụng.",
+                                    "hinh2": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-3.jpg",
+                                    "tenHinh2": "Bếp từ tiết kiệm điện"
+                                },
+                                {
+                                    "id": 5,
+                                    "tieuDe": "7 chế độ nấu cài đặt sẵn",
+                                    "noiDung": "Bếp từ được cài đặt sẵn 7 chế độ gồm: Nấu lẩu, giữ ấm, súp, hầm, hấp, xào, chiên. Tùy theo món ăn mà bạn có thể tùy chọn chế độ và điều chỉnh công suất cũng như hẹn giờ nấu phù hợp. ",
+                                    "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-2.jpg",
+                                    "tenHinh": "Bếp từ tiện lợi với 7 chế độ nấu cài đặt sẵn",
+                                    "noiDung2": null,
+                                    "hinh2": null,
+                                    "tenHinh2": null
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "ten": "Bếp từ đơn Sunhouse SHD6803",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2021/12/19/bep-tu-don-sunhouse-shd6803-3.jpg",
+                            "hinh2": "https://st.meta.vn/Data/image/2021/12/19/bep-tu-don-sunhouse-shd6803-1.jpg",
+                            "hinh3": "https://st.meta.vn/Data/Image/2021/12/19/bep-tu-don-sunhouse-shd6803-8.jpg",
+                            "gia": 990000,
+                            "giamGia": 850000,
+                            "danhGia": 29,
+                            "phanTramGiamGia": "-14%",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": [
+                                {
+                                    "id": 1,
+                                    "loaiBep": "Bếp từ đơn",
+                                    "loaiNoi": "Chảo có đế từ, Nồi có đế từ",
+                                    "cheDoNau": "7 chế độ",
+                                    "mamTu": "Đồng",
+                                    "chatLieuMatBep": "Kính Ceramic - Schott Ceran",
+                                    "nguonDienAp": "220V - 240V / 50Hz",
+                                    "bangDieuKhien": "Cảm ứng",
+                                    "henGio": "Có",
+                                    "khoaTreEm": "Có",
+                                    "tuNgatKhiQuaNhiet": "Có",
+                                    "congSuat": "1.800W",
+                                    "phuKien": "Nồi lẩu inox",
+                                    "kichThuoc": "39.5cm x 31cm x 16.5cm",
+                                    "sanXuatTai": "Trung Quốc",
+                                    "xuatSuThuongHieu": "Việt Nam",
+                                    "baoHanh": "12 tháng"
+                                }
+                            ],
+                            "thongTin": [
+                                {
+                                    "id": 1,
+                                    "tieuDe": "Thiết kế nhỏ gọn, thanh lịch",
+                                    "noiDung": "SHD6803 là dòng bếp từ đơn nên có thiết kế khá nhỏ gọn thuận tiện cho việc di chuyển và sử dụng. Thân bếp mỏng, trọng lượng nhẹ giúp người dùng có thể đặt bếp trên bàn bếp, bàn ăn để ăn lẩu,...",
+                                    "hinh": "https://st.meta.vn/Data/image/2021/12/19/bep-tu-don-sunhouse-shd6803-2.jpg",
+                                    "tenHinh": null,
+                                    "noiDung2": null,
+                                    "hinh2": null,
+                                    "tenHinh2": null
+                                },
+                                {
+                                    "id": 2,
+                                    "tieuDe": "Chất liệu bền vững",
+                                    "noiDung": "Bếp từ đơn Sunhouse SHD6803 có màu đen tối giản với mặt kính làm bằng kính ceramic cường lực. Ưu điểm chất liệu dày dặn, chống trầy xước, chống nứt vỡ, chịu nhiệt tốt. ",
+                                    "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-6.jpg",
+                                    "tenHinh": null,
+                                    "noiDung2": "Khả năng chống sốc nhiệt giúp bếp chịu được nhiệt độ 760 độ C (điều kiện phòng thí nghiệm), nhờ đó bạn có thể gia nhiệt linh hoạt khi nấu ăn. Nổi bật trên nền đen là bảng điều khiển và vùng nấu được ký hiệu bằng màu vàng ánh cho bạn thao tác và đặt nồi đúng vị trí nhiệt.Bảng điều khiển dạng cảm ứng siêu nhạy dễ dàng thao tác thông qua các vị trí có ký hiệu bằng hình ảnh và chữ. Bên cạnh đó, bếp còn trang bị màn hình LED hiển thị mức công suất quá trình nấu cho bạn chủ động theo dõi. ",
+                                    "hinh2": "https://st.meta.vn/Data/image/2021/12/19/bep-tu-don-sunhouse-shd6803-7.jpg",
+                                    "tenHinh2": null
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "ten": "Bếp gas dương hồng ngoại Sunhouse SHB004MT",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2021/05/24/bep-gas-duong-hong-ngoai-sunhouse-shb004mt-nho.jpg",
+                            "gia": 890000,
+                            "giamGia": 650000,
+                            "danhGia": 13,
+                            "phanTramGiamGia": "-27%",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": null,
+                            "thongTin": null
+                        },
+                        {
+                            "id": 4,
+                            "ten": "Bếp điện từ đa năng Nagakawa NAG0716",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2022/10/24/bep-dien-tu-nagakawa-nag0716-300.jpg",
+                            "gia": 3179000,
+                            "giamGia": 2490000,
+                            "danhGia": 3,
+                            "phanTramGiamGia": "-22%",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": null,
+                            "thongTin": null
+                        },
+                        {
+                            "id": 5,
+                            "ten": "Bếp hồng ngoại cảm ứng Sunhouse SHD6015",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2022/08/24/sunhouse-shd6015-a.jpg",
+                            "gia": 1090000,
+                            "giamGia": 859000,
+                            "danhGia": 3,
+                            "phanTramGiamGia": "-21%",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": null,
+                            "thongTin": null
+                        },
+                        {
+                            "id": 6,
+                            "ten": "Bếp đôi điện từ Nagakawa NK2C05MB",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2022/02/24/bep-doi-dien-tu-nagakawa-nk2c05mb-300.jpg",
+                            "gia": 12950000,
+                            "giamGia": 11999000,
+                            "danhGia": 8,
+                            "phanTramGiamGia": "-951K",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": null,
+                            "thongTin": null
+                        },
+                        {
+                            "id": 7,
+                            "ten": "Bếp điện từ đa năng Nagakawa NAG0717",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2022/10/24/bep-dien-tu-nagakawa-nag0717-300.jpg",
+                            "gia": 2490000,
+                            "giamGia": 2590000,
+                            "danhGia": 8,
+                            "phanTramGiamGia": "-100K",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": null,
+                            "thongTin": null
+                        },
+                        {
+                            "id": 8,
+                            "ten": "Bếp gas du lịch Maxsun MS3500",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2019/07/10/bep-gas-du-lich-maxsun-ms3500-300.jpg",
+                            "gia": 350000,
+                            "giamGia": 302000,
+                            "danhGia": 10,
+                            "phanTramGiamGia": "-14%",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": null,
+                            "thongTin": null
+                        },
+                        {
+                            "id": 9,
+                            "ten": "Bếp điện từ đơn Toshiba IC-20R1SV",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2023/10/22/bep-dien-tu-don-toshiba-ic-20r1sv-300.jpg",
+                            "gia": 1450000,
+                            "giamGia": 1290000,
+                            "danhGia": 5,
+                            "phanTramGiamGia": "-11%",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": null,
+                            "thongTin": null
+                        },
+                        {
+                            "id": 10,
+                            "ten": "Bếp gas bán công nghiệp Rinnai RTL-35KS",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2020/04/09/bep-gas-cong-nghiep-rinnai-rtl-35ks-300.jpg",
+                            "gia": 3500000,
+                            "giamGia": 3230000,
+                            "danhGia": 5,
+                            "phanTramGiamGia": "-270K",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": null,
+                            "thongTin": null
+                        },
+                        {
+                            "id": 11,
+                            "ten": "Bếp ga Sunhouse SHB204MT",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2019/11/05/bep-ga-sunhouse-shb204mt-300.jpg",
+                            "gia": 630000,
+                            "giamGia": 820000,
+                            "danhGia": 5,
+                            "phanTramGiamGia": "-23%",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": null,
+                            "thongTin": null
+                        },
+                        {
+                            "id": 12,
+                            "ten": "Bếp từ đôi Electrolux EHI7280BB",
+                            "hinh": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2023/12/15/bep-tu-doi-electrolux-ehi7280bb-a.jpg",
+                            "gia": 11883000,
+                            "giamGia": 6990000,
+                            "danhGia": 5,
+                            "phanTramGiamGia": "-41%",
+                            "thuongHieu": null,
+                            "trangThai": "Còn hàng",
+                            "thongSo": null,
+                            "thongTin": null
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Bếp từ dương"
+                },
+                {
+                    "id": 3,
+                    "name": "Bếp từ âm"
+                },
+                {
+                    "id": 4,
+                    "name": "Bếp từ công nghiệp"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Bếp hồng ngoại",
+            "image": "https://meta.vn/icons/cats/648.png",
+            "subcategories": [
+                {
+                    "id": 1,
+                    "name": "Bếp hồng ngoại đơn"
+                },
+                {
+                    "id": 2,
+                    "name": "Bếp hồng ngoại đôi"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Bếp ga",
+            "image": "https://meta.vn/icons/cats/451.png",
+            "subcategories": [
+                {
+                    "id": 1,
+                    "name": "Bếp ga dương"
+                },
+                {
+                    "id": 2,
+                    "name": "Bếp ga âm"
+                },
+                {
+                    "id": 1,
+                    "name": "Bếp ga mini, Bếp ga du lịch"
+                },
+                {
+                    "id": 2,
+                    "name": "Bếp ga hồng ngoại"
+                },
+                {
+                    "id": 1,
+                    "name": "Bếp ga công nghiệp, bếp khè"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Bếp hỗn hợp",
+            "image": "https://meta.vn/icons/cats/775.png"
+        }
+    ],
+    "brandsStove": [
+        {
+            "id": 1,
+            "name": "Sunhouse",
+            "count": 45,
+            "supplier": "EU",
+            "price": "200K - 500K",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/18/logo-sunhouse-nho.png"
+        },
+        {
+            "id": 2,
+            "name": "Goldsun",
+            "count": 15,
+            "supplier": "Châu Âu",
+            "price": "500K - 1 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/24/logo-goldsun-nho.png"
+        },
+        {
+            "id": 3,
+            "name": "Tiross",
+            "count": 5,
+            "supplier": "Hàn Quốc",
+            "price": "1 triệu - 1,5 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Tiross-Logo-35.png"
+        },
+        {
+            "id": 4,
+            "name": "Electrolux",
+            "count": 13,
+            "supplier": "Nhật Bản",
+            "price": "1,5 triệu - 2 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/25/logo-electrolux-nho.png"
+        },
+        {
+            "id": 5,
+            "name": "Nagakawa",
+            "count": 13,
+            "supplier": "Mỹ",
+            "price": "2,5 triệu - 3 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2022/08/20/logo-nagakawa-nho.png"
+        },
+        {
+            "id": 6,
+            "name": "Creen",
+            "count": 3,
+            "supplier": "Đài Loan",
+            "price": "3 triệu - 3,5 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/07/08/logo-creen-nho.png"
+        },
+        {
+            "id": 7,
+            "name": "Hafele",
+            "count": 23,
+            "supplier": "Trung Quốc",
+            "price": "3,5 triệu - 4 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2018/03/8/hafele-logo-35.png"
+        },
+        {
+            "id": 8,
+            "name": "Elmich",
+            "count": 8,
+            "supplier": "Anh",
+            "price": "4 triệu - 4,5 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Elmich-Logo-35.png"
+        },
+        {
+            "id": 9,
+            "name": "Sunhouse",
+            "count": 45,
+            "supplier": "Đức",
+            "price": "4,5 triệu - 5 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-midea-nho.png"
+        },
+        {
+            "id": 10,
+            "name": "Midea",
+            "count": 9,
+            "supplier": "Pháp",
+            "price": "5 triệu - 8 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2020/09/30/logo-dreamer-nho.png"
+        },
+        {
+            "id": 11,
+            "name": "Panasonic",
+            "count": 34,
+            "supplier": "Malaysia",
+            "price": "8 triệu - 10 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Panasonic-Logo-500.png"
+        },
+        {
+            "id": 12,
+            "name": "Kalite",
+            "count": 26,
+            "supplier": "Thái Lan",
+            "price": "10 triệu - 12 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2020/06/15/kalite-logo-35.png"
+        },
+        {
+            "id": 13,
+            "name": "Funiki",
+            "count": 12,
+            "supplier": "Thổ Nhĩ Kỳ",
+            "price": "12 triệu - 14 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-funiki-to.png"
+        },
+        {
+            "id": 14,
+            "name": "Sato",
+            "count": 6,
+            "supplier": "Việt Nam",
+            "price": "14 triệu - 16 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2019/08/12/sato-logo-35.png"
+        },
+        {
+            "id": 15,
+            "name": "WMF",
+            "count": 7,
+            "supplier": "Italya",
+            "price": "16 triệu - 20 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/04/05/logo-wmf-nho.png"
+        },
+        {
+            "id": 16,
+            "name": "Fandi",
+            "count": 9,
+            "supplier": "Nga",
+            "price": "20 triệu - 22 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2024/05/30/fandi-logo-35.png"
+        },
+        {
+            "id": 17,
+            "name": "Galen",
+            "count": 1,
+            "supplier": "Romania",
+            "price": "22 triệu - 24 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2022/10/27/logo-galen-nho.png"
+        },
+        {
+            "id": 18,
+            "name": "Saiko",
+            "count": 4,
+            "supplier": "Ba Lan",
+            "price": "24 triệu - 26 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/19/saiko-logo-nho.png"
+        },
+        {
+            "id": 19,
+            "name": "Rapido",
+            "count": 3,
+            "supplier": "Triều Tiên",
+            "price": "26 triệu - 28 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/10/26/rapido-logonho.jpg"
+        },
+        {
+            "id": 20,
+            "name": "Sanaky",
+            "count": 23,
+            "supplier": "Ấn Độ",
+            "price": "28 triệu - 30 triệu",
+            "image": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-sanaky-nho.png"
+        }
+    ],
+    "CatagoryCayNuocNongLanh": [
+        {
+            "Categories": [
+                {
+                    "id": 1,
+                    "name": "Quạt, Máy làm mát",
+                    "icon": "https://meta.vn/icons/cats/448.png",
+                    "subcategories": [
+                        {
+                            "id": 2,
+                            "name": "Quạt điều hòa"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Máy lạnh di động, Máy lạnh mini"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Quạt cây, Quạt đứng"
+                        },
+                        {
+                            "id": 5,
+                            "name": "Quạt công nghiệp"
+                        },
+                        {
+                            "id": 6,
+                            "name": "Quạt treo tường"
+                        },
+                        {
+                            "id": 7,
+                            "name": "Quạt trần"
+                        },
+                        {
+                            "id": 8,
+                            "name": "Máy làm mát công nghiệp"
+                        },
+                        {
+                            "id": 9,
+                            "name": "Quạt tháp, Quạt không cánh"
+                        },
+                        {
+                            "id": 10,
+                            "name": "Quạt phun sương"
+                        },
+                        {
+                            "id": 11,
+                            "name": "Quạt tích điện"
+                        },
+                        {
+                            "id": 12,
+                            "name": "Quạt đảo trần"
+                        },
+                        {
+                            "id": 13,
+                            "name": "Quạt thông gió, Quạt hút gió",
+                            "subcategories-son1": [
+                                {
+                                    "id": 14,
+                                    "name-son1": "Quạt thông gió nhà vệ sinh"
+                                },
+                                {
+                                    "id": 15,
+                                    "name-son1": "Quạt thông gió công nghiệp"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 16,
+                            "name": "Quạt bàn"
+                        },
+                        {
+                            "id": 17,
+                            "name": "Quạt chắn gió, Quạt cắt gió"
+                        },
+                        {
+                            "id": 18,
+                            "name": "Quạt hộp"
+                        },
+                        {
+                            "id": 19,
+                            "name": "Quạt năng lượng mặt trời"
+                        }
+                    ]
+                },
+                {
+                    "id": 20,
+                    "name": "Máy pha cà phê",
+                    "icon": "https://meta.vn/icons/cats/581.png"
+                },
+                {
+                    "id": 21,
+                    "name": "Các loại nồi",
+                    "icon": "https://meta.vn/icons/cats/1099.png"
+                },
+                {
+                    "id": 22,
+                    "name": "Máy xay đa năng",
+                    "icon": "https://meta.vn/icons/cats/443.png"
+                },
+                {
+                    "id": 23,
+                    "name": "Cây nước nóng lạnh",
+                    "icon": "https://meta.vn/icons/cats/565.png",
+                    "Product": [
+                        {
+                            "id": 1,
+                            "name": "Cây nước nóng lạnh kết hợp bàn pha trà, cafe FujiHome TB110E",
+                            "image": "https://st.meta.vn/Data/image/2023/05/20/fujihome-tb110e-g.jpg",
+                            "price": 1650000,
+                            "percentPrice": "-33%",
+                            "disscout": 2450000,
+                            "reviews": 98,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": " FujiHome"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh FujiHome"
+                                }
+                            ],
+                            "status": "Còn hàng",
+                            "parameters": [
+                                {
+                                    "id": 1,
+                                    "Kiểu bình": "Cây nước nóng lạnh bình âm",
+                                    "Công nghệ làm lạnh": "Điện tử",
+                                    "Nhiệt độ lạnh": "15 - 25 độ C",
+                                    "Nhiệt độ nóng": "100 độ C",
+                                    "Công suất làm nóng": "1.375W",
+                                    "Công suất làm lạnh": "65W",
+                                    "Thời gian làm nóng": "7 lít/giờ",
+                                    "Thời gian làm lạnh": "0.7 L/h",
+                                    "Nguồn điện áp": "220V/50Hz",
+                                    "Công suất": "Giữ ấm (35W), Tổng (1.475W)",
+                                    "Kích thước": "Rộng x sâu x cao (33.9cm x 32cm x 99.5cm)",
+                                    "Trọng lượng sản phẩm": "7,3kg",
+                                    "Trọng lượng bao bì": "8,8kg",
+                                    "Xuất xứ thương hiệu": "Việt Nam",
+                                    "Sản xuất tại": "Trung Quốc",
+                                    "Bảo hành": "24 tháng",
+                                    "Tải tài liệu": "Hướng dẫn sử dụng cây nước nóng lạnh kết hợp bàn pha trà, cafe FujiHome TB110E"
+                                }
+                            ],
+                            "imfomation": [
+                                {
+                                    "id": 1,
+                                    "title": "Về thiết kế",
+                                    "content": "Vòi lấy nước nước, nước lạnh bố trí ở đỉnh máy với thao tác lấy đơn giản bằng cách bấm nút. Ngay bên dưới là ngăn chứa đồ.",
+                                    "image": "https://st.meta.vn/Data/image/2023/05/20/fujihome-tb110e-g.jpg"
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "Có điều khiển từ xa ",
+                                    "content": "Cây nước nóng lạnh FujiE trang bị điều khiển từ xa tiện lợi dễ dàng trong quá trình sử dụng.",
+                                    "image": "https://st.meta.vn/Data/image/2023/06/08/fujihome-tb110e-nd.jpg"
+                                },
+                                {
+                                    "id": 3,
+                                    "title": "Đun nước sôi tới 100 độ C ",
+                                    "content": "Bình siêu tốc lấy nước trực tiếp từ vòi có khả năng đun sôi nước tới 100 độ C để sử dụng cho nhiều mục đích sử dụng khác nhau. Bên trái có bình giữ nhiệt giúp hâm nóng trà, cafe tiện lợi. ",
+                                    "image": "https://st.meta.vn/Data/image/2023/06/08/fujihome-tb110e-nd1.jpg",
+                                    "discriptionImg": "Điều chỉnh nhiệt độ"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "name": "Cây nước nóng lạnh Sunhouse SHD9602",
+                            "image": "https://st.meta.vn/Data/Image/2019/12/03/sunhouse-shd9602-a.jpg",
+                            "price": 1550000,
+                            "disscout": 2200000,
+                            "percentPrice": "-30%",
+                            "reviews": 17,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": " Sunhouse"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh Sunhouse"
+                                }
+                            ],
+                            "status": "Còn hàng",
+                            "parameters": [
+                                {
+                                    "id": 1,
+                                    "Kiểu bình": "Cây nước nóng lạnh úp bình",
+                                    "Công nghệ làm lạnh": "Điện tử",
+                                    "Dung tích bình nước lạnh": "1 lit",
+                                    "Dung tích bình nước nóng": "1 lit",
+                                    "Nhiệt độ nóng": "80°C - 95°C",
+                                    "Công suất làm nóng": "580W",
+                                    "Công suất làm lạnh": "70W",
+                                    "Đèn hiển thị": "có",
+                                    "Nguồn điện áp": "220V/50Hz",
+                                    "Màu sắc": "Trắng",
+                                    "Kích thước": "Rộng x sâu x cao (32.5cm x 33.5cm x 88cm)",
+                                    "Trọng lượng sản phẩm": "8kg",
+                                    "Xuất xứ thương hiệu": "Việt Nam",
+                                    "Sản xuất tại": "Trung Quốc",
+                                    "Bảo hành": "24 tháng"
+                                }
+                            ],
+                            "imfomation": [
+                                {
+                                    "id": 1,
+                                    "title": "Một số hình ảnh thực tế của cây nước Sunhouse ShD9602",
+                                    "discriptionImg": "Vỏ ngoài cây nước nóng lạnh Sunhouse SHD9602 bằng chất liệu nhựa chịu lực",
+                                    "image": "https://st.meta.vn/Data/Image/2019/12/03/sunhouse-shd9602-2.jpg"
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "Ngăn để đồ 2 tầng",
+                                    "discriptionImg": "Cây nước nóng lạnh Sunhouse SHD9602 có ngăn để đồ 2 tầng",
+                                    "image": "https://st.meta.vn/Data/image/2018/07/04/cay-nuoc-nong-lanh-sunhouse-shd9602-nuoc.jpg"
+                                },
+                                {
+                                    "id": 3,
+                                    "title": "Bình nước nhựa",
+                                    "discriptionImg": "Cây nước nóng lạnh Sunhouse SHD9602 sử dụng loại bình nước nhựa để tiếp nước vào",
+                                    "image": "https://st.meta.vn/Data/image/2018/07/04/cay-nuoc-nong-lanh-sunhouse-shd9602-nong.jpg"
+                                },
+                                {
+                                    "id": 4,
+                                    "title": "Nơi lắp bình nước",
+                                    "discriptionImg": "Nơi lắp bình nước nhựa vào",
+                                    "image": "https://st.meta.vn/Data/image/2018/07/04/cay-nuoc-nong-lanh-sunhouse-shd9602-lanh.jpg"
+                                },
+                                {
+                                    "id": 5,
+                                    "title": "Quạt tản nhiệt",
+                                    "discriptionImg": "Mặt sau của máy có quạt tản nhiệt giúp động cơ của máy chạy khỏe hơn",
+                                    "image": "https://st.meta.vn/Data/Image/2019/12/03/sunhouse-shd9602-11.jpg"
+                                },
+                                {
+                                    "id": 6,
+                                    "title": "Nhiệt độ làm nóng",
+                                    "discriptionImg": "Nhiệt độ làm nóng nước từ 80oC đến 95oC",
+                                    "image": "https://st.meta.vn/Data/image/2018/07/04/cay-nuoc-nong-lanh-sunhouse-shd9602-cao.jpg"
+                                },
+                                {
+                                    "id": 7,
+                                    "title": "Ngăn đựng tiện lợi",
+                                    "discriptionImg": "Ngăn đựng của cây nước nóng lạnh chia thành 2 gian tiện lợi (không có chức năng làm mát)",
+                                    "image": "https://st.meta.vn/Data/image/2018/07/04/cay-nuoc-nong-lanh-sunhouse-shd9602-cap.jpg"
+                                },
+                                {
+                                    "id": 8,
+                                    "title": "Khay chứa nước thừa",
+                                    "discriptionImg": "Khay chứa nước thừa sạch sẽ, cũng có thể làm nơi đặt cốc khi không sử dụng rất tiện lợi",
+                                    "image": "https://st.meta.vn/Data/image/2018/07/04/cay-nuoc-nong-lanh-sunhouse-shd9602-gia.jpg"
+                                },
+                                {
+                                    "id": 9,
+                                    "title": "Vòi lấy nước",
+                                    "discriptionImg": "Vòi lấy nước thiết kế chắc chắn, không lo gãy, nứt",
+                                    "image": "https://st.meta.vn/Data/Image/2019/12/03/sunhouse-shd9602-3.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "name": "Cây nước nóng lạnh Toshiba RWF-W1664TV(W1)",
+                            "image": "https://st.meta.vn/Data/image/2020/11/02/cay-nuoc-toshiba-rwf-w1664tv-w1-1.jpg",
+                            "price": 2990000,
+                            "percentPrice": "-16%",
+                            "disscout": 3550000,
+                            "reviews": 15,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "Toshiba"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh Toshiba"
+                                }
+                            ],
+                            "status": "Còn hàng",
+                            "parameters": [
+                                {
+                                    "Kiểu bình": "Cây nước nóng lạnh úp bình",
+                                    "Công nghệ làm lạnh": "Block",
+                                    "Dung tích bình nước lạnh": "3 lit",
+                                    "Dung tích bình nước nóng": "1.02 lit",
+                                    "Nhiệt độ lạnh": "≤ 10 độ C",
+                                    "Nhiệt độ nóng": "≥ 85°C",
+                                    "Công xuất làm nóng": "420W",
+                                    "Công xuất làm lạnh": "120W",
+                                    "Thời gian làm nóng": "4 lit/giờ",
+                                    "Thời gian làm lạnh": "2 lit/giờ",
+                                    "Gas sử dụng": "R134a",
+                                    "Nguồn điện áp": "220V - 240V / 50Hz - 60Hz",
+                                    "Khóa trẻ em": "Có",
+                                    "Chuẩn chống nước": "IPX1",
+                                    "Đèn hiển thị": "Có",
+                                    "Công suất": "Định mức (670W)",
+                                    "Chất liệu bình chứa": "Inox 304",
+                                    "Chất liệu vỏ máy": "Nhựa cao cấp",
+                                    "Màu sắc": "Trắng",
+                                    "Kích thước": "Rộng x sâu x cao (31cm x 36cm x 100cm)",
+                                    "Trọng lượng sản phẩm": "15,5kg",
+                                    "Xuất xứ thương hiệu": "Nhật Bản",
+                                    "Sản xuất tại": "Trung Quốc",
+                                    "Bảo hành": "12 tháng"
+                                }
+                            ],
+                            "imfomation": [
+                                {
+                                    "id": 1,
+                                    "title": "Ưu điểm nổi bật của cây nước nóng lạnh Toshiba RWF-W1664TV(W1)",
+                                    "content": "Cây nước nóng lạnh ứng dụng công nghệ làm lạnh Block cho độ bền cao hơn, làm nước lạnh sâu với nhiệt độ ≤ 10 độ C.",
+                                    "image": "https://st.meta.vn/Data/image/2020/11/01/cay-nuoc-toshiba-rwf-w1664tv-w1-15.jpg"
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "Thương hiệu đáng tin cậy",
+                                    "content": "Toshiba RWF-W1664TV(W1) là sản phẩm đến từ thương hiệu Nhật Bản với nhiều tiện ích như có đèn báo nóng lạnh, có khoang chứa đựng ly tách, khóa vòi nước nóng cùng chế độ an toàn tự ngắt điện khi quá tải chắc chắn làm hài lòng mọi người dùng.",
+                                    "image": "https://st.meta.vn/Data/image/2020/11/02/cay-nuoc-toshiba-rwf-w1664tv-w1-2.jpg",
+                                    "discriptionImg": "Cây nước nóng lạnh thương hiệu Nhật Bản"
+                                },
+                                {
+                                    "id": 3,
+                                    "title": "Sản phẩm không kèm bình nước lọc.",
+                                    "discriptionImg": "Cây nước nóng lạnh Toshiba RWF-W1664TV(W1)",
+                                    "image": "https://st.meta.vn/Data/image/2020/11/02/cay-nuoc-toshiba-rwf-w1664tv-w1-1.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "name": "Cây nước nóng lạnh Toshiba RWF-W1669BV",
+                            "image": "https://st.meta.vn/Data/image/2019/07/17/cay-nuoc-nong-lanh-toshiba-rwf-w1669bv-g.jpg",
+                            "price": 4290000,
+                            "disscout": 4950000,
+                            "percentPrice": "-13%",
+                            "reviews": 9,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "Toshiba"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh Toshiba"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 5,
+                            "name": "Cây nước nóng lạnh để bàn Nagakawa NAG1107",
+                            "image": "https://st.meta.vn/Data/image/2019/07/17/cay-nuoc-nong-lanh-toshiba-rwf-w1669bv-g.jpg",
+                            "price": 990000,
+                            "disscout": 1200000,
+                            "percentPrice": "-18%",
+                            "reviews": 39,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "Nagakawa"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh Nagakawa"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 6,
+                            "name": "Cây nước làm nóng bình âm kết hợp bàn pha trà, cafe Fujihome TB110E-H",
+                            "image": "https://st.meta.vn/Data/image/2024/04/09/fujihome-tb110e-h-g.jpg",
+                            "price": 1750000,
+                            "disscout": 1350000,
+                            "percentPrice": "-23%",
+                            "reviews": 3,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "FujiHome"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh FujiHome"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 7,
+                            "name": "Cây nước nóng lạnh Toshiba RWF-W1830BV(K)",
+                            "image": "https://st.meta.vn/Data/image/2020/11/02/cay-nuoc-nong-lanh-toshiba-rwf-w1830bv-1.jpg",
+                            "price": 4890000,
+                            "disscout": 6000000,
+                            "percentPrice": "-18%",
+                            "reviews": 11,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "Toshiba"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh Toshiba"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 8,
+                            "name": "Cây nước nóng lạnh Toshiba RWF-W1830UVBV(T)",
+                            "image": "https://st.meta.vn/Data/image/2022/08/13/cay-nuoc-nong-lanh-toshiba-rwf-w1830uvbv-1.jpg",
+                            "price": 5190000,
+                            "disscout": 6500000,
+                            "percentPrice": "-13%",
+                            "reviews": 13,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "Toshiba"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh Toshiba"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 9,
+                            "name": "Cây nước nóng lạnh Sunhouse SHD9601",
+                            "image": "https://st.meta.vn/Data/image/2021/09/15/cay-nuoc-nong-lanh-sunhouse-shd9601.jpg",
+                            "price": 999000,
+                            "disscout": 1150000,
+                            "percentPrice": "-20%",
+                            "reviews": 13,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "Toshiba"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh Toshiba"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 10,
+                            "name": "Giá để ly tự động Kova GDL",
+                            "image": "https://st.meta.vn/Data/image/2020/10/27/gia-de-ly-tu-dong-kova-gdl-1.png",
+                            "price": 369000,
+                            "disscout": 410000,
+                            "percentPrice": "-10%",
+                            "reviews": 7,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "Toshiba"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh Toshiba"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 11,
+                            "name": "Cây nước nóng lạnh Fujihome WD5320E",
+                            "image": "https://st.meta.vn/Data/image/2019/06/29/cay-nuoc-nong-lanh-fujie-wd1105e-g1.jpg",
+                            "price": 1390000,
+                            "disscout": 1920000,
+                            "percentPrice": "-20%",
+                            "reviews": 14,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "Toshiba"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh Toshiba"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 12,
+                            "name": "Cây nước Toshiba RWF-W1664TV(K1)",
+                            "image": "https://st.meta.vn/Data/image/2021/01/30/cay-nuoc-toshiba-rwf-w1664tv-k1.jpg",
+                            "price": 2950000,
+                            "disscout": 3550000,
+                            "percentPrice": "-17%",
+                            "reviews": 13,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "Toshiba"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh Toshiba"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 13,
+                            "name": "Cây nước nóng lạnh FujiE WD1105E",
+                            "image": "https://st.meta.vn/Data/image/2019/06/29/cay-nuoc-nong-lanh-fujie-wd1105e-g1.jpg",
+                            "price": 1280000,
+                            "disscout": 1600000,
+                            "percentPrice": "-21%",
+                            "reviews": 22,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "FujiE"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh FujiE"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 14,
+                            "name": "Cây nước nóng lạnh để bàn Syntex SD90",
+                            "image": "https://st.meta.vn/Data/image/2024/04/07/cay-nuoc-nong-lanh-de-ban-syntex-sd90-5.jpg",
+                            "price": 1190000,
+                            "disscout": 1500000,
+                            "reviews": 4,
+                            "percentPrice": "-20%",
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "Syntex"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh Syntex"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 15,
+                            "name": "Cây nước nóng lạnh FujiHome WD11ES (3 vòi, bình nước âm)",
+                            "image": "https://st.meta.vn/Data/image/2024/06/07/cay-nuoc-nong-lanh-fujihome-wd11es-g.jpg",
+                            "price": 2200000,
+                            "disscout": 22750000,
+                            "percentPrice": "-20%",
+                            "reviews": 1,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "FujiHome"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh FujiHome"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 16,
+                            "name": "Máy lọc nước trực tiếp RO Toshiba TWP-W1643SV",
+                            "image": "https://st.meta.vn/Data/image/2022/08/13/may-loc-nuoc-truc-tiep-ro-toshiba-twp-w1643sv.jpg",
+                            "price": 6290000,
+                            "disscout": 8985000,
+                            "percentPrice": "-30%",
+                            "reviews": 10,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "Toshiba"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh Toshiba"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 17,
+                            "name": "Cây nước nóng lạnh Toshiba RWF-W1917TV",
+                            "image": "https://st.meta.vn/Data/image/2021/10/23/cay-nuoc-nong-lanh-toshiba-rwf-w1917tv-g.jpg",
+                            "price": 2750000,
+                            "disscout": 3400000,
+                            "percentPrice": "-19%",
+                            "reviews": 5,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "Toshiba"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh Toshiba"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 18,
+                            "name": "Cây nước nóng lạnh bình âm kết hợp bàn pha trà, cafe Fujihome TBD22",
+                            "image": "https://st.meta.vn/Data/image/2024/04/02/cay-nuoc-nong-lanh-fujihome-tbd22-g.jpg",
+                            "price": 2150000,
+                            "disscout": 3250000,
+                            "percentPrice": "-30%",
+                            "reviews": 5,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "FujiHome"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh FujiHome"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 19,
+                            "name": "Máy lọc nước R.O tích hợp nóng lạnh 10 lõi Sunhouse SHR76210CK",
+                            "image": "https://st.meta.vn/Data/image/2020/05/26/may-loc-nuoc-r-o-tich-hop-nong-lanh-10-loi-sunhouse-shr76210ck-sl1.jpg",
+                            "price": 5990000,
+                            "disscout": 8500000,
+                            "percentPrice": "-28%",
+                            "reviews": 25,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "Sunhouse"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh Sunhouse"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 20,
+                            "name": "Cây nước nóng lạnh cao cấp FujiHome WD531C",
+                            "image": "https://st.meta.vn/Data/image/2022/08/08/cay-nuoc-nong-lanh-cao-cap-fujihome-wd531c-1.jpg",
+                            "price": 2050000,
+                            "disscout": 29250000,
+                            "percentPrice": "-28%",
+                            "reviews": 6,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "Sunhouse"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh Sunhouse"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 21,
+                            "name": "Cây nước nóng lạnh kết hợp bàn pha trà, cafe FujiE WD1170C",
+                            "image": "https://st.meta.vn/Data/image/2022/08/08/cay-nuoc-nong-lanh-cao-cap-fujihome-wd531c-1.jpg",
+                            "price": 2850000,
+                            "disscout": 29250000,
+                            "percentPrice": "-21%",
+                            "reviews": "chưa có đánh giá",
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "FujiE"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh FujiE"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 22,
+                            "name": "Cây nước nóng lạnh để bàn mini FujiHome WD03E",
+                            "image": "https://st.meta.vn/Data/image/2024/04/01/fujihome-wd03e-g.jpg",
+                            "price": 900000,
+                            "disscout": 1200000,
+                            "percentPrice": "-21%",
+                            "reviews": 3,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "FujiHome"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh FujiHome"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 23,
+                            "name": "Cây nước nóng lạnh để bàn mini FujiHome WD03E",
+                            "image": "https://st.meta.vn/Data/Image/2023/11/23/cay-nuoc-nong-lanh-de-ban-mini-fujie-wd01e-3.jpg",
+                            "price": 850000,
+                            "disscout": 1100000,
+                            "reviews": 12,
+                            "percentPrice": "-21%",
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "FujiHome"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh FujiHome"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 24,
+                            "name": "Cây nước nóng lạnh kết hợp bàn pha trà, cafe FujiE TBH1332E",
+                            "image": "https://st.meta.vn/Data/image/2023/05/20/fujie-tbh1332e-g.jpg",
+                            "price": 2150000,
+                            "disscout": 2850000,
+                            "percentPrice": "-23%",
+                            "reviews": 10,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "FujiE"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh FujiE"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 25,
+                            "name": "Cây nước nóng để bàn Syntex SD55",
+                            "image": "https://st.meta.vn/Data/image/2024/04/06/cay-nuoc-nong-de-ban-syntex-sd55-g.jpg",
+                            "price": 720000,
+                            "disscout": 1000000,
+                            "percentPrice": "-28%",
+                            "reviews": 1,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "Syntex"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh Syntex"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 26,
+                            "name": "Máy nước nóng lạnh Midea YL1932S",
+                            "image": "https://st.meta.vn/Data/image/2021/01/20/may-nuoc-nong-lanh-midea-yl1932s-1.jpg",
+                            "price": 2720000,
+                            "disscout": 3190000,
+                            "percentPrice": "-15%",
+                            "reviews": 3,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "Midea"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh Midea"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 27,
+                            "name": "Cây nước nóng lạnh Saiko WD-9009R",
+                            "image": "https://st.meta.vn/Data/image/2020/06/03/cay-nuoc-nong-lanh-saiko-wd-9009r-sl1.jpg",
+                            "price": 344000,
+                            "disscout": 4350000,
+                            "percentPrice": "-21%",
+                            "reviews": 1,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "Saiko"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh Saiko"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 28,
+                            "name": "Cây nước nóng lạnh cao cấp 3 vòi FujiE WDBD20E",
+                            "image": "https://st.meta.vn/Data/image/2020/01/08/cay-nuoc-nong-lanh-cao-cap-3-voi-fujie-wdbd20e.jpg",
+                            "price": 2130000,
+                            "disscout": 2400000,
+                            "percentPrice": "-11%",
+                            "reviews": 2,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "FujiE"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh FujiE"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 29,
+                            "name": "Cây nước nóng lạnh FujiE WD1800C",
+                            "image": "https://st.meta.vn/Data/image/2020/06/03/cay-nuoc-nong-lanh-saiko-wd-9009r-sl1.jpg",
+                            "price": 2350000,
+                            "disscout": 2800000,
+                            "percentPrice": "-18%",
+                            "reviews": 2,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "FujiE"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh FujiE"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 30,
+                            "name": "Máy nước uống nóng lạnh Alaska R90C NEW (có ngăn lạnh)",
+                            "image": "https://st.meta.vn/Data/image/2024/01/02/may-nuoc-uong-nong-lanh-alaska-r90c-new-g.jpg",
+                            "price": 3690000,
+                            "disscout": 4500000,
+                            "percentPrice": "-16%",
+                            "reviews": 1,
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "Alaska"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh Alaska"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 31,
+                            "name": "Cây nước nóng lạnh hút bình Hòa Phát HHC363",
+                            "image": "https://st.meta.vn/Data/image/2024/02/22/cay-nuoc-nong-lanh-hut-binh-hoa-phat-hhc363-g.jpg",
+                            "price": 3490000,
+                            "disscout": 5763000,
+                            "percentPrice": "-39%",
+                            "reviews": "chưa có đánh giá",
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "Hòa Phát"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh Hòa Phát"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        },
+                        {
+                            "id": 32,
+                            "name": "Cây nước nóng lạnh úp bình Hòa Phát HTL236",
+                            "image": "https://st.meta.vn/Data/image/2023/07/18/cay-nuoc-nong-lanh-up-binh-hoa-phat-htl236-.jpg",
+                            "price": 1850000,
+                            "disscout": 2580000,
+                            "reviews": 4,
+                            "percentPrice": "-28%",
+                            "brand": [
+                                {
+                                    "id": 1,
+                                    "name": "Hòa Phát"
+                                },
+                                {
+                                    "id": 2,
+                                    "name": "Cây nước nóng lạnh Hòa Phát"
+                                }
+                            ],
+                            "status": "Còn hàng"
+                        }
+                    ]
+                },
+                {
+                    "id": 24,
+                    "name": "Các loại bếp",
+                    "icon": "https://meta.vn/icons/cats/1089.png"
+                },
+                {
+                    "id": 25,
+                    "name": "Máy hút bụi",
+                    "icon": "https://meta.vn/icons/cats/386.png"
+                },
+                {
+                    "id": 26,
+                    "name": "Máy lọc nước",
+                    "icon": "https://meta.vn/icons/cats/422.png"
+                },
+                {
+                    "id": 27,
+                    "name": "Lò vi sóng",
+                    "icon": "https://meta.vn/icons/cats/420.png"
+                },
+                {
+                    "id": 28,
+                    "name": "Đồ dùng nhà bếp",
+                    "icon": "https://meta.vn/icons/cats/383.png"
+                },
+                {
+                    "id": 29,
+                    "name": "Bàn là - Bàn ủi",
+                    "icon": "https://meta.vn/icons/cats/452.png"
+                },
+                {
+                    "id": 30,
+                    "name": "Bình thủy điện",
+                    "icon": "https://meta.vn/icons/cats/415.png"
+                },
+                {
+                    "id": 31,
+                    "name": "Máy làm sữa hạt",
+                    "icon": "https://meta.vn/icons/cats/3478.png"
+                },
+                {
+                    "id": 32,
+                    "name": "Nồi lẩu, Bếp lẩu",
+                    "icon": "https://meta.vn/icons/cats/3089.png"
+                },
+                {
+                    "id": 33,
+                    "name": "Lò nướng, Bếp nướng",
+                    "icon": "https://meta.vn/icons/cats/440.png"
+                },
+                {
+                    "id": 34,
+                    "name": "Máy làm sữa hạt",
+                    "icon": "https://meta.vn/icons/cats/3478.png"
+                },
+                {
+                    "id": 35,
+                    "name": "Nồi lẩu, Bếp lẩu",
+                    "icon": "https://meta.vn/icons/cats/3089.png"
+                },
+                {
+                    "id": 36,
+                    "name": "Lò nướng, Bếp nướng",
+                    "icon": "https://meta.vn/icons/cats/440.png"
+                }
+            ],
+            "Brand": [
+                {
+                    "id": 1,
+                    "name": "FujiHome"
+                },
+                {
+                    "id": 2,
+                    "name": "FujiE"
+                },
+                {
+                    "id": 3,
+                    "name": "Sunhouse"
+                },
+                {
+                    "id": 4,
+                    "name": "Toshiba"
+                },
+                {
+                    "id": 5,
+                    "name": "Hòa Phát"
+                },
+                {
+                    "id": 6,
+                    "name": "Electrolux"
+                },
+                {
+                    "id": 7,
+                    "name": "Nagakawa"
+                },
+                {
+                    "id": 8,
+                    "name": "Chungho"
+                },
+                {
+                    "id": 9,
+                    "name": "Kova"
+                },
+                {
+                    "id": 10,
+                    "name": "Syntex"
+                },
+                {
+                    "id": 11,
+                    "name": "Coex"
+                },
+                {
+                    "id": 12,
+                    "name": "Alaska"
+                },
+                {
+                    "id": 13,
+                    "name": "Kangaroo"
+                },
+                {
+                    "id": 14,
+                    "name": "Midea"
+                },
+                {
+                    "id": 15,
+                    "name": "Coway"
+                },
+                {
+                    "id": 16,
+                    "name": "Kohn"
+                },
+                {
+                    "id": 17,
+                    "name": "TrueHome"
+                },
+                {
+                    "id": 18,
+                    "name": "Hichiko"
+                },
+                {
+                    "id": 19,
+                    "name": "Sơn Hà"
+                },
+                {
+                    "id": 20,
+                    "name": "Seoul Aqua"
+                },
+                {
+                    "id": 21,
+                    "name": "Karofi"
+                },
+                {
+                    "id": 22,
+                    "name": "Cornell"
+                },
+                {
+                    "id": 23,
+                    "name": "Kymito"
+                },
+                {
+                    "id": 24,
+                    "name": "Mutosi"
+                },
+                {
+                    "id": 25,
+                    "name": "Hyundai Wacortec"
+                },
+                {
+                    "id": 26,
+                    "name": "A.O.Smith"
+                },
+                {
+                    "id": 27,
+                    "name": "Saiko"
+                },
+                {
+                    "id": 28,
+                    "name": "Natoshi"
+                },
+                {
+                    "id": 29,
+                    "name": "Sumika"
+                },
+                {
+                    "id": 30,
+                    "name": "Hyundai"
+                },
+                {
+                    "id": 31,
+                    "name": "Kitz"
+                },
+                {
+                    "id": 32,
+                    "name": "Daikoisan"
+                },
+                {
+                    "id": 33,
+                    "name": "Sowun"
+                },
+                {
+                    "id": 34,
+                    "name": "CNC"
+                },
+                {
+                    "id": 35,
+                    "name": "KoriHome"
+                },
+                {
+                    "id": 36,
+                    "name": "Ryo"
+                },
+                {
+                    "id": 37,
+                    "name": "Nakami"
+                },
+                {
+                    "id": 38,
+                    "name": "Malloca"
+                },
+                {
+                    "id": 39,
+                    "name": "Takasa"
+                }
+            ],
+            "Price": [
+                {
+                    "id": 1,
+                    "name": "200K - 500K"
+                },
+                {
+                    "id": 2,
+                    "name": "500K - 1 triệu"
+                },
+                {
+                    "id": 3,
+                    "name": "1 triệu - 1,5 triệu"
+                },
+                {
+                    "id": 4,
+                    "name": "1,5 triệu - 2 triệu"
+                },
+                {
+                    "id": 5,
+                    "name": "2 triệu - 3 triệu"
+                },
+                {
+                    "id": 6,
+                    "name": "3 triệu - 5 triệu"
+                },
+                {
+                    "id": 7,
+                    "name": "5 triệu - 8 triệu"
+                },
+                {
+                    "id": 8,
+                    "name": "8 triệu - 10 triệu"
+                },
+                {
+                    "id": 9,
+                    "name": "10 triệu - 15 triệu"
+                },
+                {
+                    "id": 10,
+                    "name": "15 triệu - 20 triệu"
+                },
+                {
+                    "id": 11,
+                    "name": "20 triệu - 25 triệu"
+                }
+            ],
+            "ChildSafetyLock": [
+                {
+                    "id": 1,
+                    "name": "Có"
+                },
+                {
+                    "id": 2,
+                    "name": "Không"
+                }
+            ],
+            "Production": [
+                {
+                    "id": 1,
+                    "name": "Việt Nam/Hàn Quốc"
+                },
+                {
+                    "id": 2,
+                    "name": "Việt Nam/Trung Quốc"
+                },
+                {
+                    "id": 3,
+                    "name": "Ấn Độ"
+                },
+                {
+                    "id": 4,
+                    "name": "Hàn Quốc"
+                },
+                {
+                    "id": 5,
+                    "name": "Malaysia"
+                },
+                {
+                    "id": 6,
+                    "name": "Nhật Bản"
+                },
+                {
+                    "id": 7,
+                    "name": "Trung Quốc"
+                },
+                {
+                    "id": 8,
+                    "name": "Việt Nam"
+                },
+                {
+                    "id": 9,
+                    "name": "Liên doanh Trung Quốc - Hàn Quốc"
+                }
+            ],
+            "RefrigerationTechnology": [
+                {
+                    "id": 1,
+                    "name": "Block"
+                },
+                {
+                    "id": 2,
+                    "name": "Điện tử"
+                }
+            ],
+            "ContainerType": [
+                {
+                    "id": 1,
+                    "name": "Cây nước nóng lạnh úp bình"
+                },
+                {
+                    "id": 2,
+                    "name": "Cây nước nóng lạnh bình âm"
+                }
+            ],
+            "ListLogoBrand": [
+                {
+                    "id": 1,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/06/09/FujiHome-logo-35.png"
+                },
+                {
+                    "id": 2,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/15/fujie-logo-35.png"
+                },
+                {
+                    "id": 3,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/18/logo-sunhouse-nho.png"
+                },
+                {
+                    "id": 4,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2014/10/06/toshiba_n.jpg"
+                },
+                {
+                    "id": 5,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/19/logo-hoa-phat-nho.png"
+                },
+                {
+                    "id": 6,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/25/logo-electrolux-nho.png"
+                },
+                {
+                    "id": 7,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2022/08/20/logo-nagakawa-nho.png"
+                },
+                {
+                    "id": 8,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/25/logo-chungho-nho.png"
+                },
+                {
+                    "id": 9,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/04/Kova-Logo-35.png"
+                },
+                {
+                    "id": 10,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/25/logo-syntex-nho.png"
+                },
+                {
+                    "id": 11,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2022/10/18/logo-coex-nho.png"
+                },
+                {
+                    "id": 12,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2018/11/24/logo-alaska-anhnho.png"
+                },
+                {
+                    "id": 13,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-kangaroo-nho.png"
+                },
+                {
+                    "id": 14,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/26/logo-midea-nho.png"
+                },
+                {
+                    "id": 15,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/09/08/Coway-logo-35.png"
+                },
+                {
+                    "id": 16,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/18/logo-kohn-nho.png"
+                },
+                {
+                    "id": 17,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/04/19/TrueHome-logo-35.png"
+                },
+                {
+                    "id": 18,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2023/09/29/logo-hichiko-nho.png"
+                },
+                {
+                    "id": 19,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/25/logo-sonha-nho.png"
+                },
+                {
+                    "id": 20,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2023/02/04/seul-aqua-to.png"
+                },
+                {
+                    "id": 21,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2017/07/03/logo-karofi-nho.png"
+                },
+                {
+                    "id": 22,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/18/logo-cornell-nho.png"
+                },
+                {
+                    "id": 23,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/19/logo-kymito-nho.png"
+                },
+                {
+                    "id": 24,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/18/logo-mutosi-nho.png"
+                },
+                {
+                    "id": 25,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/29/logo-hyundai-wacortec-nho.png"
+                },
+                {
+                    "id": 26,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/18/logo-aosmith-nho.png"
+                },
+                {
+                    "id": 27,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/19/saiko-logo-nho.png"
+                },
+                {
+                    "id": 28,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2022/01/12/Natoshi-logo-35.png"
+                },
+                {
+                    "id": 29,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2016/04/12/logo-sumika-35.png"
+                },
+                {
+                    "id": 30,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/18/logo-hyundai-nho.png"
+                },
+                {
+                    "id": 31,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/05/16/Kitz-logo-35.png"
+                },
+                {
+                    "id": 32,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2020/03/09/Daikiosan-logo-35.png"
+                },
+                {
+                    "id": 33,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2022/03/19/Sowun-logo-35.png"
+                },
+                {
+                    "id": 34,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2023/11/15/CNC-logo-35.png"
+                },
+                {
+                    "id": 35,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2015/10/19/korihome-logo-35.png"
+                },
+                {
+                    "id": 36,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2016/09/21/lo-go-ryo-nho.png"
+                },
+                {
+                    "id": 37,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2017/04/13/logo-nakami-nho.png"
+                },
+                {
+                    "id": 38,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2021/03/18/logo-malloca-nho.png"
+                },
+                {
+                    "id": 39,
+                    "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2020/09/30/Takasa-logo-35.png"
+                }
+            ]
+        }
+    ]
 }

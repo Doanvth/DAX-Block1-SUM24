@@ -45,7 +45,15 @@ app.config(function ($routeProvider) {
     .when("/detailstove/:id", {
       templateUrl: "detail_stove.html",
       controller: "detailStoveController",
-    });
+    })
+    .when("/cayNuocNongLanh", {
+      templateUrl: "cayNuocNongLanh.html",
+      controller: "CayNuocNongLanhController"
+    })
+      .when("/cayNuocNongLanh/:productId", {
+        templateUrl: "detailCayNuocNongLanh.html",
+        controller: "cayNuocNongLanhDetailController"
+      });
 
 });
 let URL_API = "http://localhost:3000/"
@@ -530,4 +538,32 @@ app.controller(
     );
   }
 );
+    
 
+app.controller("CayNuocNongLanhController", function ($scope, $http, $location) {
+  $http({
+    method: "GET",
+    url: URL_API + "CatagoryCayNuocNongLanh"
+  }).then(function (response) {
+    $scope.data = response.data[0];
+  });
+
+  $scope.showProductDetails = function (productId) {
+    $location.path('/cayNuocNongLanh/' + productId);
+  };
+});
+
+app.controller("cayNuocNongLanhDetailController", function ($scope, $http, $routeParams) {
+  let productId = $routeParams.productId;
+
+  $http.get(URL_API + "CatagoryCayNuocNongLanh")
+    .then(function (response) {
+      $scope.data = response.data[0];
+      $scope.data.Categories.forEach(function (category) {
+        if (category.Product) {
+          $scope.selectedProduct = category.Product.find(product => product.id == productId);
+          if ($scope.selectedProduct) return;
+        }
+      });
+    });
+});
