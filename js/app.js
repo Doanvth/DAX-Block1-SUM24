@@ -17,8 +17,8 @@ app.config(function ($routeProvider) {
     .when("/noi", {
       templateUrl: "noi.html",
       controller: "noiController"
-    })
-    .when("/detailNoi/:id", {
+    })    
+    .when("/detailNoi/:id",{
       templateUrl: "detailNoi.html",
       controller: "detailNoiController"
     })
@@ -53,7 +53,15 @@ app.config(function ($routeProvider) {
       .when("/cayNuocNongLanh/:productId", {
         templateUrl: "detailCayNuocNongLanh.html",
         controller: "cayNuocNongLanhDetailController"
-      });
+      })
+      .when("/mayxaydanang", {
+        templateUrl: "mayxaydanang.html",
+        controller: "mayxayController"
+      })
+      .when("/detailmayxay/:id", {
+        templateUrl: "detailmayxay.html",
+        controller: "detailMayxayController"
+      })
 
 });
 let URL_API = "http://localhost:3000/"
@@ -566,4 +574,76 @@ app.controller("cayNuocNongLanhDetailController", function ($scope, $http, $rout
         }
       });
     });
+});
+
+app.controller('mayxayController', function ($scope, MayxayService, BrandMayxayService, giamayxayService, chatlieuService, soluongcoiService, congsuatService) {
+  MayxayService.getCategoriesMayXay().then(function (response) {
+    $scope.categories = response.data;
+    $scope.productsByCategory = {};
+
+    function processCategories(categories, parentId) {
+      categories.forEach(function (category) {
+        if (category.potType) {
+          category.potType.forEach(function (subCategory) {
+            if (subCategory.products) {
+              subCategory.products.forEach(function (product) {
+                $scope.productsByCategory[product.name] = {
+                  product: product,
+                  categoryId: parentId
+                };
+              });
+            }
+          });
+        }
+      });
+    }
+    processCategories($scope.categories, null);
+  }).catch(function (error) {
+    $scope.error = 'Error occurred: ' + error.message;
+    console.error('Error occurred:', error);
+  });
+  BrandMayxayService.getBrandMayXay().then(function (response) {
+    $scope.brand = response.data;
+  });
+  giamayxayService.getGiaMayXay().then(function (response) {
+    $scope.giamayxay = response.data;
+  });
+  chatlieuService.getChatlieucoi().then(function (response) {
+    $scope.chatlieu = response.data;
+  });
+  soluongcoiService.getSoluongcoi().then(function (response) {
+    $scope.soluongcoi = response.data;
+  });
+  congsuatService.getCongsuat().then(function (response) {
+    $scope.congsuat = response.data;
+  });
+});
+
+app.controller('detailMayxayController', function ($scope, $http, $routeParams, $location) {
+  $http({
+    method: "GET",
+    url: URL_API + "categoriesmayxay"
+  }).then(function (response) {
+    var danhMucMayXay = response.data;
+    console.log(danhMucMayXay);
+    if (Array.isArray(danhMucMayXay)) {
+      danhMucMayXay.forEach(function (danhmuc) {
+        var products = danhmuc.productmayxay;
+        console.log(products);
+        if (Array.isArray(products)) {
+          products.forEach(function (p) {
+            if (p.id == $routeParams.id) {
+              $scope.product = p;
+            }
+          });
+        }
+      });
+    } else {
+      console.log("Dữ liệu danh mục nồi không hợp lệ.");
+    }
+
+  }).catch(function (error) {
+    console.log("Lỗi khi tải danh mục nồi:", error);
+  });
+
 });

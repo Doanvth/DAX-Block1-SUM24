@@ -1713,7 +1713,7 @@
                 {
                     "id": 3,
                     "tieuDe": "Bảng điều khiển nút nhấn",
-                    "noiDung": "Bếp từ Sunhouse sử dụng bảng điều khiển dạng nút cơ nổi thao tác bấm đơn giản, chính xác, độ nhạy cao giúp bạn lựa chọn chế độ nấu và chỉnh nhiệt độ nhanh chóng. Bảng điều khiển bằng ngôn ngữ tiếng Việt hiểu, có màn hình LED để quan sát mức công suất của bếp rất tiện lợi. ",
+                    "noiDung": "Bếp từ Sunhouse sử dụng bảng điều khiển dạng nút cơ nổi thao tác bấm đơn giản, chính xác, độ nhạy cao giúp bạn lựa chọn chế độ nấu và chỉnh nhiệt độ nhanh chóng. Bảng điều khiển bằng ngôn ngữ tiếng Việt hiểu, có màn hình LED để quan sát mức congsuat của bếp rất tiện lợi. ",
                     "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-5.jpg",
                     "tenHinh": "Bảng điều khiển dễ sử dụng",
                     "noiDung2": null,
@@ -1722,8 +1722,8 @@
                 },
                 {
                     "id": 4,
-                    "tieuDe": "Công suất lớn nấu ăn nhanh",
-                    "noiDung": "Bếp từ vận hành với công suất 1800W cùng công nghệ làm nóng bằng từ trường giúp truyền nhiệt nhanh, rút ngắn thời gian nấu nướng. ",
+                    "tieuDe": "congsuat lớn nấu ăn nhanh",
+                    "noiDung": "Bếp từ vận hành với congsuat 1800W cùng công nghệ làm nóng bằng từ trường giúp truyền nhiệt nhanh, rút ngắn thời gian nấu nướng. ",
                     "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-4.jpg",
                     "tenHinh": "Bếp từ truyền nhiệt nhanh",
                     "noiDung2": "Bếp từ chỉ làm nóng vùng nấu mà không bị phát nhiệt ra cả bề mặt bếp, giúp hạn chế tỏa nhiệt ra môi trường xung quanh, vừa góp phần tiết kiệm điện năng, vừa đảm bảo an toàn khi sử dụng.",
@@ -1733,7 +1733,7 @@
                 {
                     "id": 5,
                     "tieuDe": "7 chế độ nấu cài đặt sẵn",
-                    "noiDung": "Bếp từ được cài đặt sẵn 7 chế độ gồm: Nấu lẩu, giữ ấm, súp, hầm, hấp, xào, chiên. Tùy theo món ăn mà bạn có thể tùy chọn chế độ và điều chỉnh công suất cũng như hẹn giờ nấu phù hợp. ",
+                    "noiDung": "Bếp từ được cài đặt sẵn 7 chế độ gồm: Nấu lẩu, giữ ấm, súp, hầm, hấp, xào, chiên. Tùy theo món ăn mà bạn có thể tùy chọn chế độ và điều chỉnh congsuat cũng như hẹn giờ nấu phù hợp. ",
                     "hinh": "https://st.meta.vn/Data/image/2021/12/20/bep-tu-don-sunhouse-shd6157-2.jpg",
                     "tenHinh": "Bếp từ tiện lợi với 7 chế độ nấu cài đặt sẵn",
                     "noiDung2": null,
@@ -5004,7 +5004,6 @@
                             "status": "Còn hàng",
                             "parameters": [
                                 {
-                                    
                                     "Kiểu bình": "Cây nước nóng lạnh bình âm",
                                     "Công nghệ làm lạnh": "Điện tử",
                                     "Nhiệt độ lạnh": "15 - 25 độ C",
@@ -5067,7 +5066,6 @@
                             "status": "Còn hàng",
                             "parameters": [
                                 {
-                                    
                                     "Kiểu bình": "Cây nước nóng lạnh úp bình",
                                     "Công nghệ làm lạnh": "Điện tử",
                                     "Dung tích bình nước lạnh": "1 lit",
@@ -6289,6 +6287,776 @@
                     "src": "https://st.meta.vn/img/thumb.ashx/120x0x95/Data/image/2020/09/30/Takasa-logo-35.png"
                 }
             ]
+        }
+    ],
+    "categoriesmayxay": [
+        {
+            "id": 446,
+            "name": "Máy ép trái cây",
+            "link": "/may-ep-trai-cay-c446",
+            "icon": "/icons/cats/446.png",
+            "productmayxay": [
+                {
+                    "id": 1,
+                    "name": "Máy ép trái cây đa năng 3 trong 1 Kuvings NJM-9010GR",
+                    "image": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2021/04/12/may-ep-trai-cay-da-nang-3-trong-1-kuvings-njm-9010gr-500.jpg",
+                    "thuonghieumay": "Kuvings",
+                    "price_current": 3650000,
+                    "url": "https://example.com/may-ep-trai-cay-da-nang-3-trong-1-kuvings-njm-9010gr-p37357",
+                    "dungtich": "Cối xay sinh tố (2 lít) Ly đựng nước ép (500ml)",
+                    "congsuat": "350W",
+                    "chatlieu": "Vỏ máy Nhựa cao cấp",
+                    "tocdo": "2 tốc độ, Chức năng nhồi",
+                    "chatlieuluoidao": "Kim loại",
+                    "soluongcoi": "3 cối xay",
+                    "bangdieukhien": "Nút nhấn",
+                    "ongtiepnguyenlieu": "7,5cm",
+                    "tungatkhiquatai": "Có",
+                    "chatlieucoixay": "Nhựa cao cấp",
+                    "nguondienap": "220V/50Hz",
+                    "kichthuoc": "215mm x 285mm x 444mm",
+                    "trongluongsanpham": "9kg",
+                    "sudunglientuc": "3 phút",
+                    "baohanh": "12 tháng",
+                    "sanxuat": "Hàn Quốc",
+                    "xuatxu": "Hàn Quốc"
+                },
+                {
+                    "id": 2,
+                    "name": "Máy ép nhanh Promix FJ-04",
+                    "image": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2022/10/01/may-ep-nhanh-promix-fj-04-300.jpg",
+                    "thuonghieumay": "Promix",
+                    "price_current": 2450000,
+                    "price_old": 2890000,
+                    "discount": "-15%",
+                    "rating": 4.8,
+                    "reviews": 21,
+                    "url": "https://example.com/may-ep-nhanh-promix-fj-04-p88608",
+                    "congsuat": "1.650W",
+                    "chatlieucoixay": "Nhựa cao cấp",
+                    "chucnang": "Xay sinh tố, Xay đá",
+                    "dungtich": "2 lít",
+                    "soluongcoi": "1 cối xay",
+                    "hengio": "Có",
+                    "nguondienap": "220V",
+                    "trongluongsanpham": "5,3kg",
+                    "xuatxu": "Việt Nam",
+                    "sanxuat": "Trung Quốc",
+                    "baohanh": "Động cơ (3 năm)"
+                },
+                {
+                    "id": 3,
+                    "name": "Máy ép nhanh Promix FJ-01 1000W",
+                    "image": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2024/06/14/may-ep-nhanh-promix-fj-01-a.jpg",
+                    "thuonghieumay": "Promix",
+                    "price_current": 2250000,
+                    "price_old": 3200000,
+                    "discount": "-30%",
+                    "rating": 4.7,
+                    "reviews": 24,
+                    "url": "https://example.com/may-ep-nhanh-promix-fj-01-1000w-p80079",
+                    "congsuat": "1.000W",
+                    "tocdo": "23.500 RPG",
+                    "chatlieuluoidao": "Inox 304",
+                    "soluongcoi": "1 cối ép",
+                    "ongtiepnguyenlieu": "8,5cm",
+                    "nguondienap": "220V - 240V / 50Hz - 60Hz",
+                    "kichthuoc": "40cm x 32.5cm x 20.5cm",
+                    "trongluongsanpham": "3,81kg",
+                    "trongluongbaobi": "5,54kg",
+                    "baohanh": "Động cơ (36 tháng)",
+                    "sanxuat": "Trung Quốc",
+                    "xuatxu": "Việt Nam"
+                },
+                {
+                    "id": 4,
+                    "name": "Máy ép trái cây Biochef 666",
+                    "image": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2019/08/29/may-ep-trai-cay-biochef-666-500x500.png",
+                    "thuonghieumay": "Biochef",
+                    "price_current": 6375000,
+                    "price_old": 8500000,
+                    "discount": "-25%",
+                    "rating": 4.8,
+                    "reviews": 38,
+                    "url": "https://example.com/may-ep-trai-cay-biochef-666-p54912",
+                    "chucnang": "Ép nước trái cây, Làm kem hoa quả, Xay sinh tố",
+                    "congsuat": "250W",
+                    "tocdo": "40 vòng/phút",
+                    "chatlieu": "Nhựa Tritan",
+                    "sudungmaylientuc": "30 phút liên tục",
+                    "ongtiepnguyenlieu": "8cm x 8cm",
+                    "tungatkhiquatai": "Có",
+                    "trongluongsanpham": "7,6kg",
+                    "nguondienap": "220V - 240V / 50Hz - 60Hz",
+                    "mausac": "Bạc, Đỏ",
+                    "kichthuoc": "Rộng x Cao x Dài (16cm x 45cm x 21cm)",
+                    "trongluongbaobi": "9,6kg",
+                    "sanxuat": "Australia",
+                    "xuatxu": "Australia",
+                    "baohanh": "Cho gia đình (Động cơ 15 năm), Cho thương mại (3 năm) Linh kiện 1 đổi 1 (3 tháng)"
+                },
+                {
+                    "id": 5,
+                    "name": "Máy ép chậm Nagakawa NAG0818 (200W)",
+                    "image": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2022/10/26/may-ep-cham-nagakawa-nag0818-300.jpg",
+                    "thuonghieumay": "Nagakawa",
+                    "price_current": 2490000,
+                    "url": "https://example.com/may-ep-cham-nagakawa-nag0818-p89332",
+                    "chucnang": "Ép nước trái cây, Ép rau",
+                    "congsuat": "200W",
+                    "tocdovongquay": "50 vòng/phút",
+                    "dungtich": "1.75 lít",
+                    "ongtiepnguyenlieu": "7,8cm",
+                    "trongluongsanpham": "2,7kg",
+                    "nguondienap": "220V - 240V / 50Hz",
+                    "chieudaidaynguondien": "0.5m",
+                    "kichthuoc": "Rộng x Sâu x Cao (178mm x 152mm x 450mm)",
+                    "sanxuat": "Trung Quốc",
+                    "xuatxu": "Việt Nam",
+                    "baohanh": "12 tháng"
+                },
+                {
+                    "id": 6,
+                    "name": "Máy ép trái cây Biochef 555",
+                    "image": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2020/10/05/may-ep-trai-cay-biochef-555-300.jpg",
+                    "thuonghieumay": "Biochef",
+                    "price_current": 3999000,
+                    "price_old": 5800000,
+                    "discount": "-31%",
+                    "rating": 4.7,
+                    "reviews": 26,
+                    "url": "https://example.com/may-ep-trai-cay-biochef-555-p68729",
+                    "chucnang": "Ép nước trái cây",
+                    "congsuat": "200W",
+                    "tocdo": "40 vòng/phút",
+                    "chatlieu": [
+                        "Ultem",
+                        "Tritan",
+                        "ABS",
+                        "PC",
+                        "SAN"
+                    ],
+                    "sudungmaylientuc": "< 30 phút",
+                    "ongtiepnguyenlieu": "8,8cm",
+                    "tungatkhiquatai": "Có",
+                    "trongluongsanpham": "7.2kg",
+                    "nguondienap": "220V - 240V / 50Hz - 60Hz",
+                    "mausac": [
+                        "Đỏ",
+                        "Bạc"
+                    ],
+                    "kichthuoc": "Rộng x Sâu x Cao (15cm x 21cm x 40cm)",
+                    "kichthuocbaobi": "Dài 37.5cm Rộng 30.5cm Cao 34cm",
+                    "sanxuat": "Australia",
+                    "xuatxu": "Australia",
+                    "baohanh": "Động cơ (15 năm) Kinh doanh (3 năm) Linh kiện (3 tháng)"
+                },
+                {
+                    "id": 7,
+                    "name": "Máy ép chậm Nagakawa NAG0817",
+                    "image": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2022/04/04/may-ep-cham-nagakawa-nag0817-1.jpg",
+                    "thuonghieumay": "Nagakawa",
+                    "price_current": 2490000,
+                    "price_old": 2900000,
+                    "discount": "-14%",
+                    "rating": 4.8,
+                    "reviews": 11,
+                    "url": "https://example.com/may-ep-cham-nagakawa-nag0817-p83757",
+                    "congsuat": "150W",
+                    "tocdo ": "45 – 55 vòng/phút",
+                    "chatlieu": "Nhựa cao cấp",
+                    "sudungmaylientuc": "< 20 phút",
+                    "dungtich": "300ml",
+                    "ongtiepnguyenlieu": "75mm",
+                    "tungatkhiquatai": "Có",
+                    "trongluongsanpham": "3.38kg",
+                    "nguondienap": "220V/50Hz",
+                    "kichthuoc": "Dài x Rộng x Cao (250mm x 160mm x 470mm)",
+                    "kichthuocbaobi": "Dài x Rộng x Cao (320mm x 300mm x 330mm)",
+                    "trongluongbaobi": "4.04kg",
+                    "sanxuat": "Trung Quốc",
+                    "xuatxu": "Việt Nam",
+                    "baohanh": "12 tháng"
+                },
+                {
+                    "id": 8,
+                    "name": "Máy ép trái cây Biochef 888",
+                    "image": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2023/10/23/may-ep-trai-cay-biochef-888-xama.jpg",
+                    "thuonghieumay": "Biochef",
+                    "price_current": 9000000,
+                    "price_old": 12000000,
+                    "discount": "-25%",
+                    "rating": 4.9,
+                    "reviews": 15,
+                    "url": "https://example.com/may-ep-trai-cay-biochef-888-p54911",
+                    "chucnang": "Ép nước trái cây, Làm kem hoa quả",
+                    "congsuat": "400W",
+                    "tocdo ": "40 vòng/phút",
+                    "chatlieu": "Nhựa Tritan",
+                    "sudungmaylientuc": "120 phút",
+                    "ongtiepnguyenlieu": "8cm x 8cm",
+                    "tungatkhiquatai": "Có",
+                    "trongluongsanpham": "7,6kg",
+                    "nguondienap": "220V/50Hz",
+                    "mausac": "Đen bạc",
+                    "kichthuoc": "Cao 45cm Rộng 22cm",
+                    "trongluongbaobi": "9,6kg",
+                    "sanxuat": "Australia",
+                    "xuatxu": "Australia",
+                    "baohanh": "Động cơ (gia đình) 20 năm Động cơ (quán chuyên nghiệp) 6 năm Linh kiện 1 đổi 1 3 tháng"
+                },
+                {
+                    "id": 9,
+                    "pid": "83757",
+                    "name": "Máy ép chậm Nagakawa NAG0817",
+                    "link": "/may-ep-cham-nagakawa-nag0817-p83757",
+                    "image": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2022/04/04/may-ep-cham-nagakawa-nag0817-1.jpg",
+                    "thuonghieumay": "Nagakawa",
+                    "rating": 4.8,
+                    "rating_count": 11,
+                    "price_current": 2490000,
+                    "price_old": 2900000,
+                    "discount": "-14%",
+                    "congsuat": "150W",
+                    "tocdo ": "45 – 55 vòng/phút",
+                    "chatlieu": "Nhựa cao cấp",
+                    "sudungmaylientuc": "< 20 phút",
+                    "dungtich": "300ml",
+                    "ongtiepnguyenlieu": "75mm",
+                    "tungatkhiquatai": "Có",
+                    "trongluongsanpham": "3.38kg",
+                    "nguondienap": "220V/50Hz",
+                    "kichthuoc": "Dài x Rộng x Cao (250mm x 160mm x 470mm)",
+                    "kichthuocbaobi": "Dài x Rộng x Cao (320mm x 300mm x 330mm)",
+                    "trongluongbaobi": "4.04kg",
+                    "sanxuat": "Trung Quốc",
+                    "xuatxu": "Việt Nam",
+                    "baohanh": "12 tháng"
+                },
+                {
+                    "id": 10,
+                    "pid": "90410",
+                    "name": "Máy ép trái cây tocdo chậm Gourmetmaxx GMJ-01 (200W)",
+                    "thuonghieumay": "Gourmetmaxx",
+                    "link": "/may-ep-trai-cay-toc-do-cham-gourmetmaxx-gmj-01-200w-p90410",
+                    "image": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2022/12/06/may-ep-trai-cay-toc-do-cham-gourmetmaxx-gmj-01-200w-2.jpg",
+                    "rating": 4.7,
+                    "rating_count": 6,
+                    "price_current": 1470000,
+                    "price_old": 2500000,
+                    "discount": "-41%",
+                    "congsuat": "200W",
+                    "ongtiepnguyenlieu": "78mm",
+                    "trongluongsanpham": "2,4kg",
+                    "nguondienap": "220V/50Hz",
+                    "kichthuocbaobi": "30cm x 17.2cm x 39.2cm",
+                    "trongluongbaobi": "3,2kg",
+                    "sanxuat": "Trung Quốc",
+                    "xuatxu": "Đức",
+                    "baohanh": "12 tháng"
+                },
+                {
+                    "id": 11,
+                    "pid": "99294",
+                    "name": "Máy ép chậm Uniblend E250",
+                    "thuonghieumay": "Uniblend",
+                    "link": "/may-ep-cham-uniblend-e250-p99294",
+                    "image": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2023/12/19/may-ep-cham-uniblend-e250-300.jpg",
+                    "rating": 4.0,
+                    "rating_count": 1,
+                    "price_current": 2830000,
+                    "price_old": 4000000,
+                    "discount": "-29%",
+                    "chucnang": "Ép nước trái cây, Ép rau",
+                    "congsuat": "250W",
+                    "tocdo ": "37 vòng/phút",
+                    "sudungmaylientuc": "< 30 phút",
+                    "dungtich": "500ml",
+                    "trongluongsanpham": "6,5kg",
+                    "nguondienap": "220V/50Hz",
+                    "chieudaidaynguondien": "1,4m",
+                    "sanxuat": "Trung Quốc",
+                    "xuatxu": "Việt Nam",
+                    "baohanh": "12 tháng"
+                },
+                {
+                    "id": 12,
+                    "pid": "93697",
+                    "name": "Máy ép chậm Bovacs EP168",
+                    "thuonghieumay": "Bovacs",
+                    "link": "/may-ep-cham-bovacs-ep168-p93697",
+                    "image": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2023/06/22/may-ep-cham-bovacs-ep168-a.jpg",
+                    "rating": 4.6,
+                    "rating_count": 16,
+                    "price_current": 1290000,
+                    "price_old": 1690000,
+                    "discount": "-24%",
+                    "chucnang": "Ép nước trái cây, Ép rau",
+                    "congsuat": "100W",
+                    "dungtich": "Ca đựng bã 350ml Ca đựng nước ép 400ml",
+                    "trongluongsanpham": "1kg",
+                    "nguondienap": "220V - 240V / 50Hz - 60Hz",
+                    "kichthuoc": "11cm x 7.5cm x 29.5cm",
+                    "trongluongbaobi": "1,3kg",
+                    "sanxuat": "Trung Quốc",
+                    "xuatxu": "Đức",
+                    "baohanh": "12 tháng"
+                }
+            ]
+        },
+        {
+            "id": 444,
+            "name": "Máy xay sinh tố",
+            "link": "/may-xay-sinh-to-c444",
+            "icon": "/icons/cats/444.png"
+        },
+        {
+            "id": 3552,
+            "name": "Máy xay sinh tố công nghiệp",
+            "link": "/may-xay-sinh-to-cong-nghiep-c3552",
+            "icon": "/icons/cats/3552.png"
+        },
+        {
+            "id": 972,
+            "name": "Máy đánh trứng, Máy trộn bột",
+            "link": "/may-danh-trung-c972",
+            "icon": "/icons/cats/972.png"
+        },
+        {
+            "id": 3164,
+            "name": "Máy ép chậm",
+            "link": "/may-ep-cham-c3164",
+            "icon": "/icons/cats/3164.png"
+        },
+        {
+            "id": 445,
+            "name": "Máy xay thịt",
+            "link": "/may-xay-thit-c445",
+            "icon": "/icons/cats/445.png"
+        },
+        {
+            "id": 1182,
+            "name": "Máy vắt cam",
+            "link": "/may-vat-cam-c1182",
+            "icon": "/icons/cats/1182.png"
+        },
+        {
+            "id": 1181,
+            "name": "Máy xay cầm tay",
+            "link": "/may-xay-cam-tay-c1181",
+            "icon": "/icons/cats/1181.png"
+        }
+    ],
+    "thuonghieumayxay": [
+        {
+            "id": 2962,
+            "alias": "gourmetmaxx",
+            "brand_name": "Gourmetmaxx",
+            "product_count": 3,
+            "url": "/may-danh-trung-c972?brands=2962"
+        },
+        {
+            "id": 195,
+            "alias": "philips",
+            "brand_name": "Philips",
+            "product_count": 4,
+            "url": "/may-danh-trung-c972?brands=195"
+        },
+        {
+            "id": 2753,
+            "alias": "Bear",
+            "brand_name": "Bear",
+            "product_count": 8,
+            "url": "/may-danh-trung-c972?brands=2753"
+        },
+        {
+            "id": 2629,
+            "alias": "unitech",
+            "brand_name": "Unitech",
+            "product_count": 2,
+            "url": "/may-danh-trung-c972?brands=2629"
+        },
+        {
+            "id": 2345,
+            "alias": "unie",
+            "brand_name": "UNIE",
+            "product_count": 3,
+            "url": "/may-danh-trung-c972?brands=2345"
+        },
+        {
+            "id": 188,
+            "alias": "panasonic",
+            "brand_name": "Panasonic",
+            "product_count": 4,
+            "url": "/may-danh-trung-c972?brands=188"
+        },
+        {
+            "id": 255,
+            "alias": "tiross",
+            "brand_name": "Tiross",
+            "product_count": 2,
+            "url": "/may-danh-trung-c972?brands=255"
+        },
+        {
+            "id": 2788,
+            "alias": "kenwood-uk",
+            "brand_name": "Kenwood UK",
+            "product_count": 16,
+            "url": "/may-danh-trung-c972?brands=2788"
+        },
+        {
+            "id": 1492,
+            "alias": "mishio",
+            "brand_name": "Mishio",
+            "product_count": 1,
+            "url": "/may-danh-trung-c972?brands=1492"
+        },
+        {
+            "id": 183,
+            "alias": "bluestone",
+            "brand_name": "Bluestone",
+            "product_count": 2,
+            "url": "/may-danh-trung-c972?brands=183"
+        },
+        {
+            "id": 1700,
+            "alias": "hafele-duc",
+            "brand_name": "Hafele",
+            "product_count": 2,
+            "url": "/may-danh-trung-c972?brands=1700"
+        },
+        {
+            "id": 3165,
+            "alias": "zacme",
+            "brand_name": "Zacme",
+            "product_count": 1,
+            "url": "/may-danh-trung-c972?brands=3165"
+        },
+        {
+            "id": 502,
+            "alias": "bosch",
+            "brand_name": "Bosch",
+            "product_count": 3,
+            "url": "/may-danh-trung-c972?brands=502"
+        },
+        {
+            "id": 1098,
+            "alias": "Electrolux",
+            "brand_name": "Electrolux",
+            "product_count": 1,
+            "url": "/may-danh-trung-c972?brands=1098"
+        },
+        {
+            "id": 851,
+            "alias": "kitchenaid",
+            "brand_name": "KitchenAid",
+            "product_count": 12,
+            "url": "/may-danh-trung-c972?brands=851"
+        },
+        {
+            "id": 3091,
+            "alias": "roler",
+            "brand_name": "Roler",
+            "product_count": 2,
+            "url": "/may-danh-trung-c972?brands=3091"
+        },
+        {
+            "id": 1853,
+            "alias": "ariete",
+            "brand_name": "Ariete",
+            "product_count": 1,
+            "url": "/may-danh-trung-c972?brands=1853"
+        },
+        {
+            "id": 949,
+            "alias": "zelmer",
+            "brand_name": "Zelmer",
+            "product_count": 5,
+            "url": "/may-danh-trung-c972?brands=949"
+        },
+        {
+            "id": 2903,
+            "alias": "spring-green-evolution",
+            "brand_name": "Spring Green Evolution",
+            "product_count": 11,
+            "url": "/may-danh-trung-c972?brands=2903"
+        },
+        {
+            "id": 1849,
+            "alias": "midimori",
+            "brand_name": "Midimori",
+            "product_count": 2,
+            "url": "/may-danh-trung-c972?brands=1849"
+        },
+        {
+            "id": 1067,
+            "alias": "fakir",
+            "brand_name": "Fakir",
+            "product_count": 2,
+            "url": "/may-danh-trung-c972?brands=1067"
+        },
+        {
+            "id": 3021,
+            "alias": "fuji-master",
+            "brand_name": "Fuji Master",
+            "product_count": 2,
+            "url": "/may-danh-trung-c972?brands=3021"
+        },
+        {
+            "id": 2384,
+            "alias": "yubann",
+            "brand_name": "Yubann",
+            "product_count": 1,
+            "url": "/may-danh-trung-c972?brands=2384"
+        },
+        {
+            "id": 1053,
+            "alias": "steba",
+            "brand_name": "Steba",
+            "product_count": 1,
+            "url": "/may-danh-trung-c972?brands=1053"
+        },
+        {
+            "id": 1632,
+            "alias": "kuchenzimmer",
+            "brand_name": "Kuchenzimmer",
+            "product_count": 3,
+            "url": "/may-danh-trung-c972?brands=1632"
+        },
+        {
+            "id": 1644,
+            "alias": "new-sun",
+            "brand_name": "NewSun",
+            "product_count": 4,
+            "url": "/may-danh-trung-c972?brands=1644"
+        },
+        {
+            "id": 3155,
+            "alias": "aca",
+            "brand_name": "ACA",
+            "product_count": 1,
+            "url": "/may-danh-trung-c972?brands=3155"
+        },
+        {
+            "id": 948,
+            "alias": "russell-hobbs",
+            "brand_name": "Russell Hobbs",
+            "product_count": 1,
+            "url": "/may-danh-trung-c972?brands=948"
+        },
+        {
+            "id": 2348,
+            "alias": "kalite",
+            "brand_name": "Kalite",
+            "product_count": 1,
+            "url": "/may-danh-trung-c972?brands=2348"
+        },
+        {
+            "id": 2949,
+            "alias": "cooklee",
+            "brand_name": "Cooklee",
+            "product_count": 1,
+            "url": "/may-danh-trung-c972?brands=2949"
+        },
+        {
+            "id": 2963,
+            "alias": "oprulve",
+            "brand_name": "Oprulve",
+            "product_count": 1,
+            "url": "/may-danh-trung-c972?brands=2963"
+        },
+        {
+            "id": 3103,
+            "alias": "acekool",
+            "brand_name": "Acekool",
+            "product_count": 1,
+            "url": "/may-danh-trung-c972?brands=3103"
+        },
+        {
+            "id": 3159,
+            "alias": "kichot",
+            "brand_name": "Kichot",
+            "product_count": 1,
+            "url": "/may-danh-trung-c972?brands=3159"
+        }
+    ],
+    "giamayxay": [
+        {
+            "id": "chk_price_current_4",
+            "title": "Giá từ 500.000 đ đến 1.000.000 đ",
+            "value": "500k-den-1trieu",
+            "link": "/may-ep-trai-cay-c446?price_current=500k-den-1trieu",
+            "display_text": "500K - 1 triệu",
+            "count": 14
+        },
+        {
+            "id": "chk_price_current_5",
+            "title": "Giá từ 1.000.000 đ đến 1.500.000 đ",
+            "value": "1trieu-den-1trieu-ruoi",
+            "link": "/may-ep-trai-cay-c446?price_current=1trieu-den-1trieu-ruoi",
+            "display_text": "1 triệu - 1,5 triệu",
+            "count": 30
+        },
+        {
+            "id": "chk_price_current_6",
+            "title": "Giá từ 1.500.000 đ đến 2.000.000 đ",
+            "value": "1trieu-ruoi-den-2trieu",
+            "link": "/may-ep-trai-cay-c446?price_current=1trieu-ruoi-den-2trieu",
+            "display_text": "1,5 triệu - 2 triệu",
+            "count": 39
+        },
+        {
+            "id": "chk_price_current_7",
+            "title": "Giá từ 2.000.000 đ đến 3.000.000 đ",
+            "value": "2trieu-den-3trieu",
+            "link": "/may-ep-trai-cay-c446?price_current=2trieu-den-3trieu",
+            "display_text": "2 triệu - 3 triệu",
+            "count": 59
+        },
+        {
+            "id": "chk_price_current_8",
+            "title": "Giá từ 3.000.000 đ đến 5.000.000 đ",
+            "value": "3trieu-den-4trieu",
+            "link": "/may-ep-trai-cay-c446?price_current=3trieu-den-4trieu",
+            "display_text": "3 triệu - 5 triệu",
+            "count": 25
+        },
+        {
+            "id": "chk_price_current_9",
+            "title": "Giá từ 5.000.000 đ đến 8.000.000 đ",
+            "value": "5trieu-den-8trieu",
+            "link": "/may-ep-trai-cay-c446?price_current=5trieu-den-8trieu",
+            "display_text": "5 triệu - 8 triệu",
+            "count": 18
+        },
+        {
+            "id": "chk_price_current_10",
+            "title": "Giá từ 8.000.000 đ đến 10.000.000 đ",
+            "value": "8trieu-den-10trieu",
+            "link": "/may-ep-trai-cay-c446?price_current=8trieu-den-10trieu",
+            "display_text": "8 triệu - 10 triệu",
+            "count": 18
+        },
+        {
+            "id": "chk_price_current_11",
+            "title": "Giá từ 10.000.000 đ đến 15.000.000 đ",
+            "value": "10trieu-den-15trieu",
+            "link": "/may-ep-trai-cay-c446?price_current=10trieu-den-15trieu",
+            "display_text": "10 triệu - 15 triệu",
+            "count": 3
+        },
+        {
+            "id": "chk_price_current_12",
+            "title": "Giá từ 15.000.000 đ đến 20.000.000 đ",
+            "value": "15trieu-den-20trieu",
+            "link": "/may-ep-trai-cay-c446?price_current=15trieu-den-20trieu",
+            "display_text": "15 triệu - 20 triệu",
+            "count": 1
+        },
+        {
+            "id": "chk_price_current_13",
+            "title": "Giá từ 20.000.000 đ đến 25.000.000 đ",
+            "value": "20trieu-den-25trieu",
+            "link": "/may-ep-trai-cay-c446?price_current=20trieu-den-25trieu",
+            "display_text": "20 triệu - 25 triệu",
+            "count": 2
+        }
+    ],
+    "chatlieucoi": [
+        {
+            "value": "87.38",
+            "title": "Lọc các sản phẩm Nhựa cao cấp",
+            "link": "/may-xay-da-nang-c443?franges=87.38",
+            "material": "Nhựa cao cấp",
+            "count": 266
+        },
+        {
+            "value": "87.39",
+            "title": "Lọc các sản phẩm Inox",
+            "link": "/may-xay-da-nang-c443?franges=87.39",
+            "material": "Inox",
+            "count": 36
+        },
+        {
+            "value": "87.40",
+            "title": "Lọc các sản phẩm Thủy tinh",
+            "link": "/may-xay-da-nang-c443?franges=87.40",
+            "material": "Thủy tinh",
+            "count": 136
+        }
+    ],
+    "soluongcoi": [
+        {
+            "value": "228.3666",
+            "title": "Lọc các sản phẩm 1 cối xay",
+            "link": "/may-xay-da-nang-c443?specs=228.3666",
+            "spec": "1 cối xay",
+            "count": 79
+        },
+        {
+            "value": "228.2286",
+            "title": "Lọc các sản phẩm 2 cối xay",
+            "link": "/may-xay-da-nang-c443?specs=228.2286",
+            "spec": "2 cối xay",
+            "count": 110
+        },
+        {
+            "value": "228.2930",
+            "title": "Lọc các sản phẩm 3 cối xay",
+            "link": "/may-xay-da-nang-c443?specs=228.2930",
+            "spec": "3 cối xay",
+            "count": 76
+        },
+        {
+            "value": "228.8307",
+            "title": "Lọc các sản phẩm 4 cối xay",
+            "link": "/may-xay-da-nang-c443?specs=228.8307",
+            "spec": "4 cối xay",
+            "count": 6
+        }
+    ],
+    "congsuat": [
+        {
+            "value": "464.249",
+            "title": "Dưới 150W",
+            "count": 73,
+            "link": "/may-xay-da-nang-c443?franges=464.249"
+        },
+        {
+            "value": "464.250",
+            "title": "Từ 150W - 200W",
+            "count": 73,
+            "link": "/may-xay-da-nang-c443?franges=464.250"
+        },
+        {
+            "value": "464.251",
+            "title": "Từ 200W - 300W",
+            "count": 142,
+            "link": "/may-xay-da-nang-c443?franges=464.251"
+        },
+        {
+            "value": "464.252",
+            "title": "Từ 300W - 500W",
+            "count": 198,
+            "link": "/may-xay-da-nang-c443?franges=464.252"
+        },
+        {
+            "value": "464.253",
+            "title": "Từ 500W - 700W",
+            "count": 107,
+            "link": "/may-xay-da-nang-c443?franges=464.253"
+        },
+        {
+            "value": "464.254",
+            "title": "Từ 700W - 1.000W",
+            "count": 137,
+            "link": "/may-xay-da-nang-c443?franges=464.254"
+        },
+        {
+            "value": "464.255",
+            "title": "Trên 1.000W",
+            "count": 113,
+            "link": "/may-xay-da-nang-c443?franges=464.255"
         }
     ]
 }
