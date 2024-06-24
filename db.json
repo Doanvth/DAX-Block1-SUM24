@@ -301,17 +301,22 @@
                     "size": "Rộng x Sâu x Cao (10,5cm x 9cm x 23cm)",
                     "mass": "925g",
                     "made_in": "Nhật Bản",
-                    "made_at": "Thái Lan"
+                    "made_at": "Thái Lan",
+                    "color": "Inox",
+                    "cold_celcius": "Trong 8 giờ 8 độ C",
+                    "hot_celcius": "Trong 8 giờ 79 độ C",
+                    "guarantee": "12 tháng"
                 },
                 "information": [
                     {
-                        "title": "Đặc điểm nổi bật",
+                        "title": "Đặc điểm nổi bật của bình giữ nhiệt Zojirushi 800ml SJ-TG08-XA",
                         "content_ul": [
                             "Thân bình bằng thép không gỉ dày dặn, giữ lạnh được tới 6 giờ và giữ nóng được tới 24 giờ.",
                             "Dung tích 800ml chứa được nhiều thức uống mỗi lân.",
                             "Có dây đeo tiện dụng khi mang theo đi ra ngoài.",
                             "Nắp bình kín khít, chống rò rỉ tốt."
-                        ]
+                        ],
+                        "img": []
                     },
                     {
                         "title": "Đánh giá bình giữ nhiệt Zojirushi 800ml SJ-TG08-XA",
@@ -339,8 +344,7 @@
                         "title": "Thiết kế nhỏ gọn, có dây đeo tiện lợi",
                         "content": [
                             "Bình giữ nhiệt Zojirushi SJ-TG08-XA được thiết kế khá nhỏ gọn với kích thước rộng - sâu - cao tương ứng là 10,5cm x 9cm x 23cm. Ngoài ra, bình cũng được trang bị thêm dây đeo tiện dụng, phù hợp cho người chơi thể thao, đi du lịch, đi học, đi làm... dễ dàng mang theo. ",
-                            "Giá bình giữ nhiệt Zojirushi SJ-TG08-XA (800ml) đang được bán là 697.000 đồng, rất hợp lý so với những giá trị sản phẩm mang lại. Vì thế, bạn đừng ngần ngại mà hãy nhanh tay sở hữu cho mình chiếc bình giữ nhiệt chất lượng cao này nhé!",
-                            "Lưu ý: Hình ảnh sản phẩm chỉ có tính chất minh họa, chi tiết sản phẩm, màu sắc có thể thay đổi tùy theo sản phẩm thực tế."
+                            "Giá bình giữ nhiệt Zojirushi SJ-TG08-XA (800ml) đang được bán là 697.000 đồng, rất hợp lý so với những giá trị sản phẩm mang lại. Vì thế, bạn đừng ngần ngại mà hãy nhanh tay sở hữu cho mình chiếc bình giữ nhiệt chất lượng cao này nhé!"
                         ]
                     }
                 ]
@@ -348,7 +352,6 @@
             {
                 "id": "SL-TG10-AA",
                 "expand": false,
-
 
                 "name": "Bình giữ nhiệt Zojirushi",
                 "brand": "Zojirushi",
@@ -362,19 +365,24 @@
                 "image": {
                     "icon": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-300.jpg",
                     "img": [
-                        "https://st.meta.vn/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-g1.jpg",
                         "https://st.meta.vn/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-t5.jpg",
+                        "https://st.meta.vn/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-g1.jpg",
                         "https://st.meta.vn/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-t3.jpg",
                         "https://st.meta.vn/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-t2.jpg",
                         "https://st.meta.vn/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-t10.jpg",
-                        "https://st.meta.vn/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-t10.jpg",
+                        "https://st.meta.vn/data/image/2016/12/30/binh-nhiet-Zojirushi-SJ-TG10-AA-ctao.jpg",
+                        "https://st.meta.vn/data/image/2016/12/30/binh-nhiet-Zojirushi-SJ-TG10-AA-da.jpg",
+                        "https://st.meta.vn/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-t9.jpg",
                         "https://st.meta.vn/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-t1.jpg",
-                        "https://st.meta.vn/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-t7.jpg"
+                        "https://st.meta.vn/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-t6.jpg",
+                        "https://st.meta.vn/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-t7.jpg",
+                        "https://st.meta.vn/Data/image/2019/10/05/binh-giu-nhiet-zojirushi-sj-tg10-aa-1-lit-t8.jpg"
                     ]
                 },
                 "specifications": {
                     "capacity": "1 lít",
                     "material": "Thép không gỉ cách nhiệt chân không",
+                    "mass": "925g",
                     "color": "Xanh dương",
                     "cold_celcius": "Đánh giá khi nước ở nhiệt độ bắt đầu là 4°C ở nhiệ (8 độ C)",
                     "hot_celcius": "Đánh giá khi nước ở nhiệt độ bắt đầu 95°C ở nhiệt (79 độ C)",
@@ -389,74 +397,68 @@
                         "content": [
                             "Bình giữ nhiệt Zojirushi SL-TG10-AA là loại bình giữ nhiệt dung tích 1.000ml được thiết kế kiểu dáng gọn gàng, đi kèm dây đeo nên dễ dàng mang theo khi đi chơi, đi làm, đi học hay đi picnic..."
                         ],
-                        "img-description": "Bình giữ nhiệt Zojirushi mang theo khi đi picnic dễ dàng"
+                        "img_description": "Bình giữ nhiệt Zojirushi mang theo khi đi picnic dễ dàng"
                     },
                     {
                         "content": [
                             "Bình giữ nhiệt Zojirushi SL-TG10-AA có thiết kế nhỏ gọn với màu xanh dương thanh lịch, mang đến phong cách khỏe khoắn, năng động cho người dùng. "
                         ],
-                        "img-description": "Hình ảnh bình giữ nhiệt Zojirushi SL-TG10-AA"
+                        "img_description": "Hình ảnh bình giữ nhiệt Zojirushi SL-TG10-AA"
                     },
                     {
                         "content": [
                             "Vỏ ngoài làm bằng inox cách nhiệt chân không giúp giữ nóng/lạnh dài lâu. Chất liệu inox không hoen gỉ, chống nứt vỡ và hạn chế biến dạng do va đập trong quá trình sử dụng."
                         ],
-                        "img-description": "Bình làm từ chất liệu inox an toàn cho sức khỏe"
+                        "img_description": "Bình làm từ chất liệu inox an toàn cho sức khỏe"
                     },
                     {
                         "content": [
                             "Lớp phủ không dính bên trong làm dễ làm sạch. Bên cạnh đó, bình vô cùng an toàn cho người sử dụng vì chất liệu không phản ứng hóa học gây độc hại đến sức khỏe."
                         ],
-                        "img-description": "Ruột tráng men không dính"
+                        "img_description": "Ruột tráng men không dính"
                     },
                     {
                         "content": [
                             "Bình giữ nhiệt không chỉ dùng để giữ lạnh đồ uống như nước sôi, sinh tố, nước ép mà người dùng còn có thể giữ nóng cháo, nước canh, nước súp... "
                         ],
-                        "img-description": "Bình lý tưởng để bảo quản lạnh nước uống"
+                        "img_description": "Bình lý tưởng để bảo quản lạnh nước uống"
                     },
                     {
                         "content": [
                             "Nắp đậy dễ tháo rời để vệ sinh khi bị bám bẩn. "
                         ],
-                        "img-description": "Bình giữ nhiệt dễ dàng tháo rời."
+                        "img_description": "Bình giữ nhiệt dễ dàng tháo rời."
                     },
                     {
                         "content": [
                             "Với khả năng giữ nhiệt lên đến 24 tiếng, Zojirushi SL-TG10-AA sẽ đảm bảo cho nhu cầu giải khát của bạn luôn được đáp ứng mọi lúc, mọi nơi. Nắp đậy có ren vặn vô cùng kín hơi, đóng rất khít, không làm rò rỉ nước ra ngoài. Miệng bình rộng cho đá viên vào dễ dàng. "
                         ],
-                        "img-description": "Miệng bình cho vừa đá viên"
+                        "img_description": "Miệng bình cho vừa đá viên"
                     },
                     {
                         "content": [
                             "Khi giữ lạnh, bình cũng không bị ngưng ẩm bề mặt. Đây là một điểm cộng giúp cho bình lưỡng tính có tuổi thọ cao hơn.",
                             "Nắp rời, thuận tiện biến thành cốc rót uống nước khi cần thiết. Nút chạm bật đơn giản, uống tiện lợi và nhanh chóng"
                         ],
-                        "img-description": "Nắp đậy bằng nhựa dùng làm ca uống nước"
+                        "img_description": "Nắp đậy bằng nhựa dùng làm ca uống nước"
                     },
                     {
-                        "img-description": "Miệng bình thiết kế chắc chắn tránh rò rỉ nước"
+                        "img_description": "Miệng bình thiết kế chắc chắn tránh rò rỉ nước"
                     },
                     {
-                        "img-description": "Nắp đậy có gioăng cao su kín khít "
+                        "img_description": "Nắp đậy có gioăng cao su kín khít "
                     },
                     {
-                        "img-description": "Bình thiết kế kiểu dáng đẹp mắt"
+                        "img_description": "Bình thiết kế kiểu dáng đẹp mắt"
                     },
                     {
-                        "img-description": "Vị trí lắp quai đeo"
-                    },
-                    {
-                        "content": [
-                            "Lưu ý: Hình ảnh sản phẩm chỉ có tính chất minh họa, chi tiết sản phẩm, màu sắc có thể thay đổi tùy theo sản phẩm thực tế."
-                        ]
+                        "img_description": "Vị trí lắp quai đeo"
                     }
                 ]
             },
             {
                 "id": "SF-CC15",
                 "expand": false,
-
 
                 "name": "Bình giữ nhiệt lưỡng tính Zojirushi",
                 "brand": "Zojirushi",
@@ -469,15 +471,18 @@
                 "image": {
                     "icon": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2021/12/21/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-1-5-lit-500.jpg",
                     "img": [
-                        "https://st.meta.vn/Data/image/2021/12/21/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-1-5-lit.jpg",
-                        "https://st.meta.vn/Data/image/2021/12/21/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-1-5-lit-nd1.jpg",
-                        "https://st.meta.vn/Data/image/2021/12/21/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-1-5-lit-s.jpg",
+                        "https://st.meta.vn/Data/image/2019/02/28/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-s10.jpg",
+                        "https://st.meta.vn/Data/image/2019/02/28/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-nd4.jpg",
+                        "https://st.meta.vn/Data/image/2019/02/28/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-nd3.jpg",
+                        "https://st.meta.vn/Data/image/2019/02/28/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-nd.jpg",
+                        "https://st.meta.vn/Data/image/2019/02/28/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-nd2.jpg",
+                        "https://st.meta.vn/Data/image/2019/02/28/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-s.jpg",
                         "https://st.meta.vn/Data/image/2019/02/28/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-s1.jpg",
-                        "https://st.meta.vn/Data/image/2021/12/21/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-1-5-lit-s4.jpg",
-                        "https://st.meta.vn/Data/image/2021/12/21/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-1-5-lit-s5.jpg",
-                        "https://st.meta.vn/Data/image/2021/12/21/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-1-5-lit-s6.jpg",
-                        "https://st.meta.vn/Data/image/2021/12/21/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-1-5-lit-s8.jpg",
-                        "https://st.meta.vn/Data/image/2021/12/21/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-1-5-lit-s9.jpg"
+                        "https://st.meta.vn/Data/image/2019/02/28/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-s4.jpg",
+                        "https://st.meta.vn/Data/image/2019/02/28/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-s5.jpg",
+                        "https://st.meta.vn/Data/image/2019/02/28/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-s6.jpg",
+                        "https://st.meta.vn/Data/image/2019/02/28/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-s8.jpg",
+                        "https://st.meta.vn/Data/image/2019/02/28/binh-giu-nhiet-luong-tinh-zojirushi-sf-cc15-s9.jpg"
                     ]
                 },
                 "specifications": {
@@ -498,37 +503,24 @@
                         "content": [
                             "Zojirushi SF-CC15 được ứng dụng công nghệ hiện đại của Nhật Bản cho khả năng giữ nhiệt tốt, có thể giữ nóng ở nhiệt độ 80oC trong 6 giờ và 60oC trong 24 giờ, giữ lạnh ở nhiệt độ 7oC trong 6 giờ."
                         ],
-                        "img-description": "Zojirushi SF-CC15 thiết kế kiểu dáng sang trọng"
-                    },
-                    {
-                        "title": "Giữ nóng đồ uống nóng lạnh hiệu quả với bình giữ nhiệt lưỡng tính Zojirushi",
-                        "content": [
-                            "Zojirushi SF-CC15 được ứng dụng công nghệ hiện đại của Nhật Bản cho khả năng giữ nhiệt tốt, có thể giữ nóng ở nhiệt độ 80oC trong 6 giờ và 60oC trong 24 giờ, giữ lạnh ở nhiệt độ 7oC trong 6 giờ."
-                        ],
-                        "img-description": "Zojirushi SF-CC15 thiết kế kiểu dáng sang trọng"
+                        "img_description": "Zojirushi SF-CC15 thiết kế kiểu dáng sang trọng"
                     },
                     {
                         "content": [
                             "Bình giữ nhiệt Zojirushi SF-CC15 là loại bình giữ nhiệt có dung tích 1.5 lít, thân bình được làm bằng chất liệu thép không gỉ với độ bền chắc cao, chống ăn mòn và không bị oxy hóa, cho giá trị sử dụng lâu dài theo thời gian. Chất liệu này cũng không chứa các hóa chất độc hại, đảm bảo an toàn tuyệt đối cho sức khỏe người dùng."
                         ],
-                        "img-description": "Nắp bình dùng để làm cốc uống nước"
-                    },
-                    {
-                        "content": [
-                            "Bình giữ nhiệt Zojirushi SF-CC15 là loại bình giữ nhiệt có dung tích 1.5 lít, thân bình được làm bằng chất liệu thép không gỉ với độ bền chắc cao, chống ăn mòn và không bị oxy hóa, cho giá trị sử dụng lâu dài theo thời gian. Chất liệu này cũng không chứa các hóa chất độc hại, đảm bảo an toàn tuyệt đối cho sức khỏe người dùng."
-                        ],
-                        "img-description": "Nắp bình dùng để làm cốc uống nước"
+                        "img_description": "Nắp bình dùng để làm cốc uống nước"
                     },
                     {
                         "content": [
                             "Với công nghệ cách nhiệt chân không, bình giữ nhiệt giúp giữ nóng hoặc giữ lạnh đồ uống và thực phẩm dạng lỏng như cháo, súp, canh... một cách hiệu quả, tiện lợi để bạn có thể mang theo đi học, đi làm hay đi dã ngoại.",
                             "Ruột bình có phủ lớp chống dính, giúp bạn thuận tiện hơn trong việc vệ sinh và chùi rửa sản phẩm sau mỗi lần sử dụng."
                         ],
-                        "img-description": "Lòng bình bên trong"
+                        "img_description": "Lòng bình bên trong"
                     },
                     {
                         "title": "Đặc điểm nổi bật của bình giữ nhiệt Zojirushi SF-CC15",
-                        "content-ul": [
+                        "content_ul": [
                             "Bình giữ nhiệt Zojirushi SF-CC15 thiết kế bình nhỏ gọn, hợp thời trang, chiếc bình tiện dụng cho bạn mang theo mọi lúc mọi nơi.",
                             "Nắp đậy kín, không hở tránh tình trạng chất lỏng bị rò rỉ ra ngoài.",
                             "Nút bật mở dễ sử dụng.",
@@ -536,43 +528,37 @@
                             "Bình được trang bị dây đeo, giúp bạn dễ dàng di chuyển bình.",
                             "Thân bình trang bị tay cầm, thuận lợi trong việc cầm nắm khi rót nước."
                         ],
-                        "img-description": "Bình có quai xách"
+                        "img_description": "Bình có quai xách"
                     },
                     {
-                        "img-description": "Quai xách thiết kế chống nóng"
+                        "img_description": "Quai xách thiết kế chống nóng"
                     },
                     {
-                        "img-description": "Miệng bình bằng nhựa chịu nhiệt"
+                        "img_description": "Miệng bình bằng nhựa chịu nhiệt"
                     },
                     {
-                        "img-description": "Kiểu dáng bình nhỏ gọn"
+                        "img_description": "Kiểu dáng bình nhỏ gọn"
                     },
                     {
-                        "img-description": "Các bộ phận ở nắp dễ tháo rời"
+                        "img_description": "Các bộ phận ở nắp dễ tháo rời"
                     },
                     {
-                        "img-description": "Bình làm từ thép không gỉ"
+                        "img_description": "Bình làm từ thép không gỉ"
                     },
                     {
-                        "img-description": "Vỏ ngoài của nắp bằng thép không gỉ"
+                        "img_description": "Vỏ ngoài của nắp bằng thép không gỉ"
                     },
                     {
-                        "img-description": "Nút tròn màu đỏ dùng để nhấn rót nước"
+                        "img_description": "Nút tròn màu đỏ dùng để nhấn rót nước"
                     },
                     {
-                        "img-description": "Bình có dây đeo"
-                    },
-                    {
-                        "content": [
-                            "Lưu ý: Hình ảnh sản phẩm chỉ có tính chất minh họa, chi tiết sản phẩm, màu sắc có thể thay đổi tùy theo sản phẩm thực tế."
-                        ]
+                        "img_description": "Bình có dây đeo"
                     }
                 ]
             },
             {
                 "id": "SF-CC13",
                 "expand": false,
-
 
                 "name": "Bình lưỡng tính Zojirushi",
                 "brand": "Zojirushi",
@@ -585,12 +571,10 @@
                 "image": {
                     "icon": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2021/01/18/binh-luong-tinh-zojirushi-sf-cc13-1.jpg"
                 }
-                
             },
             {
                 "id": "SJ-TG08-AA",
                 "expand": false,
-
 
                 "name": "Bình giữ nhiệt Zojirushi",
                 "brand": "Zojirushi",
@@ -608,7 +592,6 @@
                 "id": "SM-NAE48SA",
                 "expand": false,
 
-
                 "name": "Bình giữ nhiệt Zojirushi",
                 "brand": "Zojirushi",
                 "rating": 5,
@@ -624,7 +607,6 @@
             {
                 "id": "SM-TA48",
                 "expand": false,
-
 
                 "name": "Bình giữ nhiệt Zojirushi",
                 "brand": "Zojirushi",
@@ -642,7 +624,6 @@
                 "id": "SM-TA48",
                 "expand": false,
 
-
                 "name": "Bình giữ nhiệt Zojirushi",
                 "brand": "Zojirushi",
                 "rating": 5,
@@ -659,7 +640,6 @@
                 "id": "SM-UA48",
                 "expand": false,
 
-
                 "name": "Bình giữ nhiệt Zojirushi",
                 "brand": "Zojirushi",
                 "rating": 5,
@@ -675,7 +655,6 @@
             {
                 "id": "SV-GR50",
                 "expand": false,
-
 
                 "name": "Bình giữ nhiệt Zojirushi",
                 "brand": "Zojirushi",
@@ -781,7 +760,6 @@
                     "icon": "https://st.meta.vn/img/thumb.ashx/200x200x95/Data/image/2022/09/22/binh-giu-nhiet-zojirushi-sm-sr60e-300.jpg"
                 }
             }
-
         ],
         "hot_categories": [
             {
@@ -1009,6 +987,8 @@
             {
                 "id": 1,
                 "name": "Quạt, Máy làm mát",
+                "expanded": false,
+
                 "icon": "https://meta.vn/icons/cats/448.png",
                 "subcategoriesList": [
                     {
@@ -1074,6 +1054,8 @@
                 "id": 2,
 
                 "name": "Nồi cơm điện",
+                "expanded": false,
+
                 "icon": "https://meta.vn/icons/cats/387.png",
 
                 "subcategoriesList": [
@@ -1103,6 +1085,8 @@
             {
                 "id": 3,
                 "name": "Máy xay đa năng",
+                "expanded": false,
+
                 "icon": "https://meta.vn/icons/cats/443.png",
 
                 "subcategoriesList": [
@@ -1136,6 +1120,8 @@
                 "id": 4,
 
                 "name": "Máy pha cà phê",
+                "expanded": false,
+
                 "icon": "https://meta.vn/icons/cats/581.png",
 
                 "subcategoriesList": [
@@ -1165,11 +1151,15 @@
             {
                 "id": 5,
                 "name": "Cây nước nóng lạnh",
+                "expanded": false,
+
                 "icon": "https://meta.vn/icons/cats/565.png"
             },
             {
                 "id": 6,
                 "name": "Các loại nồi",
+                "expanded": false,
+
                 "icon": "https://meta.vn/icons/cats/1099.png",
 
                 "subcategoriesList": [
@@ -1189,7 +1179,7 @@
                         ]
                     },
                     {
-                        "id":2,
+                        "id": 2,
                         "subcategory_name": "Nồi - Bộ nồi",
                         "subcategoriesSmall": [
                             {
@@ -1220,6 +1210,8 @@
             {
                 "id": 7,
                 "name": "Các loại bếp",
+                "expanded": false,
+
                 "icon": "https://meta.vn/icons/cats/1089.png",
                 "subcategoriesList": [
                     {
@@ -1278,15 +1270,15 @@
             {
                 "id": 7,
                 "name": "Máy hút bụi",
+                "expanded": false,
+
                 "icon": "https://meta.vn/icons/cats/386.png",
                 "subcategoriesList": [
                     {
                         "subcategory_name": "Máy hút bụi cầm tay"
-                        
                     },
                     {
                         "subcategory_name": "Máy hút bụi gia đình"
-                        
                     },
                     {
                         "subcategory_name": "Robot hút bụi"
@@ -1302,6 +1294,8 @@
             {
                 "id": 8,
                 "name": "Máy lọc nước",
+                "expanded": false,
+
                 "icon": "https://meta.vn/icons/cats/422.png",
                 "subcategoriesList": [
                     {
@@ -1323,7 +1317,7 @@
                         "subcategory_name": "Bình lọc nước"
                     },
                     {
-                        "id" : 7,
+                        "id": 7,
                         "subcategory_name": "Lõi lọc nước",
                         "subcategoriesSmall": [
                             {
@@ -1332,7 +1326,6 @@
                             {
                                 "subcategory_name": "Lõi lọc Nano"
                             }
-                            
                         ]
                     },
                     {
@@ -1352,11 +1345,15 @@
             {
                 "id": 9,
                 "name": "Lò vi sóng",
+                "expanded": false,
+
                 "icon": "https://meta.vn/icons/cats/420.png"
             },
             {
                 "id": 10,
                 "name": "Đồ dùng nha bếp",
+                "expanded": false,
+
                 "icon": "https://meta.vn/icons/cats/383.png",
                 "subcategoriesList": [
                     {
@@ -1372,7 +1369,6 @@
                             {
                                 "subcategory_name": "Chảo nướng, Vỉ nướng"
                             }
-                            
                         ]
                     },
                     {
@@ -1391,7 +1387,6 @@
                             {
                                 "subcategory_name": "Máy hút mùi độc lập"
                             }
-                            
                         ]
                     },
                     {
@@ -1403,7 +1398,7 @@
                     {
                         "subcategory_name": "Cối xay tiêu, Máy xay tiêu"
                     },
-                    
+
                     {
                         "subcategory_name": "Dao - Thớt"
                     },
@@ -1413,18 +1408,19 @@
                     {
                         "subcategory_name": "Dụng cụ khác"
                     }
-                    
                 ]
             },
             {
                 "id": 11,
                 "name": "Lò nướng, Bếp nướng",
+                "expanded": false,
+
                 "icon": "https://meta.vn/icons/cats/440.png",
                 "subcategoriesList": [
                     {
                         "subcategory_name": "Lò nướng"
                     },
-                    
+
                     {
                         "subcategory_name": "Lò nướng thủy tinh"
                     },
@@ -1436,17 +1432,22 @@
             {
                 "id": 12,
                 "name": "Nồi chiên không dầu",
+                "expanded": false,
+
                 "icon": "https://meta.vn/icons/cats/1103.png"
-                
             },
             {
                 "id": 13,
                 "name": "Máy sấy hoa quả",
+                "expanded": false,
+
                 "icon": "https://meta.vn/icons/cats/1160.png"
             },
             {
                 "id": 14,
                 "name": "Bàn là, bàn ủi",
+                "expanded": false,
+
                 "icon": "https://meta.vn/icons/cats/452.png",
                 "subcategoriesList": [
                     {
@@ -1472,16 +1473,22 @@
             {
                 "id": 15,
                 "name": "Bình thủy điện",
+                "expanded": false,
+
                 "icon": "https://meta.vn/icons/cats/415.png"
             },
             {
                 "id": 16,
                 "name": "Máy làm sữa hạt",
+                "expanded": false,
+
                 "icon": "https://meta.vn/icons/cats/3478.png"
             },
+
             {
                 "id": 17,
                 "name": "Nồi lẩu, bếp lẩu",
+                "expanded": true,
                 "icon": "https://meta.vn/icons/cats/3089.png",
                 "subcategoriesList": [
                     {
@@ -1498,6 +1505,7 @@
             {
                 "id": 18,
                 "name": "Máy làm kem",
+                "expanded": true,
                 "icon": "https://meta.vn/icons/cats/523.png",
                 "subcategoriesList": [
                     {
@@ -1511,6 +1519,7 @@
             {
                 "id": 19,
                 "name": "Đồ sưởi",
+                "expanded": true,
                 "icon": "https://meta.vn/icons/cats/437.png",
                 "subcategoriesList": [
                     {
@@ -1521,7 +1530,7 @@
                     },
                     {
                         "subcategory_name": "Quạt sưởi"
-                    }, 
+                    },
                     {
                         "subcategory_name": "Đèn sưởi"
                     },
@@ -1539,9 +1548,9 @@
             {
                 "id": 20,
                 "name": "Hộp cơm giữ nhiệt",
+                "expanded": true,
                 "icon": "https://meta.vn/icons/cats/385.png"
             }
-            
         ]
     }
 }

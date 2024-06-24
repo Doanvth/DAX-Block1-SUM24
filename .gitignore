@@ -1,3 +1,7 @@
 /css/*
 /.vscode
 /css/style.css
+package.json
+package-lock.json
+/node_modules
+
