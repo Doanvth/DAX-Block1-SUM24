@@ -609,5 +609,750 @@
             "id": 15,
             "name": "Chính hãng"
         }
+    ],
+    "LoViSong": [
+            {
+                "CatagoryLoViSong": [
+                    {
+                    "Categories": [
+                        {
+                                "id": 1,
+                                "name": "Quạt, Máy làm mát",
+                                "icon": "https://meta.vn/icons/cats/448.png",
+                                "subcategories": [
+                                    {
+                                        "id": 2,
+                                        "name": "Quạt điều hòa"
+                                    },
+                                    {
+                                        "id": 3,
+                                        "name": "Máy lạnh di động, Máy lạnh mini"
+                                    },
+                                    {
+                                        "id": 4,
+                                        "name": "Quạt cây, Quạt đứng"
+                                    },
+                                    {
+                                        "id": 5,
+                                        "name": "Quạt công nghiệp"
+                                    },
+                                    {
+                                        "id": 6,
+                                        "name": "Quạt treo tường"
+                                    },
+                                    {
+                                        "id": 7,
+                                        "name": "Quạt trần"
+                                    },
+                                    {
+                                        "id": 8,
+                                        "name": "Máy làm mát công nghiệp"
+                                    },
+                                    {
+                                        "id": 9,
+                                        "name": "Quạt tháp, Quạt không cánh"
+                                    },
+                                    {
+                                        "id": 10,
+                                        "name": "Quạt phun sương"
+                                    },
+                                    {
+                                        "id": 11,
+                                        "name": "Quạt tích điện"
+                                    },
+                                    {
+                                        "id": 12,
+                                        "name": "Quạt đảo trần"
+                                    },
+                                    {
+                                        "id": 13,
+                                        "name": "Quạt thông gió, Quạt hút gió",
+                                        "subcategories-son1": [
+                                            {
+                                                "id": 14,
+                                                "name-son1": "Quạt thông gió nhà vệ sinh"
+                                            },
+                                            {
+                                                "id": 15,
+                                                "name-son1": "Quạt thông gió công nghiệp"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": 16,
+                                        "name": "Quạt bàn"
+                                    },
+                                    {
+                                        "id": 17,
+                                        "name": "Quạt chắn gió, Quạt cắt gió"
+                                    },
+                                    {
+                                        "id": 18,
+                                        "name": "Quạt hộp"
+                                    },
+                                    {
+                                        "id": 19,
+                                        "name": "Quạt năng lượng mặt trời"
+                                    }
+                                ]
+                        },
+                        {
+                            "id": 20,
+                            "name": "Máy pha cà phê",
+                            "icon": "https://meta.vn/icons/cats/581.png",
+                            "subcategories":[
+                                {
+                                    "id": 1,
+                                    "name": "Máy pha cà phê tự động"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 21,
+                            "name": "Các loại nồi",
+                            "icon": "https://meta.vn/icons/cats/1099.png",
+                            "subcategories":[
+                                {
+                                    "id": 1,
+                                    "name": "Nồi INox"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 22,
+                            "name": "Máy xay đa năng",
+                            "icon": "https://meta.vn/icons/cats/443.png",
+                            "subcategories":[
+                                {
+                                    "id": 1,
+                                    "name": "Máy xay 2 chiều"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 23,
+                            "name": "Cây nước nóng lạnh",
+                            "icon": "https://meta.vn/icons/cats/565.png",
+                            "subcategories":[
+                                {
+                                    "id": 1,
+                                    "name": "Cây nước nóng lạnh kagaru"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 24,
+                            "name": "Các loại bếp",
+                            "icon": "https://meta.vn/icons/cats/1089.png",
+                            "subcategories":[
+                                {
+                                    "id": 1,
+                                    "name": "Bếp điện"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 25,
+                            "name": "Máy hút bụi",
+                            "icon": "https://meta.vn/icons/cats/386.png",
+                            "subcategories":[
+                                {
+                                    "id": 1,
+                                    "name": "Máy hút bụi đa năng"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 26,
+                            "name": "Máy lọc nước",
+                            "icon": "https://meta.vn/icons/cats/422.png",
+                            "subcategories":[
+                                {
+                                    "id": 1,
+                                    "name": "Máy lọc nước"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 27,
+                            "name": "Lò vi sóng",
+                            "icon": "https://meta.vn/icons/cats/420.png",
+                            "subcategories":[
+                                {
+                                    "id": 1,
+                                    "name": "Lò vi sóng thép không rỉ"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 28,
+                            "name": "Đồ dùng nhà bếp",
+                            "icon": "https://meta.vn/icons/cats/383.png",
+                            "subcategories":[
+                                {
+                                    "id": 1,
+                                    "name": "Kéo búa bao"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 29,
+                            "name": "Bàn là - Bàn ủi",
+                            "icon": "https://meta.vn/icons/cats/452.png",
+                            "subcategories":[
+                                {
+                                    "id": 1,
+                                    "name": "Bàn ủi hơi nước"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 30,
+                            "name": "Bình thủy điện",
+                            "icon": "https://meta.vn/icons/cats/415.png",
+                            "subcategories":[
+                                {
+                                    "id": 1,
+                                    "name": "Bình thủy điện"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 31,
+                            "name": "Máy làm sữa hạt",
+                            "icon": "https://meta.vn/icons/cats/3478.png",
+                            "subcategories":[
+                                {
+                                    "id": 1,
+                                    "name": "Máy làm sữa hạt"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 32,
+                            "name": "Nồi lẩu, Bếp lẩu",
+                            "icon": "https://meta.vn/icons/cats/3089.png",
+                            "subcategories":[
+                                {
+                                    "id": 1,
+                                    "name": "Nồi lẩu, Bếp lẩu"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 33,
+                            "name": "Lò nướng, Bếp nướng",
+                            "icon": "https://meta.vn/icons/cats/440.png",
+                            "subcategories":[
+                                {
+                                    "id": 1,
+                                    "name": "Lò nướng, Bếp nướng"
+                                }
+                            ]
+                        }
+                    ],
+                    "Brand": [
+                        {
+                            "id": 1,
+                            "name": "FujiHome"
+                        },
+                        {
+                            "id": 2,
+                            "name": "FujiE"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Sunhouse"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Toshiba"
+                        },
+                        {
+                            "id": 5,
+                            "name": "Hòa Phát"
+                        },
+                        {
+                            "id": 6,
+                            "name": "Electrolux"
+                        },
+                        {
+                            "id": 7,
+                            "name": "Nagakawa"
+                        },
+                        {
+                            "id": 8,
+                            "name": "Chungho"
+                        },
+                        {
+                            "id": 9,
+                            "name": "Kova"
+                        },
+                        {
+                            "id": 10,
+                            "name": "Syntex"
+                        },
+                        {
+                            "id": 11,
+                            "name": "Coex"
+                        },
+                        {
+                            "id": 12,
+                            "name": "Alaska"
+                        },
+                        {
+                            "id": 13,
+                            "name": "Kangaroo"
+                        },
+                        {
+                            "id": 14,
+                            "name": "Midea"
+                        },
+                        {
+                            "id": 15,
+                            "name": "Coway"
+                        },
+                        {
+                            "id": 16,
+                            "name": "Kohn"
+                        },
+                        {
+                            "id": 17,
+                            "name": "TrueHome"
+                        },
+                        {
+                            "id": 18,
+                            "name": "Hichiko"
+                        },
+                        {
+                            "id": 19,
+                            "name": "Sơn Hà"
+                        },
+                        {
+                            "id": 20,
+                            "name": "Seoul Aqua"
+                        }
+                    ],
+                    "Price": [
+                        {
+                            "id": 1,
+                            "name": "200K - 500K"
+                        },
+                        {
+                            "id": 2,
+                            "name": "500K - 1 triệu"
+                        },
+                        {
+                            "id": 3,
+                            "name": "1 triệu - 1,5 triệu"
+                        },
+                        {
+                            "id": 4,
+                            "name": "1,5 triệu - 2 triệu"
+                        },
+                        {
+                            "id": 5,
+                            "name": "2 triệu - 3 triệu"
+                        },
+                        {
+                            "id": 6,
+                            "name": "3 triệu - 5 triệu"
+                        },
+                        {
+                            "id": 7,
+                            "name": "5 triệu - 8 triệu"
+                        },
+                        {
+                            "id": 8,
+                            "name": "8 triệu - 10 triệu"
+                        },
+                        {
+                            "id": 9,
+                            "name": "10 triệu - 15 triệu"
+                        },
+                        {
+                            "id": 10,
+                            "name": "15 triệu - 20 triệu"
+                        },
+                        {
+                            "id": 11,
+                            "name": "20 triệu - 25 triệu"
+                        }
+                    ],
+                    "Production": [
+                        {
+                            "id": 1,
+                            "name": "Việt Nam/Hàn Quốc"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Việt Nam/Trung Quốc"
+                        },
+                        {
+                            "id": 3,
+                            "name": "Ấn Độ"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Hàn Quốc"
+                        },
+                        {
+                            "id": 5,
+                            "name": "Malaysia"
+                        },
+                        {
+                            "id": 6,
+                            "name": "Nhật Bản"
+                        },
+                        {
+                            "id": 7,
+                            "name": "Trung Quốc"
+                        },
+                        {
+                            "id": 8,
+                            "name": "Việt Nam"
+                        },
+                        {
+                            "id": 9,
+                            "name": "Liên doanh Trung Quốc - Hàn Quốc"
+                        }
+                    ]
+                    }
+                ]
+            },
+            {
+                "Product": [
+                    {
+                        "id": 1,
+                        "name": "Lò vi sóng Toshiba ER-SGS34(S1)VN 34 lít",
+                        "percent": "270k",
+                        "image": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2021/04/15/o-vi-song-toshiba-er-sgs34-s1-vn-3.jpg",
+                        "price": 3600000,
+                        "disscout": 3330000,
+                        "reviews": 9,
+                        "brand": "Toshiba | Lò vi sóng Toshiba",
+                        "status": "Còn hàng"
+
+                    },
+                    {
+                        "id": 2,
+                        "name": "Lò vi sóng Sharp R-205VN-S (20 lít)",
+                        "percent": "-21%",
+                        "image": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2022/07/09/lo-vi-song-sharp-r-205vn-s-20-lit-300.jpg",
+                        "price": 1890000,
+                        "disscout": 1500000,
+                        "reviews": 18,
+                        "brand": "Sharp | Lò vi sóng Sharp",
+                        "status": "Còn hàng",
+                        "microwavetype": "Lò vi sóng cơ",
+                        "functions": "Hâm nóng, Nấu, Rã đông",
+                        "microwavestyle": "Không nướng",
+                        "capacity": "20 lít",
+                        "power": "800W",
+                        "voltage": "220V/50Hz",
+                        "timer": "35 phút",
+                        "controlpanel": "Núm vặn cơ",
+                        "light": "Có",
+                        "material": "Thép tráng men, Thủy tinh",
+                        "turntablediameter": "25.5cm",
+                        "compartmentsize": "30.6cm x 20.7cm x 20.8cm",
+                        "dimensions": "43.95cm x 33.82cm x 25.62cm",
+                        "weight": "10.9kg",
+                        "brandorigin": "Nhật Bản",
+                        "manufacturedin": "Trung Quốc",
+                        "warranty": "12 tháng"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Lò vi sóng Toshiba MWP-MM20P(WH)",
+                        "percent": "-30%",
+                        "image": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2023/10/23/lo-vi-song-toshiba-mwp-mm20p-wh-300.jpg",
+                        "price": 1290000,
+                        "disscout": 1850000,
+                        "reviews": 3,
+                        "brand": "Toshiba | Lò vi sóng Toshiba",
+                        "status": "Còn hàng",
+                        "microwavetype": "Lò vi sóng cơ",
+                        "functions": "Hâm nóng, Nấu, Rã đông",
+                        "microwavestyle": "Không nướng",
+                        "capacity": "20 lít",
+                        "power": "700W",
+                        "voltage": "230V/50Hz",
+                        "timer": "35 phút",
+                        "controlpanel": "Núm vặn cơ",
+                        "light": "Có",
+                        "material": "Thép tráng men, Thủy tinh",
+                        "turntablediameter": "25.5cm",
+                        "compartmentsize": "30.6cm x 20.7cm x 20.8cm",
+                        "dimensions": "44.2cm x 36.5cm x 25.8cm",
+                        "weight": "11kg",
+                        "brandorigin": "Nhật Bản",
+                        "manufacturedin": "Trung Quốc",
+                        "warranty": "12 tháng"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Lò vi sóng Roler RM-3216 20 lít",
+                        "percent": "-29%",
+                        "image": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2024/04/11/lo-vi-song-roler-rm-3216-20-lit-a.jpg",
+                        "price": 1390000,
+                        "disscout": 990000,
+                        "reviews": 1,
+                        "brand": "Roler | Lò vi sóng Roler",
+                        "status": "Còn hàng",
+                        "parameters": [
+                            {
+                                "id": 4,
+                                "microwavetype": "Lò vi sóng cơ",
+                                "functions": [
+                                    "Giã đng",
+                                    "Hâm nóng",
+                                    "Nấu"
+                                ],
+                                "microwave-style": "Không nướng",
+                                "capacity": "20 lít",
+                                "power": "700W",
+                                "control-panel": "Núm vặn cơ",
+                                "material": "Thép sơn tĩnh điện",
+                                "cord-length": "80cm",
+                                "dimensions": {
+                                    "width": "43.3cm",
+                                    "height": "24.1cm",
+                                    "depth": "32.9cm"
+                                },
+                                "weight": "6.1kg",
+                                "package-weight": "7kg",
+                                "brand-origin": "Việt Nam",
+                                "manufactured-in": "Trung Quốc",
+                                "warranty": "12 tháng, 1 đổi 1 trong vòng 30 ngày"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "name": "Lò vi sóng cơ Sharp R-31A2VN-S (23 lít)",
+                        "percent": "-25%",
+                        "image": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2021/06/28/lo-vi-song-co-sharp-r-31a2vn-s-23-lit.jpg",
+                        "price": 2400000,
+                        "disscout": 1800000,
+                        "reviews": 6,
+                        "brand": "Sharp | Lò vi sóng Sharp",
+                        "status": "Còn hàng",
+                        "microwavetype": "Lò vi sóng cơ",
+                        "functions": "Hâm nóng, Nấu, Rã đông",
+                        "microwavestyle": "Không nướng",
+                        "capacity": "23 lít",
+                        "power": "900W",
+                        "voltage": "220V/50Hz",
+                        "timer": "0 - 30 phútt",
+                        "controlpanel": "Núm vặn cơ",
+                        "light": "Có",
+                        "material": "Khoang lò là thép không gỉ",
+                        "turntablediameter": "27cm",
+                        "compartmentsize": "30.6cm x 20.7cm x 20.8cm",
+                        "dimensions": "48.3cm x 28.1cm x 39.3cm",
+                        "weight": "14.1kg",
+                        "brandorigin": "Nhật Bản",
+                        "manufacturedin": "Trung Quốc",
+                        "warranty": "12 tháng"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Lò vi sóng Roler RM-3216 20 lít",
+                        "percent": "-29%",
+                        "image": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2024/04/11/lo-vi-song-roler-rm-3216-20-lit-a.jpg",
+                        "price": 1390000,
+                        "disscout": 990000,
+                        "reviews": 6,
+                        "brand": "Roler | Lò vi sóng Roler",
+                        "status": "Còn hàng",
+                        "microwavetype": "Lò vi sóng cơ",
+                        "functions": "Hâm nóng, Nấu, Rã đông",
+                        "microwavestyle": "Không nướng",
+                        "capacity": "20 lít",
+                        "power": "700W",
+                        "voltage": "220V/50Hz",
+                        "timer": "0 - 30 phútt",
+                        "controlpanel": "Núm vặn cơ",
+                        "light": "Có",
+                        "material": "Thép sơn tĩnh điện",
+                        "turntablediameter": "27cm",
+                        "compartmentsize": "30.6cm x 20.7cm x 20.8cm",
+                        "dimensions": "43.3cm x 24.1cm x 32.9cm",
+                        "weight": "6.1kg",
+                        "brandorigin": "Việt Nam",
+                        "manufacturedin": "Trung Quốc",
+                        "warranty": "12 tháng, 1 đổi 1 trong vòng 30 ngày"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Lò vi sóng cơ Sharp R-31A2VN-S (23 lít)",
+                        "percent": "-29%",
+                        "image": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2021/06/28/lo-vi-song-co-sharp-r-31a2vn-s-23-lit.jpg",
+                        "price": 2400000,
+                        "disscout": 1800000,
+                        "reviews": 6,
+                        "brand": "Sharp | Lò vi sóng Sharp",
+                        "status": "Còn hàng",
+                        "microwavetype": "Lò vi sóng cơ",
+                        "functions": "Hâm nóng, Nấu, Rã đông",
+                        "microwavestyle": "Không nướng",
+                        "capacity": "23 lít",
+                        "power": "900W",
+                        "voltage": "220V/50Hz",
+                        "timer": "0 - 30 phútt",
+                        "controlpanel": "Núm vặn cơ",
+                        "light": "Có",
+                        "material": "Khoang lò (Thép không gỉ)",
+                        "turntablediameter": "27cm",
+                        "compartmentsize": "30.6cm x 20.7cm x 20.8cm",
+                        "dimensions": "48.3cm x 28.1cm x 39.3cm",
+                        "weight": "14.1kg",
+                        "brandorigin": "Nhật Bản",
+                        "manufacturedin": "Trung Quốc",
+                        "warranty": "12 tháng"
+                    },
+                    {
+                        "id": 8,
+                        "name": "Lò vi sóng cơ có nướng Sharp R-G222VN-S 20 lít",
+                        "percent": "-150k",
+                        "image": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2023/01/05/lo-vi-song-co-co-nuong-sharp-r-g222vn-s-20-lit-1.jpg",
+                        "price": 1900000,
+                        "disscout": 1750000,
+                        "reviews": 9,
+                        "brand": "Sharp | Lò vi sóng Sharp",
+                        "status": "Còn hàng",
+                        "microwavetype": "Lò vi sóng cơ",
+                        "functions": "Hâm nóng, Nấu, Rã đông",
+                        "microwavestyle": "Không nướng",
+                        "capacity": "20 lít",
+                        "power": "900W",
+                        "voltage": "220V/50Hz",
+                        "timer": "Có",
+                        "controlpanel": "Núm vặn cơ",
+                        "light": "Có",
+                        "material": "Kim loại",
+                        "turntablediameter": "25.5cm",
+                        "compartmentsize": "30.6cm x 20.7cm x 20.8cm",
+                        "dimensions": "43cm x 25.5cm x 34cm",
+                        "weight": "11.4kg",
+                        "brandorigin": "Nhật Bản",
+                        "manufacturedin": "Trung Quốc",
+                        "warranty": "12 tháng"
+                    },
+                    {
+                        "id": 9,
+                        "name": "Lò vi sóng cơ Sharp R-32A2VN-S - 23 lít",
+                        "percent": "-10%",
+                        "image": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2020/03/05/lo-vi-song-co-sharp-r-32a2vn-s-23-lit-500.jpg",
+                        "price": 1990000,
+                        "disscout": 1800000,
+                        "reviews": 4,
+                        "brand": "Sharp | Lò vi sóng Sharp",
+                        "status": "Còn hàng",
+                        "microwavetype": "Lò vi sóng cơ",
+                        "functions": "Hâm nóng, Nấu, Rã đông",
+                        "microwavestyle": "Không nướng",
+                        "capacity": "23 lít",
+                        "power": "900W",
+                        "voltage": "220V/50Hz",
+                        "timer": "0 - 30 phútt",
+                        "controlpanel": "Núm vặn cơ",
+                        "light": "Có",
+                        "material": "Khoang lò là thép không gỉ",
+                        "turntablediameter": "27cm",
+                        "compartmentsize": "30.6cm x 20.7cm x 20.8cm",
+                        "dimensions": "48.3cm x 28.1cm x 39.3cm",
+                        "weight": "14.1kg",
+                        "brandorigin": "Nhật Bản",
+                        "manufacturedin": "Trung Quốc",
+                        "warranty": "12 tháng"
+                    },
+                    {
+                        "id": 10,
+                        "name": "Lò vi sóng cơ 20 lít Roler RM-3213",
+                        "percent": "-36%",
+                        "image": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2023/02/15/lo-vi-song-roler-rm-3213-300.jpg",
+                        "price": 1190000,
+                        "disscout": 1853000,
+                        "reviews": 17,
+                        "brand": "Roler | Lò vi sóng Roler",
+                        "status": "Còn hàng",
+                        "microwavetype": "Lò vi sóng cơ",
+                        "functions": "Hâm nóng, Nấu, Rã đông",
+                        "microwavestyle": "Không nướng",
+                        "capacity": "23 lít",
+                        "power": "900W",
+                        "voltage": "220V/50Hz",
+                        "timer": "0 - 30 phútt",
+                        "controlpanel": "Núm vặn cơ",
+                        "light": "Có",
+                        "material": "Khoang lò là thép không gỉ",
+                        "turntablediameter": "27cm",
+                        "compartmentsize": "30.6cm x 20.7cm x 20.8cm",
+                        "dimensions": "48.3cm x 28.1cm x 39.3cm",
+                        "weight": "14.1kg",
+                        "brandorigin": "Nhật Bản",
+                        "manufacturedin": "Trung Quốc",
+                        "warranty": "12 tháng"
+                    },
+                    {
+                        "id": 11,
+                        "name": "Lò vi sóng Sharp R-208VN-WS (20 lít)",
+                        "percent": "-19",
+                        "image": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2022/03/28/r-208vn-ws3.jpg",
+                        "price": 1380000,
+                        "disscout": 1700000,
+                        "reviews": 10,
+                        "brand": "Sharp | Lò vi sóng Sharp",
+                        "status": "Còn hàng",
+                        "microwavetype": "Lò vi sóng cơ",
+                        "functions": "Hâm nóng, Nấu, Rã đông",
+                        "microwavestyle": "Không nướng",
+                        "capacity": "23 lít",
+                        "power": "900W",
+                        "voltage": "220V/50Hz",
+                        "timer": "0 - 30 phútt",
+                        "controlpanel": "Núm vặn cơ",
+                        "light": "Có",
+                        "material": "Khoang lò là thép không gỉ",
+                        "turntablediameter": "27cm",
+                        "compartmentsize": "30.6cm x 20.7cm x 20.8cm",
+                        "dimensions": "48.3cm x 28.1cm x 39.3cm",
+                        "weight": "14.1kg",
+                        "brandorigin": "Nhật Bản",
+                        "manufacturedin": "Trung Quốc",
+                        "warranty": "12 tháng"
+                    },
+                    {
+                        "id": 12,
+                        "name": "Lò vi sóng có nướng Sharp R-G211TV-BK 21 lít",
+                        "percent": "-19",
+                        "image": "https://st.meta.vn/img/thumb.ashx/300x300x95/Data/image/2022/03/28/r-208vn-ws3.jpg",
+                        "price": 1380000,
+                        "disscout": 1700000,
+                        "reviews": 10,
+                        "brand": "Sharp | Lò vi sóng Sharp",
+                        "status": "Còn hàng",
+                        "microwavetype": "Lò vi sóng cơ",
+                        "functions": "Hâm nóng, Nấu, Rã đông",
+                        "microwavestyle": "Không nướng",
+                        "capacity": "23 lít",
+                        "power": "900W",
+                        "voltage": "220V/50Hz",
+                        "timer": "0 - 30 phútt",
+                        "controlpanel": "Núm vặn cơ",
+                        "light": "Có",
+                        "material": "Khoang lò là thép không gỉ",
+                        "turntablediameter": "27cm",
+                        "compartmentsize": "30.6cm x 20.7cm x 20.8cm",
+                        "dimensions": "48.3cm x 28.1cm x 39.3cm",
+                        "weight": "14.1kg",
+                        "brandorigin": "Nhật Bản",
+                        "manufacturedin": "Trung Quốc",
+                        "warranty": "12 tháng"
+                    }
+                ]
+            }
     ]
 }
