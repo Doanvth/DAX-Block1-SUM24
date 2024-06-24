@@ -3,7 +3,7 @@ var app = angular.module("myApp", ["ngRoute"]);
 app.config(function ($routeProvider) {
     $routeProvider
     .when("/", {
-      templateUrl: "trangchu.html",
+      templateUrl: "home.html",
       controller: "homeController",
     })
     .when("/quat", {
@@ -646,4 +646,73 @@ app.controller('detailMayxayController', function ($scope, $http, $routeParams, 
     console.log("Lỗi khi tải danh mục nồi:", error);
   });
 
+});
+
+app.service('MayxayService', function ($http) {
+  this.getCategoriesMayXay = function () {
+    return $http({
+      method: "GET",
+      url: URL_API + "categoriesmayxay",
+    }).catch(function (error) {
+      console.error('API call error:', error);
+      throw error;
+    });
+  };
+});
+
+app.service('BrandMayxayService', function ($http) {
+  this.getBrandMayXay = function () {
+    return $http({
+      method: "GET",
+      url: URL_API + "thuonghieumayxay",
+    }).catch(function (error) {
+      console.error('API call error:', error);
+      throw error;
+    });
+  };
+});
+
+app.service('giamayxayService', function ($http) {
+  this.getGiaMayXay = function () {
+    return $http({
+      method: "GET",
+      url: URL_API + "giamayxay",
+    }).catch(function (error) {
+      console.error('API call error:', error);
+      throw error;
+    });
+  };
+});
+app.service('chatlieuService', function ($http) {
+  this.getChatlieucoi = function () {
+    return $http({
+      method: "GET",
+      url: URL_API + "chatlieucoi",
+    }).catch(function (error) {
+      console.error('API call error:', error);
+      throw error;
+    });
+  };
+});
+app.service('soluongcoiService', function ($http) {
+  this.getSoluongcoi = function () {
+    return $http({
+      method: "GET",
+      url: URL_API + "soluongcoi",
+    }).catch(function (error) {
+      console.error('API call error:', error);
+      throw error;
+    });
+  };
+});
+app.service('congsuatService', function ($http) {
+  this.getCongsuat = function () {
+    return $http({
+      method: "GET",
+      url: URL_API + "congsuat",
+    }).catch(function (error) {
+      console.error('API call error:', error);
+      throw error;
+    });
+  };
 });

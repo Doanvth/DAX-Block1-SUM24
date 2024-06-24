@@ -14,7 +14,7 @@
 @import 'custom-input';
 @import 'home';
 
-body{
+body {
     font-family: $font-family-primary;
     font-size: $font-size;
     color: $color-text;
@@ -444,20 +444,63 @@ div>.discount-cat-main {
         }
     }
 }
-.box-img img { width: 100%; height: 100%; object-fit:cover }
-.overlow-text{
-    white-space: nowrap; 
-    overflow: hidden;
-    text-overflow: ellipsis; 
+
+.box-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
 }
-.price{
+
+.overlow-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.price {
     font-size: 24px;
     font-weight: 700;
     color: #da251c;
     display: inline-block;
     line-height: 28px;
 }
-.original-price{
+
+.original-price {
     text-decoration: line-through;
     margin-left: 10px;
+}
+
+.search-input {
+    width: 218px;
+}
+
+.config-magnify-glass {
+    right: 18px;
+}
+
+.list-catalog-main>.outCatalog {
+    position: relative;
+    width: calc(100% / 8);
+    height: 150px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.outCatalog>.catalog-main-item {
+    position: relative;
+    height: 135px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    cursor: pointer;
 }

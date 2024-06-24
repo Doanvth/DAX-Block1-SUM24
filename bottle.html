@@ -7,28 +7,29 @@
             <div class="row m-0 row-header">
                 <div class="home-box col-md-2 p-0">
                     <i class="list-icon bi bi-list"> </i>
-                    <span class="logo text-white fw-bolder">META</span>
-                    <ul class="text-center">
+                    <a href="/">
+                        <span class="logo text-white fw-bolder">META</span>
+                    </a>                    <ul class="text-center">
                         <li>
-                            <a href="">
+                            <a href="#!/quat">
                                 <img src="/image/header-image/448.webp" alt="" />
-                                <p>Quạt, máy làm mát</p>
+                                <p>Quạt, Máy làm mát</p>
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="#!/noi">
                                 <img src="/image/header-image/1099.webp" alt="" />
                                 <p>Các loại nồi</p>
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="#!/cayNuocNongLanh">
                                 <img src="/image/header-image/565.webp" alt="" />
                                 <p>Cây nước nóng lạnh</p>
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="#!/stove">
                                 <img src="/image/header-image/1089.webp" alt="" />
                                 <p>Các loại bếp</p>
                             </a>
@@ -40,15 +41,15 @@
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="#!/bottle">
                                 <img src="/image/header-image/778.webp" alt="" />
                                 <p>Bình giữ nhiệt</p>
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="#!/mayxaydanang">
                                 <img src="/image/header-image/629.webp" alt="" />
-                                <p>Máy xay cà phê</p>
+                                <p>Máy xay đa năng</p>
                             </a>
                         </li>
                         <li>
@@ -58,9 +59,9 @@
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="#!/lovisong">
                                 <img src="/image/header-image/420.webp" alt="" />
-                                <p>lò vi sóng</p>
+                                <p>Lò vi sóng</p>
                             </a>
                         </li>
                     </ul>
@@ -127,7 +128,7 @@
         </div>
     </div>
 </header>
-<div class="container bottles bg-body-secondary" >
+<div class="container bottles bg-body-secondary">
     <div class="row pt-1 custom-text-bot-header">
         <div class="col-lg-2">
             <nav aria-label="breadcrumb">
@@ -162,7 +163,8 @@
                     CÁC loại đồ gia dụng
                 </div>
                 <ul class="list-group list-categories">
-                    <li class="list-group-item list-categories-item" ng-repeat="category in bottles.categories" ng-hide="category.expanded && !showCategoriesHidden"> 
+                    <li class="list-group-item list-categories-item" ng-repeat="category in bottles.categories"
+                        ng-hide="category.expanded && !showCategoriesHidden">
                         <a class="category dropdown" href="#">
                             <div>
                                 <img src="{{category.icon}}" alt="" class="img-icon">
@@ -206,18 +208,17 @@
             </div>
             <div class="aside-brands mt-3">
                 <div class="startBox title text-uppercase text-center ">
-                    thương hiệu
+                    THƯƠNG HIỆU
                 </div>
                 <ul class="list-group list-brands">
-                    <div class="list-group-item list-brand-item d-flex justify-content-center">
-                        <label class="custom-textInput">
-                                <input type="text" class="textInput">
-                                <a href="" class="search-icon ">
-                                    <i class="fa-solid fa-magnifying-glass fa-sm text-white"></i>
-                                </a>
-                        </label>
+                    <div class="input-group search-input p-3 rounded-1 bg-white">
+                        <input type="text" class="form-control" aria-describedby="basic-addon2">
+                        <span class="input-group-text bg-warning" id="basic-addon2">
+                            <i class="fa-solid fa-magnifying-glass config-magnify-glass" style="color: #ffffff;"></i>
+                        </span>
                     </div>
-                    <li class="list-group-item list-brand-item" ng-repeat="brand in bottles.brands" ng-hide="brand.expand && !showAsideBrandHidden">
+                    <li class="list-group-item list-brand-item" ng-repeat="brand in bottles.brands"
+                        ng-hide="brand.expand && !showAsideBrandHidden">
                         <label class="custom-checkbox">
                             <input type="checkbox" class="me-1">
                             <span class="linkToCheckBox">
@@ -258,7 +259,7 @@
                             </span>
                         </label>
                     </li>
-                    
+
                 </ul>
 
             </div>
@@ -278,7 +279,7 @@
                             </span>
                         </label>
                     </li>
-                    
+
                 </ul>
 
             </div>
@@ -512,29 +513,256 @@
                     </div>
                     <div class="list-catalog-container">
                         <ul class="list-catalog-main" data-count="16">
-                            <li class="catalog-main-item" title="{{category.name}}"
-                                ng-repeat="category in bottles.hot_categories" ng-hide="category.expand && !showHotCategoriesHidden">
+                            <li class="catalog-main-item" title="Điều hòa">
                                 <div>
-                                    <div class="discount-cat-main"><span>{{category.discount}}</span></div>
-                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img lazy-loaded" width="70"
-                                                height="70" alt="✓" src="{{category.icon}}"></span></div>
-                                    <a class="name-cat-main" href="/dieu-hoa-c1018?ref=cate-trend-CM" title="Điều hòa"
-                                        rel="nofollow sponsored">{{category.name}}</a>
+                                    <div class="discount-cat-main"><span>-43%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img lazy-loaded" width="70" height="70"
+                                                alt="✓" data-src="image/cateico/c1018-210x210.jpg"
+                                                src="image/cateico/c1018-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/dieu-hoa-c1018?ref=cate-trend-CM" title="Điều hòa" rel="nofollow sponsored">Điều
+                                        hòa</a>
+                                </div>
+                            </li>
+                            <li class="catalog-main-item" title="Tivi">
+                                <div>
+                                    <div class="discount-cat-main"><span>-44%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img lazy-loaded" width="70" height="70"
+                                                alt="✓" data-src="image/cateico/c3256-210x210.jpg"
+                                                src="image/cateico/c3256-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/tivi-c3256?ref=cate-trend-CM" title="Tivi" rel="nofollow sponsored">Tivi</a>
+                                </div>
+                            </li>
+                            <li class="catalog-main-item" title="Tủ lạnh">
+                                <div>
+                                    <div class="discount-cat-main"><span>-44%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img lazy-loaded" width="70" height="70"
+                                                alt="✓" data-src="image/cateico/c1015-210x210.jpg"
+                                                src="image/cateico/c1015-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/tu-lanh-c1015?ref=cate-trend-CM" title="Tủ lạnh" rel="nofollow sponsored">Tủ lạnh</a>
+                                </div>
+                            </li>
+                            <li class="catalog-main-item" title="Quạt, Máy làm mát">
+                                <div>
+                                    <div class="discount-cat-main"><span>-44%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img lazy-loaded" width="70" height="70"
+                                                alt="✓" data-src="image/cateico/c448-210x210.jpg"
+                                                src="image/cateico/c448-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/quat-cac-loai-c448?ref=cate-trend-CM" title="Quạt, Máy làm mát"
+                                        rel="nofollow sponsored">Quạt, Máy làm
+                                        mát</a>
+                                </div>
+                            </li>
+                            <li class="catalog-main-item" title="Máy giặt">
+                                <div>
+                                    <div class="discount-cat-main"><span>-44%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img lazy-loaded" width="70" height="70"
+                                                alt="✓" data-src="image/cateico/c1017-210x210.jpg"
+                                                src="image/cateico/c1017-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/may-giat-c1017?ref=cate-trend-CM" title="Máy giặt" rel="nofollow sponsored">Máy
+                                        giặt</a>
+                                </div>
+                            </li>
+                            <li class="catalog-main-item" title="Các loại nồi">
+                                <div>
+                                    <div class="discount-cat-main"><span>-44%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img lazy-loaded" width="70" height="70"
+                                                alt="✓" data-src="image/cateico/c1099-210x210.jpg"
+                                                src="image/cateico/c1099-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/cac-loai-noi-c1099?ref=cate-trend-CM" title="Các loại nồi">Các loại nồi</a>
+                                </div>
+                            </li>
+                            <li class="catalog-main-item" title="Máy pha cà phê">
+                                <div>
+                                    <div class="discount-cat-main"><span>-44%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img lazy-loaded" width="70" height="70"
+                                                alt="✓" data-src="image/cateico/c581-210x210.jpg"
+                                                src="image/cateico/c581-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/may-pha-ca-phe-c581?ref=cate-trend-CM" title="Máy pha cà phê"
+                                        rel="nofollow sponsored">Máy pha cà
+                                        phê</a>
+                                </div>
+                            </li>
+                            <li class="catalog-main-item" title="Máy xay đa năng">
+                                <div>
+                                    <div class="discount-cat-main"><span>-44%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img lazy-loaded" width="70" height="70"
+                                                alt="✓" data-src="image/cateico/c443-210x210.jpg"
+                                                src="image/cateico/c443-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/may-xay-da-nang-c443?ref=cate-trend-CM" title="Máy xay đa năng"
+                                        rel="nofollow sponsored">Máy xay đa
+                                        năng</a>
+                                </div>
+                            </li>
+                            <li class="catalog-main-item" title="Máy hút bụi">
+                                <div>
+                                    <div class="discount-cat-main"><span>-44%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img lazy-loaded" width="70" height="70"
+                                                alt="✓" data-src="image/cateico/c386-210x210.jpg"
+                                                src="image/cateico/c386-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/may-hut-bui-c386?ref=cate-trend-CM" title="Máy hút bụi" rel="nofollow sponsored">Máy
+                                        hút bụi</a>
+                                </div>
+                            </li>
+                            <li class="catalog-main-item" title="Tủ đông">
+                                <div>
+                                    <div class="discount-cat-main"><span>-42%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img lazy-loaded" width="70" height="70"
+                                                alt="✓" data-src="image/cateico/c1016-210x210.jpg"
+                                                src="image/cateico/c1016-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/tu-dong-c1016?ref=cate-trend-CM" title="Tủ đông" rel="nofollow sponsored">Tủ đông</a>
+                                </div>
+                            </li>
+                            <li class="catalog-main-item" title="Tủ mát">
+                                <div>
+                                    <div class="discount-cat-main"><span>-40%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img lazy-loaded" width="70" height="70"
+                                                alt="✓" data-src="image/cateico/c1021-210x210.jpg"
+                                                src="image/cateico/c1021-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/tu-mat-tu-giu-lanh-c1021?ref=cate-trend-CM" title="Tủ mát"
+                                        rel="nofollow sponsored">Tủ mát</a>
+                                </div>
+                            </li>
+                            <li class="catalog-main-item" title="Máy vệ sinh công nghiệp">
+                                <div>
+                                    <div class="discount-cat-main"><span>-44%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img lazy-loaded" width="70" height="70"
+                                                alt="✓" data-src="image/cateico/c3586-210x210.jpg"
+                                                src="image/cateico/c3586-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/may-ve-sinh-cong-nghiep-c3586?ref=cate-trend-CM" title="Máy vệ sinh công nghiệp"
+                                        rel="nofollow sponsored">Máy vệ
+                                        sinh công
+                                        nghiệp</a>
+                                </div>
+                            </li>
+                            <li class="catalog-main-item" title="Máy bơm nước">
+                                <div>
+                                    <div class="discount-cat-main"><span>-41%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img lazy-loaded" width="70" height="70"
+                                                alt="✓" data-src="image/cateico/c854-210x210.jpg"
+                                                src="image/cateico/c854-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/may-bom-nuoc-c854?ref=cate-trend-CM" title="Máy bơm nước"
+                                        rel="nofollow sponsored">Máy bơm nước</a>
+                                </div>
+                            </li>
+                            <li class="catalog-main-item" title="Máy lọc không khí">
+                                <div>
+                                    <div class="discount-cat-main"><span>-44%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img lazy-loaded" width="70" height="70"
+                                                alt="✓" data-src="image/cateico/c664-210x210.jpg"
+                                                src="image/cateico/c664-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/may-loc-khong-khi-c664?ref=cate-trend-CM" title="Máy lọc không khí"
+                                        rel="nofollow sponsored">Máy lọc không
+                                        khí</a>
+                                </div>
+                            </li>
+                            <li class="catalog-main-item" title="Máy nén khí">
+                                <div>
+                                    <div class="discount-cat-main"><span>-44%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img lazy-loaded" width="70" height="70"
+                                                alt="✓" data-src="image/cateico/c816-210x210.jpg"
+                                                src="image/cateico/c816-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/may-nen-khi-c816?ref=cate-trend-CM" title="Máy nén khí" rel="nofollow sponsored">Máy
+                                        nén khí</a>
+                                </div>
+                            </li>
+                            <li class="catalog-main-item" title="Loa nghe nhạc">
+                                <div>
+                                    <div class="discount-cat-main"><span>-44%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img lazy-loaded" width="70" height="70"
+                                                alt="✓" data-src="image/cateico/c929-210x210.jpg"
+                                                src="image/cateico/c929-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/loa-nghe-nhac-c929?ref=cate-trend-CM" title="Loa nghe nhạc"
+                                        rel="nofollow sponsored">Loa nghe nhạc</a>
+                                </div>
+                            </li>
+                            <li class="outCatalog be-hidden collapse" title="Thang nhôm">
+                                <div class="catalog-main-item">
+                                    <div class="discount-cat-main"><span>-44%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img" width="70" height="70" alt="✓"
+                                                data-src="image/cateico/c3586-210x210.jpg"
+                                                src="image/cateico/c3586-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/thang-nhom-c821?ref=cate-trend-CM" title="Thang nhôm" rel="nofollow sponsored">Thang
+                                        nhôm</a>
+                                </div>
+                            </li>
+                            <li class="outCatalog be-hidden collapse" title="Máy vệ sinh công nghiệp">
+                                <div class="catalog-main-item">
+                                    <div class="discount-cat-main"><span>-44%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img" width="70" height="70" alt="✓"
+                                                data-src="image/cateico/c3586-210x210.jpg"
+                                                src="image/cateico/c3586-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/may-ve-sinh-cong-nghiep-c3586?ref=cate-trend-CM" title="Máy vệ sinh công nghiệp"
+                                        rel="nofollow sponsored">Máy vệ
+                                        sinh công
+                                        nghiệp</a>
+                                </div>
+                            </li>
+                            <li class="outCatalog be-hidden collapse" title="Tủ lạnh">
+                                <div class="catalog-main-item">
+                                    <div class="discount-cat-main"><span>-44%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img" width="70" height="70" alt="✓"
+                                                data-src="image/cateico/c1015-210x210.jpg"
+                                                src="image/cateico/c1015-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/tu-lanh-c1015?ref=cate-trend-CM" title="Tủ lạnh" rel="nofollow sponsored">Tủ lạnh</a>
+                                </div>
+                            </li>
+                            <li class="outCatalog be-hidden collapse" title="Các loại bếp">
+                                <div class="catalog-main-item">
+                                    <div class="discount-cat-main"><span>-44%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img" width="70" height="70" alt="✓"
+                                                data-src="image/cateico/c3586-210x210.jpg"
+                                                src="image/cateico/c3586-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/cac-loai-bep-c1089?ref=cate-trend-CM" title="Các loại bếp"
+                                        rel="nofollow sponsored">Các loại bếp</a>
+                                </div>
+                            </li>
+                            <li class="outCatalog be-hidden collapse" title="Máy cưa, Máy cắt gỗ">
+                                <div class="catalog-main-item">
+                                    <div class="discount-cat-main"><span>-43%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img" width="70" height="70" alt="✓"
+                                                data-src="image/cateico/c3586-210x210.jpg"
+                                                src="image/cateico/c3586-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/may-cua-may-cat-go-c3039?ref=cate-trend-CM" title="Máy cưa, Máy cắt gỗ"
+                                        rel="nofollow sponsored">Máy cưa,
+                                        Máy cắt gỗ</a>
+                                </div>
+                            </li>
+                            <li class="outCatalog be-hidden collapse" title="Lò nướng, Bếp nướng">
+                                <div class="catalog-main-item">
+                                    <div class="discount-cat-main"><span>-44%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img" width="70" height="70" alt="✓"
+                                                data-src="image/cateico/c3586-210x210.jpg"
+                                                src="image/cateico/c3586-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/lo-nuong-noi-nuong-c440?ref=cate-trend-CM" title="Lò nướng, Bếp nướng"
+                                        rel="nofollow sponsored">Lò nướng,
+                                        Bếp nướng</a>
+                                </div>
+                            </li>
+                            <li class="outCatalog be-hidden collapse" title="Máy rửa xe">
+                                <div class="catalog-main-item">
+                                    <div class="discount-cat-main"><span>-44%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img" width="70" height="70" alt="✓"
+                                                data-src="image/cateico/c3586-210x210.jpg"
+                                                src="image/cateico/c3586-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/may-rua-xe-c817?ref=cate-trend-CM" title="Máy rửa xe" rel="nofollow sponsored">Máy
+                                        rửa xe</a>
+                                </div>
+                            </li>
+                            <li class="outCatalog be-hidden collapse" title="Máy cắt các loại">
+                                <div class="catalog-main-item">
+                                    <div class="discount-cat-main"><span>-41%</span></div>
+                                    <div class="icon-cat-main-thumb"><span><img class="lazy-img" width="70" height="70" alt="✓"
+                                                data-src="image/cateico/c3586-210x210.jpg"
+                                                src="image/cateico/c3586-210x210.jpg"></span></div><a class="name-cat-main"
+                                        href="/may-cat-c814?ref=cate-trend-CM" title="Máy cắt các loại" rel="nofollow sponsored">Máy
+                                        cắt các
+                                        loại</a>
                                 </div>
                             </li>
                         </ul>
-                        <div class="trend-category view-more-page">
-                            <a href="">
-                                <div ng-click="showHotCategoriesHidden = true" ng-show="!showHotCategoriesHidden">
-                                    Xem thêm chuyên mục
-                                    <i class="fa-solid fa-circle-arrow-down"></i>
-                                </div>
-                                <div ng-click="showHotCategoriesHidden = false" ng-show="showHotCategoriesHidden">
-                                    Thu gọn chuyên mục
-                                    <i class="fa-solid fa-circle-arrow-up"></i>
-                                </div>
-                            </a>
-                        </div>
+                        <div class="trend-category view-more-page"><a data-page="1" data-bs-toggle="collapse" data-max="5"
+                                aria-controls=".be-hidden" href=".be-hidden">Xem thêm chuyên
+                                mục <i class="fa fa-chevron-down"></i></a></div>
                     </div>
                 </div>
             </div>
@@ -588,7 +816,7 @@
     </div>
     <footer class="row mt-3 bg-white custom-text-bot-header">
         <div class="wrap">
-            <div class="footer-content support">
+            <div class="footer-content support" style="margin-top: -1px;">
                 <div class="bar-title">
                     <div>Tổng đài hỗ trợ</div>
                 </div>
@@ -643,7 +871,7 @@
                         </div>
                     </div>
 
-                    <div class="box-social app">
+                    <div class="box-social app" style="left: -1085px; top: 357px;">
                         <div class="title-app-name">
                             <div>Tải ứng dụng trên điện thoại</div>
                         </div>
@@ -710,17 +938,18 @@
                     <div>Chấp nhận thanh toán</div>
                 </div>
                 <div class="body-payment">
-                    <div class="payment-item">
-                        <img class="lazy-img lazy-loaded" src="https://meta.vn/images/icons/pay/visa.svg"
+                    <div class="d-flex justify-content-between align-items-center payment-item m-2">
+                        <img class="lazy-img lazy-loaded me-2" src="https://meta.vn/images/icons/pay/visa.svg"
                             data-src="https://meta.vn/images/icons/pay/visa.svg" width="54" height="33"
                             title="Thanh toán bằng thẻ Visa" alt="✓">
-                        <img class="lazy-img lazy-loaded" src="https://meta.vn/images/icons/pay/mastercard.svg"
+                        <img class="lazy-img lazy-loaded me-2" src="https://meta.vn/images/icons/pay/mastercard.svg"
                             data-src="https://meta.vn/images/icons/pay/mastercard.svg" width="54" height="33"
                             title="Thanh toán bằng thẻ Master Card" alt="✓">
-                        <img class="lazy-img lazy-loaded" src="https://meta.vn/images/icons/pay/internet-banking.svg"
+                        <img class="lazy-img lazy-loaded me-2"
+                            src="https://meta.vn/images/icons/pay/internet-banking.svg"
                             data-src="https://meta.vn/images/icons/pay/internet-banking.svg" width="54" height="33"
                             title="Thanh toán bằng Internet Banking (Thẻ ATM nội địa)" alt="✓">
-                        <img class="lazy-img lazy-loaded" src="https://meta.vn/images/icons/pay/cash.svg"
+                        <img class="lazy-img lazy-loaded me-2" src="https://meta.vn/images/icons/pay/cash.svg"
                             data-src="https://meta.vn/images/icons/pay/cash.svg" width="54" height="33"
                             title="Thanh toán bằng tiền mặt" alt="✓">
                         <img class="lazy-img lazy-loaded" src="https://meta.vn/images/icons/pay/alepay.svg"
@@ -829,6 +1058,3 @@
         </div>
     </footer>
 </div>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/main.js"></script>
