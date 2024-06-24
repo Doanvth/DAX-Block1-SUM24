@@ -1,0 +1,218 @@
+$bg-blue: #007bff;
+$bg-red: #da251c;
+$bg-yellow: #ffc107;
+$bg-orange: orange;
+$text-white: #fff;
+$border-color: #ddd;
+$discount-bg: orange;
+$sales-progress-bg: #ff6600;
+$product-padding: 15px;
+$product-margin-bottom: 20px;
+$product-border-radius: 5px;
+$product-border: 1px solid $border-color;
+
+.flex-grow-1 p:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.col-lg-3 img, .col-lg-3 h6 {
+    cursor: pointer;
+}
+
+.catalog-main-item {
+    list-style: none;
+}
+
+.icon-cat-main-thumb {
+    margin-bottom: 10px;
+}
+
+.lazy-img {
+    display: block;
+    margin: auto;
+}
+.card:hover {
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+.card:hover h6 {
+    color: red;
+    cursor: pointer;
+}
+
+.float-right-img {
+    float: right;
+}
+
+.custom-gutter {
+    margin-left: -10px;
+    margin-right: 20px;
+    margin-top: 2px;
+}
+
+.flex-wrap {
+    margin-left: 28px;
+}
+
+.bg-blue {
+    background-color: $bg-blue;
+}
+
+.flash-sale-ribbon {
+    position: absolute;
+    top: 37px;
+    right: -20px;
+    background-color: $bg-red;
+    color: $text-white;
+    padding: 3px 10px;
+    font-size: 12px;
+    transform: rotate(45deg);
+    transform-origin: top right;
+    margin-top: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-body .gift-icon-img {
+    width: 20px;
+    height: 20px;
+}
+
+.tra-gop1 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: $bg-yellow;
+    color: $text-white;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 12rem;
+    font-weight: bold;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+        margin: 0;
+    }
+}
+
+.countdown {
+    text-align: right;
+}
+
+.icon-gift {
+    background: $text-white url(https://meta.vn/themes/meta.vn/images/gift.png) no-repeat center center;
+    background-size: 16px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid $bg-red;
+    display: block;
+    border-radius: 50%;
+    padding: 10px;
+    padding-right: 1px;
+    position: absolute;
+    margin-top: -27px;
+}
+
+.btn-danger {
+    color: $text-white;
+    padding: 0px 10px;
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: bold;
+    width: 75px;
+    height: 18px;
+    margin-top: -25px;
+}
+
+.box-cat-all {
+    border-radius: 0 0 0 12px;
+    background-color: #4d90e0;
+    width: 95px;
+    height: 40px;
+    margin-top: -7px;
+    margin-right: -7px;
+}
+
+.product-container {
+    border: $product-border;
+    border-radius: $product-border-radius;
+    padding: $product-padding;
+    margin-bottom: $product-margin-bottom;
+    text-align: center;
+
+    img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .card{
+        border: none;
+        height: 52px;
+    }
+}
+
+.sales-progress {
+    background-color: $sales-progress-bg;
+}
+
+.tra-gop1 {
+    background-color: $bg-orange;
+    color: $text-white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.col-md-4,
+.col-lg-2 {
+    transition: transform 0.3s;
+
+    &:hover {
+        .product-container {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h6 {
+            color: red;
+            cursor: pointer;
+        }
+    }
+}
+
+.discount-label {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: $discount-bg;
+    color: $text-white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.price {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+.list-cate-watched a,
+.delete-prod a,
+.product-highlight-item .prod-hl-name a {
+    text-decoration: none;
+    color: black;
+}
